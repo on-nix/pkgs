@@ -11,18 +11,4 @@ jobs:
     - uses: actions/checkout@v2
       name: clone
     - name: main
-      run: |
-        curl -L https://nixos.org/nix/install | sh
-        source ~/.nix-profile/etc/profile.d/nix.sh
-
-        sudo apt install jq
-
-        set -x
-        src=https://github.com/nixos/nixpkgs
-        git clone --branch master --single-branch $src src
-        mkdir -p data/nixpkgs
-        git -C src log --format=%H > tmp
-        jq -erRS [inputs] < tmp > data/nixpkgs/commits.json
-    - name: commit
-      run: |
-        bash .github/workflows/push.sh "feat(conf): nixpkgs commits" data
+      run: bash .github/workflows/nixpkgs-commits.sh

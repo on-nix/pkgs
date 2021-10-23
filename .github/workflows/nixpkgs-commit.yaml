@@ -16,6 +16,3 @@ jobs:
     - name: main
       run: |
         bash .github/workflows/nixpkgs-commit.sh
-    - name: push
-      run: |
-        bash .github/workflows/push.sh "feat(conf): nixpkgs commit" data

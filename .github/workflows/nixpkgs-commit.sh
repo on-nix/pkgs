@@ -16,3 +16,5 @@ for commit in "${commits[@]}"; do
     break
   fi
 done
+
+bash .github/workflows/push.sh "feat(conf): nixpkgs commit ${commit}" data
