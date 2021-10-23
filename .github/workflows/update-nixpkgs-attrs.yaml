@@ -12,11 +12,12 @@ jobs:
       name: clone
     - name: main
       run: |
-        set -x
-        sudo apt install jq
         curl -L https://nixos.org/nix/install | sh
         source ~/.nix-profile/etc/profile.d/nix.sh
 
+        sudo apt install jq
+
+        set -x
         src=https://github.com/nixos/nixpkgs/archive/master.tar.gz
         mkdir -p data/nixpkgs
         nix-env -qaf $src --json > tmp
