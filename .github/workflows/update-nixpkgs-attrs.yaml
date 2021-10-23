@@ -15,6 +15,7 @@ jobs:
       name: clone
     - name: main
       run: |
+        set -x
         sudo apt install jq
         curl -L https://nixos.org/nix/install | sh
         source ~/.nix-profile/etc/profile.d/nix.sh
@@ -24,6 +25,7 @@ jobs:
         jq -erS [to_entries[].key] < data/nixpkgs/attrs.json
     - name: commit
       run: |
+        set -x
         git config user.name 'Kevin Amado'
         git config user.email kamadorueda@gmail.com
         git pull --autostash --progress --rebase --stat origin main
