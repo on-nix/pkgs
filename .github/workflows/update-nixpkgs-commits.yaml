@@ -2,6 +2,9 @@ concurrency:
   cancel-in-progress: true
   group: ${{ github.workflow }}
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 * * * *'
 jobs:
@@ -17,10 +20,11 @@ jobs:
         curl -L https://nixos.org/nix/install | sh
         source ~/.nix-profile/etc/profile.d/nix.sh
 
-        src=https://github.com/nixos/nixpkgs/archive/master.tar.gz
+        src=https://github.com/nixos/nixpkgs
+        git clone --branch master --single-branch $src src
         mkdir -p data/nixpkgs
-        nix-env -qaf $src --json > tmp
-        jq -erS [to_entries[].key] < tmp > data/nixpkgs/attrs.json
+        git -C src log --format=%H > tmp
+        jq -erRS [inputs] < tmp > data/nixpkgs/commits.json
     - name: commit
       run: |
         set -x
@@ -28,5 +32,5 @@ jobs:
         git config user.email kamadorueda@gmail.com
         git pull --autostash --progress --rebase --stat origin main
         git add data
-        git commit -m "feat(conf): update nixpkgs attrs" --allow-empty
+        git commit -m "feat(conf): update nixpkgs commits" --allow-empty
         git push
