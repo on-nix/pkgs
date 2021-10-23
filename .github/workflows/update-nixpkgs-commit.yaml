@@ -17,12 +17,20 @@ jobs:
       run: |
         curl -L https://nixos.org/nix/install | sh
         source ~/.nix-profile/etc/profile.d/nix.sh
-        nix-env -iA nixpkgs.nixUnstable
 
         set -x
-        nix --experimental-features 'flakes nix-command' build --no-pure-eval .#nixpkgs
         mkdir -p data/nixpkgs/commits
-        cp -rLT result/* .
+        jq -er .[] < data/nixpkgs/commits.json | sort > tmp
+        mapfile -t commits < tmp
+        for commit in "${commits[@]}"; do
+          target=data/nixpkgs/commits/$commit.json
+          if ! test -e $target; then
+            src=https://github.com/nixos/nixpkgs/archive/$commit.tar.gz
+            nix-env -qaf $src --json > tmp
+            jq -er to_entries|map({(.key):.value.version})|add < tmp > $target
+            break
+          fi
+        done
     - name: commit
       run: |
         set -x
@@ -30,5 +38,5 @@ jobs:
         git config user.email kamadorueda@gmail.com
         git pull --autostash --progress --rebase --stat origin main
         git add data
-        git commit -m "feat(conf): update nixpkgs commits" --allow-empty
+        git commit -m "feat(conf): update nixpkgs commit" --allow-empty
         git push
