@@ -12,11 +12,10 @@ for commit in "${commits[@]}"; do
 
   if ! test -e "${target}"; then
     src="https://github.com/nixos/nixpkgs/archive/${commit}.tar.gz"
-    if nix-env -qaf "${src}" --json 2>&1 > tmp; then
+    if nix-env -qaf "${src}" --json > tmp; then
       jq -er 'to_entries|map({(.key):.value.version})|add' < tmp > "${target}"
     else
       echo "{}" > "${target}"
-      cp tmp data/nixpkgs/commits/error.log
     fi
 
     if test "${count}" = 25; then
@@ -27,4 +26,4 @@ for commit in "${commits[@]}"; do
   fi
 done
 
-bash .github/workflows/push.sh "feat(conf): nixpkgs commit ${commit}" data
+bash .github/workflows/push.sh "feat(conf): add more nixpkgs commits" data
