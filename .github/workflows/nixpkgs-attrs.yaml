@@ -22,12 +22,6 @@ jobs:
         mkdir -p data/nixpkgs
         nix-env -qaf $src --json > tmp
         jq -erS [to_entries[].key] < tmp > data/nixpkgs/attrs.json
-    - name: commit
+    - name: push
       run: |
-        set -x
-        git config user.name 'Kevin Amado'
-        git config user.email kamadorueda@gmail.com
-        git pull --autostash --progress --rebase --stat origin main
-        git add data
-        git commit -m "feat(conf): update nixpkgs attrs" --allow-empty
-        git push
+        bash .github/workflows/push.sh "feat(conf): nixpkgs attrs" data

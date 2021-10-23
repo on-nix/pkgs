@@ -25,10 +25,4 @@ jobs:
         jq -erRS [inputs] < tmp > data/nixpkgs/commits.json
     - name: commit
       run: |
-        set -x
-        git config user.name 'Kevin Amado'
-        git config user.email kamadorueda@gmail.com
-        git pull --autostash --progress --rebase --stat origin main
-        git add data
-        git commit -m "feat(conf): update nixpkgs commits" --allow-empty
-        git push
+        bash .github/workflows/push.sh "feat(conf): nixpkgs commits" data

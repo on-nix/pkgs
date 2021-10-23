@@ -15,7 +15,7 @@ jobs:
       name: clone
     - name: main
       run: |
-        bash .github/workflows/update-nixpkgs.commit.sh
-    - name: commit
+        bash .github/workflows/nixpkgs-commit.sh
+    - name: push
       run: |
-        bash .github/workflows/push.sh "feat(conf): fetch nixpkgs commit" data
+        bash .github/workflows/push.sh "feat(conf): nixpkgs commit" data
