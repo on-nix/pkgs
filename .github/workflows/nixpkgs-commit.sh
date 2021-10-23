@@ -12,8 +12,12 @@ for commit in "${commits[@]}"; do
 
   if ! test -e "${target}"; then
     src="https://github.com/nixos/nixpkgs/archive/${commit}.tar.gz"
-    nix-env -qaf "${src}" --json > tmp
-    jq -er 'to_entries|map({(.key):.value.version})|add' < tmp > "${target}"
+    if nix-env -qaf "${src}" --json 2>&1 > tmp; then
+      jq -er 'to_entries|map({(.key):.value.version})|add' < tmp > "${target}"
+    else
+      echo "{}" > "${target}"
+      cp tmp data/nixpkgs/commits/error.log
+    fi
 
     if test "${count}" = 25; then
       break
