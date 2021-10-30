@@ -7,6 +7,7 @@ from typing import (
     Any,
     Dict,
     List,
+    Set,
 )
 
 
@@ -26,20 +27,23 @@ def main() -> None:
             break
 
     # Create a mapping of attributes to metadata
+    attr_names: Set[str] = set(commit_data)
     attrs: Dict[str, Any] = {}
 
-    for commit in commits:
-        print(commit)
+    for commit_index, commit in enumerate(commits):
+        print(commit_index, commit)
         commit_data_path = f"data/nixpkgs/commits/{commit}.json"
         if os.path.exists(commit_data_path):
             commit_data = load(commit_data_path)
 
             for attr, version in commit_data.items():
-                attrs.setdefault(attr, dict(versions={}))
-                attrs[attr]["versions"].setdefault(version, [])
-                attrs[attr]["versions"][version].append(commit)
-
-            break
+                if attr in attr_names:
+                    attrs.setdefault(attr, dict(versions={}))
+                    attrs[attr]["versions"].setdefault(version, [])
+                    if len(attrs[attr]["versions"][version]) < 2:
+                        attrs[attr]["versions"][version].append(commit)
+                    else:
+                        attrs[attr]["versions"][version][-1] = commit
 
     attrs_path: str = "data/nixpkgs/attrs.json"
     with open(attrs_path, encoding="utf-8", mode="w") as file:
