@@ -1,5 +1,10 @@
 # Pkgs on Nix
 
+Curated information about every package on Nix!
+
+This repository hosts the data in JSON format
+so you can consume it on your own projects.
+
 # Status
 
 ## Nixpkgs
