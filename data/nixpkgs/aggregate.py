@@ -43,7 +43,7 @@ def main() -> None:
 
     attrs_path: str = "data/nixpkgs/attrs.json"
     with open(attrs_path, encoding="utf-8", mode="w") as file:
-        json.dump(list(attrs.keys()), file, indent=2, sort_keys=True)
+        json.dump(sorted(attrs.keys()), file, indent=2, sort_keys=True)
 
     for attr, data in attrs.items():
         attr_path: str = f"data/nixpkgs/attrs/{attr}.json"
