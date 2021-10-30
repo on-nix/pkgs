@@ -1,60 +1,264 @@
 {
-  "versions": {
-    "1.3.0": [
-      "02b3cac1090c3925096e7ff1c58cb0b41c233f09",
-      "02f8b3df48fae14122f7d9f6826ef271d66842cb"
-    ],
-    "1.3.0-git-2015-09-27": [
-      "00a1c28c4583029b59894181147eeca65091af69",
-      "01df2bba0474c8cfb9af54e57baa0bff5defd034"
-    ],
-    "1.3.0-git-2015-11-08": [
-      "022b4a8dd1f0861e5251763b5d79dc5ed5fb4e5d",
-      "00da78070eb55a494f70395151415362686d4a24"
-    ],
-    "1.3.0-git-2016-04-10": [
-      "029c57f4a1882924e0467ef0f3193701e96fb026",
-      "032f3e721c1259b8a65f2bbe9f6c3a4d1994719f"
-    ],
-    "1.3.0-rc2": [
-      "010d2f4aa29448b1908b954006484cfbbf7e7d50",
-      "002b853782e939c50da3fa7d424b08346f39eb6f"
-    ],
-    "1.3.1": [
-      "031cc88afc4bff97d949747d486ffb1a1e7a25ca",
-      "02f793bd8738447facbbefebd7617fa9434504c0"
-    ],
-    "1.3.2": [
-      "00afc85506c30cd901509aa825e6abf9ed702401",
-      "0260f04fe257f56b7221dccc427dc104de1e6d77"
-    ],
-    "1.3.3": [
-      "002fe4f19dcf14993dd850be100865b63bc97b80",
-      "0166eb0794c521bec3133f6596119b0762a6ea40"
-    ],
-    "1.3.4": [
-      "00f7e1e88a995ef7dc83c80b531ea1b4eba2b621",
-      "00398b9d1430645fd5fdb671a726a479370f8424"
-    ],
-    "2017-04-16": [
-      "00512470ec241949148b61e1c120fa76d685cf9a",
-      "033741aef8a4f67f34641238420ca948a76c91e1"
-    ],
-    "2017-05-25": [
-      "00791534140f82828a0f0cb1784a5e5a3208a909",
-      "02ceec53435090fef253f5ae1bf54eab0c2c07d7"
-    ],
-    "2018-01-12": [
-      "02a3726a1256fa0e144c302537c8b0876bfee77f",
-      "01e1ba6ab264f20924c8304ef0482536c3104d39"
-    ],
-    "2018-07-01": [
-      "02d79ced9016ec67f3bfd3928a5c2969b25e2188",
-      "013ba3955736f77c81c86af01c877dbaa692342a"
-    ],
-    "2019-07-10": [
-      "0172a27043e6d1b3169ba5cdb658113186ff4fef",
-      "02466bea79469ba946bbb81dfbb06efff7fd1cbc"
-    ]
-  }
+  "versions": [
+    {
+      "first": "01e50d11366c98b805383b08dbcd8c7ff0f867d8",
+      "last": "00f7e1e88a995ef7dc83c80b531ea1b4eba2b621",
+      "name": "1.3.4"
+    },
+    {
+      "first": "002fe4f19dcf14993dd850be100865b63bc97b80",
+      "last": "002fe4f19dcf14993dd850be100865b63bc97b80",
+      "name": "1.3.3"
+    },
+    {
+      "first": "00398b9d1430645fd5fdb671a726a479370f8424",
+      "last": "0090fbbda5a546b67d1917288f2e533f15198e36",
+      "name": "1.3.4"
+    },
+    {
+      "first": "0229bebd37caf01cad975090895a5ba2c5973226",
+      "last": "0122f51d9ed9255f25c37ec696f18069da7601b5",
+      "name": "1.3.3"
+    },
+    {
+      "first": "00afc85506c30cd901509aa825e6abf9ed702401",
+      "last": "00afc85506c30cd901509aa825e6abf9ed702401",
+      "name": "1.3.2"
+    },
+    {
+      "first": "018696cbf2574806a11273ce713bfc18247361d1",
+      "last": "01a2c44c154a87d353059f178038d81c4cb6eda7",
+      "name": "1.3.3"
+    },
+    {
+      "first": "00251c0689046f194551ba509ef4249f8e1f50d3",
+      "last": "00251c0689046f194551ba509ef4249f8e1f50d3",
+      "name": "1.3.2"
+    },
+    {
+      "first": "002c63433929e1eb115a5e64d77f1d344b59c8f4",
+      "last": "001a975b752011a2a84413817d1c43a2200e6c74",
+      "name": "1.3.3"
+    },
+    {
+      "first": "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054",
+      "last": "0075ec3ffab4bcb5e7e0a4ee5ad4fb46cec83054",
+      "name": "1.3.2"
+    },
+    {
+      "first": "0166eb0794c521bec3133f6596119b0762a6ea40",
+      "last": "00aedd87ad66b21dcba627515db831395b333152",
+      "name": "1.3.3"
+    },
+    {
+      "first": "017c7a4940a3c62002d725ae848b16793922eac9",
+      "last": "0332c423cece35839a6fa7be08b17c76426faac0",
+      "name": "1.3.2"
+    },
+    {
+      "first": "031cc88afc4bff97d949747d486ffb1a1e7a25ca",
+      "last": "031cc88afc4bff97d949747d486ffb1a1e7a25ca",
+      "name": "1.3.1"
+    },
+    {
+      "first": "026b4eb3ae4f23a45a411d4238e796ab3a3eb036",
+      "last": "00022fbeda385d7b6ae2eee44f07eecfc6d92015",
+      "name": "1.3.2"
+    },
+    {
+      "first": "0269421b7b63157a6414cd64e1a4a0b4dd44abe8",
+      "last": "0269421b7b63157a6414cd64e1a4a0b4dd44abe8",
+      "name": "1.3.1"
+    },
+    {
+      "first": "026a809387fa6914d646636038692efec6815b5e",
+      "last": "00e56c1d535cb9dd4857b538b4844b537052ecf9",
+      "name": "1.3.2"
+    },
+    {
+      "first": "01cb371c67c10ab747f2dff8252e1de939bb670c",
+      "last": "01cb371c67c10ab747f2dff8252e1de939bb670c",
+      "name": "1.3.1"
+    },
+    {
+      "first": "0260f04fe257f56b7221dccc427dc104de1e6d77",
+      "last": "016595d931bef6334a7dd7b70146378499b69c72",
+      "name": "1.3.2"
+    },
+    {
+      "first": "01c4a388ee49f3df5c71fb2886c926beda660577",
+      "last": "0057be6ebcb3fa1e80cf66e2167f5a82346983b2",
+      "name": "1.3.1"
+    },
+    {
+      "first": "02b3cac1090c3925096e7ff1c58cb0b41c233f09",
+      "last": "02b3cac1090c3925096e7ff1c58cb0b41c233f09",
+      "name": "1.3.0"
+    },
+    {
+      "first": "031ef5f64ed5d2e8c8d5fdc36b9082a0edd4dea7",
+      "last": "008e7e3244ebc374d8f8df9632de0e821619319d",
+      "name": "1.3.1"
+    },
+    {
+      "first": "002e3cfbce62a8b55eba52af9c72d770e5b31547",
+      "last": "002e3cfbce62a8b55eba52af9c72d770e5b31547",
+      "name": "1.3.0"
+    },
+    {
+      "first": "02f793bd8738447facbbefebd7617fa9434504c0",
+      "last": "016a538f71551b06d469a46ba92e54cac833f401",
+      "name": "1.3.1"
+    },
+    {
+      "first": "0283016f37de418b08553c55b767ca76dd667b00",
+      "last": "0046802ab6d3389b45f3e9fce6f5e2746e2e7f80",
+      "name": "1.3.0"
+    },
+    {
+      "first": "010d2f4aa29448b1908b954006484cfbbf7e7d50",
+      "last": "010d2f4aa29448b1908b954006484cfbbf7e7d50",
+      "name": "1.3.0-rc2"
+    },
+    {
+      "first": "02b966ab9271999b0333f60f7095aebffa813b0e",
+      "last": "016111e839ec15e23c080da8ff955a548155202c",
+      "name": "1.3.0"
+    },
+    {
+      "first": "03423f467f904717a97a2677ce00e5b8927b8932",
+      "last": "03423f467f904717a97a2677ce00e5b8927b8932",
+      "name": "1.3.0-rc2"
+    },
+    {
+      "first": "015e3edd24cfb1f06c1504b6a32351541e4877f2",
+      "last": "01721f144968b898af74228dd1bcc52462d6e464",
+      "name": "1.3.0"
+    },
+    {
+      "first": "01775678635fdc3289e97d6bf72e877883383766",
+      "last": "00633a3e1399674083e1cf6d96ed52340dd462d0",
+      "name": "1.3.0-rc2"
+    },
+    {
+      "first": "02f8b3df48fae14122f7d9f6826ef271d66842cb",
+      "last": "02f8b3df48fae14122f7d9f6826ef271d66842cb",
+      "name": "1.3.0"
+    },
+    {
+      "first": "020685de8524bf2eada49fe080e33ea3f178a2fa",
+      "last": "02eca5f31e4c126980be29b1f85c9330437959ea",
+      "name": "1.3.0-rc2"
+    },
+    {
+      "first": "0172a27043e6d1b3169ba5cdb658113186ff4fef",
+      "last": "0172a27043e6d1b3169ba5cdb658113186ff4fef",
+      "name": "2019-07-10"
+    },
+    {
+      "first": "002b853782e939c50da3fa7d424b08346f39eb6f",
+      "last": "002b853782e939c50da3fa7d424b08346f39eb6f",
+      "name": "1.3.0-rc2"
+    },
+    {
+      "first": "0283abb4e84261ad9e4f6ce16933246b6d7f246d",
+      "last": "019c13616b512d0f8b3bd3e5e17356401a8e4457",
+      "name": "2019-07-10"
+    },
+    {
+      "first": "02d79ced9016ec67f3bfd3928a5c2969b25e2188",
+      "last": "02d79ced9016ec67f3bfd3928a5c2969b25e2188",
+      "name": "2018-07-01"
+    },
+    {
+      "first": "00ef72610c82dd0ea69f2bc3f70445483acca0d0",
+      "last": "0300fc5cf2c59f8dafe8acf8897d270bd3fa8790",
+      "name": "2019-07-10"
+    },
+    {
+      "first": "01b90dce78ee3906def0fc8d800217a3f9f40aa7",
+      "last": "01b90dce78ee3906def0fc8d800217a3f9f40aa7",
+      "name": "2018-07-01"
+    },
+    {
+      "first": "02466bea79469ba946bbb81dfbb06efff7fd1cbc",
+      "last": "02466bea79469ba946bbb81dfbb06efff7fd1cbc",
+      "name": "2019-07-10"
+    },
+    {
+      "first": "033dce35d8956d1c44b4ce771b255a2bedc85abf",
+      "last": "02afb228e2ada0a251a82c9437e2227890baacf4",
+      "name": "2018-07-01"
+    },
+    {
+      "first": "02a3726a1256fa0e144c302537c8b0876bfee77f",
+      "last": "02a3726a1256fa0e144c302537c8b0876bfee77f",
+      "name": "2018-01-12"
+    },
+    {
+      "first": "00ab5c5b6af27850268e2cb29479fd54d67b5e02",
+      "last": "0111c7d8515d229cc19b487bb0c2e62571413e3c",
+      "name": "2018-07-01"
+    },
+    {
+      "first": "016922f88ba9d86b611115463c45ee84f238f64e",
+      "last": "016922f88ba9d86b611115463c45ee84f238f64e",
+      "name": "2018-01-12"
+    },
+    {
+      "first": "013ba3955736f77c81c86af01c877dbaa692342a",
+      "last": "02ba14dbd2e08bbd5f065fd9cc0e47028d946a9f",
+      "name": "2018-07-01"
+    },
+    {
+      "first": "01e1ba6ab264f20924c8304ef0482536c3104d39",
+      "last": "026b88d54f69231246b6d390ace15598b001f44a",
+      "name": "2018-01-12"
+    },
+    {
+      "first": "02ceec53435090fef253f5ae1bf54eab0c2c07d7",
+      "last": "00791534140f82828a0f0cb1784a5e5a3208a909",
+      "name": "2017-05-25"
+    },
+    {
+      "first": "033741aef8a4f67f34641238420ca948a76c91e1",
+      "last": "00512470ec241949148b61e1c120fa76d685cf9a",
+      "name": "2017-04-16"
+    },
+    {
+      "first": "01bdf515977fb53f02365f104dff9ee1abb0b1b5",
+      "last": "029c57f4a1882924e0467ef0f3193701e96fb026",
+      "name": "1.3.0-git-2016-04-10"
+    },
+    {
+      "first": "022b4a8dd1f0861e5251763b5d79dc5ed5fb4e5d",
+      "last": "022b4a8dd1f0861e5251763b5d79dc5ed5fb4e5d",
+      "name": "1.3.0-git-2015-11-08"
+    },
+    {
+      "first": "032f3e721c1259b8a65f2bbe9f6c3a4d1994719f",
+      "last": "017469c1ef4865d9e884009973d645602d1c5405",
+      "name": "1.3.0-git-2016-04-10"
+    },
+    {
+      "first": "0125adc392ed2ca4f6181f8f1cba9f58f51afde4",
+      "last": "020195ea11c8b5a6b4e813daae2cc24612702d21",
+      "name": "1.3.0-git-2015-11-08"
+    },
+    {
+      "first": "00a1c28c4583029b59894181147eeca65091af69",
+      "last": "00a1c28c4583029b59894181147eeca65091af69",
+      "name": "1.3.0-git-2015-09-27"
+    },
+    {
+      "first": "00da78070eb55a494f70395151415362686d4a24",
+      "last": "00da78070eb55a494f70395151415362686d4a24",
+      "name": "1.3.0-git-2015-11-08"
+    },
+    {
+      "first": "01df2bba0474c8cfb9af54e57baa0bff5defd034",
+      "last": "01038feea0c5c2d300a3b2e99e971d491fc35f0d",
+      "name": "1.3.0-git-2015-09-27"
+    }
+  ]
 }

@@ -1,60 +1,239 @@
 {
-  "versions": {
-    "1.12.0": [
-      "0285a20b48e2f72a5592371009a08993d040037b",
-      "03212a7f0324598c578485c16d53224c2fd4e60b"
-    ],
-    "1.13.1": [
-      "017926a8b3e8a3daa49313ec5520cce7fc20569e",
-      "007761d3cdad573a29003980ffc3aed59257e922"
-    ],
-    "1.15.0": [
-      "00afca09295db93bf8bffe3f6f2d92a74eb97b38",
-      "01b1c16ae22703bc01660f826c5534897482d20b"
-    ],
-    "1.15.1": [
-      "02b3cac1090c3925096e7ff1c58cb0b41c233f09",
-      "00c8e2b625cbc26e551b673a2b73d96975bd5edc"
-    ],
-    "1.17.0": [
-      "0269421b7b63157a6414cd64e1a4a0b4dd44abe8",
-      "00c9983e02f0a211ef0ca4335371cc50dd4a1b26"
-    ],
-    "1.18.0": [
-      "00afc85506c30cd901509aa825e6abf9ed702401",
-      "0091e0358bec6952511786b28676753b02bdf860"
-    ],
-    "1.19.0": [
-      "02885ae8e207c5c4c1d2f3e7ac02f7e72c99d13e",
-      "02208801c23c003e82833c75d0b4001e64c6334f"
-    ],
-    "1.20.0": [
-      "0229bebd37caf01cad975090895a5ba2c5973226",
-      "00527506a5c0b2aea18e113980c68fd0a34ae21c"
-    ],
-    "1.21.0": [
-      "0159cd91e8b8f5de68b9c223a21cd84969a818b0",
-      "02fa320f82b18d32d710a60a819025bc51d30069"
-    ],
-    "2.0.0": [
-      "02a0928803370a0cc786269b592275ed50b669d3",
-      "00b75b7024d2852f5f7044dd4381322d2e8f262f"
-    ],
-    "2.2.0": [
-      "0080a5869066969e9cd8eebf7fe2f19ded637ff5",
-      "02e3a55f40e3ab4e9dbaf7bfae5208744839ef76"
-    ],
-    "2.4.0": [
-      "014d7ce37799b66040b3d170920a448d31910922",
-      "01b7d4abd1393b85d93ea3ecafe18333b7b53d29"
-    ],
-    "2.5.0": [
-      "005c8088e1c8af388d20f5abc21f227cd621825a",
-      "021813a495894c4b560251791ec675e94b600036"
-    ],
-    "2.6.0": [
-      "00f7e1e88a995ef7dc83c80b531ea1b4eba2b621",
-      "0066d898c91758f514599ab97ce8478336579448"
-    ]
-  }
+  "versions": [
+    {
+      "first": "02a0e032c729e5f2dae736cbb04dea6e404e6841",
+      "last": "00f7e1e88a995ef7dc83c80b531ea1b4eba2b621",
+      "name": "2.6.0"
+    },
+    {
+      "first": "02a9832fa2dfa249f55170d7ec572beda50a4757",
+      "last": "005c8088e1c8af388d20f5abc21f227cd621825a",
+      "name": "2.5.0"
+    },
+    {
+      "first": "0066d898c91758f514599ab97ce8478336579448",
+      "last": "000973d1a1fbfed6828a56d9893fb4eeed135e33",
+      "name": "2.6.0"
+    },
+    {
+      "first": "021813a495894c4b560251791ec675e94b600036",
+      "last": "03100da5a714a2b6c5210ceb6af092073ba4fce5",
+      "name": "2.5.0"
+    },
+    {
+      "first": "01b7d4abd1393b85d93ea3ecafe18333b7b53d29",
+      "last": "014d7ce37799b66040b3d170920a448d31910922",
+      "name": "2.4.0"
+    },
+    {
+      "first": "00520b89ed5f42aa3d3f527a05fc5486a6df26e0",
+      "last": "0080a5869066969e9cd8eebf7fe2f19ded637ff5",
+      "name": "2.2.0"
+    },
+    {
+      "first": "02a0928803370a0cc786269b592275ed50b669d3",
+      "last": "02a0928803370a0cc786269b592275ed50b669d3",
+      "name": "2.0.0"
+    },
+    {
+      "first": "02e3a55f40e3ab4e9dbaf7bfae5208744839ef76",
+      "last": "033208fd46e03178655f3c4a59add1d9dbf57731",
+      "name": "2.2.0"
+    },
+    {
+      "first": "00b75b7024d2852f5f7044dd4381322d2e8f262f",
+      "last": "02f5e051391debbb3d06979e9c30c68d0c7204a7",
+      "name": "2.0.0"
+    },
+    {
+      "first": "0197ed239b26d844b75fa201c562630945af759d",
+      "last": "0159cd91e8b8f5de68b9c223a21cd84969a818b0",
+      "name": "1.21.0"
+    },
+    {
+      "first": "0229bebd37caf01cad975090895a5ba2c5973226",
+      "last": "0229bebd37caf01cad975090895a5ba2c5973226",
+      "name": "1.20.0"
+    },
+    {
+      "first": "00afc85506c30cd901509aa825e6abf9ed702401",
+      "last": "00afc85506c30cd901509aa825e6abf9ed702401",
+      "name": "1.18.0"
+    },
+    {
+      "first": "01a2c44c154a87d353059f178038d81c4cb6eda7",
+      "last": "01a2c44c154a87d353059f178038d81c4cb6eda7",
+      "name": "1.21.0"
+    },
+    {
+      "first": "02885ae8e207c5c4c1d2f3e7ac02f7e72c99d13e",
+      "last": "02885ae8e207c5c4c1d2f3e7ac02f7e72c99d13e",
+      "name": "1.19.0"
+    },
+    {
+      "first": "02fa320f82b18d32d710a60a819025bc51d30069",
+      "last": "02fa320f82b18d32d710a60a819025bc51d30069",
+      "name": "1.21.0"
+    },
+    {
+      "first": "018696cbf2574806a11273ce713bfc18247361d1",
+      "last": "0188a58e87ed282f7d92fe65e257bc0615175f34",
+      "name": "1.20.0"
+    },
+    {
+      "first": "00251c0689046f194551ba509ef4249f8e1f50d3",
+      "last": "00251c0689046f194551ba509ef4249f8e1f50d3",
+      "name": "1.19.0"
+    },
+    {
+      "first": "00527506a5c0b2aea18e113980c68fd0a34ae21c",
+      "last": "001a975b752011a2a84413817d1c43a2200e6c74",
+      "name": "1.20.0"
+    },
+    {
+      "first": "015c5a2be650acf9db46c3c25012e5023319625b",
+      "last": "00c68337f5944a76ed6a10ff20d02bfb263912ea",
+      "name": "1.19.0"
+    },
+    {
+      "first": "00347e9537d6e6ddef599094429a1ac5392d6f28",
+      "last": "00347e9537d6e6ddef599094429a1ac5392d6f28",
+      "name": "1.18.0"
+    },
+    {
+      "first": "024ad57ed1826480ab66f3d25a0dade39d1561f5",
+      "last": "00946dc283ad0b3018490331802b77e16731a1f1",
+      "name": "1.19.0"
+    },
+    {
+      "first": "00d8c11a5702868c0cf80ffc97cc896070bd3538",
+      "last": "00d8c11a5702868c0cf80ffc97cc896070bd3538",
+      "name": "1.18.0"
+    },
+    {
+      "first": "02208801c23c003e82833c75d0b4001e64c6334f",
+      "last": "03197f94ce2d4b0feb673840d30f602e93357040",
+      "name": "1.19.0"
+    },
+    {
+      "first": "026b4eb3ae4f23a45a411d4238e796ab3a3eb036",
+      "last": "01b9d5371c5ce1f8d622ff00bd67c9defb656c79",
+      "name": "1.18.0"
+    },
+    {
+      "first": "0269421b7b63157a6414cd64e1a4a0b4dd44abe8",
+      "last": "0269421b7b63157a6414cd64e1a4a0b4dd44abe8",
+      "name": "1.17.0"
+    },
+    {
+      "first": "026a809387fa6914d646636038692efec6815b5e",
+      "last": "00e56c1d535cb9dd4857b538b4844b537052ecf9",
+      "name": "1.18.0"
+    },
+    {
+      "first": "01cb371c67c10ab747f2dff8252e1de939bb670c",
+      "last": "01cb371c67c10ab747f2dff8252e1de939bb670c",
+      "name": "1.17.0"
+    },
+    {
+      "first": "01c4a388ee49f3df5c71fb2886c926beda660577",
+      "last": "016595d931bef6334a7dd7b70146378499b69c72",
+      "name": "1.18.0"
+    },
+    {
+      "first": "02b3cac1090c3925096e7ff1c58cb0b41c233f09",
+      "last": "02b3cac1090c3925096e7ff1c58cb0b41c233f09",
+      "name": "1.15.1"
+    },
+    {
+      "first": "0091e0358bec6952511786b28676753b02bdf860",
+      "last": "008e7e3244ebc374d8f8df9632de0e821619319d",
+      "name": "1.18.0"
+    },
+    {
+      "first": "00e3f026f3b1ef61452432566001842ca439073f",
+      "last": "0242e11c53c2f5aa619e88f22096de4280dc420f",
+      "name": "1.17.0"
+    },
+    {
+      "first": "030fd3ca0cbb8463e5dc1ebd57bb1867f5fbe91c",
+      "last": "030fd3ca0cbb8463e5dc1ebd57bb1867f5fbe91c",
+      "name": "1.15.1"
+    },
+    {
+      "first": "00c9983e02f0a211ef0ca4335371cc50dd4a1b26",
+      "last": "02ff18c7963071d19d76bc4d52fc92d8827a1720",
+      "name": "1.17.0"
+    },
+    {
+      "first": "01f03f30db5755349b857b6939100bbb4c32303e",
+      "last": "02c64a4b6342e9bacc4bd258be147dd96c1f9e27",
+      "name": "1.15.1"
+    },
+    {
+      "first": "00afca09295db93bf8bffe3f6f2d92a74eb97b38",
+      "last": "00afca09295db93bf8bffe3f6f2d92a74eb97b38",
+      "name": "1.15.0"
+    },
+    {
+      "first": "028bf0f722a6d0ef27150c3603d38f4fd58de33b",
+      "last": "00ba289dab7fc4c9007a17d03ec1ced58d3345ee",
+      "name": "1.15.1"
+    },
+    {
+      "first": "023ef3d1a4d8f078e99fdb8214355f516f321c74",
+      "last": "023ef3d1a4d8f078e99fdb8214355f516f321c74",
+      "name": "1.15.0"
+    },
+    {
+      "first": "00c8e2b625cbc26e551b673a2b73d96975bd5edc",
+      "last": "00c8e2b625cbc26e551b673a2b73d96975bd5edc",
+      "name": "1.15.1"
+    },
+    {
+      "first": "031a41279da2d459cd17d11a32af600ed9ed6f4f",
+      "last": "0072d12b60fa1ce11bce8478710ee6c33565e279",
+      "name": "1.15.0"
+    },
+    {
+      "first": "017926a8b3e8a3daa49313ec5520cce7fc20569e",
+      "last": "017926a8b3e8a3daa49313ec5520cce7fc20569e",
+      "name": "1.13.1"
+    },
+    {
+      "first": "025be858686817c09d4b6fb176bd12da978231ce",
+      "last": "01e352ac449d51480ca4750f5637bc7ad156ceb4",
+      "name": "1.15.0"
+    },
+    {
+      "first": "00a91d919d6f6cdaecc67a894f372a4195fea9da",
+      "last": "02f17407449598e36b95dd3add77307fffa294d9",
+      "name": "1.13.1"
+    },
+    {
+      "first": "01b1c16ae22703bc01660f826c5534897482d20b",
+      "last": "00cd1d0f21820344ec72d1fdff7ab98374f214d8",
+      "name": "1.15.0"
+    },
+    {
+      "first": "026ac88b94fb1d86835f5d6fd44ad8eaa213fb59",
+      "last": "01852d5b8be26b91be590621fcf3dfeafdbad2e8",
+      "name": "1.13.1"
+    },
+    {
+      "first": "0285a20b48e2f72a5592371009a08993d040037b",
+      "last": "0285a20b48e2f72a5592371009a08993d040037b",
+      "name": "1.12.0"
+    },
+    {
+      "first": "007761d3cdad573a29003980ffc3aed59257e922",
+      "last": "00a2084a409e65e9781e9792644bbf5b1b1bca5a",
+      "name": "1.13.1"
+    },
+    {
+      "first": "03212a7f0324598c578485c16d53224c2fd4e60b",
+      "last": "00b7680f28eeb335873303c4b745810da733aa95",
+      "name": "1.12.0"
+    }
+  ]
 }

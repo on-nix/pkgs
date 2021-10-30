@@ -1,80 +1,309 @@
 {
-  "versions": {
-    "2016-07-26": [
-      "00c46ecd74ee8c85c30191652e3bb25f9c91867a",
-      "0206373fb2cee04794566c27ccc919cf5ee1b0ac"
-    ],
-    "2016-12-10": [
-      "002f3c8760db7d37356209c51328c4d61745b661",
-      "00f5ed6e4c7627b99a260ca068003a1f61764b98"
-    ],
-    "2016-12-30": [
-      "0280d327f44a8f084520793bf30ab66f263bc936",
-      "01fdbac60c0685bca2a65b99c9ce784b1c666072"
-    ],
-    "2017-02-09": [
-      "00c3bd1561b5027562e827341e71cfd2fab1904c",
-      "0045f932bba018345cbb2f03bb5d4d17d01850b1"
-    ],
-    "2017-04-12": [
-      "0022708d6d369527aa4ff5da07806203c21533d5",
-      "002a2b479a245d10691a394454f29e27d95de719"
-    ],
-    "2018-02-15": [
-      "02a3726a1256fa0e144c302537c8b0876bfee77f",
-      "020471ee6c85fc0bddb274933e5ef7d1490e066b"
-    ],
-    "2018-03-22": [
-      "016922f88ba9d86b611115463c45ee84f238f64e",
-      "00823f016dbdcf0c813344d45ba0cb681321c5d3"
-    ],
-    "2018-05-21": [
-      "02644780d2a90fc533a5fab77d993a2f7dc8a26b",
-      "020957716e2544db90628762f7561580b2b40d3a"
-    ],
-    "2018-08-05": [
-      "028164ef057119ee37c99bcb98224672441d2d81",
-      "0213e80c6c5a02d88a04678f23eb51777497f568"
-    ],
-    "2018.09.04": [
-      "0217c2980d9eb5859fa6098f06ed5faa1e1d755c",
-      "0071ae1d4f1a18542b19a815d06d2b7bbf292dd4"
-    ],
-    "2018.10.27": [
-      "02a3a15bfd26674f408da197a879d19f38672df8",
-      "02bf0e589653d34dc919b32a1d3c67b0d0bb2335"
-    ],
-    "2019.01.20": [
-      "02cc8d4eec11a42b401941e8949561dc99040d74",
-      "004e3816dcffb49f4e296a16b00334153a90ed3e"
-    ],
-    "2019.07.01": [
-      "010d2f4aa29448b1908b954006484cfbbf7e7d50",
-      "034a97ecc1aaa7f75829253c42d14dd13be9cb2f"
-    ],
-    "2019.12.10": [
-      "00610756df9a235f2de907a18cd8fded638d24e0",
-      "000f19ff08cfaf6ce89b136ea986fde64f750555"
-    ],
-    "2020.01.16": [
-      "00d8c11a5702868c0cf80ffc97cc896070bd3538",
-      "02e892c48dba5927fb4d7b84b50b7c1a885ea079"
-    ],
-    "2020.08.04": [
-      "00afc85506c30cd901509aa825e6abf9ed702401",
-      "002ecd07e128b7ee5dc4ed23f1da4abbe9007880"
-    ],
-    "2020.09.01": [
-      "01b534e8884a6a997a1f382297c513d5c8a0d9b9",
-      "02590c96209d374d7f720293fcb8337e17104bc9"
-    ],
-    "2021.08.28": [
-      "0247146b01a1f9f45577cc00c120ff0b4a42fb02",
-      "00a12666ca38b70e14833fad9dd255cebded0afd"
-    ],
-    "2021.10.28": [
-      "00f7e1e88a995ef7dc83c80b531ea1b4eba2b621",
-      "0347bd401951eff34b257ee5407f6f9470bb0788"
-    ]
-  }
+  "versions": [
+    {
+      "first": "01a1d39a3e75fc26e347bb1a24533c90a3403312",
+      "last": "00f7e1e88a995ef7dc83c80b531ea1b4eba2b621",
+      "name": "2021.10.28"
+    },
+    {
+      "first": "0247146b01a1f9f45577cc00c120ff0b4a42fb02",
+      "last": "0247146b01a1f9f45577cc00c120ff0b4a42fb02",
+      "name": "2021.08.28"
+    },
+    {
+      "first": "00334d352f2948ab5bcb28ba674d9c55e1b5f2ec",
+      "last": "00334d352f2948ab5bcb28ba674d9c55e1b5f2ec",
+      "name": "2021.10.28"
+    },
+    {
+      "first": "0342aee96979e8109d7647a41b1c05768e4c801d",
+      "last": "0342aee96979e8109d7647a41b1c05768e4c801d",
+      "name": "2021.08.28"
+    },
+    {
+      "first": "0347bd401951eff34b257ee5407f6f9470bb0788",
+      "last": "02facd2d449a58968969323622cb4d12c55df132",
+      "name": "2021.10.28"
+    },
+    {
+      "first": "00a12666ca38b70e14833fad9dd255cebded0afd",
+      "last": "0208a915c8c25725523a561db593d767a5a74d3d",
+      "name": "2021.08.28"
+    },
+    {
+      "first": "0229bebd37caf01cad975090895a5ba2c5973226",
+      "last": "01b534e8884a6a997a1f382297c513d5c8a0d9b9",
+      "name": "2020.09.01"
+    },
+    {
+      "first": "00afc85506c30cd901509aa825e6abf9ed702401",
+      "last": "00afc85506c30cd901509aa825e6abf9ed702401",
+      "name": "2020.08.04"
+    },
+    {
+      "first": "015c5a2be650acf9db46c3c25012e5023319625b",
+      "last": "01a2c44c154a87d353059f178038d81c4cb6eda7",
+      "name": "2020.09.01"
+    },
+    {
+      "first": "00347e9537d6e6ddef599094429a1ac5392d6f28",
+      "last": "00347e9537d6e6ddef599094429a1ac5392d6f28",
+      "name": "2020.08.04"
+    },
+    {
+      "first": "024ad57ed1826480ab66f3d25a0dade39d1561f5",
+      "last": "00946dc283ad0b3018490331802b77e16731a1f1",
+      "name": "2020.09.01"
+    },
+    {
+      "first": "00d8c11a5702868c0cf80ffc97cc896070bd3538",
+      "last": "00d8c11a5702868c0cf80ffc97cc896070bd3538",
+      "name": "2020.01.16"
+    },
+    {
+      "first": "02590c96209d374d7f720293fcb8337e17104bc9",
+      "last": "03197f94ce2d4b0feb673840d30f602e93357040",
+      "name": "2020.09.01"
+    },
+    {
+      "first": "003fa57c6484a63af1e72470fa2b101f4de7a79e",
+      "last": "00524fa64d094f57eeadb5929c5e4f93b50bb97b",
+      "name": "2020.08.04"
+    },
+    {
+      "first": "020a2121277f775bfc14c60b2ea3ac98fa5bd6be",
+      "last": "020a2121277f775bfc14c60b2ea3ac98fa5bd6be",
+      "name": "2020.01.16"
+    },
+    {
+      "first": "00eedc07f346649f5cdfb76944e7c97e5de8c615",
+      "last": "019780631c0ef15e55d43f5090ce65d7edfe63f4",
+      "name": "2020.08.04"
+    },
+    {
+      "first": "01ce25515e7f2b49788c31eb8fa5bc5b30a695c9",
+      "last": "01ce25515e7f2b49788c31eb8fa5bc5b30a695c9",
+      "name": "2020.01.16"
+    },
+    {
+      "first": "002ecd07e128b7ee5dc4ed23f1da4abbe9007880",
+      "last": "01a69537dfc28e9adf6753453b7c7ba2e36f338f",
+      "name": "2020.08.04"
+    },
+    {
+      "first": "0218f30af58b9081f477504edd2b3ae19d3da9b5",
+      "last": "0246ce640598c8c1724fb0ff9f5862a6620409b0",
+      "name": "2020.01.16"
+    },
+    {
+      "first": "00610756df9a235f2de907a18cd8fded638d24e0",
+      "last": "00610756df9a235f2de907a18cd8fded638d24e0",
+      "name": "2019.12.10"
+    },
+    {
+      "first": "02e892c48dba5927fb4d7b84b50b7c1a885ea079",
+      "last": "02c75132d9f47dc4d2e8242b9dc838c34a098b22",
+      "name": "2020.01.16"
+    },
+    {
+      "first": "0283016f37de418b08553c55b767ca76dd667b00",
+      "last": "02fad0d598701e68a6d3728b530e8b2fdeb8109e",
+      "name": "2019.12.10"
+    },
+    {
+      "first": "010d2f4aa29448b1908b954006484cfbbf7e7d50",
+      "last": "010d2f4aa29448b1908b954006484cfbbf7e7d50",
+      "name": "2019.07.01"
+    },
+    {
+      "first": "00c3761322ec4d2aa85e66f1c55452ded3f9e681",
+      "last": "016111e839ec15e23c080da8ff955a548155202c",
+      "name": "2019.12.10"
+    },
+    {
+      "first": "018136cd398926ad957b83c7065cf03d148af8c6",
+      "last": "01956b5605006cf1d61f58a52a049a40c1ebedc8",
+      "name": "2019.07.01"
+    },
+    {
+      "first": "000f19ff08cfaf6ce89b136ea986fde64f750555",
+      "last": "000f19ff08cfaf6ce89b136ea986fde64f750555",
+      "name": "2019.12.10"
+    },
+    {
+      "first": "034a97ecc1aaa7f75829253c42d14dd13be9cb2f",
+      "last": "008da72fcabb6bb1431642aaab658f498e65139d",
+      "name": "2019.07.01"
+    },
+    {
+      "first": "013173be9625295908bd73e920b46cc9e7dacde7",
+      "last": "02cc8d4eec11a42b401941e8949561dc99040d74",
+      "name": "2019.01.20"
+    },
+    {
+      "first": "02a3a15bfd26674f408da197a879d19f38672df8",
+      "last": "02a3a15bfd26674f408da197a879d19f38672df8",
+      "name": "2018.10.27"
+    },
+    {
+      "first": "004e3816dcffb49f4e296a16b00334153a90ed3e",
+      "last": "01cd6cda25bf8bf3c2fcc6b1f3a6056e7d43282a",
+      "name": "2019.01.20"
+    },
+    {
+      "first": "032d610aedca15e8790ed20d3fd01a9dee6d4b8e",
+      "last": "0299aa0adbc3bf3255c123bed3b2b8ee651e3771",
+      "name": "2018.10.27"
+    },
+    {
+      "first": "0217c2980d9eb5859fa6098f06ed5faa1e1d755c",
+      "last": "0217c2980d9eb5859fa6098f06ed5faa1e1d755c",
+      "name": "2018.09.04"
+    },
+    {
+      "first": "02bf0e589653d34dc919b32a1d3c67b0d0bb2335",
+      "last": "03187b7497c3a0eb7a140a75f3ad001c1876f6db",
+      "name": "2018.10.27"
+    },
+    {
+      "first": "033dce35d8956d1c44b4ce771b255a2bedc85abf",
+      "last": "02fdfdda9de4293ea61bf2f660dc132932016685",
+      "name": "2018.09.04"
+    },
+    {
+      "first": "02a3726a1256fa0e144c302537c8b0876bfee77f",
+      "last": "02a3726a1256fa0e144c302537c8b0876bfee77f",
+      "name": "2018-02-15"
+    },
+    {
+      "first": "019da05d0811b4ff7fa8bf874fbeb86b277ebce2",
+      "last": "0111c7d8515d229cc19b487bb0c2e62571413e3c",
+      "name": "2018.09.04"
+    },
+    {
+      "first": "028164ef057119ee37c99bcb98224672441d2d81",
+      "last": "028164ef057119ee37c99bcb98224672441d2d81",
+      "name": "2018-08-05"
+    },
+    {
+      "first": "0071ae1d4f1a18542b19a815d06d2b7bbf292dd4",
+      "last": "02602b2c15eaccf80490168591cf289ac81cc9d5",
+      "name": "2018.09.04"
+    },
+    {
+      "first": "0165572217ea432cd717eefdd60599401b1518d9",
+      "last": "033ed93da2c739842283068325f5c31bc5dacd40",
+      "name": "2018-08-05"
+    },
+    {
+      "first": "004e7fb6fd112ec29446312a89f7b1b265164127",
+      "last": "02644780d2a90fc533a5fab77d993a2f7dc8a26b",
+      "name": "2018-05-21"
+    },
+    {
+      "first": "0213e80c6c5a02d88a04678f23eb51777497f568",
+      "last": "0213e80c6c5a02d88a04678f23eb51777497f568",
+      "name": "2018-08-05"
+    },
+    {
+      "first": "00ab5c5b6af27850268e2cb29479fd54d67b5e02",
+      "last": "026ec8cfb5b1dc9d0ab3edf9346b9e974a370471",
+      "name": "2018-05-21"
+    },
+    {
+      "first": "016922f88ba9d86b611115463c45ee84f238f64e",
+      "last": "016922f88ba9d86b611115463c45ee84f238f64e",
+      "name": "2018-03-22"
+    },
+    {
+      "first": "020957716e2544db90628762f7561580b2b40d3a",
+      "last": "02ba14dbd2e08bbd5f065fd9cc0e47028d946a9f",
+      "name": "2018-05-21"
+    },
+    {
+      "first": "02dfbab3bed6c1a2acf594c3245baada7e4ed6d1",
+      "last": "015052f484e3f47bc2039aaacbbea3ec57aeac93",
+      "name": "2018-03-22"
+    },
+    {
+      "first": "01e1722e8fe932106d65bc87b83e5684534fa6e6",
+      "last": "01e1722e8fe932106d65bc87b83e5684534fa6e6",
+      "name": "2018-02-15"
+    },
+    {
+      "first": "00823f016dbdcf0c813344d45ba0cb681321c5d3",
+      "last": "0252e6ca31c98182e841df494e6c9c4fb022c676",
+      "name": "2018-03-22"
+    },
+    {
+      "first": "020471ee6c85fc0bddb274933e5ef7d1490e066b",
+      "last": "01f29bb0c077a9efa3c09e80d6f9dadea3fa364e",
+      "name": "2018-02-15"
+    },
+    {
+      "first": "002a2b479a245d10691a394454f29e27d95de719",
+      "last": "0022708d6d369527aa4ff5da07806203c21533d5",
+      "name": "2017-04-12"
+    },
+    {
+      "first": "01e5b8527dacfb61319dcdc2178ec6aed7f7f3c5",
+      "last": "00c3bd1561b5027562e827341e71cfd2fab1904c",
+      "name": "2017-02-09"
+    },
+    {
+      "first": "0280d327f44a8f084520793bf30ab66f263bc936",
+      "last": "0280d327f44a8f084520793bf30ab66f263bc936",
+      "name": "2016-12-30"
+    },
+    {
+      "first": "0045f932bba018345cbb2f03bb5d4d17d01850b1",
+      "last": "020fb2cce1684e84da2b584374a85e4d5f36fae1",
+      "name": "2017-02-09"
+    },
+    {
+      "first": "0341ae88b1a8c65b2eb21136e13c6551282998a0",
+      "last": "00c80a247d2d6a3fc7188ce168c35743e861c6b3",
+      "name": "2016-12-30"
+    },
+    {
+      "first": "002f3c8760db7d37356209c51328c4d61745b661",
+      "last": "002f3c8760db7d37356209c51328c4d61745b661",
+      "name": "2016-12-10"
+    },
+    {
+      "first": "01fdbac60c0685bca2a65b99c9ce784b1c666072",
+      "last": "01fdbac60c0685bca2a65b99c9ce784b1c666072",
+      "name": "2016-12-30"
+    },
+    {
+      "first": "004eceb0f6c405515bc229c190d0da287fb51d94",
+      "last": "0163f0c4276bccae683cf076903c8c304f1a0802",
+      "name": "2016-12-10"
+    },
+    {
+      "first": "00c46ecd74ee8c85c30191652e3bb25f9c91867a",
+      "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a",
+      "name": "2016-07-26"
+    },
+    {
+      "first": "007fa632c0089175a2891fb7a375acf827df71bf",
+      "last": "02c65bdac919fcb0cecc1a157744156ed39b9fc6",
+      "name": "2016-12-10"
+    },
+    {
+      "first": "0063c8acb4a5de8d90c0cbadf54ce337bd921e76",
+      "last": "0063c8acb4a5de8d90c0cbadf54ce337bd921e76",
+      "name": "2016-07-26"
+    },
+    {
+      "first": "00f5ed6e4c7627b99a260ca068003a1f61764b98",
+      "last": "01d5fda8c1128e84339e380050fedae19c171b18",
+      "name": "2016-12-10"
+    },
+    {
+      "first": "0206373fb2cee04794566c27ccc919cf5ee1b0ac",
+      "last": "01d022e16b0ec28cf531d6280781248238a2eda1",
+      "name": "2016-07-26"
+    }
+  ]
 }

@@ -29,7 +29,6 @@ def main() -> None:
     # Create a mapping of attributes to metadata
     attr_names: Set[str] = set(commit_data)
     attrs: Dict[str, Any] = {}
-
     for commit_index, commit in enumerate(commits):
         print(commit_index, commit)
         commit_data_path = f"data/nixpkgs/commits/{commit}.json"
@@ -38,17 +37,22 @@ def main() -> None:
 
             for attr, version in commit_data.items():
                 if attr in attr_names:
-                    attrs.setdefault(attr, dict(versions={}))
-                    attrs[attr]["versions"].setdefault(version, [])
-                    if len(attrs[attr]["versions"][version]) < 2:
-                        attrs[attr]["versions"][version].append(commit)
-                    else:
-                        attrs[attr]["versions"][version][-1] = commit
+                    attrs.setdefault(attr, dict(versions=[]))
+                    versions = attrs[attr]["versions"]
 
+                    if versions and versions[-1]["name"] == version:
+                        versions[-1]["first"] = commit
+                    else:
+                        versions.append(
+                            dict(name=version, last=commit, first=commit)
+                        )
+
+    # Write attrs index
     attrs_path: str = "data/nixpkgs/attrs.json"
     with open(attrs_path, encoding="utf-8", mode="w") as file:
         json.dump(sorted(attrs.keys()), file, indent=2, sort_keys=True)
 
+    # Write each attr metadata
     for attr, data in attrs.items():
         attr_path: str = f"data/nixpkgs/attrs/{attr}.json"
         with open(attr_path, encoding="utf-8", mode="w") as file:
