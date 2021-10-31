@@ -2,10 +2,7 @@ import brotli
 import contextlib
 import http.client
 import json
-<<<<<<< HEAD
-=======
 import random
->>>>>>> c6d28c7ff7 (feat(build): list outputs)
 from typing import (
     Any,
     Dict,
