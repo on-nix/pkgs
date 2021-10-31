@@ -15,6 +15,6 @@ query='to_entries|map({
 })|add'
 src="https://github.com/nixos/nixpkgs/archive/master.tar.gz"
 target="data/nixpkgs/meta.json"
-nix-env -qaf "${src}" --json | jq -er "${query}" > "${target}"
+nix-env -qaf "${src}" --json | jq -erS "${query}" > "${target}"
 
 bash .github/workflows/push.sh "feat(conf): update nixpkgs metadata" data
