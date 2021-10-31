@@ -2,6 +2,10 @@ import brotli
 import contextlib
 import http.client
 import json
+<<<<<<< HEAD
+=======
+import random
+>>>>>>> c6d28c7ff7 (feat(build): list outputs)
 from typing import (
     Any,
     Dict,
@@ -53,7 +57,9 @@ def main() -> None:
     with open("data/nixpkgs/attrs.json", encoding="utf-8") as file:
         attrs: List[str] = json.load(file)
 
-    for attr in [] + attrs:
+    # Process 100 randomly
+    random.shuffle(attrs)
+    for attr in attrs[0:100]:
         print(attr)
         try:
             url: str = f"https://hydra.nixos.org/job/nixpkgs/trunk/{attr}.x86_64-linux/latest-finished"
