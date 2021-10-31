@@ -56,7 +56,7 @@ def main() -> None:
 
     # Process 100 randomly
     random.shuffle(attrs)
-    for attr in ["firefox", "nix"] + attrs[0:100]:
+    for attr in attrs[0:100]:
         print(attr)
         try:
             url: str = f"https://hydra.nixos.org/job/nixpkgs/trunk/{attr}.x86_64-linux/latest-finished"
