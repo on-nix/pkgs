@@ -53,6 +53,10 @@ def main() -> None:
         if attr in meta:
             attr_data["meta"] = meta[attr]
 
+        output_data_path = f"data/nixpkgs/outputs/{attr}.json"
+        if os.path.exists(output_data_path):
+            attrs[attr]["outputs"] = load(output_data_path)
+
     # Write attrs index
     attrs_path: str = "data/nixpkgs/attrs.json"
     with open(attrs_path, encoding="utf-8", mode="w") as file:
