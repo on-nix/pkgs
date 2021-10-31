@@ -14,6 +14,40 @@
     },
     "maintainers": null
   },
+  "outputs": {
+    "bin": [
+      "/bin/db_archive",
+      "/bin/db_checkpoint",
+      "/bin/db_deadlock",
+      "/bin/db_dump",
+      "/bin/db_hotbackup",
+      "/bin/db_load",
+      "/bin/db_log_verify",
+      "/bin/db_printlog",
+      "/bin/db_recover",
+      "/bin/db_replicate",
+      "/bin/db_stat",
+      "/bin/db_tuner",
+      "/bin/db_upgrade",
+      "/bin/db_verify"
+    ],
+    "dev": [
+      "/include/db.h",
+      "/include/db_185.h",
+      "/include/db_cxx.h",
+      "/nix-support/propagated-build-inputs"
+    ],
+    "out": [
+      "/lib/libdb-6.2.la",
+      "/lib/libdb-6.2.so",
+      "/lib/libdb-6.so",
+      "/lib/libdb.so",
+      "/lib/libdb_cxx-6.2.la",
+      "/lib/libdb_cxx-6.2.so",
+      "/lib/libdb_cxx-6.so",
+      "/lib/libdb_cxx.so"
+    ]
+  },
   "versions": [
     {
       "first": "006ac6b224dd29f1771734de39ce67ff92a28924",
