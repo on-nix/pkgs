@@ -1,4 +1,43 @@
 {
+  "meta": {
+    "desc": "Rich and powerful protocol-independent mail framework",
+    "desc_long": "GNU Mailutils is a rich and powerful protocol-independent mail\nframework.  It contains a series of useful mail libraries, clients, and\nservers.  These are the primary mail utilities for the GNU system.  The\ncentral library is capable of handling electronic mail in various\nmailbox formats and protocols, both local and remote.  Specifically,\nthis project contains a POP3 server, an IMAP4 server, and a Sieve mail\nfilter.  It also provides a POSIX `mailx' client, and a collection of\nother handy tools.\n\nThe GNU Mailutils libraries supply an ample set of primitives for\nhandling electronic mail in programs written in C, C++, Python or\nScheme.\n\nThe utilities provided by Mailutils include imap4d and pop3d mail\nservers, mail reporting utility comsatd, general-purpose mail delivery\nagent maidag, mail filtering program sieve, and an implementation of MH\nmessage handling system.\n",
+    "home": "https://www.gnu.org/software/mailutils/",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU Lesser General Public License v3.0 or later",
+        "redistributable": true,
+        "shortName": "lgpl3Plus",
+        "spdxId": "LGPL-3.0-or-later",
+        "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v3.0 or later",
+        "redistributable": true,
+        "shortName": "gpl3Plus",
+        "spdxId": "GPL-3.0-or-later",
+        "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "orivej@gmx.fr",
+        "github": "orivej",
+        "githubId": 101514,
+        "name": "Orivej Desh"
+      },
+      {
+        "email": "rahul@gopinath.org",
+        "github": "vrthra",
+        "githubId": 70410,
+        "name": "Rahul Gopinath"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03831816d88c7c6dbe25b762493765f5ee77a148",

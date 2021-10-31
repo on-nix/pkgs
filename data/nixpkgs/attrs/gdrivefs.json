@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Mount Google Drive as a local file system",
+    "desc_long": "GDriveFS is a FUSE wrapper for Google Drive developed. Design goals:\n- Thread for monitoring changes via \"changes\" functionality of API.\n- Complete stat() implementation.\n- Seamlessly work around duplicate-file allowances in Google Drive.\n- Seamlessly manage file-type versatility in Google Drive\n  (Google Doc files do not have a particular format).\n- Allow for the same file at multiple paths.\n",
+    "home": "https://github.com/dsoprea/GDriveFS",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa",

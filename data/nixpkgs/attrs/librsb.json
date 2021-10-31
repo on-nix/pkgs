@@ -1,4 +1,28 @@
 {
+  "meta": {
+    "desc": "Shared memory parallel sparse matrix and sparse BLAS library",
+    "desc_long": "Library for sparse matrix computations featuring the Recursive Sparse\nBlocks (RSB) matrix format. This format allows cache efficient and\nmulti-threaded (that is, shared memory parallel) operations on large\nsparse matrices.\nlibrsb implements the Sparse BLAS standard, as specified in the BLAS\nForum documents.\nContains libraries and header files for developing applications that\nwant to make use of librsb.\n",
+    "home": "http://librsb.sourceforge.net/",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU Lesser General Public License v3.0 or later",
+        "redistributable": true,
+        "shortName": "lgpl3Plus",
+        "spdxId": "LGPL-3.0-or-later",
+        "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "karl@hallsby.com",
+        "github": "KarlJoad",
+        "githubId": 34152449,
+        "name": "Karl Hallsby"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0221fe13da7c73ad0ad8cb0787cfad37e93acc92",

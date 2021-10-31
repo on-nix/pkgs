@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "A time tracking app",
+    "desc_long": "GTimeLog is a small time tracking application for GNOME.\nIt's main goal is to be as unintrusive as possible.\n\nTo run gtimelog successfully on a system that does not have full GNOME 3\ninstalled, the following NixOS options should be set:\n- programs.dconf.enable = true;\n- services.gnome.gnome-keyring.enable = true;\n\nIn addition, the following packages should be added to the environment:\n- gnome.adwaita-icon-theme\n- gnome.dconf\n",
+    "home": "https://gtimelog.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "post@0x21.biz",
+        "github": "oxzi",
+        "githubId": 8402811,
+        "keys": [
+          {
+            "fingerprint": "EB14 4E67 E57D 27E2 B5A4  CD8C F32A 4563 7FA2 5E31",
+            "longkeyid": "rsa4096/0xF32A45637FA25E31"
+          }
+        ],
+        "name": "Alvar Penning"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "015c5a2be650acf9db46c3c25012e5023319625b",

@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "An iconv(3) implementation",
+    "desc_long": "Some programs, like mailers and web browsers, must be able to convert\nbetween a given text encoding and the user's encoding.  Other programs\ninternally store strings in Unicode, to facilitate internal processing,\nand need to convert between internal string representation (Unicode)\nand external string representation (a traditional encoding) when they\nare doing I/O.  GNU libiconv is a conversion library for both kinds of\napplications.\n",
+    "home": "https://www.gnu.org/software/libiconv/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Library General Public License v2 or later",
+      "redistributable": true,
+      "shortName": "lgpl2Plus",
+      "spdxId": "LGPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "00263c9306107f3ff79ecd185d7e0712fb0560d8",

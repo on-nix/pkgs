@@ -1,4 +1,47 @@
 {
+  "meta": {
+    "desc": "Write tests against structured configuration data",
+    "desc_long": "Conftest helps you write tests against structured configuration data.\nUsing Conftest you can write tests for your Kubernetes configuration,\nTekton pipeline definitions, Terraform code, Serverless configs or any\nother config files.\n\nConftest uses the Rego language from Open Policy Agent for writing the\nassertions. You can read more about Rego in 'How do I write policies' in\nthe Open Policy Agent documentation.\n",
+    "home": "https://www.conftest.dev",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "hello+nixpkgs@j-k.io",
+        "github": "06kellyjac",
+        "githubId": 9866621,
+        "matrix": "@j-k:matrix.org",
+        "name": "Jack"
+      },
+      {
+        "email": "5861043+superherointj@users.noreply.github.com",
+        "github": "superherointj",
+        "githubId": 5861043,
+        "matrix": "@superherointj:matrix.org",
+        "name": "S\u00e9rgio G."
+      },
+      {
+        "email": "eric@ericb.me",
+        "github": "yurrriq",
+        "githubId": 1866448,
+        "name": "Eric Bailey"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0208a915c8c25725523a561db593d767a5a74d3d",

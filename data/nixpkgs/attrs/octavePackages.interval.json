@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Interval arithmetic to evaluate functions over subsets of their domain",
+    "desc_long": "The interval package for real-valued interval arithmetic allows one to\nevaluate functions over subsets of their domain. All results are verified,\nbecause interval computations automatically keep track of any errors.\n\nThese concepts can be used to handle uncertainties, estimate arithmetic\nerrors and produce reliable results. Also it can be applied to\ncomputer-assisted proofs, constraint programming, and verified computing.\n\nThe implementation is based on interval boundaries represented by\nbinary64 numbers and is conforming to IEEE Std 1788-2015, IEEE standard\nfor interval arithmetic.\n",
+    "home": "https://octave.sourceforge.io/interval/index.html",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "karl@hallsby.com",
+        "github": "KarlJoad",
+        "githubId": 34152449,
+        "name": "Karl Hallsby"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00caba5a1f5b7f3c2dba38eb379fd9835bf72b61",

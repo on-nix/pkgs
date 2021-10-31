@@ -1,4 +1,29 @@
 {
+  "meta": {
+    "desc": "Decode x86 binaries and print out which instruction set extensions they use.",
+    "desc_long": "Disassemble a binary containing x86 instructions and print out which extensions it uses.\nDespite the utterly misleading name, this tool supports ELF and MachO binaries, and\nperhaps PE-format ones as well. (It used to be more limited.)\n",
+    "home": "https://github.com/pkgw/elfx86exts",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "rmcgibbo@gmail.com",
+        "github": "rmcgibbo",
+        "githubId": 641278,
+        "matrix": "@rmcgibbo:matrix.org",
+        "name": "Robert T. McGibbon"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0043faf2714019a57a213698d1fab72f41c587d8",

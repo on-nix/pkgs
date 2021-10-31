@@ -1,4 +1,55 @@
 {
+  "meta": {
+    "desc": "Tor Browser Bundle built by torproject.org",
+    "desc_long": "Tor Browser Bundle is a bundle of the Tor daemon, Tor Browser (heavily patched version of\nFirefox), several essential extensions for Tor Browser, and some tools that glue those\ntogether with a convenient UI.\n\n`tor-browser-bundle-bin` package is the official version built by torproject.org patched with\n`patchelf` to work under nix and with bundled scripts adapted to the read-only nature of\nthe `/nix/store`.\n",
+    "home": "https://www.torproject.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Unspecified free software license",
+      "redistributable": true,
+      "shortName": "free"
+    },
+    "maintainers": [
+      {
+        "email": "jaka@x-truder.net",
+        "github": "offlinehacker",
+        "githubId": 585547,
+        "name": "Jaka Hudoklin"
+      },
+      {
+        "email": "cotman.matej@gmail.com",
+        "github": "matejc",
+        "githubId": 854770,
+        "name": "Matej Cotman"
+      },
+      {
+        "email": "aseipp@pobox.com",
+        "github": "thoughtpolice",
+        "githubId": 3416,
+        "name": "Austin Seipp"
+      },
+      {
+        "email": "joachifm@fastmail.fm",
+        "github": "joachifm",
+        "githubId": 41977,
+        "name": "Joachim Fasting"
+      },
+      {
+        "email": "hax404foogit@hax404.de",
+        "github": "hax404",
+        "githubId": 1379411,
+        "matrix": "@hax404:hax404.de",
+        "name": "Georg Haas"
+      },
+      {
+        "email": "karl@hallsby.com",
+        "github": "KarlJoad",
+        "githubId": 34152449,
+        "name": "Karl Hallsby"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02dcd88d27d747703d4ca3e3f8d105611d55b362",

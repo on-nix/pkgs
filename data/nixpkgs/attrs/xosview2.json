@@ -1,4 +1,37 @@
 {
+  "meta": {
+    "desc": "Lightweight program that gathers information from your operating system and displays it in graphical form",
+    "desc_long": "xosview is a lightweight program that gathers information from your\noperating system and displays it in graphical form. It attempts to show\nyou in a quick glance an overview of how your system resources are being\nutilized.\n\nIt can be configured to be nothing more than a small strip showing a\ncouple of parameters on a desktop task bar. Or it can display dozens of\nmeters and rolling graphical charts over your entire screen.\n\nSince xosview renders all graphics with core X11 drawing methods, you can\nrun it on one machine and display it on another. This works even if your\nother host is an operating system not running an X server inside a\nvirtual machine running on a physically different host. If you can\nconnect to it on a network, then you can popup an xosview instance and\nmonitor what is going on.\n",
+    "home": "http://xosview.sourceforge.net/index.html",
+    "license": [
+      {
+        "deprecated": true,
+        "free": true,
+        "fullName": "GNU General Public License v2.0",
+        "redistributable": true,
+        "shortName": "gpl2",
+        "spdxId": "GPL-2.0",
+        "url": "https://spdx.org/licenses/GPL-2.0.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 4-clause \"Original\" or \"Old\" License",
+        "redistributable": true,
+        "shortName": "bsdOriginal",
+        "spdxId": "BSD-4-Clause",
+        "url": "https://spdx.org/licenses/BSD-4-Clause.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "sean.zicari@gmail.com",
+        "github": "SeanZicari",
+        "githubId": 2343853,
+        "name": "Sean Zicari"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00910f768ad6475fff10699a710656529f1738c5",

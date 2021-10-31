@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Weather extension to display weather information from https://openweathermap.org/ or https://darksky.net for almost all locations in the world.",
+    "desc_long": "Weather extension to display weather information from https://openweathermap.org/ or https://darksky.net for almost all locations in the world.\nFor openweathermap.org, you can either use the extensions default-key or register at https://openweathermap.org/appid and set the appropriate switch in the preferences dialog to \"off\".\nFor Dark Sky you have to register at https://darksky.net/dev/register and get a personal API-key.\n\nSince version 29 this extensions uses coordinates to store the locations and makes the names editable to support multiple weather-providers!\nIf you update from versions prior to 29 to 29 or greater (with darksky.net - support) you have to recreate your locations.",
+    "home": "https://extensions.gnome.org/extension/750/openweather/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@piegames.de",
+        "github": "piegamesde",
+        "githubId": 14054505,
+        "matrix": "@piegames:matrix.org",
+        "name": "piegames"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03a623970fea3385b8918188165b8eb93988280b",

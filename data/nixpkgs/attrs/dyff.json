@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "A diff tool for YAML files, and sometimes JSON",
+    "desc_long": "dyff is inspired by the way the old BOSH v1 deployment output reported\nchanges from one version to another by only showing the parts of a YAML\nfile that change.\n\nEach difference is referenced by its location in the YAML document by\nusing either the Spruce or go-patch path syntax.\n",
+    "home": "https://github.com/homeport/dyff",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "edli.merkaj@identinet.io",
+        "github": "edlimerkaj",
+        "githubId": 71988351,
+        "name": "Edli Merkaj"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00af64cee3a176a4380924bac3ad1c0c6950a02b",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Tools for random password generation",
+    "desc_long": " APG (Automated Password Generator) is the tool set for random\n password generation.\n\n Standalone version\n\n   Generates some random words of required type and prints them\n   to standard output.\n\n Network version\n\n   APG server: When client's request is arrived generates some\n   random words of predefined type and send them to client over\n   the network (according to RFC0972).\n\n   APG client: Sends the password generation request to the APG\n   server, wait for generated Passwords arrival and then prints\n   them to the standard output.\n\nAdvantages\n\n  * Built-in ANSI X9.17 RNG (Random Number Generator) (CAST/SHA1)\n  * Built-in password quality checking system (it has support for\n    Bloom filter for faster access)\n  * Two Password Generation Algorithms:\n      1. Pronounceable Password Generation Algorithm (according to\n         NIST FIPS 181)\n      2. Random Character Password Generation Algorithm with 35\n         configurable modes of operation\n  * Configurable password length parameters\n  * Configurable amount of generated passwords\n  * Ability to initialize RNG with user string\n  * Support for /dev/random\n  * Ability to crypt() generated passwords and print them as\n    additional output\n  * Special parameters to use APG in script\n  * Ability to log password generation requests for network version\n  * Ability to control APG service access using tcpd\n  * Ability to use password generation service from any type of box\n    (Mac, WinXX, etc.) that connected to network\n  * Ability to enforce remote users to use only allowed type of\n    password generation\n",
+    "home": "https://github.com/wilx/apg",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "astsmtl@yandex.ru",
+        "github": "astsmtl",
+        "githubId": 2093941,
+        "name": "Alexander Tsamutali"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00e380f1be5f393b7ea8ec9848d89284dd5254ce",

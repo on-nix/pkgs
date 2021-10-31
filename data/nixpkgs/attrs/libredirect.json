@@ -1,4 +1,11 @@
 {
+  "meta": {
+    "desc": "An LD_PRELOAD library to intercept and rewrite the paths in glibc calls",
+    "desc_long": "libredirect is an LD_PRELOAD library to intercept and rewrite the paths in\nglibc calls based on the value of $NIX_REDIRECTS, a colon-separated list\nof path prefixes to be rewritten, e.g. \"/src=/dst:/usr/=/nix/store/\".\n",
+    "home": null,
+    "license": null,
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "03b54bcd5575237f86e92a58c5fd970fcda6ff39",

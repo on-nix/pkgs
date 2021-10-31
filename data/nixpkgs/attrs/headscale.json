@@ -1,4 +1,46 @@
 {
+  "meta": {
+    "desc": "An open source, self-hosted implementation of the Tailscale control server",
+    "desc_long": "Tailscale is a modern VPN built on top of Wireguard. It works like an\noverlay network between the computers of your networks - using all kinds\nof NAT traversal sorcery.\n\nEverything in Tailscale is Open Source, except the GUI clients for\nproprietary OS (Windows and macOS/iOS), and the\n'coordination/control server'.\n\nThe control server works as an exchange point of Wireguard public keys for\nthe nodes in the Tailscale network. It also assigns the IP addresses of\nthe clients, creates the boundaries between each user, enables sharing\nmachines between users, and exposes the advertised routes of your nodes.\n\nHeadscale implements this coordination server.\n",
+    "home": "https://github.com/juanfont/headscale",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "n@nk.je",
+        "github": "NKJe",
+        "githubId": 1102306,
+        "keys": [
+          {
+            "fingerprint": "B956 C6A4 22AF 86A0 8F77  A8CA DE3B ADFE CD31 A89D",
+            "longkeyid": "nistp256/0xDE3BADFECD31A89D"
+          }
+        ],
+        "name": "Niels Kristian Lysh\u00f8j Jensen"
+      },
+      {
+        "email": "hello+nixpkgs@j-k.io",
+        "github": "06kellyjac",
+        "githubId": 9866621,
+        "matrix": "@j-k:matrix.org",
+        "name": "Jack"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "030b88cc662e6d285bfdda010b0e2a86770117f8",

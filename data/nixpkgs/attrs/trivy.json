@@ -1,4 +1,34 @@
 {
+  "meta": {
+    "desc": "A simple and comprehensive vulnerability scanner for containers, suitable for CI",
+    "desc_long": "Trivy is a simple and comprehensive vulnerability scanner for containers\nand other artifacts. A software vulnerability is a glitch, flaw, or\nweakness present in the software or in an Operating System. Trivy detects\nvulnerabilities of OS packages (Alpine, RHEL, CentOS, etc.) and\napplication dependencies (Bundler, Composer, npm, yarn, etc.).\n",
+    "home": "https://github.com/aquasecurity/trivy",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "hello+nixpkgs@j-k.io",
+        "github": "06kellyjac",
+        "githubId": 9866621,
+        "matrix": "@j-k:matrix.org",
+        "name": "Jack"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0208a915c8c25725523a561db593d767a5a74d3d",

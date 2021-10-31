@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "The GNU Transport Layer Security Library",
+    "desc_long": "GnuTLS is a project that aims to develop a library which\nprovides a secure layer, over a reliable transport\nlayer. Currently the GnuTLS library implements the proposed standards by\nthe IETF's TLS working group.\n\nQuoting from the TLS protocol specification:\n\n\"The TLS protocol provides communications privacy over the\nInternet. The protocol allows client/server applications to\ncommunicate in a way that is designed to prevent eavesdropping,\ntampering, or message forgery.\"\n",
+    "home": "https://gnutls.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v2.1 or later",
+      "redistributable": true,
+      "shortName": "lgpl21Plus",
+      "spdxId": "LGPL-2.1-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "edolstra+nixpkgs@gmail.com",
+        "github": "edolstra",
+        "githubId": 1148549,
+        "name": "Eelco Dolstra"
+      },
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0319f3a97b3ec32fe91ffc8c134814ce8b069545",

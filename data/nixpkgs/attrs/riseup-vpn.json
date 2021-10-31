@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "Generic VPN client by LEAP",
+    "desc_long": "Bitmask, by LEAP (LEAP Encryption Access Project),\nis an application to provide easy and secure encrypted communication\nwith a VPN (Virtual Private Network). It allows you to select from\na variety of trusted service provider all from one app.\nCurrent providers include Riseup Networks\nand The Calyx Institute, where the former is default.\nThe <literal>riseup-vpn</literal> executable should appear\nin your desktop manager's XDG menu or could be launch in a terminal\nto get an execution log. A new icon should then appear in your systray\nto control the VPN and configure some options.\n",
+    "home": "https://bitmask.net",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "julm+nixpkgs@sourcephile.fr",
+        "github": "ju1m",
+        "githubId": 21160136,
+        "name": "Julien Moutinho"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "016f9cf6b52030da3385e87df00e3057dfbaed55",

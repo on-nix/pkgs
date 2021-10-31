@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Tool for storing/restoring JACK and/or ALSA connections to/from cml files",
+    "desc_long": "Aj-snapshot is a small program that can be used to make snapshots of the connections made between JACK and/or ALSA clients.\nBecause JACK can provide both audio and MIDI support to programs, aj-snapshot can store both types of connections for JACK.\nALSA, on the other hand, only provides routing facilities for MIDI clients.\nYou can also run aj-snapshot in daemon mode if you want to have your connections continually restored.\n",
+    "home": "http://aj-snapshot.sourceforge.net/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "contact@ingolf-wagner.de",
+        "github": "mrVanDalo",
+        "githubId": 839693,
+        "name": "Ingolf Wanger"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa",

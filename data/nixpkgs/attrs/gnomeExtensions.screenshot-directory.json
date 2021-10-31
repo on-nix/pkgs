@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "The default screenshot directory is ~/Pictures. This extension changes that to use whatever is set if you used the Gnome Screenshot app. This can be found in the dconf setting: /org/gnome/gnome-screenshot/auto-save-directory. If that directory doesn't exist, the extension will use the Home directory instead.",
+    "desc_long": "The default screenshot directory is ~/Pictures. This extension changes that to use whatever is set if you used the Gnome Screenshot app. This can be found in the dconf setting: /org/gnome/gnome-screenshot/auto-save-directory. If that directory doesn't exist, the extension will use the Home directory instead.\n\nNote: If the dconf setting doesn't exist, you need to install the Gnome Screenshot app.\n\nThe idea was taken from the extension: Screenshot Locations.",
+    "home": "https://extensions.gnome.org/extension/4031/screenshot-directory/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@piegames.de",
+        "github": "piegamesde",
+        "githubId": 14054505,
+        "matrix": "@piegames:matrix.org",
+        "name": "piegames"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03a623970fea3385b8918188165b8eb93988280b",

@@ -1,4 +1,28 @@
 {
+  "meta": {
+    "desc": "External signer for Ethereum Swarm Bee",
+    "desc_long": "clef is go-ethereum's external signer.\n\nbee-clef is a package that starts up a vanilla clef instance as a systemd service,\nbut configured in such a way that is suitable for bee (relaxed security for\nautomated operation).\n\nThis package contains the files necessary to run the bee-clef service.\n",
+    "home": "https://docs.ethswarm.org/docs/installation/bee-clef",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+        "redistributable": true,
+        "shortName": "bsd3",
+        "spdxId": "BSD-3-Clause",
+        "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "attila@lendvai.name",
+        "github": "attila-lendvai",
+        "githubId": 840345,
+        "name": "Attila Lendvai"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "011f14738bb8e1ffe1673c80281c8aa0396e124e",

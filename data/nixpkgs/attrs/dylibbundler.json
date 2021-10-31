@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Utility to ease bundling libraries into executables for OSX",
+    "desc_long": "dylibbundler is a small command-line programs that aims to make bundling\n.dylibs as easy as possible. It automatically determines which dylibs are\nneeded by your program, copies these libraries inside the app bundle, and\nfixes both them and the executable to be ready for distribution... all\nthis with a single command on the teminal! It will also work if your\nprogram uses plug-ins that have dependencies too.\n",
+    "home": "https://github.com/auriamg/macdylibbundler",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@joachim-breitner.de",
+        "github": "nomeata",
+        "githubId": 148037,
+        "name": "Joachim Breitner"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "038152e4ee26bb81d1ffff59260e1183a1b735da",

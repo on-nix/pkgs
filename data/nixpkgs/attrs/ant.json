@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A Java-based build tool",
+    "desc_long": "Apache Ant is a Java-based build tool.  In theory, it is kind of like\nMake, but without Make's wrinkles.\n\nWhy another build tool when there is already make, gnumake, nmake, jam,\nand others? Because all those tools have limitations that Ant's\noriginal author couldn't live with when developing software across\nmultiple platforms.  Make-like tools are inherently shell-based -- they\nevaluate a set of dependencies, then execute commands not unlike what\nyou would issue in a shell.  This means that you can easily extend\nthese tools by using or writing any program for the OS that you are\nworking on.  However, this also means that you limit yourself to the\nOS, or at least the OS type such as Unix, that you are working on.\n\nAnt is different.  Instead of a model where it is extended with\nshell-based commands, Ant is extended using Java classes.  Instead of\nwriting shell commands, the configuration files are XML-based, calling\nout a target tree where various tasks get executed.  Each task is run\nby an object that implements a particular Task interface.\n",
+    "home": "http://ant.apache.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "edolstra+nixpkgs@gmail.com",
+        "github": "edolstra",
+        "githubId": 1148549,
+        "name": "Eelco Dolstra"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "039764362bd23fee07ddce1a6b284e4348a08f41",

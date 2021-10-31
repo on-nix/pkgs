@@ -1,4 +1,29 @@
 {
+  "meta": {
+    "desc": "Graphical task manager, based on the todo.txt format",
+    "desc_long": "To use it as todo.sh add-on, create a symlink like this:\nmkdir ~/.todo.actions.d/\nln -s $(which effitask) ~/.todo.actions.d/et\n\nOr use it as standalone program by defining some environment variables\nlike described in the projects readme.\n",
+    "home": "https://github.com/sanpii/effitask",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "post@davidak.de",
+        "github": "davidak",
+        "githubId": 91113,
+        "matrix": "@davidak:matrix.org",
+        "name": "David Kleuker"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "001bd7c466817951efc58cda9929614b3bf41e27",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Simple library for keyword extraction",
+    "desc_long": "GNU libextractor is a library used to extract meta-data from files\n        of arbitrary type.  It is designed to use helper-libraries to perform\n        the actual extraction, and to be trivially extendable by linking\n        against external extractors for additional file types.\n\n        The goal is to provide developers of file-sharing networks or\n        WWW-indexing bots with a universal library to obtain simple keywords\n        to match against queries.  libextractor contains a shell-command\n        extract that, similar to the well-known file command, can extract\n        meta-data from a file an print the results to stdout.\n\n        Currently, libextractor supports the following formats: HTML, PDF,\n        PS, OLE2 (DOC, XLS, PPT), OpenOffice (sxw), StarOffice (sdw), DVI,\n        MAN, FLAC, MP3 (ID3v1 and ID3v2), NSF(E) (NES music), SID (C64\n        music), OGG, WAV, EXIV2, JPEG, GIF, PNG, TIFF, DEB, RPM, TAR(.GZ),\n        ZIP, ELF, S3M (Scream Tracker 3), XM (eXtended Module), IT (Impulse\n        Tracker), FLV, REAL, RIFF (AVI), MPEG, QT and ASF.  Also, various\n        additional MIME types are detected.\n",
+    "home": null,
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "johannes@jorsn.eu",
+        "github": "jorsn",
+        "githubId": 4646725,
+        "name": "Johannes Rosenberger"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03831816d88c7c6dbe25b762493765f5ee77a148",

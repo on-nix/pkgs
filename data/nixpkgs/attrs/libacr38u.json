@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "ACR38U smartcard reader driver for pcsclite",
+    "desc_long": "A PC/SC IFD handler implementation for the ACS ACR38U\nsmartcard readers. This driver is for the non-CCID version only.\n\nThis package is needed to communicate with the ACR38U smartcard readers through\nthe PC/SC Lite resource manager (pcscd).\n\nIt can be enabled in /etc/nixos/configuration.nix by adding:\n  services.pcscd.enable = true;\n  services.pcscd.plugins = [ libacr38u ];\n\nThe package is based on the debian package libacr38u.\n",
+    "home": "https://www.acs.com.hk",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Library General Public License v2 or later",
+      "redistributable": true,
+      "shortName": "lgpl2Plus",
+      "spdxId": "LGPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "bert.moens@gmail.com",
+        "github": "berce",
+        "githubId": 10439709,
+        "name": "Bert Moens"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0226077169b85253c22642476ed553c836480daf",

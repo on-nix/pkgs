@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "C implementation of the AV1 Image File Format",
+    "desc_long": "Libavif aims to be a friendly, portable C implementation of the\nAV1 Image File Format. It is a work-in-progress, but can already\nencode and decode all AOM supported YUV formats and bit depths\n(with alpha). It also features an encoder and a decoder\n(avifenc/avifdec).\n",
+    "home": "https://github.com/AOMediaCodec/libavif",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "mkg20001+nix@gmail.com",
+        "github": "mkg20001",
+        "githubId": 7735145,
+        "keys": [
+          {
+            "fingerprint": "E90C BA34 55B3 6236 740C  038F 0D94 8CE1 9CF4 9C5F",
+            "longkeyid": "rsa4096/0x0D948CE19CF49C5F"
+          }
+        ],
+        "matrix": "@mkg20001:matrix.org",
+        "name": "Maciej Kr\u00fcger"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0319f3a97b3ec32fe91ffc8c134814ce8b069545",

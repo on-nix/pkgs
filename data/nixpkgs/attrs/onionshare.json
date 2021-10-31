@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Securely and anonymously send and receive files",
+    "desc_long": "OnionShare is an open source tool for securely and anonymously sending\nand receiving files using Tor onion services. It works by starting a web\nserver directly on your computer and making it accessible as an\nunguessable Tor web address that others can load in Tor Browser to\ndownload files from you, or upload files to you. It doesn't require\nsetting up a separate server, using a third party file-sharing service,\nor even logging into an account.\n\nUnlike services like email, Google Drive, DropBox, WeTransfer, or nearly\nany other way people typically send files to each other, when you use\nOnionShare you don't give any companies access to the files that you're\nsharing. So long as you share the unguessable web address in a secure way\n(like pasting it in an encrypted messaging app), no one but you and the\nperson you're sharing with can access the files.\n",
+    "home": "https://onionshare.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "louis@bettens.info",
+        "github": "lourkeur",
+        "githubId": 15657735,
+        "keys": [
+          {
+            "fingerprint": "5B93 9CFA E8FC 4D8F E07A  3AEA DFE1 D4A0 1733 7E2A",
+            "longkeyid": "ed25519/0xDFE1D4A017337E2A"
+          }
+        ],
+        "name": "Louis Bettens"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00c5aa27ba8643fc8cecf937a78085ed1f4a9a7f",

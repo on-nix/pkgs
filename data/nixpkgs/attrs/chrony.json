@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "Sets your computer's clock from time servers on the Net",
+    "desc_long": "Chronyd is a daemon which runs in background on the system. It obtains\nmeasurements via the network of the system clock\u2019s offset relative to\ntime servers on other systems and adjusts the system time accordingly.\nFor isolated systems, the user can periodically enter the correct time by\nhand (using Chronyc). In either case, Chronyd determines the rate at\nwhich the computer gains or loses time, and compensates for this. Chronyd\nimplements the NTP protocol and can act as either a client or a server.\n\nChronyc provides a user interface to Chronyd for monitoring its\nperformance and configuring various settings. It can do so while running\non the same computer as the Chronyd instance it is controlling or a\ndifferent computer.\n",
+    "home": "https://chrony.tuxfamily.org/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      },
+      {
+        "email": "aseipp@pobox.com",
+        "github": "thoughtpolice",
+        "githubId": 3416,
+        "name": "Austin Seipp"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

@@ -1,4 +1,61 @@
 {
+  "meta": {
+    "desc": "A C language family frontend for LLVM (wrapper script)",
+    "desc_long": "The Clang project provides a language front-end and tooling\ninfrastructure for languages in the C language family (C, C++, Objective\nC/C++, OpenCL, CUDA, and RenderScript) for the LLVM project.\nIt aims to deliver amazingly fast compiles, extremely useful error and\nwarning messages and to provide a platform for building great source\nlevel tools. The Clang Static Analyzer and clang-tidy are tools that\nautomatically find bugs in your code, and are great examples of the sort\nof tools that can be built using the Clang frontend as a library to\nparse C/C++ code.\n",
+    "home": "https://clang.llvm.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "University of Illinois/NCSA Open Source License",
+      "redistributable": true,
+      "shortName": "ncsa",
+      "spdxId": "NCSA",
+      "url": "https://spdx.org/licenses/NCSA.html"
+    },
+    "maintainers": [
+      {
+        "email": "jason@oconal.id.au",
+        "github": "lovek323",
+        "githubId": 265084,
+        "name": "Jason O'Conal"
+      },
+      {
+        "email": "7c6f434c@mail.ru",
+        "github": "7c6f434c",
+        "githubId": 1891350,
+        "name": "Michael Raskin"
+      },
+      {
+        "email": "w@wdtz.org",
+        "github": "dtzWill",
+        "githubId": 817330,
+        "keys": [
+          {
+            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+          }
+        ],
+        "name": "Will Dietz"
+      },
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0279db70edbdcde9d252fb796172955f8173eef9",

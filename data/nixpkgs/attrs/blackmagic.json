@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "In-application debugger for ARM Cortex microcontrollers",
+    "desc_long": "The Black Magic Probe is a modern, in-application debugging tool\nfor embedded microprocessors. It allows you to see what is going\non \"inside\" an application running on an embedded microprocessor\nwhile it executes.\n\nThis package builds the firmware for all supported platforms,\nplacing them in separate directories under the firmware\ndirectory.  It also places the FTDI version of the blackmagic\nexecutable in the bin directory.\n",
+    "home": "https://github.com/blacksphere/blackmagic",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "pjones@devalot.com",
+        "github": "pjones",
+        "githubId": 3737,
+        "name": "Peter Jones"
+      },
+      {
+        "email": "nixpkgs@emily.moe",
+        "github": "emilazy",
+        "githubId": 18535642,
+        "name": "Emily"
+      },
+      {
+        "email": "srk@48.io",
+        "github": "sorki",
+        "githubId": 115308,
+        "name": "Richard Marko"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "024ad57ed1826480ab66f3d25a0dade39d1561f5",

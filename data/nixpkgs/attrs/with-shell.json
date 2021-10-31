@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Command prefixing for continuous workflow using a single tool",
+    "desc_long": "with is a Bash script that starts an interactive shell with where every\ncommand is prefixed using <program>.\n\nFor example:\n\n$ with git\ngit> add .\ngit> commit -a -m \"Commited\"\ngit> push\n\nCan also be used for compound commands.\n\n$ with java Primes\njava Primes> 1\n2\njava Primes> 4\n7\n\nAnd to repeat commands:\n\n$ with gcc -o output input.c\ngcc -o -output input.c>\n<enter>\nCompiling...\ngcc -o -output input.c>\n\nTo execute a shell command proper prefix line with :.\n\ngit> :ls\n\nYou can also drop, add, and replace different commands.\n\ngit> +add\ngit add> <some file>\ngit add> !commit\ngit commit> <arguments and message>\ngit commit> -\ngit>\n\nTo exit use either :q or :exit.\n",
+    "home": "https://github.com/mchav/With",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

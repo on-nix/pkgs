@@ -1,4 +1,55 @@
 {
+  "meta": {
+    "desc": "Several programs for working with Rubik's cubes",
+    "desc_long": "There are several programs for working with Rubik's cubes, by three\ndifferent people. Look inside the directories under /src to see\nspecific info and licensing. In summary the three contributers are:\n\n\nMichael Reid (GPL) http://www.math.ucf.edu/~reid/Rubik/optimal_solver.html\n    optimal - uses many pre-computed tables to find an optimal\n              solution to the 3x3x3 Rubik's cube\n\n\nDik T. Winter (MIT License)\n    cube    - uses Kociemba's algorithm to iteratively find a short\n              solution to the 3x3x3 Rubik's cube\n    size222 - solves a 2x2x2 Rubik's cube\n\n\nEric Dietz (GPL) http://www.wrongway.org/?rubiksource\n    cu2   - A fast, non-optimal 2x2x2 solver\n    cubex - A fast, non-optimal 3x3x3 solver\n    mcube - A fast, non-optimal 4x4x4 solver\n",
+    "home": "https://wiki.sagemath.org/spkg/rubiks",
+    "license": [
+      {
+        "deprecated": true,
+        "free": true,
+        "fullName": "GNU General Public License v2.0",
+        "redistributable": true,
+        "shortName": "gpl2",
+        "spdxId": "GPL-2.0",
+        "url": "https://spdx.org/licenses/GPL-2.0.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "timokau@zoho.com",
+        "github": "timokau",
+        "githubId": 3799330,
+        "name": "Timo Kaufmann"
+      },
+      {
+        "email": "167209+omasanori@users.noreply.github.com",
+        "github": "omasanori",
+        "githubId": 167209,
+        "name": "Masanori Ogino"
+      },
+      {
+        "email": "7c6f434c@mail.ru",
+        "github": "7c6f434c",
+        "githubId": 1891350,
+        "name": "Michael Raskin"
+      },
+      {
+        "email": "mauricio@collares.org",
+        "github": "collares",
+        "githubId": 244239,
+        "name": "Mauricio Collares"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00bf1150473dedb02f22696450b250e04875faab",

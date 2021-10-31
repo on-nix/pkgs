@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Python wrapper for the GnuTLS library",
+    "desc_long": "This package provides a high level object oriented wrapper around libgnutls,\nas well as low level bindings to the GnuTLS types and functions via ctypes.\nThe high level wrapper hides the details of accessing the GnuTLS library via\nctypes behind a set of classes that encapsulate GnuTLS sessions, certificates\nand credentials and expose them to python applications using a simple API.\n\nThe package also includes a Twisted interface that has seamless intergration\nwith Twisted, providing connectTLS and listenTLS methods on the Twisted\nreactor once imported (the methods are automatically attached to the reactor\nby simply importing the GnuTLS Twisted interface module).\n\nThe high level wrapper is written using the GnuTLS library bindings that are\nmade available via ctypes. This makes the wrapper very powerful and flexible\nas it has direct access to all the GnuTLS internals and is also very easy to\nextend without any need to write C code or recompile anything.\n\n",
+    "home": "https://github.com/AGProjects/python3-gnutls",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v2.1 or later",
+      "redistributable": true,
+      "shortName": "lgpl21Plus",
+      "spdxId": "LGPL-2.1-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "charlieshanley@gmail.com",
+        "github": "charlieshanley",
+        "githubId": 8228888,
+        "name": "Charlie Hanley"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "016f9cf6b52030da3385e87df00e3057dfbaed55",

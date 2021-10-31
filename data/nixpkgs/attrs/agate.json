@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "Very simple server for the Gemini hypertext protocol",
+    "desc_long": "Agate is a server for the Gemini network protocol, built with the Rust\nprogramming language. Agate has very few features, and can only serve\nstatic files. It uses async I/O, and should be quite efficient even when\nrunning on low-end hardware and serving many concurrent requests.\n",
+    "home": "https://proxy.vulpes.one/gemini/qwertqwefsday.eu/agate.gmi",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Apache License 2.0",
+        "redistributable": true,
+        "shortName": "asl20",
+        "spdxId": "Apache-2.0",
+        "url": "https://spdx.org/licenses/Apache-2.0.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "hello+nixpkgs@j-k.io",
+        "github": "06kellyjac",
+        "githubId": 9866621,
+        "matrix": "@j-k:matrix.org",
+        "name": "Jack"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02ac0fd5171f069908815201e1bbebdd0b66406f",

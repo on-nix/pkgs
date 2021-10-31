@@ -1,4 +1,34 @@
 {
+  "meta": {
+    "desc": "A policy management tool for interacting with Gatekeeper",
+    "desc_long": "konstraint is a CLI tool to assist with the creation and management of templates and constraints when using\nGatekeeper. Automatically copy Rego to the ConstraintTemplate. Automatically update all ConstraintTemplates with\nlibrary changes. Enable writing the same policies for Conftest and Gatekeeper.\n",
+    "home": "https://github.com/plexsystems/konstraint",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "hello+nixpkgs@j-k.io",
+        "github": "06kellyjac",
+        "githubId": 9866621,
+        "matrix": "@j-k:matrix.org",
+        "name": "Jack"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0242a3641bc783d2fcd8009cfd1b300f40b3bd1a",

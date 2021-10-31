@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "C library and tools for interacting with the linux GPIO character device",
+    "desc_long": "Since linux 4.8 the GPIO sysfs interface is deprecated. User space should use\nthe character device instead. This library encapsulates the ioctl calls and\ndata structures behind a straightforward API.\n",
+    "home": "https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/about/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU Library General Public License v2",
+      "redistributable": true,
+      "shortName": "lgpl2",
+      "spdxId": "LGPL-2.0",
+      "url": "https://spdx.org/licenses/LGPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@monoid.al",
+        "github": "expipiplus1",
+        "githubId": 857308,
+        "matrix": "@ellie:monoid.al",
+        "name": "Ellie Hermaszewska"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

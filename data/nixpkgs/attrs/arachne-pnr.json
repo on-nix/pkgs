@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Place and route tool for FPGAs",
+    "desc_long": "Arachne-pnr implements the place and route step of\nthe hardware compilation process for FPGAs. It\naccepts as input a technology-mapped netlist in BLIF\nformat, as output by the Yosys [0] synthesis suite\nfor example. It currently targets the Lattice\nSemiconductor iCE40 family of FPGAs [1]. Its output\nis a textual bitstream representation for assembly by\nthe IceStorm [2] icepack command.\n",
+    "home": "https://github.com/cseed/arachne-pnr",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "cam.turn@gmail.com",
+        "github": "VShell",
+        "githubId": 251028,
+        "name": "Shell Turner"
+      },
+      {
+        "email": "aseipp@pobox.com",
+        "github": "thoughtpolice",
+        "githubId": 3416,
+        "name": "Austin Seipp"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03b6800bd0a99dbb77187da602da46e19ee6b28b",

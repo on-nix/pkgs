@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Send DHCP request to find out if a DHCP server is running",
+    "desc_long": "dhcping sends either a DHCPREQUEST or DHCPINFORM packet to the server\nand waits for an answer. Then, if a DHCPREQUEST was send, it will send\na DHCPRELEASE back to the server.\n\nThis program should be installed setuid root or ran by root only, as it\nrequires the privileges to bind itself to port 68 (bootpc). Root\nprivileges are dropped as soon as the program has bound itself to that\nport.\n",
+    "home": "http://www.mavetju.org/unix/general.php",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "01b0b3cec0139cc47acca8109fdb4bdbd1734c45",

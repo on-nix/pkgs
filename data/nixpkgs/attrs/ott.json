@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A tool for the working semanticist",
+    "desc_long": "Ott is a tool for writing definitions of programming languages and\ncalculi. It takes as input a definition of a language syntax and\nsemantics, in a concise and readable ASCII notation that is close to\nwhat one would write in informal mathematics. It generates LaTeX to\nbuild a typeset version of the definition, and Coq, HOL, and Isabelle\nversions of the definition. Additionally, it can be run as a filter,\ntaking a LaTeX/Coq/Isabelle/HOL source file with embedded (symbolic)\nterms of the defined language, parsing them and replacing them by\ntarget-system terms.\n",
+    "home": "http://www.cl.cam.ac.uk/~pes20/ott",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "johnw@newartisans.com",
+        "github": "jwiegley",
+        "githubId": 8460,
+        "name": "John Wiegley"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0229bebd37caf01cad975090895a5ba2c5973226",

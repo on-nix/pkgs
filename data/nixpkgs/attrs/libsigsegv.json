@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Library to handle page faults in user mode",
+    "desc_long": "GNU libsigsegv is a library for handling page faults in user mode. A\npage fault occurs when a program tries to access to a region of memory\nthat is currently not available. Catching and handling a page fault is\na useful technique for implementing pageable virtual memory,\nmemory-mapped access to persistent databases, generational garbage\ncollectors, stack overflow handlers, distributed shared memory, and\nmore.\n",
+    "home": "https://www.gnu.org/software/libsigsegv/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "03831816d88c7c6dbe25b762493765f5ee77a148",

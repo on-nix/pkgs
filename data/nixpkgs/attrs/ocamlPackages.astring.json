@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Alternative String module for OCaml",
+    "desc_long": "Astring exposes an alternative String module for OCaml. This module tries\nto balance minimality and expressiveness for basic, index-free, string\nprocessing and provides types and functions for substrings, string sets\nand string maps.\n\nRemaining compatible with the OCaml String module is a non-goal.\nThe String module exposed by Astring has exception safe functions, removes\ndeprecated and rarely used functions, alters some signatures and names,\nadds a few missing functions and fully exploits OCaml's newfound string\nimmutability.\n",
+    "home": "https://erratique.ch/software/astring",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "ISC License",
+      "redistributable": true,
+      "shortName": "isc",
+      "spdxId": "ISC",
+      "url": "https://spdx.org/licenses/ISC.html"
+    },
+    "maintainers": [
+      {
+        "email": "sternenseemann@systemli.org",
+        "github": "sternenseemann",
+        "githubId": 3154475,
+        "name": "Lukas Epple"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0263f626a060fe42dd1ba1b9110760bf8a353564",

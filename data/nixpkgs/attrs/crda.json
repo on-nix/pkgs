@@ -1,4 +1,17 @@
 {
+  "meta": {
+    "desc": "Linux wireless Central Regulatory Domain Agent",
+    "desc_long": "CRDA acts as the udev helper for communication between the kernel and\nuserspace for regulatory compliance. It relies on nl80211 for communication.\n\nCRDA is intended to be run only through udev communication from the kernel.\nTo use it under NixOS, add\n\n  services.udev.packages = [ pkgs.crda ];\n\nto the system configuration.\n",
+    "home": "http://drvbp1.linux-foundation.org/~mcgrof/rel-html/crda/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Unspecified free software license",
+      "redistributable": true,
+      "shortName": "free"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "01b0b3cec0139cc47acca8109fdb4bdbd1734c45",

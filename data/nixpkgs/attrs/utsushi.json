@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "SANE utsushi backend for some Epson scanners",
+    "desc_long": "ImageScanV3 (aka utsushi) scanner driver. Non-free plugins are not\nincluded, so no network support. To use the SANE backend, in\n<literal>/etc/nixos/configuration.nix</literal>:\n\n<literal>\nhardware.sane = {\n  enable = true;\n  extraBackends = [ pkgs.utsushi ];\n};\nservices.udev.packages = [ pkgs.utsushi ];\n</literal>\n\nSupported hardware:\nDS-1610, DS-1630, DS-1660W, DS-310, DS-320, DS-360W, DS-40, DS-410,\nDS-50000, DS-510, DS-520, DS-530, DS-535, DS-535H, DS-5500, DS-560,\nDS-570W, DS-575W, DS-60000, DS-6500, DS-70, DS-70000, DS-7500, DS-760,\nDS-770, DS-775, DS-780N, DS-80W, DS-860, EC-4020 Series, EC-4030 Series,\nEC-4040 Series, EP-10VA Series, EP-30VA Series, EP-708A Series, EP-709A\nSeries, EP-710A Series, EP-711A Series, EP-712A Series, EP-808A Series,\nEP-810A Series, EP-811A Series, EP-812A Series, EP-879A Series, EP-880A\nSeries, EP-881A Series, EP-882A Series, EP-978A3 Series, EP-979A3 Series,\nEP-982A3 Series, EP-M570T Series, ES-200, ES-300W, ES-300WR, ES-400,\nES-50, ES-50, ES-500W, ES-500WR, ES-55R, ES-60W, ES-60WB, ES-60WW,\nES-65WR, ET-16500 Series, ET-2500 Series, ET-2550 Series, ET-2600 Series,\nET-2610 Series, ET-2650 Series, ET-2700 Series, ET-2710 Series, ET-2720\nSeries, ET-2750 Series, ET-2760 Series, ET-3600 Series, ET-3700 Series,\nET-3710 Series, ET-3750 Series, ET-3760 Series, ET-4500 Series, ET-4550\nSeries, ET-4700 Series, ET-4750 Series, ET-4760 Series, ET-7700 Series,\nET-7750 Series, ET-8700 Series, ET-M2140 Series, ET-M2170 Series,\nET-M3140 Series, ET-M3170 Series, ET-M3180 Series, EW-052A Series,\nEW-452A Series, EW-M5071FT Series, EW-M571T Series, EW-M630T Series,\nEW-M660FT Series, EW-M670FT Series, EW-M770T Series, EW-M970A3T Series,\nFF-640, FF-680W, GT-S650, L1455 Series, L220 Series, L222 Series, L3050\nSeries, L3060 Series, L3070 Series, L3100 Series, L3110 Series, L3150\nSeries, L3160 Series, L360 Series, L362 Series, L364 Series, L365 Series,\nL366 Series, L375 Series, L380 Series, L382 Series, L385 Series, L386\nSeries, L395 Series, L396 Series, L405 Series, L4150 Series, L4160\nSeries, L455 Series, L475 Series, L485 Series, L486 Series, L495 Series,\nL5190 Series, L565 Series, L566 Series, L575 Series, L605 Series, L6160\nSeries, L6170 Series, L6190 Series, L655 Series, L7160 Series, L7180\nSeries, LX-10000F, LX-10000FK, LX-10010MF, LX-7000F, M2140 Series, M2170\nSeries, M3140 Series, M3170 Series, M3180 Series, PX-048A Series, PX-049A\nSeries, PX-M160T Series, PX-M270FT Series, PX-M270T Series, PX-M380F,\nPX-M381FL, PX-M5080F Series, PX-M5081F Series, PX-M680F Series, PX-M7050\nSeries, PX-M7050FP, PX-M7050FX, PX-M7070FX, PX-M7110F, PX-M7110FP,\nPX-M780F Series, PX-M781F Series, PX-M840FX, PX-M860F, PX-M880FX,\nPX-M884F, PX-M885F, PX-M886FL, Perfection V19, Perfection V39, ST-2000\nSeries, ST-3000 Series, ST-4000 Series, ST-M3000 Series, WF-2750 Series,\nWF-2760 Series, WF-2810 Series, WF-2830 Series, WF-2850 Series, WF-2860\nSeries, WF-3720 Series, WF-3730 Series, WF-4720 Series, WF-4730 Series,\nWF-4740 Series, WF-6530 Series, WF-6590 Series, WF-7710 Series, WF-7720\nSeries, WF-8510 Series, WF-8590 Series, WF-C17590 Series, WF-C20590\nSeries, WF-C5710 Series, WF-C5790 Series, WF-C5790BA, WF-C579R Series,\nWF-C579RB, WF-C8610 Series, WF-C8690 Series, WF-C8690B, WF-C869R Series,\nWF-M20590 Series, WF-M5799 Series, WF-R8590 Series, XP-2100 Series,\nXP-220 Series, XP-230 Series, XP-235 Series, XP-240 Series, XP-243 245\n247 Series, XP-255 257 Series, XP-3100 Series, XP-332 335 Series, XP-340\nSeries, XP-342 343 345 Series, XP-352 355 Series, XP-4100 Series, XP-430\nSeries, XP-432 435 Series, XP-440 Series, XP-442 445 Series, XP-452 455\nSeries, XP-5100 Series, XP-530 Series, XP-540 Series, XP-6000 Series,\nXP-6100 Series, XP-630 Series, XP-640 Series, XP-7100 Series, XP-830\nSeries, XP-8500 Series, XP-8600 Series, XP-900 Series, XP-960 Series,\nXP-970 Series\n",
+    "home": "https://gitlab.com/utsushi/imagescan",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "info@wucke13.de",
+        "github": "wucke13",
+        "githubId": 20400405,
+        "name": "Wucke"
+      },
+      {
+        "email": "nixpkgs@maxwilson.dev",
+        "github": "mwilsoncoding",
+        "githubId": 43796009,
+        "name": "Max Wilson"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0043faf2714019a57a213698d1fab72f41c587d8",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Standards-based task manager based on iCalendar",
+    "desc_long": "Todoman is a simple, standards-based, cli todo (aka: task) manager. Todos\nare stored into icalendar files, which means you can sync them via CalDAV\nusing, for example, vdirsyncer.\n\nTodos are read from individual ics files from the configured directory.\nThis matches the vdir specification.  There\u2019s support for the most common TODO\nfeatures for now (summary, description, location, due date and priority) for\nnow.  Runs on any Unix-like OS. It\u2019s been tested on GNU/Linux, BSD and macOS.\nUnsupported fields may not be shown but are never deleted or altered.\n\nTodoman is part of the pimutils project\n",
+    "home": "https://github.com/pimutils/todoman",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "ISC License",
+      "redistributable": true,
+      "shortName": "isc",
+      "spdxId": "ISC",
+      "url": "https://spdx.org/licenses/ISC.html"
+    },
+    "maintainers": [
+      {
+        "email": "ml.software@leenaa.rs",
+        "github": "leenaars",
+        "githubId": 4158274,
+        "name": "Michiel Leenaars"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00e380f1be5f393b7ea8ec9848d89284dd5254ce",

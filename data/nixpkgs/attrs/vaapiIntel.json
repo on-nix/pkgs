@@ -1,4 +1,37 @@
 {
+  "meta": {
+    "desc": "VA-API user mode driver for Intel GEN Graphics family",
+    "desc_long": "This VA-API video driver backend provides a bridge to the GEN GPUs through\nthe packaging of buffers and commands to be sent to the i915 driver for\nexercising both hardware and shader functionality for video decode,\nencode, and processing.\nVA-API is an open-source library and API specification, which provides\naccess to graphics hardware acceleration capabilities for video\nprocessing. It consists of a main library and driver-specific acceleration\nbackends for each supported hardware vendor.\n",
+    "home": "https://01.org/linuxmedia",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "017c7a4940a3c62002d725ae848b16793922eac9",

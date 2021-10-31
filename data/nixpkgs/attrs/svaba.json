@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Structural variant and INDEL caller for DNA sequencing data, using genome-wide local assembly",
+    "desc_long": "SvABA is a method for detecting structural variants in sequencing data\nusing genome-wide local assembly. Under the hood, SvABA uses a custom\nimplementation of SGA (String Graph Assembler) by Jared Simpson,\nand BWA-MEM by Heng Li. Contigs are assembled for every 25kb window\n(with some small overlap) for every region in the genome.\nThe default is to use only clipped, discordant, unmapped and indel reads,\nalthough this can be customized to any set of reads at the command line using VariantBam rules.\nThese contigs are then immediately aligned to the reference with BWA-MEM and parsed to identify variants.\nSequencing reads are then realigned to the contigs with BWA-MEM, and variants are scored by their read support.\n",
+    "home": "https://github.com/walaj/svaba",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "scalavision@gmail.com",
+        "github": "scalavision",
+        "githubId": 3958212,
+        "name": "Tom Sorlie"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "000f19ff08cfaf6ce89b136ea986fde64f750555",

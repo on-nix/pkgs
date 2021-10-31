@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Network interface of the Tokyo Cabinet DBM",
+    "desc_long": "Tokyo Tyrant is a package of network interface to the DBM called\n        Tokyo Cabinet.  Though the DBM has high performance, you might\n        bother in case that multiple processes share the same database, or\n        remote processes access the database.  Thus, Tokyo Tyrant is\n        provided for concurrent and remote connections to Tokyo Cabinet.  It\n        is composed of the server process managing a database and its access\n        library for client applications.\n\n        Tokyo Tyrant is written in the C language, and provided as API of C,\n        Perl, and Ruby.  Tokyo Tyrant is available on platforms which have\n        API conforming to C99 and POSIX.  Tokyo Tyrant is a free software\n        licensed under the GNU Lesser General Public License.\n",
+    "home": "https://fallabs.com/tokyotyrant/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v2.1 or later",
+      "redistributable": true,
+      "shortName": "lgpl21Plus",
+      "spdxId": "LGPL-2.1-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "01725fcbea2f3f7d6735b716c2f6f48218f75a37",

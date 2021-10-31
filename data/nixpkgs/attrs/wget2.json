@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "successor of GNU Wget, a file and recursive website downloader.",
+    "desc_long": "Designed and written from scratch it wraps around libwget, that provides the basic\nfunctions needed by a web client.\nWget2 works multi-threaded and uses many features to allow fast operation.\nIn many cases Wget2 downloads much faster than Wget1.x due to HTTP2, HTTP compression,\nparallel connections and use of If-Modified-Since HTTP header.\n",
+    "home": "https://gitlab.com/gnuwget/wget2",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v3.0 or later",
+        "redistributable": true,
+        "shortName": "gpl3Plus",
+        "spdxId": "GPL-3.0-or-later",
+        "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU Lesser General Public License v3.0 or later",
+        "redistributable": true,
+        "shortName": "lgpl3Plus",
+        "spdxId": "LGPL-3.0-or-later",
+        "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "sandro.jaeckel@gmail.com",
+        "github": "SuperSandro2000",
+        "githubId": 7258858,
+        "matrix": "@sandro:supersandro.de",
+        "name": "Sandro J\u00e4ckel"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00c5aa27ba8643fc8cecf937a78085ed1f4a9a7f",

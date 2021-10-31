@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Convert public-inbox archives to maildir messages",
+    "desc_long": "Quick and dirty hack to import lore.kernel.org list archives via git,\nto export them in maildir format or through a pipe, and to keep them\nperiodically synced.\n",
+    "home": "https://git.kernel.org/pub/scm/linux/kernel/git/dborkman/l2md.git",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 only",
+      "redistributable": true,
+      "shortName": "gpl2Only",
+      "spdxId": "GPL-2.0-only",
+      "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    "maintainers": [
+      {
+        "email": "public@yoctocell.xyz",
+        "github": "yoctocell",
+        "githubId": 40352765,
+        "name": "Yoctocell"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012b3a659eaec450b5372a09aea6d32e1805c1a9",

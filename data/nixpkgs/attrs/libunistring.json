@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Unicode string library",
+    "desc_long": "This library provides functions for manipulating Unicode strings\nand for manipulating C strings according to the Unicode\nstandard.\n\nGNU libunistring is for you if your application involves\nnon-trivial text processing, such as upper/lower case\nconversions, line breaking, operations on words, or more\nadvanced analysis of text.  Text provided by the user can, in\ngeneral, contain characters of all kinds of scripts.  The text\nprocessing functions provided by this library handle all scripts\nand all languages.\n\nlibunistring is for you if your application already uses the ISO\nC / POSIX <ctype.h>, <wctype.h> functions and the text it\noperates on is provided by the user and can be in any language.\n\nlibunistring is also for you if your application uses Unicode\nstrings as internal in-memory representation.\n",
+    "home": "https://www.gnu.org/software/libunistring/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "lgpl3Plus",
+      "spdxId": "LGPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

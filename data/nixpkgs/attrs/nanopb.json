@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Protocol Buffers with small code size",
+    "desc_long": "Nanopb is a small code-size Protocol Buffers implementation in ansi C. It\nis especially suitable for use in microcontrollers, but fits any memory\nrestricted system.\n\n- Homepage: jpa.kapsi.fi/nanopb\n- Documentation: jpa.kapsi.fi/nanopb/docs\n- Downloads: jpa.kapsi.fi/nanopb/download\n- Forum: groups.google.com/forum/#!forum/nanopb\n\nIn order to use the nanopb options in your proto files, you'll need to\ntell protoc where to find the nanopb.proto file.\nYou can do so with the --proto_path (-I) option to add the directory\n${nanopb}/share/nanopb/generator/proto like so:\n\nprotoc --proto_path=. --proto_path=${nanopb}/share/nanopb/generator/proto --plugin=protoc-gen-nanopb=${nanopb}/bin/protoc-gen-nanopb --nanopb_out=out file.proto\n",
+    "home": "https://jpa.kapsi.fi/nanopb/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "zlib License",
+      "redistributable": true,
+      "shortName": "zlib",
+      "spdxId": "Zlib",
+      "url": "https://spdx.org/licenses/Zlib.html"
+    },
+    "maintainers": [
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

@@ -1,4 +1,43 @@
 {
+  "meta": {
+    "desc": "Free IMAP and MailDir mailbox synchronizer",
+    "desc_long": "mbsync (formerly isync) is a command line application which synchronizes\nmailboxes. Currently Maildir and IMAP4 mailboxes are supported. New\nmessages, message deletions and flag changes can be propagated both ways.\n",
+    "home": "http://isync.sourceforge.net/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      },
+      {
+        "email": "git@sphalerite.org",
+        "github": "lheckemann",
+        "githubId": 341954,
+        "name": "Linus Heckemann"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "039764362bd23fee07ddce1a6b284e4348a08f41",

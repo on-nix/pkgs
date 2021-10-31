@@ -1,4 +1,11 @@
 {
+  "meta": {
+    "desc": "The Boehm-Demers-Weiser conservative garbage collector for C and C++",
+    "desc_long": "The Boehm-Demers-Weiser conservative garbage collector can be used as a\ngarbage collecting replacement for C malloc or C++ new.  It allows you\nto allocate memory basically as you normally would, without explicitly\ndeallocating memory that is no longer useful.  The collector\nautomatically recycles memory when it determines that it can no longer\nbe otherwise accessed.\n\nThe collector is also used by a number of programming language\nimplementations that either use C as intermediate code, want to\nfacilitate easier interoperation with C libraries, or just prefer the\nsimple collector interface.\n\nAlternatively, the garbage collector may be used as a leak detector for\nC or C++ programs, though that is not its primary goal.\n",
+    "home": "https://hboehm.info/gc/",
+    "license": "https://hboehm.info/gc/license.txt",
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "0083ca12664a4fbda9a8716267c5173676a8194a",

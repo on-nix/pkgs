@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Extensible Archiver",
+    "desc_long": "The XAR project aims to provide an easily extensible archive format.\n        Important design decisions include an easily extensible XML table of\n        contents for random access to archived files, storing the toc at the\n        beginning of the archive to allow for efficient handling of streamed\n        archives, the ability to handle files of arbitrarily large sizes, the\n        ability to choose independent encodings for individual files in the\n        archive, the ability to store checksums for individual files in both\n        compressed and uncompressed form, and the ability to query the table\n        of content's rich meta-data.\n",
+    "home": "https://mackyle.github.io/xar/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "pumpkingod@gmail.com",
+        "github": "copumpkin",
+        "githubId": 2623,
+        "name": "Dan Peebles"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012b6bcbc1281141fe215b3d87a8395208a4f1b0",

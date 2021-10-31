@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Top-like tool for viewing AMD Radeon GPU utilization",
+    "desc_long": "View GPU utilization, both for the total activity percent and individual\nblocks. Supports R600 and later cards: even Southern Islands should work.\nWorks with both the open drivers and AMD Catalyst. Total GPU utilization\nis also valid for OpenCL loads; the other blocks are only useful for GL\nloads. Requires root rights or other permissions to read /dev/mem.\n",
+    "home": "https://github.com/clbr/radeontop",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "027c952090e5fda9badeff944b6b81ca25168f6e",

@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "A tool to execute yaml templates and output text",
+    "desc_long": "Replacement is a python utility\nthat parses a yaml template and outputs text.\n\nA 'template' is a YAML file containing a 'replacement' object.\n\nA 'replacement' object contains a list of blocks,\neach of which is executed in sequence.\n\nThis tool is useful in generating configuration files,\nstatic websites and the like.\n",
+    "home": "https://github.com/siriobalmelli/replacement",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "sirio@b-ad.ch",
+        "github": "siriobalmelli",
+        "githubId": 23038812,
+        "keys": [
+          {
+            "fingerprint": "B234 EFD4 2B42 FE81 EE4D  7627 F72C 4A88 7F9A 24CA",
+            "longkeyid": "ed25519/0xF72C4A887F9A24CA"
+          }
+        ],
+        "name": "Sirio Balmelli"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "026b4765bada7437c679693491ca2c6b6a1cc35c",

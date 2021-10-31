@@ -1,4 +1,42 @@
 {
+  "meta": {
+    "desc": "Xen hypervisor and related components (light)",
+    "desc_long": "Slimmed-down version of Xen without `qemu-traditional` (you\ndon't need it if you don't know what it is). Use with\n`qemu_xen-light` from nixpkgs.\n\nIncludes:\n* firmware/etherboot/ipxe.git: Xen's fork of iPXE.\n* xen-libhvm-dir-remote: Helper library for reading ACPI and SMBIOS firmware values\nfrom the host system for use with the HVM guest firmware\npass-through feature in Xen.",
+    "home": "http://www.xen.org/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "edolstra+nixpkgs@gmail.com",
+        "github": "edolstra",
+        "githubId": 1148549,
+        "name": "Eelco Dolstra"
+      },
+      {
+        "email": "4ZKTUB6TEP74PYJOPWIR013S2AV29YUBW5F9ZH2F4D5UMJUJ6S@hash.domains",
+        "name": "Thomas Strobel"
+      },
+      {
+        "email": "oxij@oxij.org",
+        "github": "oxij",
+        "githubId": 391919,
+        "keys": [
+          {
+            "fingerprint": "514B B966 B46E 3565 0508  86E8 0E6C A66E 5C55 7AA8",
+            "longkeyid": "rsa2048/0x0E6CA66E5C557AA8"
+          }
+        ],
+        "name": "Jan Malakhovski"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0156a8304ee08b933fc2d4d417c4bee51400fb93",

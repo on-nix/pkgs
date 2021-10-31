@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A proof checker for unSAT proofs",
+    "desc_long": "DRAT-trim is a satisfiability proof checking and trimming\nutility designed to validate proofs for all known satisfiability\nsolving and preprocessing techniques.  DRAT-trim can also emit\ntrimmed formulas, optimized proofs, and TraceCheck+ dependency\ngraphs.\n\nDRAT-trim has been used as part of the judging process in the\nannual SAT Competition in recent years, in order to check\ncompeting SAT solvers' work when they claim that a SAT instance\nis unsatisfiable.\n\nThis package also contains the related tool LRAT-check, which checks a\nproof format called LRAT which extends DRAT with hint statements to speed\nup the checking process.\n",
+    "home": "https://www.cs.utexas.edu/~marijn/drat-trim/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "keshav.kini@gmail.com",
+        "github": "kini",
+        "githubId": 691290,
+        "name": "Keshav Kini"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00eedc07f346649f5cdfb76944e7c97e5de8c615",

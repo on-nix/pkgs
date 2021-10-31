@@ -1,4 +1,28 @@
 {
+  "meta": {
+    "desc": "Command-line utility for managing applets and keys on Java Cards",
+    "desc_long": "This command-line utility can be used to manage applets and keys\non Java Cards. It is made available as the `gp` executable.\n\nThe executable requires the PC/SC daemon running for correct execution.\nIf you run NixOS, it can be enabled with `services.pcscd.enable = true;`.\n",
+    "home": "https://github.com/martinpaljak/GlobalPlatformPro",
+    "license": [
+      {
+        "deprecated": true,
+        "free": true,
+        "fullName": "GNU Lesser General Public License v3.0",
+        "redistributable": true,
+        "shortName": "lgpl3",
+        "spdxId": "LGPL-3.0",
+        "url": "https://spdx.org/licenses/LGPL-3.0.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "leo@gaspard.io",
+        "github": "ekleog",
+        "githubId": 411447,
+        "name": "Leo Gaspard"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00584f50a4e0e567b61fbd4cbb13d1529b335c84",

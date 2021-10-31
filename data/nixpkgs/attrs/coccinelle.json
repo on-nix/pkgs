@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Program to apply semantic patches to C code",
+    "desc_long": "Coccinelle is a program matching and transformation engine which\nprovides the language SmPL (Semantic Patch Language) for\nspecifying desired matches and transformations in C code.\nCoccinelle was initially targeted towards performing collateral\nevolutions in Linux.  Such evolutions comprise the changes that\nare needed in client code in response to evolutions in library\nAPIs, and may include modifications such as renaming a function,\nadding a function argument whose value is somehow\ncontext-dependent, and reorganizing a data structure.  Beyond\ncollateral evolutions, Coccinelle is successfully used (by us\nand others) for finding and fixing bugs in systems code.\n",
+    "home": "http://coccinelle.lip6.fr/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "aseipp@pobox.com",
+        "github": "thoughtpolice",
+        "githubId": 3416,
+        "name": "Austin Seipp"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

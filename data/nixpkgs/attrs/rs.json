@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Reshape a data array from standard input",
+    "desc_long": "rs reads the standard input, interpreting each line as a row of blank-\nseparated entries in an array, transforms the array according to the op-\ntions, and writes it on the standard output. With no arguments (argc < 2)\nit transforms stream input into a columnar format convenient for terminal\nviewing, i.e. if the length (in bytes!) of the first line is smaller than\nthe display width, -et is implied, -t otherwise.\n\nThe shape of the input array is deduced from the number of lines and the\nnumber of columns on the first line. If that shape is inconvenient, a more\nuseful one might be obtained by skipping some of the input with the -k\noption. Other options control interpretation of the input columns.\n\nThe shape of the output array is influenced by the rows and cols specifi-\ncations, which should be positive integers. If only one of them is a po-\nsitive integer, rs computes a value for the other which will accommodate\nall of the data. When necessary, missing data are supplied in a manner\nspecified by the options and surplus data are deleted. There are options\nto control presentation of the output columns, including transposition of\nthe rows and columns.\n",
+    "home": "https://www.mirbsd.org/htman/i386/man1/rs.htm",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0228046eec7ce930d6532e205ad92435a2983f98",

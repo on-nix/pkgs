@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Terminal manipulation library for OCaml",
+    "desc_long": "Lambda-term is a cross-platform library for\nmanipulating the terminal. It provides an abstraction for keys,\nmouse events, colors, as well as a set of widgets to write\ncurses-like applications.\n\nThe main objective of lambda-term is to provide a higher level\nfunctional interface to terminal manipulation than, for example,\nncurses, by providing a native OCaml interface instead of bindings to\na C library.\n\nLambda-term integrates with zed to provide text edition facilities in\nconsole applications.\n",
+    "home": "https://github.com/ocaml-community/lambda-term",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "florent.becker@ens-lyon.org",
+        "github": "FlorentBecker",
+        "githubId": 7047019,
+        "name": "Florent Becker"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "014007ff20aa96f1c9da488620655d7d604460f3",

@@ -1,4 +1,47 @@
 {
+  "meta": {
+    "desc": "JItsi BRoadcasting Infrastructure",
+    "desc_long": "Jibri provides services for recording or streaming a Jitsi Meet conference.\nIt works by launching a Chrome instance rendered in a virtual framebuffer and capturing and\nencoding the output with ffmpeg. It is intended to be run on a separate machine (or a VM), with\nno other applications using the display or audio devices. Only one recording at a time is\nsupported on a single jibri.\n",
+    "home": "https://github.com/jitsi/jibri",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "cleeyv@riseup.net",
+        "github": "cleeyv",
+        "githubId": 71959829,
+        "name": "Cleeyv"
+      },
+      {
+        "email": "milan@petabyte.dev",
+        "github": "petabyteboy",
+        "githubId": 3250809,
+        "matrix": "@milan:petabyte.dev",
+        "name": "Milan P\u00e4ssler"
+      },
+      {
+        "email": "ryan@ryantm.com",
+        "github": "ryantm",
+        "githubId": 4804,
+        "matrix": "@ryantm:matrix.org",
+        "name": "Ryan Mulligan"
+      },
+      {
+        "email": "yuka@yuka.dev",
+        "github": "yu-re-ka",
+        "githubId": 86169957,
+        "matrix": "@yuka:yuka.dev",
+        "name": "Yureka"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "019200160c257bf5cd4880d2501e03c9868ed89b",

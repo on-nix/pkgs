@@ -1,4 +1,46 @@
 {
+  "meta": {
+    "desc": "A CLI utility for displaying current network utilization",
+    "desc_long": "bandwhich sniffs a given network interface and records IP packet size, cross\nreferencing it with the /proc filesystem on linux or lsof on MacOS. It is\nresponsive to the terminal window size, displaying less info if there is\nno room for it. It will also attempt to resolve ips to their host name in\nthe background using reverse DNS on a best effort basis.\n",
+    "home": "https://github.com/imsnif/bandwhich",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "brightone@protonmail.com",
+        "github": "Br1ght0ne",
+        "githubId": 12615679,
+        "keys": [
+          {
+            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+          }
+        ],
+        "name": "Oleksii Filonenko"
+      },
+      {
+        "email": "maximilian@mbosch.me",
+        "github": "ma27",
+        "githubId": 6025220,
+        "matrix": "@ma27:nicht-so.sexy",
+        "name": "Maximilian Bosch"
+      },
+      {
+        "email": "sandro.jaeckel@gmail.com",
+        "github": "SuperSandro2000",
+        "githubId": 7258858,
+        "matrix": "@sandro:supersandro.de",
+        "name": "Sandro J\u00e4ckel"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0229bebd37caf01cad975090895a5ba2c5973226",

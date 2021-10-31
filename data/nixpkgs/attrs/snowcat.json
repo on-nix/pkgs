@@ -1,4 +1,34 @@
 {
+  "meta": {
+    "desc": "A tool to audit the istio service mesh",
+    "desc_long": "Snowcat gathers and analyzes the configuration of an Istio cluster and\naudits it for potential violations of security best practices.\n\nThere are two main modes of operation for Snowcat. With no positional\nargument, Snowcat will assume it is running inside of a cluster enabled\nwith Istio, and begin to enumerate the required data. Optionally, you can\npoint snowcat at a directory containing Kubernets YAML files.\n",
+    "home": "https://github.com/praetorian-inc/snowcat",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "hello+nixpkgs@j-k.io",
+        "github": "06kellyjac",
+        "githubId": 9866621,
+        "matrix": "@j-k:matrix.org",
+        "name": "Jack"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0027a1246ae2802a290e545d45b65a5d3a230324",

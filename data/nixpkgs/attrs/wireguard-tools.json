@@ -1,4 +1,70 @@
 {
+  "meta": {
+    "desc": "Tools for the WireGuard secure network tunnel",
+    "desc_long": "Supplies the main userspace tooling for using and configuring WireGuard tunnels, including the wg(8) and wg-quick(8) utilities.\n- wg : the configuration utility for getting and setting the configuration of WireGuard tunnel interfaces. The interfaces\n  themselves can be added and removed using ip-link(8) and their IP addresses and routing tables can be set using ip-address(8)\n  and ip-route(8). The wg utility provides a series of sub-commands for changing WireGuard-specific aspects of WireGuard interfaces.\n- wg-quick : an extremely simple script for easily bringing up a WireGuard interface, suitable for a few common use cases.\n",
+    "home": "https://www.wireguard.com/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "elseym@me.com",
+        "github": "elseym",
+        "githubId": 907478,
+        "name": "Simon Waibl"
+      },
+      {
+        "email": "eric.sagnes@gmail.com",
+        "github": "ericsagnes",
+        "githubId": 367880,
+        "name": "Eric Sagnes"
+      },
+      {
+        "email": "joerg@thalheim.io",
+        "github": "mic92",
+        "githubId": 96200,
+        "keys": [
+          {
+            "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+            "longkeyid": "rsa4096/0x003F2096411B5F92"
+          }
+        ],
+        "matrix": "@mic92:nixos.dev",
+        "name": "J\u00f6rg Thalheim"
+      },
+      {
+        "email": "Jason@zx2c4.com",
+        "github": "zx2c4",
+        "githubId": 10643,
+        "name": "Jason A. Donenfeld"
+      },
+      {
+        "email": "mail@glob.in",
+        "github": "globin",
+        "githubId": 1447245,
+        "name": "Robin Gloster"
+      },
+      {
+        "email": "maximilian@mbosch.me",
+        "github": "ma27",
+        "githubId": 6025220,
+        "matrix": "@ma27:nicht-so.sexy",
+        "name": "Maximilian Bosch"
+      },
+      {
+        "email": "hi@d-xo.org",
+        "github": "d-xo",
+        "githubId": 6689924,
+        "name": "David Terry"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00a66c45e59ad9fa5cc7a37c31fc0245c09cb630",

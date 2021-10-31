@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "220+ constructs, recipes, and snippets extending (and relying on nothing but) the Python standard library",
+    "desc_long": "Boltons is a set of over 220 BSD-licensed, pure-Python utilities\nin the same spirit as \u2014 and yet conspicuously missing from \u2014 the\nstandard library, including:\n\n- Atomic file saving, bolted on with fileutils\n- A highly-optimized OrderedMultiDict, in dictutils\n- Two types of PriorityQueue, in queueutils\n- Chunked and windowed iteration, in iterutils\n- Recursive data structure iteration and merging, with iterutils.remap\n- Exponential backoff functionality, including jitter, through\niterutils.backoff\n- A full-featured TracebackInfo type, for representing stack\ntraces, in tbutils\n",
+    "home": "https://github.com/mahmoud/boltons",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "twey@twey.co.uk",
+        "github": "Twey",
+        "githubId": 101639,
+        "name": "James \u2018Twey\u2019 Kay"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "027c28b18a2a3a7fc2f92a2a7a6b0eb1e226f17c",

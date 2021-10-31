@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Transparently encrypt files within a Git repository",
+    "desc_long": "A script to configure transparent encryption of sensitive files stored in\na Git repository. Files that you choose will be automatically encrypted\nwhen you commit them, and automatically decrypted when you check them\nout. The process will degrade gracefully, so even people without your\nencryption password can safely commit changes to the repository's\nnon-encrypted files.\n",
+    "home": "https://github.com/elasticdog/transcrypt",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "aaron@elasticdog.com",
+        "github": "elasticdog",
+        "githubId": 4742,
+        "name": "Aaron Bull Schaefer"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03a818a6f8b86f66bf0264b5cf25eb08c852e1e2",

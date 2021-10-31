@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Cross-platform screenshot tool wihth many annotation features",
+    "desc_long": "Features:\n\n- Supports Linux (X11, Plasma Wayland, GNOME Wayland and xdg-desktop-portal Wayland), Windows and macOS.\n- Screenshot of a custom rectangular area that can be drawn with mouse cursor.\n- Screenshot of last selected rectangular area without selecting again.\n- Screenshot of the screen/monitor where the mouse cursor is currently located.\n- Screenshot of full-screen, including all screens/monitors.\n- Screenshot of window that currently has focus.\n- Screenshot of window under mouse cursor.\n- Screenshot with or without mouse cursor.\n- Capture mouse cursor as annotation item that can be moved and deleted.\n- Customizable capture delay for all capture options.\n- Upload screenshots directly to imgur.com in anonymous or user mode.\n- Upload screenshots via custom user defined scripts.\n- Command-line support, for capturing screenshots and saving to default location, filename and format.\n- Filename wildcards for Year ($Y), Month ($M), Day ($D), Time ($T) and Counter (multiple # characters for number with zero-leading padding).\n- Print screenshot or save it to PDF/PS.\n- Annotate screenshots with pen, marker, rectangles, ellipses, texts and other tools.\n- Annotate screenshots with stickers and add custom stickers.\n- Obfuscate image regions with blur and pixelate.\n- Add effects to image (Drop Shadow, Grayscale, invert color or Border).\n- Add watermarks to captured images.\n- Global hotkeys for capturing screenshots (currently only for Windows and X11).\n- Tabs for screenshots and images.\n- Open existing images via dialog, drag-and-drop or paste from clipboard.\n- Run as single instance application (secondary instances send cli parameter to primary instance).\n- Pin screenshots in frameless windows that stay atop other windows.\n- User-defined actions for taking screenshot and post-processing.\n- Many configuration options.\n",
+    "home": "https://github.com/ksnip/ksnip",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@x3ro.dev",
+        "github": "x3rAx",
+        "githubId": 2268851,
+        "name": "^x3ro"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "004822554c840c322153770381d90969be9a2d93",

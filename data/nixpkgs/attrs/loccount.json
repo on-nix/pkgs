@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Re-implementation of sloccount in Go",
+    "desc_long": "loccount is a re-implementation of David A. Wheeler's sloccount tool\nin Go.  It is faster and handles more different languages. Because\nit's one source file in Go, it is easier to maintain and extend than the\nmulti-file, multi-language implementation of the original.\n\nThe algorithms are largely unchanged and can be expected to produce\nidentical numbers for languages supported by both tools.  Python is\nan exception; loccount corrects buggy counting of single-quote multiline\nliterals in sloccount 2.26.\n",
+    "home": "https://gitlab.com/esr/loccount",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "calvertvl@gmail.com",
+        "github": "calvertvl",
+        "githubId": 7435854,
+        "name": "Victor Calvert"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "029fa375c8188c561eb74d8a08d12a78b4a34f0c",

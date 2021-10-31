@@ -1,4 +1,39 @@
 {
+  "meta": {
+    "desc": "Perform in-depth comparison of files, archives, and directories",
+    "desc_long": "diffoscope will try to get to the bottom of what makes files or directories\ndifferent. It will recursively unpack archives of many kinds and transform\nvarious binary formats into more human readable form to compare them. It can\ncompare two tarballs, ISO images, or PDF just as easily. The differences can\nbe shown in a text or HTML report.\n\ndiffoscope is developed as part of the \"reproducible builds\" Debian\nproject and was formerly known as \"debbindiff\".\n",
+    "home": "https://diffoscope.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "tuomas.tynkkynen@iki.fi",
+        "github": "dezgeg",
+        "githubId": 579369,
+        "name": "Tuomas Tynkkynen"
+      },
+      {
+        "email": "maximilian@mbosch.me",
+        "github": "ma27",
+        "githubId": 6025220,
+        "matrix": "@ma27:nicht-so.sexy",
+        "name": "Maximilian Bosch"
+      },
+      {
+        "email": "danielrf12@gmail.com",
+        "github": "danielfullmer",
+        "githubId": 1298344,
+        "name": "Daniel Fullmer"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0017d42f1edeb6b58ea4d0448664156300bc7ebd",

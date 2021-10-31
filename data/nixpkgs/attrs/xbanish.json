@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Hides mouse pointer while not in use",
+    "desc_long": "xbanish hides the mouse cursor when you start typing, and shows it again when\nthe mouse cursor moves or a mouse button is pressed.  This is similar to\nxterm's pointerMode setting, but xbanish works globally in the X11 session.\n\nunclutter's -keystroke mode is supposed to do this, but it's broken[0].  I\nlooked into fixing it, but the unclutter source code is terrible, so I wrote\nxbanish.\n\nThe name comes from ratpoison's \"banish\" command that sends the cursor to the\ncorner of the screen.\n",
+    "home": null,
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "hurshal@imap.cc",
+        "github": "choochootrain",
+        "githubId": 803961,
+        "name": "Hurshal Patel"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "005b5770f482700cf0d787106b39c5efba030ae6",

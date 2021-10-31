@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "Portable abstraction of hierarchical architectures for high-performance computing",
+    "desc_long": "hwloc provides a portable abstraction (across OS,\nversions, architectures, ...) of the hierarchical topology of\nmodern architectures, including NUMA memory nodes, sockets,\nshared caches, cores and simultaneous multithreading.  It also\ngathers various attributes such as cache and memory\ninformation.  It primarily aims at helping high-performance\ncomputing applications with gathering information about the\nhardware so as to exploit it accordingly and efficiently.\n\nhwloc may display the topology in multiple convenient\nformats.  It also offers a powerful programming interface to\ngather information about the hardware, bind processes, and much\nmore.\n",
+    "home": "https://www.open-mpi.org/projects/hwloc/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      },
+      {
+        "email": "markus.kowalewski@gmail.com",
+        "github": "markuskowa",
+        "githubId": 26470037,
+        "name": "Markus Kowalewski"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0187e72b571e3afc3e761d101deadf15b6c5b760",

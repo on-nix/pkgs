@@ -1,4 +1,34 @@
 {
+  "meta": {
+    "desc": "Kubernetes-native security tool kit",
+    "desc_long": "Starboard integrates security tools into the Kubernetes environment, so\nthat users can find and view the risks that relate to different resources\nin a Kubernetes-native way. Starboard provides custom security resources\ndefinitions and a Go module to work with a range of existing security\ntools, as well as a kubectl-compatible command-line tool and an Octant\nplug-in that make security reports available through familiar Kubernetes\ntools.\n",
+    "home": "https://github.com/aquasecurity/starboard",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "hello+nixpkgs@j-k.io",
+        "github": "06kellyjac",
+        "githubId": 9866621,
+        "matrix": "@j-k:matrix.org",
+        "name": "Jack"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00a66c45e59ad9fa5cc7a37c31fc0245c09cb630",

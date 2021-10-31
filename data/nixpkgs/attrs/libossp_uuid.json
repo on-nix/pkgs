@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "OSSP uuid ISO-C and C++ shared library",
+    "desc_long": "OSSP uuid is a ISO-C:1999 application programming interface\n(API) and corresponding command line interface (CLI) for the\ngeneration of DCE 1.1, ISO/IEC 11578:1996 and RFC 4122\ncompliant Universally Unique Identifier (UUID). It supports\nDCE 1.1 variant UUIDs of version 1 (time and node based),\nversion 3 (name based, MD5), version 4 (random number based)\nand version 5 (name based, SHA-1). Additional API bindings are\nprovided for the languages ISO-C++:1998, Perl:5 and\nPHP:4/5. Optional backward compatibility exists for the ISO-C\nDCE-1.1 and Perl Data::UUID APIs.\n\nUUIDs are 128 bit numbers which are intended to have a high\nlikelihood of uniqueness over space and time and are\ncomputationally difficult to guess. They are globally unique\nidentifiers which can be locally generated without contacting\na global registration authority. UUIDs are intended as unique\nidentifiers for both mass tagging objects with an extremely\nshort lifetime and to reliably identifying very persistent\nobjects across a network.\n",
+    "home": "http://www.ossp.org/pkg/lib/uuid/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "000b1ad43accf62263ef519bc0b0d4056c3e80b5",

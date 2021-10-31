@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Tool for applying patches with conflicts",
+    "desc_long": "Wiggle applies patches to a file in a similar manner to the patch(1)\nprogram. The distinctive difference is, however, that wiggle will\nattempt to apply a patch even if the \"before\" part of the patch doesn't\nmatch the target file perfectly. This is achieved by breaking the file\nand patch into words and finding the best alignment of words in the file\nwith words in the patch. Once this alignment has been found, any\ndifferences (word-wise) in the patch are applied to the file as best as\npossible. Also, wiggle will (in some cases) detect changes that have\nalready been applied, and will ignore them.\n",
+    "home": "https://blog.neil.brown.name/category/wiggle/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "0044c62188d381bd952ec70d763b58ed42a2f3cb",

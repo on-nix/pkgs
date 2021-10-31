@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Run SQL directly on CSV or TSV files",
+    "desc_long": "q is a command line tool that allows direct execution of SQL-like queries on CSVs/TSVs (and any other tabular text files).\n\nq treats ordinary files as database tables, and supports all SQL constructs, such as WHERE, GROUP BY, JOINs etc. It supports automatic column name and column type detection, and provides full support for multiple encodings.\n",
+    "home": "http://harelba.github.io/q/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "nvd1234@gmail.com",
+        "github": "Taneb",
+        "githubId": 1901799,
+        "name": "Nathan van Doorn"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02437ff86c879a9a5e39398574a79c1fd20c9d08",

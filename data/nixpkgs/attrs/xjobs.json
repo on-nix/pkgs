@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "A program which reads job descriptions line by line and executes them in parallel",
+    "desc_long": "xjobs reads job descriptions line by line and executes them in parallel.\n\nIt limits the number of parallel executing jobs and starts new jobs when jobs finish.\n\nTherefore, it combines the arguments from every input line with the utility\nand arguments given on the command line.\nIf no utility is given as an argument to xjobs,\nthen the first argument on every job line will be used as utility.\nTo execute utility xjobs searches the directories given in the PATH environment variable\nand uses the first file found in these directories.\n\nxjobs is most useful on multi-processor/core machines when one needs to execute\nseveral time consuming command several that could possibly be run in parallel.\nWith xjobs this can be achieved easily, and it is possible to limit the load\nof the machine to a useful value.\n\nIt works similar to xargs, but starts several processes simultaneously\nand gives only one line of arguments to each utility call.\n",
+    "home": "https://www.maier-komor.de/xjobs.html",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "sirio@b-ad.ch",
+        "github": "siriobalmelli",
+        "githubId": 23038812,
+        "keys": [
+          {
+            "fingerprint": "B234 EFD4 2B42 FE81 EE4D  7627 F72C 4A88 7F9A 24CA",
+            "longkeyid": "ed25519/0xF72C4A887F9A24CA"
+          }
+        ],
+        "name": "Sirio Balmelli"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "008bbde5e7a6eccbda3c0a0a6508fdfec6c3352e",

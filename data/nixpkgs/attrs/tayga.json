@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "Userland stateless NAT64 daemon",
+    "desc_long": "TAYGA is an out-of-kernel stateless NAT64 implementation\nfor Linux that uses the TUN driver to exchange IPv4 and\nIPv6 packets with the kernel.\nIt is intended to provide production-quality NAT64 service\nfor networks where dedicated NAT64 hardware would be overkill.\n",
+    "home": "http://www.litech.org/tayga",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail-maintainer@0x4A6F.dev",
+        "github": "0x4A6F",
+        "githubId": 9675338,
+        "keys": [
+          {
+            "fingerprint": "F466 A548 AD3F C1F1 8C88  4576 8702 7528 B006 D66D",
+            "longkeyid": "rsa8192/0x87027528B006D66D"
+          }
+        ],
+        "matrix": "@0x4a6f:matrix.org",
+        "name": "Joachim Ernst"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03050e9749e1548f1648aae5c062c954eaad546e",

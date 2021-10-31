@@ -1,4 +1,43 @@
 {
+  "meta": {
+    "desc": "Patch-level verification for Bundler",
+    "desc_long": "Features:\n- Checks for vulnerable versions of gems in Gemfile.lock.\n- Checks for insecure gem sources (http://).\n- Allows ignoring certain advisories that have been manually worked around.\n- Prints advisory information.\n- Does not require a network connection.\n",
+    "home": "https://github.com/rubysec/bundler-audit",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      },
+      {
+        "email": "nixpkgs@nicknovitski.com",
+        "github": "nicknovitski",
+        "githubId": 151337,
+        "name": "Nick Novitski"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "006c32f161d23af58a730643c7bd1d6b09348045",

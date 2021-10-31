@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Removes large or troublesome blobs in a git repository like git-filter-branch does, but faster",
+    "desc_long": "The BFG is a simpler, faster alternative to git-filter-branch for\ncleansing bad data out of your Git repository history, in particular removing\ncrazy big files and removing passwords, credentials, and other private data.\n\nThe git-filter-branch command is enormously powerful and can do things\nthat the BFG can't - but the BFG is much better for the tasks above, because\nit's faster (10-720x), simpler (dedicated to just removing things), and\nbeautiful (can use Scala instead of bash to script customizations).\n",
+    "home": "https://rtyley.github.io/bfg-repo-cleaner/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@changlinli.com",
+        "github": "changlinli",
+        "githubId": 1762540,
+        "name": "Changlin Li"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

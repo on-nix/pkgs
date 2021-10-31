@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "System-wide profiler for Linux",
+    "desc_long": "OProfile is a system-wide profiler for Linux systems, capable of\nprofiling all running code at low overhead.  It consists of a\nkernel driver and a daemon for collecting sample data, and\nseveral post-profiling tools for turning data into information.\n\nOProfile leverages the hardware performance counters of the CPU\nto enable profiling of a wide variety of interesting statistics,\nwhich can also be used for basic time-spent profiling. All code\nis profiled: hardware and software interrupt handlers, kernel\nmodules, the kernel, shared libraries, and applications.\n",
+    "home": "http://oprofile.sourceforge.net/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "00eedc07f346649f5cdfb76944e7c97e5de8c615",

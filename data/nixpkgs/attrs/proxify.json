@@ -1,4 +1,40 @@
 {
+  "meta": {
+    "desc": "Proxy tool for HTTP/HTTPS traffic capture",
+    "desc_long": "This tool supports multiple operations such as request/response dump, filtering\nand manipulation via DSL language, upstream HTTP/Socks5 proxy. Additionally a\nreplay utility allows to import the dumped traffic (request/responses with correct\ndomain name) into other tools by simply setting the upstream proxy to proxify.\n",
+    "home": "https://github.com/projectdiscovery/proxify",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@fabian-affolter.ch",
+        "github": "fabaff",
+        "githubId": 116184,
+        "keys": [
+          {
+            "fingerprint": "2F6C 930F D3C4 7E38 6AFA  4EB4 E23C D2DD 36A4 397F",
+            "longkeyid": "dsa1024/0xE23CD2DD36A4397F"
+          }
+        ],
+        "matrix": "@fabaff:matrix.org",
+        "name": "Fabian Affolter"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "039764362bd23fee07ddce1a6b284e4348a08f41",

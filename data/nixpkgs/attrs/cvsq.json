@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A collection of tools to work locally with CVS",
+    "desc_long": "cvsq is a collection of tools to work locally with CVS.\n\ncvsq queues commits and other cvs commands in a queue to be executed later,\nwhen the machine is online again. In case of a commit (the default action)\nan actual copy of the working directory is made, so that you can continue\nediting without affecting the scheduled commit. You can even schedule\nseveral successive commits to the same file and they will be correctly\ncommitted as successive commits at the time of upload. This is different\nfrom an earlier script also named cvsq that you might have seen elsewhere.\n\nlcvs uses rsync to maintain a local copy of a cvs repository. It also\ngives a convenient interface to call cvs in such a way that it believes the\ncurrent working directory refers to the local copy rather than to the actual\nrepository. This is useful for commands like log, diff, etc; however it cannot\nbe used for commits (that's what cvsq is for).\n",
+    "home": "https://www.linta.de/~aehlig/cvsq/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "c@lkamp.de",
+        "github": "clkamp",
+        "githubId": 46303707,
+        "name": "Christian L\u00fctke-Stetzkamp"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01f03f30db5755349b857b6939100bbb4c32303e",

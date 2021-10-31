@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "A C library and tools for manipulating with Ogg files and streams",
+    "desc_long": "Oggz comprises liboggz and the tool oggz, which provides commands to\ninspect, edit and validate Ogg files. The oggz-chop tool can also be used\nto serve time ranges of Ogg media over HTTP by any web server that\nsupports CGI.\n\nliboggz is a C library for reading and writing Ogg files and streams.  It\noffers various improvements over the reference libogg, including support\nfor seeking, validation and timestamp interpretation. Ogg is an\ninterleaving data container developed by Monty at Xiph.Org, originally to\nsupport the Ogg Vorbis audio format but now used for many free codecs\nincluding Dirac, FLAC, Speex and Theora.",
+    "home": "https://xiph.org/oggz/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "039e45f584ac518ad924230b5593d8555a62dce8",

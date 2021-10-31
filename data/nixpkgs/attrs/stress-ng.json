@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Stress test a computer system",
+    "desc_long": "stress-ng will stress test a computer system in various selectable ways. It\nwas designed to exercise various physical subsystems of a computer as well as\nthe various operating system kernel interfaces. Stress-ng features:\n\n  * over 210 stress tests\n  * over 50 CPU specific stress tests that exercise floating point, integer,\n    bit manipulation and control flow\n  * over 20 virtual memory stress tests\n  * portable: builds on Linux, Solaris, *BSD, Minix, Android, MacOS X,\n    Debian Hurd, Haiku, Windows Subsystem for Linux and SunOs/Dilos with\n    gcc, clang, tcc and pcc.\n\nstress-ng was originally intended to make a machine work hard and trip hardware\nissues such as thermal overruns as well as operating system bugs that only\noccur when a system is being thrashed hard. Use stress-ng with caution as some\nof the tests can make a system run hot on poorly designed hardware and also can\ncause excessive system thrashing which may be difficult to stop.\n\nstress-ng can also measure test throughput rates; this can be useful to observe\nperformance changes across different operating system releases or types of\nhardware. However, it has never been intended to be used as a precise benchmark\ntest suite, so do NOT use it in this manner.\n",
+    "home": "https://kernel.ubuntu.com/~cking/stress-ng/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "c0bw3b@gmail.com",
+        "github": "c0bw3b",
+        "githubId": 24417923,
+        "name": "Renaud"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00c5aa27ba8643fc8cecf937a78085ed1f4a9a7f",

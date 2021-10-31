@@ -1,4 +1,50 @@
 {
+  "meta": {
+    "desc": "Yubico Authenticator",
+    "desc_long": "Application for generating Open Authentication (OATH) time-based TOTP and\nevent-based HOTP one-time password codes, with the help of a YubiKey that\nprotects the shared secrets.\n",
+    "home": "https://developers.yubico.com/yubioath-desktop",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "joerg@thalheim.io",
+        "github": "mic92",
+        "githubId": 96200,
+        "keys": [
+          {
+            "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+            "longkeyid": "rsa4096/0x003F2096411B5F92"
+          }
+        ],
+        "matrix": "@mic92:nixos.dev",
+        "name": "J\u00f6rg Thalheim"
+      },
+      {
+        "email": "marc.schmitt@risson.space",
+        "github": "rissson",
+        "githubId": 18313093,
+        "keys": [
+          {
+            "fingerprint": "8A0E 6A7C 08AB B9DE 67DE  2A13 F6FD 87B1 5C26 3EC9",
+            "longkeyid": "rsa4096/0xF6FD87B15C263EC9"
+          },
+          {
+            "fingerprint": "C0A7 A9BB 115B C857 4D75  EA99 BBB7 A680 1DF1 E03F",
+            "longkeyid": "ed25519/0xBBB7A6801DF1E03F"
+          }
+        ],
+        "matrix": "@risson:lama-corp.space",
+        "name": "Marc Schmitt"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

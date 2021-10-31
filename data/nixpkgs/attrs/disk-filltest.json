@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Simple program to detect bad disks by filling them with random data",
+    "desc_long": "disk-filltest is a tool to check storage disks for coming\nfailures by write files with pseudo-random data to the current\ndirectory until the disk is full, read the files again\nand verify the sequence written. It also can measure\nread/write speed while filling the disk.\n",
+    "home": "https://panthema.net/2013/disk-filltest",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "v88m@posteo.net",
+        "github": "caadar",
+        "githubId": 15320726,
+        "name": "Car Cdr"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00eedc07f346649f5cdfb76944e7c97e5de8c615",

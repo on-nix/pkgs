@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Brightness slider for all the monitors detected by ddcutil",
+    "desc_long": "Brightness slider for all the monitors detected by ddcutil\nThis tool uses ddcutil as backend for communication with your display.\n\nMake sure that your user can use following shell commands without root.\n\t`ddcutil getvcp 10` to check the brightness of a display and\n\t`ddcutil setvcp 10 100` to set the brightness to 100\n\nMore info: https://github.com/daitj/gnome-display-brightness-ddcutil/blob/master/README.md",
+    "home": "https://extensions.gnome.org/extension/2645/brightness-control-using-ddcutil/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@piegames.de",
+        "github": "piegamesde",
+        "githubId": 14054505,
+        "matrix": "@piegames:matrix.org",
+        "name": "piegames"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "019200160c257bf5cd4880d2501e03c9868ed89b",

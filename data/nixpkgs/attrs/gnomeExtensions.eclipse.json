@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "eclipse clipboard interface with item encryption",
+    "desc_long": "eclipse clipboard interface with item encryption\n\nAdded encryption of clipboard items. Encrypted items can be\nsaved to disk in a folder of your choice. These items are persisted\nbetween sessions using openssl to encrypt the content.\n\nEclipse uses dbus to communicate with the gpaste daemon.\n\nThe following utilities are required,\n\n# for example, on fedora (add gpaste-ui for gpaste settings gui)\n$ sudo dnf install gpaste openssl\n# ubuntu\n$ sudo apt install gpaste openssl\n\nNow works with Gpaste 1 and Gpaste 2 on GS 3.36, 3.38 and 40\n\nIf updating the extension reports an ERROR it should work after the next reboot or if you logout and login again. If you're not running on Wayland you should be able to just restart the shell (Alt+F2,r).\n\nPlease report issues on github.\n",
+    "home": "https://extensions.gnome.org/extension/4246/eclipse/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@piegames.de",
+        "github": "piegamesde",
+        "githubId": 14054505,
+        "matrix": "@piegames:matrix.org",
+        "name": "piegames"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "019200160c257bf5cd4880d2501e03c9868ed89b",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "System to facilitate installing and updating packages - Qt",
+    "desc_long": "PackageKit is a system designed to make installing and updating software\non your computer easier. The primary design goal is to unify all the\nsoftware graphical tools used in different distributions, and use some of\nthe latest technology like PolicyKit. The actual nuts-and-bolts distro\ntool (dnf, apt, etc) is used by PackageKit using compiled and scripted\nhelpers. PackageKit isn't meant to replace these tools, instead providing\na common set of abstractions that can be used by standard GUI and text\nmode package managers.\n",
+    "home": "http://www.packagekit.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "mjbauer95@gmail.com",
+        "github": "matthewbauer",
+        "githubId": 19036,
+        "name": "Matthew Bauer"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "005f545f46afd57abd037a37efa6b42fbc07c7c8",

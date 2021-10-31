@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Framework for testing other programs",
+    "desc_long": "DejaGnu is a framework for testing other programs.  Its purpose\nis to provide a single front end for all tests.  Think of it as a\ncustom library of Tcl procedures crafted to support writing a\ntest harness.  A test harness is the testing infrastructure that\nis created to support a specific program or tool.  Each program\ncan have multiple testsuites, all supported by a single test\nharness.  DejaGnu is written in Expect, which in turn uses Tcl --\nTool command language.\n",
+    "home": "https://www.gnu.org/software/dejagnu/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "rahul@gopinath.org",
+        "github": "vrthra",
+        "githubId": 70410,
+        "name": "Rahul Gopinath"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02a1a2b3c81a8a93bbc75046804cfe4e90f1bced",

@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Framework for distributed processing of large data sets across clusters of computers",
+    "desc_long": "The Apache Hadoop software library is a framework that allows for\nthe distributed processing of large data sets across clusters of\ncomputers using a simple programming model. It is designed to\nscale up from single servers to thousands of machines, each\noffering local computation and storage. Rather than rely on\nhardware to deliver high-avaiability, the library itself is\ndesigned to detect and handle failures at the application layer,\nso delivering a highly-availabile service on top of a cluster of\ncomputers, each of which may be prone to failures.\n",
+    "home": "https://hadoop.apache.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "jaroslavas@volth.com",
+        "github": "volth",
+        "githubId": 508305,
+        "name": "Jaroslavas Pocepko"
+      },
+      {
+        "email": "me@illustris.tech",
+        "github": "illustris",
+        "githubId": 3948275,
+        "name": "Harikrishnan R"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0208a915c8c25725523a561db593d767a5a74d3d",

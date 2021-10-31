@@ -1,4 +1,24 @@
 {
+  "meta": {
+    "desc": "Command-line tools for building TCP client-server applications",
+    "desc_long": "tcpserver waits for incoming connections and, for each connection, runs a\nprogram of your choice. Your program receives environment variables\nshowing the local and remote host names, IP addresses, and port numbers.\n\ntcpserver offers a concurrency limit to protect you from running out of\nprocesses and memory. When you are handling 40 (by default) simultaneous\nconnections, tcpserver smoothly defers acceptance of new connections.\n\ntcpserver also provides TCP access control features, similar to\ntcp-wrappers/tcpd's hosts.allow but much faster. Its access control rules\nare compiled into a hashed format with cdb, so it can easily deal with\nthousands of different hosts.\n\nThis package includes a recordio tool that monitors all the input and\noutput of a server.\n\ntcpclient makes a TCP connection and runs a program of your choice. It\nsets up the same environment variables as tcpserver.\n\nThis package includes several sample clients built on top of tcpclient:\nwho@, date@, finger@, http@, tcpcat, and mconnect.\n\ntcpserver and tcpclient conform to UCSPI, the UNIX Client-Server Program\nInterface, using the TCP protocol. UCSPI tools are available for several\ndifferent networks.\n",
+    "home": "http://cr.yp.to/ucspi-tcp.html",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Public Domain",
+      "redistributable": true,
+      "shortName": "publicDomain"
+    },
+    "maintainers": [
+      {
+        "email": "bjorn.forsman@gmail.com",
+        "github": "bjornfor",
+        "githubId": 133602,
+        "name": "Bj\u00f8rn Forsman"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "004be1bf510aac2c0a7b2c14246766feb784a027",

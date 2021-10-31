@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Interface for terminal emulators such as screen and xterm to record user sessions to utmp and wtmp files",
+    "desc_long": "The bundled utempter binary must be able to run as a user belonging to group utmp.\nOn NixOS systems, this can be achieved by creating a setguid wrapper.\n",
+    "home": null,
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v2.1 or later",
+      "redistributable": true,
+      "shortName": "lgpl21Plus",
+      "spdxId": "LGPL-2.1-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "emailmatthijs@gmail.com",
+        "github": "msteen",
+        "githubId": 788953,
+        "name": "Matthijs Steen"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "030838ba25e8a7bcfdcbbcf572a549ae1a3a42c2",

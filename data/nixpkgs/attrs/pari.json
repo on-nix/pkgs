@@ -1,4 +1,56 @@
 {
+  "meta": {
+    "desc": "Computer algebra system for high-performance number theory computations",
+    "desc_long": "PARI/GP is a widely used computer algebra system designed for fast\ncomputations in number theory (factorizations, algebraic number theory,\nelliptic curves...), but also contains a large number of other useful\nfunctions to compute with mathematical entities such as matrices,\npolynomials, power series, algebraic numbers etc., and a lot of\ntranscendental functions. PARI is also available as a C library to allow\nfor faster computations.\n\nOriginally developed by Henri Cohen and his co-workers (Universit\u00e9\nBordeaux I, France), PARI is now under the GPL and maintained by Karim\nBelabas with the help of many volunteer contributors.\n\n- PARI is a C library, allowing fast computations.\n- gp is an easy-to-use interactive shell giving access to the PARI\n  functions.\n- GP is the name of gp's scripting language.\n- gp2c, the GP-to-C compiler, combines the best of both worlds by\n  compiling GP scripts to the C language and transparently loading the\n  resulting functions into gp. (gp2c-compiled scripts will typically run\n  3 or 4 times faster.) gp2c currently only understands a subset of the\n  GP language.\n",
+    "home": "http://pari.math.u-bordeaux.fr",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "esz@posteo.de",
+        "github": "ertes",
+        "githubId": 1855930,
+        "name": "Ertugrul S\u00f6ylemez"
+      },
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      },
+      {
+        "email": "timokau@zoho.com",
+        "github": "timokau",
+        "githubId": 3799330,
+        "name": "Timo Kaufmann"
+      },
+      {
+        "email": "167209+omasanori@users.noreply.github.com",
+        "github": "omasanori",
+        "githubId": 167209,
+        "name": "Masanori Ogino"
+      },
+      {
+        "email": "7c6f434c@mail.ru",
+        "github": "7c6f434c",
+        "githubId": 1891350,
+        "name": "Michael Raskin"
+      },
+      {
+        "email": "mauricio@collares.org",
+        "github": "collares",
+        "githubId": 244239,
+        "name": "Mauricio Collares"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

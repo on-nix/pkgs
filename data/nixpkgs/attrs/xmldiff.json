@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A library and command line utility for diffing xml",
+    "desc_long": "xmldiff is a library and a command-line utility for making diffs out of\nXML. This may seem like something that doesn't need a dedicated utility,\nbut change detection in hierarchical data is very different from change\ndetection in flat data. XML type formats are also not only used for\ncomputer readable data, it is also often used as a format for hierarchical\ndata that can be rendered into human readable formats. A traditional diff\non such a format would tell you line by line the differences, but this\nwould not be be readable by a human. xmldiff provides tools to make human\nreadable diffs in those situations.\n",
+    "home": "https://xmldiff.readthedocs.io/en/stable/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00a1314d695854c045798a14a8fb18d99888f3f5",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Restore tmux environment after system restart",
+    "desc_long": "This plugin goes to great lengths to save and restore all the details\nfrom your tmux environment. Here's what's been taken care of:\n\n* all sessions, windows, panes and their order\n* current working directory for each pane\n* exact pane layouts within windows (even when zoomed)\n* active and alternative session\n* active and alternative window for each session\n* windows with focus\n* active pane for each window\n* \"grouped sessions\" (useful feature when using tmux with multiple monitors)\n* programs running within a pane! More details in the restoring programs doc.\n\nOptional:\n* restoring vim and neovim sessions\n* restoring pane contents\n",
+    "home": "https://github.com/tmux-plugins/tmux-resurrect",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "macfhlar@tcd.ie",
+        "github": "ronanmacf",
+        "githubId": 25930627,
+        "name": "Ronan Mac Fhlannchadha"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0229bebd37caf01cad975090895a5ba2c5973226",

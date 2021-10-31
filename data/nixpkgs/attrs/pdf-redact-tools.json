@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Redact and strip metadata from documents before publishing",
+    "desc_long": "PDF Redact Tools helps with securely redacting and stripping metadata\nfrom documents before publishing. Note that this is not a security tool.\nIt uses ImageMagick to parse PDFs.  While ImageMagick is a versatile tool, it has\na history of several security bugs. A malicious PDF could exploit a bug in\nImageMagick to take over your computer. If you're working with potentially\nmalicious PDFs, it's safest to run them through PDF Redact Tools in an isolated\nenvironment, such as a virtual machine, or by using a tool such as the Qubes\nPDF Converter instead.\n",
+    "home": null,
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "ml.software@leenaa.rs",
+        "github": "leenaars",
+        "githubId": 4158274,
+        "name": "Michiel Leenaars"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01040d9c27cce96a095dffe8225e220fb8e8dbcc",

@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "Modern (2.1) release of the GNU Privacy Guard, a GPL OpenPGP implementation",
+    "desc_long": "The GNU Privacy Guard is the GNU project's complete and free\nimplementation of the OpenPGP standard as defined by RFC4880.  GnuPG\n\"modern\" (2.1) is the latest development with a lot of new features.\nGnuPG allows to encrypt and sign your data and communication, features a\nversatile key management system as well as access modules for all kind of\npublic key directories.  GnuPG, also known as GPG, is a command line tool\nwith features for easy integration with other applications.  A wealth of\nfrontend applications and libraries are available.  Version 2 of GnuPG\nalso provides support for S/MIME.\n",
+    "home": "https://gnupg.org",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      },
+      {
+        "email": "rahul@gopinath.org",
+        "github": "vrthra",
+        "githubId": 70410,
+        "name": "Rahul Gopinath"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02f64b7081a63921ff6cc57dc84af294089dd8da",

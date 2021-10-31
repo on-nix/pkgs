@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Deduplication for Btrfs",
+    "desc_long": "Deduplication for Btrfs. bedup looks for new and changed files,\nmaking sure that multiple copies of identical files share space\non disk. It integrates deeply with btrfs so that scans are\nincremental and low-impact.\n",
+    "home": "https://github.com/g2p/bedup",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "mathijs@bluescreen303.nl",
+        "github": "bluescreen303",
+        "githubId": 16330,
+        "name": "Mathijs Kwik"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01f465c82b7fb4088a1cffb837508a95e29cb8d2",

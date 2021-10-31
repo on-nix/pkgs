@@ -1,4 +1,43 @@
 {
+  "meta": {
+    "desc": "A Python-based network packet manipulation program and library",
+    "desc_long": "Scapy is a powerful Python-based interactive packet manipulation program\nand library.\n\nIt is able to forge or decode packets of a wide number of protocols, send\nthem on the wire, capture them, store or read them using pcap files,\nmatch requests and replies, and much more. It is designed to allow fast\npacket prototyping by using default values that work.\n\nIt can easily handle most classical tasks like scanning, tracerouting,\nprobing, unit tests, attacks or network discovery (it can replace hping,\n85% of nmap, arpspoof, arp-sk, arping, tcpdump, wireshark, p0f, etc.). It\nalso performs very well at a lot of other specific tasks that most other\ntools can't handle, like sending invalid frames, injecting your own\n802.11 frames, combining techniques (VLAN hopping+ARP cache poisoning,\nVoIP decoding on WEP protected channel, ...), etc.\n\nScapy supports Python 2.7 and Python 3 (3.4 to 3.8). It's intended to be\ncross platform, and runs on many different platforms (Linux, OSX, *BSD,\nand Windows).\n",
+    "home": "https://scapy.net/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 only",
+      "redistributable": true,
+      "shortName": "gpl2Only",
+      "spdxId": "GPL-2.0-only",
+      "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      },
+      {
+        "email": "bjorn.forsman@gmail.com",
+        "github": "bjornfor",
+        "githubId": 133602,
+        "name": "Bj\u00f8rn Forsman"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

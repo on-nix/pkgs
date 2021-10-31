@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Memory Based Tagger",
+    "desc_long": "MBT is a memory-based tagger-generator and tagger in one. The tagger-generator part can generate a sequence tagger on the basis of a training set of tagged sequences; the tagger part can tag new sequences. MBT can, for instance, be used to generate part-of-speech taggers or chunkers for natural language processing. It has also been used for named-entity recognition, information extraction in domain-specific texts, and disfluency chunking in transcribed speech.\n\nMbt is used by Frog for Dutch tagging.\n",
+    "home": "https://languagemachines.github.io/mbt/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "nixpkgs@roberthensing.nl",
+        "github": "roberth",
+        "githubId": 496447,
+        "matrix": "@roberthensing:matrix.org",
+        "name": "Robert Hensing"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0387f84cf37acdf322aa020a6c4aac0eb1c07c28",

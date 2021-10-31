@@ -1,4 +1,50 @@
 {
+  "meta": {
+    "desc": "A Clojure babushka for the grey areas of Bash",
+    "desc_long": "  The main idea behind babashka is to leverage Clojure in places where you\n  would be using bash otherwise.\n\n  As one user described it:\n\n      I\u2019m quite at home in Bash most of the time, but there\u2019s a substantial\n      grey area of things that are too complicated to be simple in bash, but\n      too simple to be worth writing a clj/s script for. Babashka really\n      seems to hit the sweet spot for those cases.\n\nGoals:\n\n- Low latency Clojure scripting alternative to JVM Clojure.\n- Easy installation: grab the self-contained binary and run. No JVM needed.\n- Familiarity and portability:\n  - Scripts should be compatible with JVM Clojure as much as possible\n  - Scripts should be platform-independent as much as possible. Babashka\n    offers support for linux, macOS and Windows.\n- Allow interop with commonly used classes like java.io.File and System\n- Multi-threading support (pmap, future, core.async)\n- Batteries included (tools.cli, cheshire, ...)\n- Library support via popular tools like the clojure CLI\n",
+    "home": "https://github.com/babashka/babashka",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Eclipse Public License 1.0",
+      "redistributable": true,
+      "shortName": "epl10",
+      "spdxId": "EPL-1.0",
+      "url": "https://spdx.org/licenses/EPL-1.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "bandresen@gmail.com",
+        "github": "bandresen",
+        "githubId": 80325,
+        "name": "Benjamin Andresen"
+      },
+      {
+        "email": "benjamin.hougland@gmail.com",
+        "github": "bhougland18",
+        "githubId": 28444296,
+        "name": "Benjamin Hougland"
+      },
+      {
+        "email": "moritz@twoticketsplease.de",
+        "github": "DerGuteMoritz",
+        "githubId": 19733,
+        "name": "Moritz Heidkamp"
+      },
+      {
+        "email": "jl@lafuente.me",
+        "github": "jlesquembre",
+        "githubId": 1058504,
+        "name": "Jos\u00e9 Luis Lafuente"
+      },
+      {
+        "email": "thiagokokada@gmail.com",
+        "github": "thiagokokada",
+        "githubId": 844343,
+        "name": "Thiago K. Okada"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00af64cee3a176a4380924bac3ad1c0c6950a02b",

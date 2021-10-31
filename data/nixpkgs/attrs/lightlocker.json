@@ -1,4 +1,40 @@
 {
+  "meta": {
+    "desc": "A simple session-locker for LightDM",
+    "desc_long": "A simple locker (forked from gnome-screensaver) that aims to\nhave simple, sane, secure defaults and be well integrated with\nthe desktop while not carrying any desktop-specific\ndependencies.\n\nIt relies on LightDM for locking and unlocking your session via\nConsoleKit/UPower or logind/systemd.\n",
+    "home": "https://github.com/the-cavalry/light-locker",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "obadz-nixos@obadz.com",
+        "github": "obadz",
+        "githubId": 3359345,
+        "name": "obadz"
+      },
+      {
+        "email": "post@davidak.de",
+        "github": "davidak",
+        "githubId": 91113,
+        "matrix": "@davidak:matrix.org",
+        "name": "David Kleuker"
+      },
+      {
+        "email": "rjl931189261@126.com",
+        "github": "bobby285271",
+        "githubId": 20080233,
+        "matrix": "@bobby285271:matrix.org",
+        "name": "Bobby Rong"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00263c9306107f3ff79ecd185d7e0712fb0560d8",

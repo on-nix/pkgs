@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Temperature logging and reporting using Maxim's iButtons and 1-Wire protocol",
+    "desc_long": "DigiTemp is a command line application used for reading 1-wire sensors like\nthe DS18S20 temperature sensor, or DS2438 battery monitor. DigiTemp supports\nthe following devices:\n\n  DS18S20 (and older DS1820) Temperature Sensor\n  DS18B20 Temperature Sensor\n  DS1822 Temperature Sensor\n  DS2438 Battery monitor\n  DS2409 1-wire coupler (used in 1-wire hubs)\n  DS2422 Counter\n  DS2423 Counter\n\nThe output format can be customized and all settings are stored in a\nconfiguration file (.digitemprc) in the current directory. DigiTemp can\nrepeatedly read the sensors and output to stdout and/or to a logfile.\n",
+    "home": "https://www.digitemp.com",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "zseri.devel@ytrizja.de",
+        "github": "zseri",
+        "githubId": 1618343,
+        "keys": [
+          {
+            "fingerprint": "7AFB C595 0D3A 77BD B00F  947B 229E 63AE 5644 A96D",
+            "longkeyid": "rsa4096/0x229E63AE5644A96D"
+          }
+        ],
+        "name": "zseri"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0285851c4e7fe57ebe71181d93afee6c44fcd47c",

@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "A shell extension that manages your environment",
+    "desc_long": "Once hooked into your shell direnv is looking for an .envrc file in your\ncurrent directory before every prompt.\n\nIf found it will load the exported environment variables from that bash\nscript into your current environment, and unload them if the .envrc is\nnot reachable from the current path anymore.\n\nIn short, this little tool allows you to have project-specific\nenvironment variables.\n",
+    "home": "https://direnv.net",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "zimbatm@zimbatm.com",
+        "github": "zimbatm",
+        "githubId": 3248,
+        "name": "zimbatm"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01c6925eba5c3a88efdf776bf3238eac6e1949c0",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "LD_PRELOAD shim to add file locking to programs that don't do it (I'm looking at you, rsync!)",
+    "desc_long": "This library and tool exists solely because rsync doesn't have file locking.\n\nIt's not used like a normal library; you don't link against it, and you\ndon't have to patch your source code to use it. It's inserted between your\nprogram and its libraries by use of LD_PRELOAD.\n\nFor example:\n\n  $ env LD_PRELOAD=$(nix-build -A pkgs.flockit)/lib/libflockit.so FLOCKIT_FILE_PREFIX=test rsync SRC DEST\n\nBesides the library a handy executable is provided which can simplify the above to:\n\n  $ $(nix-build -A pkgs.flockit)/bin/flockit test rsync SRC DEST\n\nAlso see the following blog post:\nhttps://www.swiftstack.com/blog/2012/08/15/old-school-monkeypatching/\n",
+    "home": "https://github.com/smerritt/flockit",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "v.dijk.bas@gmail.com",
+        "github": "basvandijk",
+        "githubId": 576355,
+        "name": "Bas van Dijk"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "031eb79a0b99b75577b375a503368a680f7389c1",

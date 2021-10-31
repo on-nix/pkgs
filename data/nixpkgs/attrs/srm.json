@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Delete files securely",
+    "desc_long": "srm (secure rm) is a command-line compatible rm(1) which\noverwrites file contents before unlinking. The goal is to\nprovide drop in security for users who wish to prevent recovery\nof deleted information, even if the machine is compromised.\n",
+    "home": "http://srm.sourceforge.net",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "ed@cflags.cc",
+        "github": "edwtjo",
+        "githubId": 54799,
+        "name": "Edward Tj\u00f6rnhammar"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01935e880b7b719c31f485d3e44d4a0e89e27821",

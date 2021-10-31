@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Simple extension to show your LAN IP address on the GNOME panel.  This is the address that other computers on your LAN would use to connect to your computer. ",
+    "desc_long": "Simple extension to show your LAN IP address on the GNOME panel.  This is the address that other computers on your LAN would use to connect to your computer. \n\nDoes not show loopback addresses (127.0.0.0/8) or Docker bridge networks.\n\nDoes not show your Internet (public) IP address unless you are directly connected to the Internet with no intermediate NAT router (uncommon, except for devices with built-in LTE data connections).\n\nThis extension also respects your privacy and bandwidth, as it makes absolutely zero requests to the Internet and sends zero packets to the Internet.  The plugin gets its information from your local routing table (output of `ip route`) and only displays the result in the GNOME panel, and this information never leaves your computer.",
+    "home": "https://extensions.gnome.org/extension/1762/lan-ip-address/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@piegames.de",
+        "github": "piegamesde",
+        "githubId": 14054505,
+        "matrix": "@piegames:matrix.org",
+        "name": "piegames"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03a623970fea3385b8918188165b8eb93988280b",

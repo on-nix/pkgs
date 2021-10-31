@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "Belgian electronic identity card (eID) middleware",
+    "desc_long": "Allows user authentication and digital signatures with Belgian ID cards.\nAlso requires a running pcscd service and compatible card reader.\n\neid-viewer is also installed.\n\nThis package only installs the libraries. To use eIDs in Firefox or\nChromium, the eID Belgium add-on must be installed.\nThis package only installs the libraries. To use eIDs in NSS-compatible\nbrowsers like Chrom{e,ium} or Firefox, each user must first execute:\n  ~$ eid-nssdb add\n(Running the script once as root with the --system option enables eID\nsupport for all users, but will *not* work when using Chrom{e,ium}!)\nBefore uninstalling this package, it is a very good idea to run\n  ~$ eid-nssdb [--system] remove\nand remove all ~/.pki and/or /etc/pki directories no longer needed.\n\nThe above procedure doesn't seem to work in Firefox. You can override the\nfirefox wrapper to add this derivation to the PKCS#11 modules, like so:\n\n    firefox.override { pkcs11Modules = [ pkgs.eid-mw ]; }\n",
+    "home": "https://eid.belgium.be/en/using_your_eid/installing_the_eid_software/linux/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v3.0 only",
+      "redistributable": true,
+      "shortName": "lgpl3Only",
+      "spdxId": "LGPL-3.0-only",
+      "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+    },
+    "maintainers": [
+      {
+        "email": "bernard.fortz@gmail.com",
+        "github": "bfortz",
+        "githubId": 16426882,
+        "name": "Bernard Fortz"
+      },
+      {
+        "email": "nixpkgs@cvpetegem.be",
+        "github": "chvp",
+        "githubId": 42220376,
+        "matrix": "@charlotte:vanpetegem.me",
+        "name": "Charlotte Van Petegem"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00910f768ad6475fff10699a710656529f1738c5",

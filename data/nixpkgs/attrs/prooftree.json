@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A program for proof-tree visualization",
+    "desc_long": "Prooftree is a program for proof-tree visualization during interactive\nproof development in a theorem prover. It is currently being developed\nfor Coq and Proof General. Prooftree helps against getting lost between\ndifferent subgoals in interactive proof development. It clearly shows\nwhere the current subgoal comes from and thus helps in developing the\nright plan for solving it.\n\nProoftree uses different colors for the already proven subgoals, the\ncurrent branch in the proof and the still open subgoals. Sequent texts\nare not displayed in the proof tree itself, but they are shown as a\ntool-tip when the mouse rests over a sequent symbol. Long proof commands\nare abbreviated in the tree display, but show up in full length as\ntool-tip. Both, sequents and proof commands, can be shown in the display\nbelow the tree (on single click) or in a separate window (on double or\nshift-click).\n",
+    "home": "http://askra.de/software/prooftree",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "johnw@newartisans.com",
+        "github": "jwiegley",
+        "githubId": 8460,
+        "name": "John Wiegley"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Event notification library",
+    "desc_long": "The libevent API provides a mechanism to execute a callback function\nwhen a specific event occurs on a file descriptor or after a timeout\nhas been reached.  Furthermore, libevent also support callbacks due\nto signals or regular timeouts.\n\nlibevent is meant to replace the event loop found in event driven\nnetwork servers.  An application just needs to call event_dispatch()\nand then add or remove events dynamically without having to change\nthe event loop.\n",
+    "home": "https://libevent.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "01676580dcd845ff8f5504d5b2b1613d6ce53b6f",

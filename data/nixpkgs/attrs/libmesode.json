@@ -1,4 +1,37 @@
 {
+  "meta": {
+    "desc": "Fork of libstrophe (https://github.com/strophe/libstrophe) for use with Profanity XMPP Client",
+    "desc_long": "Reasons for forking:\n\n- Remove Windows support\n- Support only one XML Parser implementation (expat)\n- Support only one SSL implementation (OpenSSL)\n\nThis simplifies maintenance of the library when used in Profanity.\nWhilst Profanity will run against libstrophe, libmesode provides extra\nTLS functionality such as manual SSL certificate verification.\n",
+    "home": "https://github.com/profanity-im/libmesode/",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v3.0 only",
+        "redistributable": true,
+        "shortName": "gpl3Only",
+        "spdxId": "GPL-3.0-only",
+        "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "\"^\"@regexmail.net",
+        "github": "devhell",
+        "githubId": 896182,
+        "name": "devhell"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0181e103b37abf085dfc127c14a28b86d1077780",

@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Scanner button daemon",
+    "desc_long": "scanbd polls a scanner's buttons, looking for button presses, function\nknob changes, or other scanner events such as paper inserts and removals,\nwhile at the same time allowing scan-applications to access the scanner.\n\nVarious actions can be submitted (scan, copy, email, ...) via action\nscripts. The function knob values are passed to the action scripts as\nwell. Scan actions are also signaled via dbus. This can be useful for\nforeign applications. Scans can also be triggered via dbus from foreign\napplications.\n\nOn platforms which support signaling of dynamic device insertion/removal\n(libudev, dbus, hal), scanbd supports this as well.\n\nscanbd can use all sane-backends or some special backends from the (old)\nscanbuttond project.\n",
+    "home": "http://scanbd.sourceforge.net/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "02fee428a213dec92060b0c88f4aef34db9189f3",

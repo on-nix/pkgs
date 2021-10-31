@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Pharo virtual machine (multiple variants)",
+    "desc_long": "Pharo's goal is to deliver a clean, innovative, free open-source\nSmalltalk-inspired environment. By providing a stable and small core\nsystem, excellent dev tools, and maintained releases, Pharo is an\nattractive platform to build and deploy mission critical applications.\n\nThis package provides a front-end for starting the virtual\nmachine. The command 'pharo-vm' automatically detects the type\nof image and executes a suitable virtual machine: CogV3, Spur,\nor Spur64. This makes it easy to open Pharo images because you\ndo not have to worry about which virtual machine variant is\nrequired.\n\nMore about the Cog family of virtual machines:\n  http://www.mirandabanda.org/cogblog/about-cog/\n",
+    "home": "http://pharo.org",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "luke@snabb.co",
+        "github": "lukego",
+        "githubId": 13791,
+        "name": "Luke Gorrie"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0387f84cf37acdf322aa020a6c4aac0eb1c07c28",

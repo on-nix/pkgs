@@ -1,4 +1,34 @@
 {
+  "meta": {
+    "desc": "Review Access - kubectl plugin to show an access matrix for k8s server resources",
+    "desc_long": "Have you ever wondered what access rights you have on a provided\nkubernetes cluster? For single resources you can use\n`kubectl auth can-i list deployments`, but maybe you are looking for a\ncomplete overview? This is what rakkess is for. It lists access rights for\nthe current user and all server resources, similar to\n`kubectl auth can-i --list`.\n",
+    "home": "https://github.com/corneliusweig/rakkess",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "hello+nixpkgs@j-k.io",
+        "github": "06kellyjac",
+        "githubId": 9866621,
+        "matrix": "@j-k:matrix.org",
+        "name": "Jack"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02758d9532b06ed953b34568e1e47c81204d523f",

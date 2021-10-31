@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "An Algol-60-to-C translator",
+    "desc_long": "MARST is an Algol-to-C translator. It automatically translates programs\nwritten on the algorithmic language Algol 60 to the C programming\nlanguage.\n\nThe MARST package includes three main components:\n\n- the translator, MARST, that translates Algol 60 programs to the C\n  programming language.\n\n- the library, ALGLIB, that contains precompiled standard Algol 60\n  procedures and other necessary library routines. This library is to be\n  used at linking stage. (In the distribution the name libalgol.a is used\n  for this library.)\n\n- the converter, MACVT, that allows to convert existing Algol 60 programs\n  from some other representations to MARST representation.\n",
+    "home": "https://www.gnu.org/software/marst/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00da1ca5a5ab3f4f8c88c9b99312cc77a9bca991",

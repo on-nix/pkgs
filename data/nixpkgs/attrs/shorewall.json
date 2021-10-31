@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "An IP gateway/firewall configuration tool for GNU/Linux",
+    "desc_long": "Shorewall is a high-level tool for configuring Netfilter. You describe your\nfirewall/gateway requirements using entries in a set of configuration\nfiles. Shorewall reads those configuration files and with the help of the\niptables, iptables-restore, ip and tc utilities, Shorewall configures\nNetfilter and the Linux networking subsystem to match your requirements.\nShorewall can be used on a dedicated firewall system, a multi-function\ngateway/router/server or on a standalone GNU/Linux system. Shorewall does\nnot use Netfilter's ipchains compatibility mode and can thus take\nadvantage of Netfilter's connection state tracking capabilities.\n",
+    "home": "http://www.shorewall.net/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "03a4369379e0fb5b0ecdeff2c508be49de460fd4",

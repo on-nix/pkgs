@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "ESC/P-R Driver (generic driver)",
+    "desc_long": "Epson Inkjet Printer Driver (ESC/P-R) for Linux and the\ncorresponding PPD files. The list of supported printers\ncan be found at http://www.openprinting.org/driver/epson-escpr/ .\n\nTo use the driver adjust your configuration.nix file:\n  services.printing = {\n    enable = true;\n    drivers = [ pkgs.epson-escpr ];\n  };\n\nTo setup a wireless printer, enable Avahi which provides\nprinter's hostname to CUPS and nss-mdns to make this\nhostname resolvable:\n  services.avahi = {\n    enable = true;\n    nssmdns = true;\n  };",
+    "home": "http://download.ebz.epson.net/dsc/search/01/search/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "artuuge@gmail.com",
+        "github": "artuuge",
+        "githubId": 10285250,
+        "name": "Artur E. Ruuge"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "039764362bd23fee07ddce1a6b284e4348a08f41",

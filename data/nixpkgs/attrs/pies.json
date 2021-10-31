@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "A program invocation and execution supervisor",
+    "desc_long": "The name Pies (pronounced \"p-yes\") stands for Program Invocation and\n        Execution Supervisor.  This utility starts and controls execution of\n        external programs, called components.  Each component is a\n        stand-alone program, which is executed in the foreground.  Upon\n        startup, pies reads the list of components from its configuration\n        file, starts them, and remains in the background, controlling their\n        execution.  If any of the components terminates, the default action\n        of Pies is to restart it.  However, it can also be programmed to\n        perform a variety of another actions such as, e.g., sending mail\n        notifications to the system administrator, invoking another external\n        program, etc.\n\n        Pies can be used for a wide variety of tasks.  Its most obious use\n        is to put in backgound a program which normally cannot detach itself\n        from the controlling terminal, such as, e.g., minicom.  It can\n        launch and control components of some complex system, such as\n        Jabberd or MeTA1 (and it offers much more control over them than the\n        native utilities).  Finally, it can replace the inetd utility!\n",
+    "home": "https://www.gnu.org/software/pies/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "012b6bcbc1281141fe215b3d87a8395208a4f1b0",

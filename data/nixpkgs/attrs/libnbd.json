@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Network Block Device client library in userspace",
+    "desc_long": "NBD \u2014 Network Block Device \u2014 is a protocol for accessing Block Devices\n(hard disks and disk-like things) over a Network.  This is the NBD client\nlibrary in userspace, a simple library for writing NBD clients.\n\nThe key features are:\n- Synchronous API for ease of use.\n- Asynchronous API for writing non-blocking, multithreaded clients. You\n  can mix both APIs freely.\n- High performance.\n- Minimal dependencies for the basic library.\n- Well-documented, stable API.\n- Bindings in several programming languages.\n- Shell (nbdsh) for command line and scripting.\n",
+    "home": "https://gitlab.com/nbdkit/libnbd",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v2.1 or later",
+      "redistributable": true,
+      "shortName": "lgpl21Plus",
+      "spdxId": "LGPL-2.1-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      },
+      {
+        "email": "humancalico@disroot.org",
+        "github": "humancalico",
+        "githubId": 51334444,
+        "name": "Akshat Agarwal"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0242a3641bc783d2fcd8009cfd1b300f40b3bd1a",

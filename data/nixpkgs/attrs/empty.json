@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A simple tool to automate interactive terminal applications",
+    "desc_long": "The empty utility provides an interface to execute and/or interact with\nprocesses under pseudo-terminal sessions (PTYs). This tool is definitely\nuseful in programming of shell scripts designed to communicate with\ninteractive programs like telnet, ssh, ftp, etc. In some cases empty can\nbe the simplest replacement for TCL/expect or other similar programming\ntools because empty:\n\n- can be easily invoked directly from shell prompt or script\n- does not use TCL, Perl, PHP, Python or anything else as an underlying language\n- is written entirely in C\n- has small and simple source code\n- can easily be ported to almost all UNIX-like systems\n",
+    "home": "http://empty.sourceforge.net",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "dave@weller-fahy.com",
+        "github": "djwf",
+        "githubId": 73162,
+        "name": "David J. Weller-Fahy"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "026b9db487effe5208c78d703a97cca91e8d21e0",

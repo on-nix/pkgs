@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Peer-to-peer electronic cash system (Unlimited client)",
+    "desc_long": "Bitcoin is a free open source peer-to-peer electronic cash system that is\ncompletely decentralized, without the need for a central server or trusted\nparties. Users hold the crypto keys to their own money and transact directly\nwith each other, with the help of a P2P network to check for double-spending.\n\nThe Bitcoin Unlimited (BU) project seeks to provide a voice to all\nstakeholders in the Bitcoin ecosystem.\n\nEvery node operator or miner can currently choose their own blocksize limit\nby modifying their client. Bitcoin Unlimited makes the process easier by\nproviding a configurable option for the accepted and generated blocksize via\na GUI menu. Bitcoin Unlimited further provides a user-configurable failsafe\nsetting allowing you to accept a block larger than your maximum accepted\nblocksize if it reaches a certain number of blocks deep in the chain.\n\nThe Bitcoin Unlimited client is not a competitive block scaling proposal\nlike BIP-101, BIP-102, etc. Instead it tracks consensus. This means that it\ntracks the blockchain that the hash power majority follows, irrespective of\nblocksize, and signals its ability to accept larger blocks via protocol and\nblock versioning fields.\n\nIf you support an increase in the blocksize limit by any means - or just\nsupport Bitcoin conflict resolution as originally envisioned by its founder -\nconsider running a Bitcoin Unlimited client.\n",
+    "home": "https://www.bitcoinunlimited.info/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "dmitry.tsygankov@gmail.com",
+        "github": "DmitryTsygankov",
+        "githubId": 425354,
+        "name": "Dmitry Tsygankov"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "039764362bd23fee07ddce1a6b284e4348a08f41",

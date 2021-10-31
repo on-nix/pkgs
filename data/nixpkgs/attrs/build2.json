@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "build2 build system",
+    "desc_long": "build2 is an open source (MIT), cross-platform build toolchain\nthat aims to approximate Rust Cargo's convenience for developing\nand packaging C/C++ projects while providing more depth and\nflexibility, especially in the build system.\n\nbuild2 is a hierarchy of tools consisting of a general-purpose\nbuild system, package manager (for package consumption), and\nproject manager (for project development). It is primarily aimed\nat C/C++ projects as well as mixed-language projects involving\none of these languages (see bash and rust modules, for example).\n",
+    "home": "https://www.build2.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "hiro@protagon.space",
+        "github": "vale981",
+        "githubId": 4025991,
+        "keys": [
+          {
+            "fingerprint": "45A9 9917 578C D629 9F5F  B5B4 C22D 4DE4 D7B3 2D19",
+            "longkeyid": "rsa2048/0xC22D4DE4D7B32D19"
+          }
+        ],
+        "name": "Valentin Boettcher"
+      },
+      {
+        "email": "rtburns@protonmail.com",
+        "github": "r-burns",
+        "githubId": 52847440,
+        "name": "Ryan Burns"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00334d352f2948ab5bcb28ba674d9c55e1b5f2ec",

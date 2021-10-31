@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A Named Data Neworking (NDN) or Content Centric Networking (CCN) abstraction",
+    "desc_long": "ndn-cxx is a C++ library, implementing Named Data Networking (NDN)\nprimitives that can be used to implement various NDN applications.\nNDN operates by addressing and delivering Content Objects directly\nby Name instead of merely addressing network end-points. In addition,\nthe NDN security model explicitly secures individual Content Objects\nrather than securing the connection or \u201cpipe\u201d. Named and secured\ncontent resides in distributed caches automatically populated on\ndemand or selectively pre-populated. When requested by name, NDN\ndelivers named content to the user from the nearest cache, thereby\ntraversing fewer network hops, eliminating redundant requests,\nand consuming less resources overall.\n",
+    "home": "https://named-data.net/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v3.0",
+      "redistributable": true,
+      "shortName": "lgpl3",
+      "spdxId": "LGPL-3.0",
+      "url": "https://spdx.org/licenses/LGPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "setori88@gmail.com",
+        "github": "sjmackenzie",
+        "githubId": 158321,
+        "name": "Stewart Mackenzie"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0229bebd37caf01cad975090895a5ba2c5973226",

@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "FUSE file system that transparently transcodes to MP3",
+    "desc_long": "A read-only FUSE filesystem which transcodes between audio formats\n(currently only FLAC to MP3) on the fly when files are opened and read.\nIt can let you use a FLAC collection with software and/or hardware\nwhich only understands the MP3 format, or transcode files through\nsimple drag-and-drop in a file browser.\n",
+    "home": "https://khenriks.github.io/mp3fs/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "02df7cdaa0e17ec4d4bb6080ee59a53e29340a8d",

@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Yet Another Python Formatter",
+    "desc_long": "Most of the current formatters for Python --- e.g., autopep8, and pep8ify\n--- are made to remove lint errors from code. This has some obvious\nlimitations. For instance, code that conforms to the PEP 8 guidelines may\nnot be reformatted. But it doesn't mean that the code looks good.\n\nYAPF takes a different approach. It's based off of 'clang-format',\ndeveloped by Daniel Jasper. In essence, the algorithm takes the code and\nreformats it to the best formatting that conforms to the style guide, even\nif the original code didn't violate the style guide. The idea is also\nsimilar to the 'gofmt' tool for the Go programming language: end all holy\nwars about formatting - if the whole codebase of a project is simply piped\nthrough YAPF whenever modifications are made, the style remains consistent\nthroughout the project and there's no point arguing about style in every\ncode review.\n\nThe ultimate goal is that the code YAPF produces is as good as the code\nthat a programmer would write if they were following the style guide. It\ntakes away some of the drudgery of maintaining your code.\n",
+    "home": "https://github.com/google/yapf",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      },
+      {
+        "email": "langston.barrett@gmail.com",
+        "github": "langston-barrett",
+        "githubId": 4294323,
+        "name": "Langston Barrett"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00a1314d695854c045798a14a8fb18d99888f3f5",

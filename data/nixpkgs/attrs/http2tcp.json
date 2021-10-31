@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A tool for tunneling TCP connections via HTTP GET requests",
+    "desc_long": "The http2tcp tools allow to tunnel tcp connections (presumably\nssh) via syntactically correct http requests. It is designed to\nwork in the presence of so-called \"transparent\"\nstore-and-forward proxies disallowing POST requests.\n\nIt also turned out to be useful to stabilise connections where\nthe client's internet connection is unreliable (frequent long\nnetwork outages, rapidly changing IP address, etc).\n",
+    "home": "https://www.linta.de/~aehlig/http2tcp/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "c@lkamp.de",
+        "github": "clkamp",
+        "githubId": 46303707,
+        "name": "Christian L\u00fctke-Stetzkamp"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02c2c864d1d1c1ec792e51e148636e599edea9cf",

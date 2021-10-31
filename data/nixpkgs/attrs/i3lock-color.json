@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A simple screen locker like slock, enhanced version with extra configuration options",
+    "desc_long": "Simple screen locker. After locking, a colored background (default: white) or\na configurable image is shown, and a ring-shaped unlock-indicator gives feedback\nfor every keystroke. After entering your password, the screen is unlocked again.\n\ni3lock-color is forked from i3lock (https://i3wm.org/i3lock/) with the following\nenhancements / additional configuration options:\n\n- indicator:\n  - shape: ring or bar\n  - size: configurable\n  - all colors: configurable\n  - all texts: configurable\n  - visibility: can be always visible, can be restricted to some screens\n\n- background: optionally show a blurred screen instead of a single color\n\n- more information: show text at configurable positions:\n  - clock: time/date with configurable format\n  - keyboard-layout\n",
+    "home": "https://github.com/PandorasFox/i3lock-color",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "malyn@strangeGizmo.com",
+        "github": "malyn",
+        "githubId": 346094,
+        "name": "Michael Alyn Miller"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0187e72b571e3afc3e761d101deadf15b6c5b760",

@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Shutdown/reboot/suspend the device after a specific time or wake with a rtc alarm.",
+    "desc_long": "Shutdown/reboot/suspend the device after a specific time or wake with a rtc alarm.\n\nThe screen saver will not interrupt the timer. A privileged control script may be installed to control shutdown and rtcwake as user. Additionally, a check command may be configured before shutdown.",
+    "home": "https://extensions.gnome.org/extension/4372/shutdowntimer/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@piegames.de",
+        "github": "piegamesde",
+        "githubId": 14054505,
+        "matrix": "@piegames:matrix.org",
+        "name": "piegames"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00c5aa27ba8643fc8cecf937a78085ed1f4a9a7f",

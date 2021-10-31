@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Protects hosts from brute-force attacks",
+    "desc_long": "SSHGuard can read log messages from various input sources. Log messages are parsed, line-by-line, for recognized patterns.\nIf an attack, such as several login failures within a few seconds, is detected, the offending IP is blocked.\n",
+    "home": "https://sshguard.net",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "danielehlers@mindeye.net",
+        "github": "sargon",
+        "githubId": 178904,
+        "name": "Daniel Ehlers"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0319f3a97b3ec32fe91ffc8c134814ce8b069545",

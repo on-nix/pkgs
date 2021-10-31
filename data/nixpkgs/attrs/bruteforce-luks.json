@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Cracks passwords of LUKS encrypted volumes",
+    "desc_long": "The program tries to decrypt at least one of the key slots by trying\nall the possible passwords. It is especially useful if you know\nsomething about the password (i.e. you forgot a part of your password but\nstill remember most of it). Finding the password of a volume without\nknowing anything about it would take way too much time (unless the\npassword is really short and/or weak). It can also use a dictionary.\n",
+    "home": "https://github.com/glv2/bruteforce-luks",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "0283016f37de418b08553c55b767ca76dd667b00",

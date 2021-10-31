@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "PC/SC IFD Handler based on libnfc",
+    "desc_long": "libnfc Interface Plugin to be used in <code>services.pcscd.plugins</code>.\n      It provides support for all readers which are not supported by ccid but by libnfc.\n\n      For activating your reader you need to run\n      <code>ifdnfc-activate yes<code> with this package in your\n      <code>environment.systemPackages</code>\n\n      To use your reader you may need to blacklist your reader kernel modules:\n      <code>boot.blacklistedKernelModules = [ \"pn533\" \"pn533_usb\" \"nfc\" ];</code>\n\n      Supports the pn533 smart-card reader chip which is for example used in\n      the SCM SCL3711.\n",
+    "home": "https://github.com/nfc-tools/ifdnfc",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "makefu@syntax-fehler.de",
+        "github": "makefu",
+        "githubId": 115218,
+        "name": "Felix Richter"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "024eb9a5a52d9b7876c352ca2471f1829ec12777",

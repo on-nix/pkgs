@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Molecular dynamics software package",
+    "desc_long": "GROMACS is a versatile package to perform molecular dynamics,\ni.e. simulate the Newtonian equations of motion for systems\nwith hundreds to millions of particles.\n\nIt is primarily designed for biochemical molecules like\nproteins, lipids and nucleic acids that have a lot of\ncomplicated bonded interactions, but since GROMACS is\nextremely fast at calculating the nonbonded interactions (that\nusually dominate simulations) many groups are also using it\nfor research on non-biological systems, e.g. polymers.\n\nGROMACS supports all the usual algorithms you expect from a\nmodern molecular dynamics implementation, (check the online\nreference or manual for details), but there are also quite a\nfew features that make it stand out from the competition.\n\nSee: http://www.gromacs.org/About_Gromacs for details.\n",
+    "home": "http://www.gromacs.org",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "phillip.seeber@googlemail.com",
+        "github": "sheepforce",
+        "githubId": 16844216,
+        "name": "Phillip Seeber"
+      },
+      {
+        "email": "markus.kowalewski@gmail.com",
+        "github": "markuskowa",
+        "githubId": 26470037,
+        "name": "Markus Kowalewski"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01d7e7114569a6d50070e400ff648beecbc89375",

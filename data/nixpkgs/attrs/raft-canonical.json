@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Fully asynchronous C implementation of the Raft consensus protocol\n",
+    "desc_long": "The library has modular design: its core part implements only the core\nRaft algorithm logic, in a fully platform independent way. On top of\nthat, a pluggable interface defines the I/O implementation for networking\n(send/receive RPC messages) and disk persistence (store log entries and\nsnapshots).\n",
+    "home": "https://github.com/canonical/raft",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "info@wucke13.de",
+        "github": "wucke13",
+        "githubId": 20400405,
+        "name": "Wucke"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "039764362bd23fee07ddce1a6b284e4348a08f41",

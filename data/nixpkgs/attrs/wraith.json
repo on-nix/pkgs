@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "An IRC channel management bot written purely in C/C++",
+    "desc_long": "Wraith is an IRC channel management bot written purely in C/C++. It has\nbeen in development since late 2003. It is based on Eggdrop 1.6.12 but has\nsince evolved into something much different at its core. TCL and loadable\nmodules are currently not supported.\n\nMaintainer's Notes:\nCopy the binary out of the store before running it with the -C option to\nconfigure it. See https://github.com/wraith/wraith/wiki/GettingStarted .\n\nThe binary will not run when moved onto non-NixOS systems; use patchelf\nto fix its runtime dependenices.\n",
+    "home": "https://wraith.botpack.net/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "elitak@gmail.com",
+        "github": "elitak",
+        "githubId": 769073,
+        "name": "Eric Litak"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0287bf38e09fef1386c110899a4e1932a679ff9a",

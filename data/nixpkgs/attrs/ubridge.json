@@ -1,4 +1,37 @@
 {
+  "meta": {
+    "desc": "Bridge for UDP tunnels, Ethernet, TAP, and VMnet interfaces",
+    "desc_long": "uBridge is a simple application to create user-land bridges between\nvarious technologies. Currently bridging between UDP tunnels, Ethernet\nand TAP interfaces is supported. Packet capture is also supported.\n",
+    "home": "https://github.com/GNS3/ubridge",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0295a51856b9adbbe07ea73ac8f0b884f80d5912",

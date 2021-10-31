@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "GNU sed, a batch stream editor",
+    "desc_long": "Sed (stream editor) isn't really a true text editor or text\nprocessor.  Instead, it is used to filter text, i.e., it takes\ntext input and performs some operation (or set of operations) on\nit and outputs the modified text.  Sed is typically used for\nextracting part of a file using pattern matching or substituting\nmultiple occurrences of a string within a file.\n",
+    "home": "https://www.gnu.org/software/sed/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "joerg@thalheim.io",
+        "github": "mic92",
+        "githubId": 96200,
+        "keys": [
+          {
+            "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+            "longkeyid": "rsa4096/0x003F2096411B5F92"
+          }
+        ],
+        "matrix": "@mic92:nixos.dev",
+        "name": "J\u00f6rg Thalheim"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "035a65d074074a6f30514093b4dde6ed6ce08aed",

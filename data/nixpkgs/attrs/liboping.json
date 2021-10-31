@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "C library to generate ICMP echo requests (a.k.a. ping packets)",
+    "desc_long": "liboping is a C library to generate ICMP echo requests, better known as\n\"ping packets\". It is intended for use in network monitoring applications\nor applications that would otherwise need to fork ping(1) frequently.\nIncluded is a sample application, called oping, which demonstrates the\nlibrary's abilities.\n",
+    "home": "http://noping.cc/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v2.1",
+      "redistributable": true,
+      "shortName": "lgpl21",
+      "spdxId": "LGPL-2.1",
+      "url": "https://spdx.org/licenses/LGPL-2.1.html"
+    },
+    "maintainers": [
+      {
+        "email": "bjorn.forsman@gmail.com",
+        "github": "bjornfor",
+        "githubId": 133602,
+        "name": "Bj\u00f8rn Forsman"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02e89de71c402aa4e4a96737a54e07e86a1ef253",

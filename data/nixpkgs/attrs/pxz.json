@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "compression utility that runs LZMA compression of different parts on multiple cores simultaneously",
+    "desc_long": "Parallel XZ is a compression utility that takes advantage of\nrunning LZMA compression of different parts of an input file on multiple\ncores and processors simultaneously. Its primary goal is to utilize all\nresources to speed up compression time with minimal possible influence\non compression ratio\n",
+    "home": "https://jnovy.fedorapeople.org/pxz/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "pashev.igor@gmail.com",
+        "github": "ip1981",
+        "githubId": 131844,
+        "name": "Igor Pashev"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00d0b22fe30f7982f0b1871ce08656603baa7baf",

@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "A tool for managing the installation of multiple software packages in the same run-time directory tree",
+    "desc_long": "GNU Stow is a symlink farm manager which takes distinct packages\nof software and/or data located in separate directories on the\nfilesystem, and makes them appear to be installed in the same\nplace. For example, /usr/local/bin could contain symlinks to\nfiles within /usr/local/stow/emacs/bin, /usr/local/stow/perl/bin\netc., and likewise recursively for any other subdirectories such\nas .../share, .../man, and so on.\n",
+    "home": "https://www.gnu.org/software/stow/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "03a820d3ea3fa7fd45842de74f7ba748e3604083",

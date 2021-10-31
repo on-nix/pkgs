@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "Export entries from systemd's journal and send them to a graylog server using gelf",
+    "desc_long": null,
+    "home": "https://github.com/parse-nl/SystemdJournal2Gelf",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "tristan.helmich+nixos@gmail.com",
+        "github": "fadenb",
+        "githubId": 878822,
+        "name": "Tristan Helmich"
+      },
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0229bebd37caf01cad975090895a5ba2c5973226",

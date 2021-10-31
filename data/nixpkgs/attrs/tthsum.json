@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "An md5sum-alike program that works with Tiger/THEX hashes",
+    "desc_long": "tthsum generates or checks TTH checksums (root of the THEX hash\ntree). The Merkle Hash Tree, invented by Ralph Merkle, is a hash\nconstruct that exhibits desirable properties for verifying the\nintegrity of files and file subranges in an incremental or\nout-of-order fashion. tthsum uses the Tiger hash algorithm for\nboth the internal and the leaf nodes.\n\nThe specification of the Tiger hash algorithm is at:\nhttp://www.cs.technion.ac.il/~biham/Reports/Tiger/\n\nThe specification of the THEX algorithm is at:\nhttp://adc.sourceforge.net/draft-jchapweske-thex-02.html\n",
+    "home": "http://tthsum.devs.nu/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "ebzzry@ebzzry.io",
+        "github": "ebzzry",
+        "githubId": 7875,
+        "name": "Rommel Martinez"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00163a09d37c6c9e07837ebb8aa75ebb3e347244",

@@ -1,4 +1,44 @@
 {
+  "meta": {
+    "desc": "Embeddable HTTP server library",
+    "desc_long": "GNU libmicrohttpd is a small C library that is supposed to make\nit easy to run an HTTP server as part of another application.\n",
+    "home": "https://www.gnu.org/software/libmicrohttpd/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Library General Public License v2 or later",
+      "redistributable": true,
+      "shortName": "lgpl2Plus",
+      "spdxId": "LGPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "edolstra+nixpkgs@gmail.com",
+        "github": "edolstra",
+        "githubId": 1148549,
+        "name": "Eelco Dolstra"
+      },
+      {
+        "email": "rahul@gopinath.org",
+        "github": "vrthra",
+        "githubId": 70410,
+        "name": "Rahul Gopinath"
+      },
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00ea65155e64bfe89d875d05c6a348c5b46b5dac",

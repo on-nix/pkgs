@@ -1,4 +1,31 @@
 {
+  "meta": {
+    "desc": "Creates Nix packages from Gemfiles",
+    "desc_long": "This is a tool that converts Gemfile.lock files to nix expressions.\n\nThe output is then usable by the bundlerEnv derivation to list all the\ndependencies of a ruby package.\n",
+    "home": "https://github.com/manveru/bundix",
+    "license": "MIT",
+    "maintainers": [
+      {
+        "email": "m.fellinger@gmail.com",
+        "github": "manveru",
+        "githubId": 3507,
+        "matrix": "@manveru:matrix.org",
+        "name": "Michael Fellinger"
+      },
+      {
+        "email": "marsam@users.noreply.github.com",
+        "github": "marsam",
+        "githubId": 65531,
+        "name": "Mario Rodas"
+      },
+      {
+        "email": "zimbatm@zimbatm.com",
+        "github": "zimbatm",
+        "githubId": 3248,
+        "name": "zimbatm"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "027c28b18a2a3a7fc2f92a2a7a6b0eb1e226f17c",

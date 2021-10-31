@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Modular status panel for X11 and Wayland",
+    "desc_long": "yambar is a lightweight and configurable status panel (bar, for short) for\nX11 and Wayland, that goes to great lengths to be both CPU and battery\nefficient - polling is only done when absolutely necessary.\n\nIt has a number of modules that provide information in the form of\ntags. For example, the clock module has a date tag that contains the\ncurrent date.\n\nThe modules do not know how to present the information though. This is\ninstead done by particles. And the user, you, decides which particles (and\nthus how to present the data) to use.\n\nFurthermore, each particle can have a decoration - a background color or a\ngraphical underline, for example.\n\nThere is no support for images or icons. use an icon font (e.g. Font\nAwesome, or Material Icons) if you want a graphical representation.\n\nThere are a number of modules and particles builtin. More can be added as\nplugins. You can even write your own!\n\nTo summarize: a bar displays information provided by modules, using\nparticles and decorations. How is configured by you.\n",
+    "home": "https://codeberg.org/dnkl/yambar",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0242a3641bc783d2fcd8009cfd1b300f40b3bd1a",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Cluster management and administration swiss army knife",
+    "desc_long": "Kanif is a tool for high performance computing clusters management and\nadministration. It combines the main functionalities of well-known cluster\nmanagement tools such as c3, pdsh and dsh, and mimics their syntax. It\nprovides three tools to run the same command on several nodes (\"parallel\nssh\", using the 'kash' command), to broadcast the copy of files or\ndirectories to several nodes ('kaput' command), and to gather several\nremote files or directories locally ('kaget' command). It relies on TakTuk\nfor efficiency and scalability.",
+    "home": "http://taktuk.gforge.inria.fr/kanif",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "Bruno@bzizou.net",
+        "github": "bzizou",
+        "githubId": 2647566,
+        "name": "Bruno Bzeznik"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0077abe128bf08be982241b364481bb839748583",

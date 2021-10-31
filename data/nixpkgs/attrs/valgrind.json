@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Debugging and profiling tool suite",
+    "desc_long": "Valgrind is an award-winning instrumentation framework for\nbuilding dynamic analysis tools.  There are Valgrind tools that\ncan automatically detect many memory management and threading\nbugs, and profile your programs in detail.  You can also use\nValgrind to build new tools.\n",
+    "home": "http://www.valgrind.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "edolstra+nixpkgs@gmail.com",
+        "github": "edolstra",
+        "githubId": 1148549,
+        "name": "Eelco Dolstra"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "001bd7c466817951efc58cda9929614b3bf41e27",

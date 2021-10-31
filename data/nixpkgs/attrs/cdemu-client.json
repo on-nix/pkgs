@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "A suite of tools for emulating optical drives and discs",
+    "desc_long": "CDEmu consists of:\n\n- a kernel module implementing a virtual drive-controller\n- libmirage which is a software library for interpreting optical disc images\n- a daemon which emulates the functionality of an optical drive+disc\n- textmode and GTK clients for controlling the emulator\n- an image analyzer to view the structure of image files\n\nOptical media emulated by CDemu can be mounted within Linux. Automounting is also allowed.\n",
+    "home": "https://cdemu.sourceforge.io/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "herwig@bendlas.net",
+        "github": "bendlas",
+        "githubId": 214787,
+        "matrix": "@bendlas:matrix.org",
+        "name": "Herwig Hochleitner"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00fa834e558bca1feeedae4ec9b6cd55bfe4281d",

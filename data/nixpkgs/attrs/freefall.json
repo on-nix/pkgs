@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Free-fall protection for spinning HP/Dell laptop hard drives",
+    "desc_long": "Provides a shock protection facility in modern laptops with spinning hard\ndrives, by stopping all input/output operations on the internal hard drive\nand parking its heads on the ramp when critical situations are anticipated.\nRequires support for the ATA/ATAPI-7 IDLE IMMEDIATE command with unload\nfeature, which should cause the drive to switch to idle mode and unload the\ndisk heads, and an accelerometer device. It has no effect on SSD devices!\n",
+    "home": "https://www.kernel.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 only",
+      "redistributable": true,
+      "shortName": "gpl2Only",
+      "spdxId": "GPL-2.0-only",
+      "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "00334d352f2948ab5bcb28ba674d9c55e1b5f2ec",

@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Zile Implements Lua Editors",
+    "desc_long": "GNU Zile is a text editor development kit, so that you can (relatively)\nquickly develop your own ideal text editor without reinventing the wheel\nfor many of the common algorithms and data-structures needed to do so.\n\nIt comes with an example implementation of a lightweight Emacs clone,\ncalled Zemacs. Every Emacs user should feel at home with Zemacs. Zemacs is\naimed at small footprint systems and quick editing sessions (it starts up\nand shuts down instantly).\n\nMore editors implemented over the Zile frameworks are forthcoming as the\ndata-structures and interfaces improve: Zz an emacs inspired editor using\nLua as an extension language; Zee a minimalist non-modal editor; Zi a\nlightweight vi clone; and more...\n\nZile is a collection of algorithms and data-structures that currently\nsupport all basic Emacs-like editing features: it is 8-bit clean (though\nUnicode support is not ready yet), and the number of editing buffers and\nwindows is only limited by available memoryand screen space\nrespectively. Registers, minibuffer completion and auto fill are\navailable.\n\nZemacs implements a subset of Emacs with identical function and variable\nnames, continuing the spirit of the earlier Zile editor implemented in C.\nGNU Zile, which is a lightweight Emacs clone.  Zile is short for Zile Is\nLossy Emacs.  Zile has been written to be as similar as possible to Emacs;\nevery Emacs user should feel at home.\n",
+    "home": "https://www.gnu.org/software/zile/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@pascal-wittmann.de",
+        "github": "pSub",
+        "githubId": 83842,
+        "name": "Pascal Wittmann"
+      },
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

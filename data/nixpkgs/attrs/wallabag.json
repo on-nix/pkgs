@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Web page archiver",
+    "desc_long": "wallabag is a self hostable application for saving web pages.\n\nPoint the environment variable $WALLABAG_DATA to a data directory that contains the folder `app/config` which must be a clone of wallabag's configuration files with your customized `parameters.yml`. These need to be updated every package upgrade.\nAfter a package upgrade, empty the `var/cache` folder.\n",
+    "home": "http://wallabag.org",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "schneefux+nixos_pkg@schneefux.xyz",
+        "github": "schneefux",
+        "githubId": 15379000,
+        "name": "schneefux"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

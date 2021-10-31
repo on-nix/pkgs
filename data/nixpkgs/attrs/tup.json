@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A fast, file-based build system",
+    "desc_long": "Tup is a file-based build system for Linux, OSX, and Windows. It inputs a list\nof file changes and a directed acyclic graph (DAG), then processes the DAG to\nexecute the appropriate commands required to update dependent files. Updates are\nperformed with very little overhead since tup implements powerful build\nalgorithms to avoid doing unnecessary work. This means you can stay focused on\nyour project rather than on your build system.\n",
+    "home": "http://gittup.org/tup/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "ehmry@posteo.net",
+        "github": "ehmry",
+        "githubId": 537775,
+        "name": "Emery Hemingway"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

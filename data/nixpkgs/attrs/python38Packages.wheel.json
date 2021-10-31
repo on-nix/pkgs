@@ -1,4 +1,34 @@
 {
+  "meta": {
+    "desc": "A built-package format for Python",
+    "desc_long": "This library is the reference implementation of the Python wheel packaging standard,\nas defined in PEP 427.\n\nIt has two different roles:\n\n- A setuptools extension for building wheels that provides the bdist_wheel setuptools command\n- A command line tool for working with wheel files\n\nIt should be noted that wheel is not intended to be used as a library,\nand as such there is no stable, public API.\n",
+    "home": "https://bitbucket.org/pypa/wheel/",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "sirio@b-ad.ch",
+        "github": "siriobalmelli",
+        "githubId": 23038812,
+        "keys": [
+          {
+            "fingerprint": "B234 EFD4 2B42 FE81 EE4D  7627 F72C 4A88 7F9A 24CA",
+            "longkeyid": "ed25519/0xF72C4A887F9A24CA"
+          }
+        ],
+        "name": "Sirio Balmelli"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0221fe13da7c73ad0ad8cb0787cfad37e93acc92",

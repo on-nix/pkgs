@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Library for interactive line editing",
+    "desc_long": "The GNU Readline library provides a set of functions for use by\napplications that allow users to edit command lines as they are\ntyped in.  Both Emacs and vi editing modes are available.  The\nReadline library includes additional functions to maintain a\nlist of previously-entered command lines, to recall and perhaps\nreedit those lines, and perform csh-like history expansion on\nprevious commands.\n\nThe history facilities are also placed into a separate library,\nthe History library, as part of the build process.  The History\nlibrary may be used without Readline in applications which\ndesire its capabilities.\n",
+    "home": "https://savannah.gnu.org/projects/readline/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "00f9015b348caccfc5737e0c2fa42e98ca48d745",

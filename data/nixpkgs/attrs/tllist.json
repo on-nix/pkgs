@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "C header file only implementation of a typed linked list",
+    "desc_long": "Most C implementations of linked list are untyped. That is, their data\ncarriers are typically void *. This is error prone since your compiler\nwill not be able to help you correct your mistakes (oh, was it a\npointer-to-a-pointer... I thought it was just a pointer...).\n\ntllist addresses this by using pre-processor macros to implement dynamic\ntypes, where the data carrier is typed to whatever you want; both\nprimitive data types are supported as well as aggregated ones such as\nstructs, enums and unions.\n",
+    "home": "https://codeberg.org/dnkl/tllist",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@fionera.de",
+        "github": "fionera",
+        "githubId": 5741401,
+        "name": "Tim Windelschmidt"
+      },
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03831816d88c7c6dbe25b762493765f5ee77a148",

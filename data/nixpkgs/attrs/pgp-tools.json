@@ -1,4 +1,87 @@
 {
+  "meta": {
+    "desc": "A collection of several projects relating to OpenPGP",
+    "desc_long": "This is a collection of several projects relating to OpenPGP.\n\n* caff: CA - Fire and Forget signs and mails a key\n* pgp-clean: removes all non-self signatures from key\n* pgp-fixkey: removes broken packets from keys\n* gpg-mailkeys: simply mail out a signed key to its owner\n* gpg-key2ps: generate PostScript file with fingerprint paper slips\n* gpgdir: recursive directory encryption tool\n* gpglist: show who signed which of your UIDs\n* gpgsigs: annotates list of GnuPG keys with already done signatures\n* gpgparticipants: create list of party participants for the organiser\n* gpgwrap: a passphrase wrapper\n* keyanalyze: minimum signing distance (MSD) analysis on keyrings\n* keylookup: ncurses wrapper around gpg --search\n* sig2dot: converts a list of GnuPG signatures to a .dot file\n* springgraph: creates a graph from a .dot file\n* keyart: creates a random ASCII art of a PGP key file\n* gpg-key2latex: generate LaTeX file with fingerprint paper slips\n",
+    "home": "https://salsa.debian.org/signing-party-team/signing-party",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 2-clause \"Simplified\" License",
+        "redistributable": true,
+        "shortName": "bsd2",
+        "spdxId": "BSD-2-Clause",
+        "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+        "redistributable": true,
+        "shortName": "bsd3",
+        "spdxId": "BSD-3-Clause",
+        "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+      },
+      {
+        "deprecated": true,
+        "free": true,
+        "fullName": "GNU General Public License v2.0",
+        "redistributable": true,
+        "shortName": "gpl2",
+        "spdxId": "GPL-2.0",
+        "url": "https://spdx.org/licenses/GPL-2.0.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v2.0 or later",
+        "redistributable": true,
+        "shortName": "gpl2Plus",
+        "spdxId": "GPL-2.0-or-later",
+        "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v3.0 or later",
+        "redistributable": true,
+        "shortName": "gpl3Plus",
+        "spdxId": "GPL-3.0-or-later",
+        "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      },
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "017c7a4940a3c62002d725ae848b16793922eac9",

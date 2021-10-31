@@ -1,4 +1,35 @@
 {
+  "meta": {
+    "desc": "Copy/extract/patch android apk signatures & compare apks",
+    "desc_long": "apksigcopier is a tool for copying android APK signatures from a signed APK to an unsigned one (in order to verify reproducible builds).\nIt can also be used to compare two APKs with different signatures.\nIts command-line tool offers four operations:\n\n* copy signatures directly from a signed to an unsigned APK\n* extract signatures from a signed APK to a directory\n* patch previously extracted signatures onto an unsigned APK\n* compare two APKs with different signatures (requires apksigner)\n",
+    "home": "https://github.com/obfusk/apksigcopier",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v3.0 or later",
+        "redistributable": true,
+        "shortName": "gpl3Plus",
+        "spdxId": "GPL-3.0-or-later",
+        "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "flx@obfusk.net",
+        "github": "obfusk",
+        "githubId": 1260687,
+        "keys": [
+          {
+            "fingerprint": "D5E4 A51D F8D2 55B9 FAC6  A9BB 2F96 07F0 9B36 0F2D",
+            "longkeyid": "rsa4096/0x2F9607F09B360F2D"
+          }
+        ],
+        "matrix": "@obfusk:matrix.org",
+        "name": "Felix C. Stegerman"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "021bc5b92920d4675e88228b3dfe41d525c42432",

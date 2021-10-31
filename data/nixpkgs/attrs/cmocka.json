@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Lightweight library to simplify and generalize unit tests for C",
+    "desc_long": "There are a variety of C unit testing frameworks available however\n        many of them are fairly complex and require the latest compiler\n        technology.  Some development requires the use of old compilers which\n        makes it difficult to use some unit testing frameworks. In addition\n        many unit testing frameworks assume the code being tested is an\n        application or module that is targeted to the same platform that will\n        ultimately execute the test.  Because of this assumption many\n        frameworks require the inclusion of standard C library headers in the\n        code module being tested which may collide with the custom or\n        incomplete implementation of the C library utilized by the code under\n        test.\n\n        Cmocka only requires a test application is linked with the standard C\n        library which minimizes conflicts with standard C library headers.\n        Also, CMocka tries to avoid the use of some of the newer features of\n        C compilers.\n\n        This results in CMocka being a relatively small library that can be\n        used to test a variety of exotic code. If a developer wishes to\n        simply test an application with the latest compiler then other unit\n        testing frameworks may be preferable.\n\n        This is the successor of Google's Cmockery.",
+    "home": "https://cmocka.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "louis@kragniz.eu",
+        "github": "kragniz",
+        "githubId": 735008,
+        "name": "Louis Taylor"
+      },
+      {
+        "email": "rasen.dubi@gmail.com",
+        "github": "rasendubi",
+        "githubId": 1366419,
+        "name": "Alexey Shmalko"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "006d4b0c5446b3a7ab38b0dee8bc6505fffea8aa",

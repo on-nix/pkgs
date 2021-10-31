@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "POSIX Process Control in C++",
+    "desc_long": "PStreams allows you to run another program from your C++ application and\nto transfer data between the two programs similar to shell pipelines.\n\nIn the simplest case, a PStreams class is like a C++ wrapper for the\nPOSIX.2 functions popen(3) and pclose(3), using C++ iostreams instead of\nC's stdio library.\n",
+    "home": "http://pstreams.sourceforge.net/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Boost Software License 1.0",
+      "redistributable": true,
+      "shortName": "boost",
+      "spdxId": "BSL-1.0",
+      "url": "https://spdx.org/licenses/BSL-1.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "me@arthur.li",
+        "github": "arthurl",
+        "githubId": 3965744,
+        "name": "Arthur Lee"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0060782d8ea6d2cb6e2f0edf05701ecd56719542",

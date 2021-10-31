@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "High-performance, parallel remote shell utility",
+    "desc_long": "Pdsh is a high-performance, parallel remote shell utility. It has\nbuilt-in, thread-safe clients for Berkeley and Kerberos V4 rsh and\ncan call SSH externally (though with reduced performance). Pdsh\nuses a \"sliding window\" parallel algorithm to conserve socket\nresources on the initiating node and to allow progress to continue\nwhile timeouts occur on some connections.\n",
+    "home": "https://github.com/chaos/pdsh",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "02f17407449598e36b95dd3add77307fffa294d9",

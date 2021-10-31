@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "FUSE file system for box.com accounts",
+    "desc_long": "Store files on box.com (an account is required). The first time you run\nboxfs, you will need to complete the authentication (oauth2) process and\ngrant access to your box.com account. Just follow the instructions on\nthe terminal and in your browser. When you've done using your files,\nunmount the file system with `fusermount -u mountpoint`.\n",
+    "home": "https://github.com/drotiro/boxfs2",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "02df7cdaa0e17ec4d4bb6080ee59a53e29340a8d",

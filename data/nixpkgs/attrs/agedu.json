@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "A Unix utility for tracking down wasted disk space",
+    "desc_long": "Most Unix file systems, in their default mode, helpfully record when a\nfile was last accessed. So if you generated a large amount of data years\nago, forgot to clean it up, and have never used it since, then it ought\nin principle to be possible to use those last-access time stamps to tell\nthe difference between that and a large amount of data you're still\nusing regularly.\n\nagedu uses this information to tell you which files waste disk space when\nyou haven't used them since a long time.\n",
+    "home": "https://www.chiark.greenend.org.uk/~sgtatham/agedu/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "symphorien_nixpkgs@xlumurb.eu",
+        "github": "symphorien",
+        "githubId": 12595971,
+        "matrix": "@symphorien:xlumurb.eu",
+        "name": "Guillaume Girol"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "027c952090e5fda9badeff944b6b81ca25168f6e",

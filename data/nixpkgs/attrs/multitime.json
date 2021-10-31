@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Time command execution over multiple executions",
+    "desc_long": "Unix's `time` utility is a simple and often effective way of measuring\nhow long a command takes to run. Unfortunately, running a command once\ncan give misleading timings: the process may create a cache on its first\nexecution, running faster subsequently; other processes may cause the\ncommand to be starved of CPU or IO time; etc. It is common to see people\nrun `time` several times and take whichever values they feel most\ncomfortable with. Inevitably, this causes problems.\n\n`multitime` is, in essence, a simple extension to time which runs a\ncommand multiple times and prints the timing means (with confidence\nintervals), standard deviations, minimums, medians, and maximums having\ndone so. This can give a much better understanding of the command's\nperformance.\n",
+    "home": "https://tratt.net/laurie/src/multitime/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "000f19ff08cfaf6ce89b136ea986fde64f750555",

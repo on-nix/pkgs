@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "ELF utils that can check files for security relevant properties",
+    "desc_long": "A suite of ELF tools to aid auditing systems. Contains\nvarious ELF related utils for ELF32, ELF64 binaries useful\nfor displaying PaX and security info on a large groups of\nbinary files.\n",
+    "home": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 only",
+      "redistributable": true,
+      "shortName": "gpl2Only",
+      "spdxId": "GPL-2.0-only",
+      "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    "maintainers": [
+      {
+        "email": "aseipp@pobox.com",
+        "github": "thoughtpolice",
+        "githubId": 3416,
+        "name": "Austin Seipp"
+      },
+      {
+        "email": "joachifm@fastmail.fm",
+        "github": "joachifm",
+        "githubId": 41977,
+        "name": "Joachim Fasting"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "006c32f161d23af58a730643c7bd1d6b09348045",

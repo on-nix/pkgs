@@ -1,4 +1,46 @@
 {
+  "meta": {
+    "desc": "GNU Compiler Collection, version 7.5.0 (wrapper script)",
+    "desc_long": "The GNU Compiler Collection includes compiler front ends for C, C++,\nObjective-C, Fortran, OpenMP for C/C++/Fortran, and Ada, as well as\nlibraries for these languages (libstdc++, libgomp,...).\n\nGCC development is a part of the GNU Project, aiming to improve the\ncompiler used in the GNU system including the GNU/Linux variant.\n",
+    "home": "https://gcc.gnu.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@hilhorst.be",
+        "github": "Synthetica9",
+        "githubId": 7075751,
+        "name": "Patrick Hilhorst"
+      },
+      {
+        "email": "v@cunat.cz",
+        "github": "vcunat",
+        "githubId": 1785925,
+        "keys": [
+          {
+            "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+            "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+          }
+        ],
+        "matrix": "@vcunat:matrix.org",
+        "name": "Vladim\u00edr \u010cun\u00e1t"
+      },
+      {
+        "email": "John.Ericson@Obsidian.Systems",
+        "github": "ericson2314",
+        "githubId": 1055245,
+        "matrix": "@ericson2314:matrix.org",
+        "name": "John Ericson"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00c3761322ec4d2aa85e66f1c55452ded3f9e681",

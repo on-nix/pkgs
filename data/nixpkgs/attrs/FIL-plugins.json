@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "a four-band parametric equaliser, which has the nice property of being stable even while parameters are being changed",
+    "desc_long": "Each section has an active/bypass switch, frequency, bandwidth and gain controls.\nThere is also a global bypass switch and gain control.\nThe 2nd order resonant filters are implemented using a Mitra-Regalia style lattice filter.\nAll switches and controls are internally smoothed, so they can be used 'live' whithout any clicks or zipper noises.\nThis should make this plugin a good candidate for use in systems that allow automation of plugin control ports, such as Ardour, or for stage use.\n",
+    "home": "http://kokkinizita.linuxaudio.org/linuxaudio/ladspa/index.html",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "bart@magnetophon.nl",
+        "github": "magnetophon",
+        "githubId": 7645711,
+        "name": "Bart Brouns"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01108c0d4b0110eee99aee97a809b7d05292c1fa",

@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "GPS service daemon",
+    "desc_long": "gpsd is a service daemon that monitors one or more GPSes or AIS\nreceivers attached to a host computer through serial or USB ports,\nmaking all data on the location/course/velocity of the sensors\navailable to be queried on TCP port 2947 of the host computer. With\ngpsd, multiple location-aware client applications (such as navigational\nand wardriving software) can share access to receivers without\ncontention or loss of data. Also, gpsd responds to queries with a\nformat that is substantially easier to parse than the NMEA 0183 emitted\nby most GPSes. The gpsd distribution includes a linkable C service\nlibrary, a C++ wrapper class, and a Python module that developers of\ngpsd-aware applications can use to encapsulate all communication with\ngpsd. Third-party client bindings for Java and Perl also exist.\n\nBesides gpsd itself, the project provides auxiliary tools for\ndiagnostic monitoring and profiling of receivers and feeding\nlocation-aware applications GPS/AIS logs for diagnostic purposes.\n",
+    "home": "https://gpsd.gitlab.io/gpsd/index.html",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "bjorn.forsman@gmail.com",
+        "github": "bjornfor",
+        "githubId": 133602,
+        "name": "Bj\u00f8rn Forsman"
+      },
+      {
+        "email": "rasen.dubi@gmail.com",
+        "github": "rasendubi",
+        "githubId": 1366419,
+        "name": "Alexey Shmalko"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00c5aa27ba8643fc8cecf937a78085ed1f4a9a7f",

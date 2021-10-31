@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Free church presentation software",
+    "desc_long": "OpenLP is a free church presentation software.\n\nFeatures:\n\n* Cross platform between Linux, Windows, OS X and FreeBSD\n* Display songs, Bible verses, presentations, images, audio and video\n* Control OpenLP remotely via the Android remote, iOS remote or mobile web browser\n* Quickly and easily import songs from other popular presentation packages\n* Easy enough to use to get up and running in less than 10 minutes\n\nRemark: This pkg only supports sqlite dbs. If you wish to have support for\n      mysql or postgresql dbs, or Jenkins, please contact the maintainer.\n\nBugs which affect this software packaged in Nixpkgs:\n\n1. The package must disable checks, because they are lacking the qt env.\n   (see pkg source and https://discourse.nixos.org/t/qt-plugin-path-unset-in-test-phase/)\n2. There is a segfault on exit. Not a real problem, according to debug log, everything\n   shuts down correctly. Maybe related to https://forums.openlp.org/discussion/3620/crash-on-exit.\n   Plan: Wait for OpenLP-3, since it is already in beta 1\n   (2021-02-09; news: https://openlp.org/blog/).\n",
+    "home": "https://openlp.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 only",
+      "redistributable": true,
+      "shortName": "gpl2Only",
+      "spdxId": "GPL-2.0-only",
+      "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    "maintainers": [
+      {
+        "email": "johannes@jorsn.eu",
+        "github": "jorsn",
+        "githubId": 4646725,
+        "name": "Johannes Rosenberger"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "004584d3b624fcf18cf47ac32e3d479fbcfe0bb0",

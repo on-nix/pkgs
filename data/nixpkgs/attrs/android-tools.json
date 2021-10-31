@@ -1,4 +1,48 @@
 {
+  "meta": {
+    "desc": "Android SDK platform tools",
+    "desc_long": "Android SDK Platform-Tools is a component for the Android SDK. It\nincludes tools that interface with the Android platform, such as adb and\nfastboot. These tools are required for Android app development. They're\nalso needed if you want to unlock your device bootloader and flash it\nwith a new system image.\nCurrently the following tools are supported:\n- adb\n- fastboot\n- mke2fs.android (required by fastboot)\n- simg2img, img2simg, append2simg\n",
+    "home": "https://github.com/nmeum/android-tools",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Apache License 2.0",
+        "redistributable": true,
+        "shortName": "asl20",
+        "spdxId": "Apache-2.0",
+        "url": "https://spdx.org/licenses/Apache-2.0.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Unicode License Agreement - Data Files and Software (2015)",
+        "redistributable": true,
+        "shortName": "unicode-dfs-2015",
+        "spdxId": "Unicode-DFS-2015",
+        "url": "https://spdx.org/licenses/Unicode-DFS-2015.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0208a915c8c25725523a561db593d767a5a74d3d",

@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Small daemon to speed up UPnP device discoveries",
+    "desc_long": "MiniSSDPd receives NOTIFY packets and stores (caches) that information\nfor later use by UPnP Control Points on the machine. MiniSSDPd receives\nM-SEARCH packets and answers on behalf of the UPnP devices running on\nthe machine. Software must be patched in order to take advantage of\nMiniSSDPd, and MiniSSDPd must be started before any other UPnP program.\n",
+    "home": "http://miniupnp.free.fr/minissdpd.html",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

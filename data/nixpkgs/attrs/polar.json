@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Command-line tools to interact with Polar watches",
+    "desc_long": "A set of command line tools written in Ruby to interact with Polar watches\nand decode raw data files.\n\nUdev rules can be added as:\n\n  services.udev.packages = [ pkgs.polar ]\n",
+    "home": "https://github.com/cmaion/polar",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 only",
+      "redistributable": true,
+      "shortName": "gpl3Only",
+      "spdxId": "GPL-3.0-only",
+      "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+    },
+    "maintainers": [
+      {
+        "email": "jaakko.luttinen@iki.fi",
+        "github": "jluttine",
+        "githubId": 2195834,
+        "name": "Jaakko Luttinen"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "004584d3b624fcf18cf47ac32e3d479fbcfe0bb0",

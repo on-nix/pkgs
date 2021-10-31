@@ -1,4 +1,30 @@
 {
+  "meta": {
+    "desc": "Tool for making call graphs of C programmes",
+    "desc_long": "Egypt is a simple tool for creating call graphs of C programs. It neither\nanalyzes source code nor lays out graphs. Instead, it leaves the source\ncode analysis to GCC and the graph layout to Graphviz, both of which are\nbetter at their respective jobs than egypt itself could ever hope to be.\nEgypt is simply a very small Perl script that glues these existing tools\ntogether.\n",
+    "home": "http://www.gson.org/egypt/",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Artistic License 1.0",
+        "redistributable": true,
+        "shortName": "artistic1",
+        "spdxId": "Artistic-1.0",
+        "url": "https://spdx.org/licenses/Artistic-1.0.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v1.0 or later",
+        "redistributable": true,
+        "shortName": "gpl1Plus",
+        "spdxId": "GPL-1.0-or-later",
+        "url": "https://spdx.org/licenses/GPL-1.0-or-later.html"
+      }
+    ],
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "01ba9d0dec962ac5a7651150a1a6c43762f59b31",

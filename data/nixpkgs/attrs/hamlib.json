@@ -1,4 +1,37 @@
 {
+  "meta": {
+    "desc": "Runtime library to control radio transceivers and receivers",
+    "desc_long": "Hamlib provides a standardized programming interface that applications\ncan use to send the appropriate commands to a radio.\n\nAlso included in the package is a simple radio control program 'rigctl',\nwhich lets one control a radio transceiver or receiver, either from\ncommand line interface or in a text-oriented interactive interface.\n",
+    "home": "http://hamlib.sourceforge.net",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v2.0 or later",
+        "redistributable": true,
+        "shortName": "gpl2Plus",
+        "spdxId": "GPL-2.0-or-later",
+        "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU Library General Public License v2 or later",
+        "redistributable": true,
+        "shortName": "lgpl2Plus",
+        "spdxId": "LGPL-2.0-or-later",
+        "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "ricky@elrod.me",
+        "github": "relrod",
+        "githubId": 43930,
+        "name": "Ricky Elrod"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

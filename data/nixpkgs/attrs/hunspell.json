@@ -1,4 +1,39 @@
 {
+  "meta": {
+    "desc": "Spell checker",
+    "desc_long": "Hunspell is the spell checker of LibreOffice, OpenOffice.org, Mozilla\nFirefox 3 & Thunderbird, Google Chrome, and it is also used by\nproprietary software packages, like macOS, InDesign, memoQ, Opera and\nSDL Trados.\n\nMain features:\n\n* Extended support for language peculiarities; Unicode character encoding, compounding and complex morphology.\n* Improved suggestion using n-gram similarity, rule and dictionary based pronunciation data.\n* Morphological analysis, stemming and generation.\n* Hunspell is based on MySpell and works also with MySpell dictionaries.\n* C++ library under GPL/LGPL/MPL tri-license.\n* Interfaces and ports:\n  * Enchant (Generic spelling library from the Abiword project),\n  * XSpell (macOS port, but Hunspell is part of the macOS from version 10.6 (Snow Leopard), and\n      now it is enough to place Hunspell dictionary files into\n      ~/Library/Spelling or /Library/Spelling for spell checking),\n  * Delphi, Java (JNA, JNI), Perl, .NET, Python, Ruby ([1], [2]), UNO.\n",
+    "home": "http://hunspell.sourceforge.net",
+    "license": [
+      {
+        "deprecated": true,
+        "free": true,
+        "fullName": "GNU General Public License v2.0",
+        "redistributable": true,
+        "shortName": "gpl2",
+        "spdxId": "GPL-2.0",
+        "url": "https://spdx.org/licenses/GPL-2.0.html"
+      },
+      {
+        "deprecated": true,
+        "free": true,
+        "fullName": "GNU Lesser General Public License v2.1",
+        "redistributable": true,
+        "shortName": "lgpl21",
+        "spdxId": "LGPL-2.1",
+        "url": "https://spdx.org/licenses/LGPL-2.1.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Mozilla Public License 1.1",
+        "redistributable": true,
+        "shortName": "mpl11",
+        "spdxId": "MPL-1.1",
+        "url": "https://spdx.org/licenses/MPL-1.1.html"
+      }
+    ],
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "013df809d5bd4cdb5b18207754c5107561078a23",

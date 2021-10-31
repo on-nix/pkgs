@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Audio file converter, CD ripper and Replay Gain tool",
+    "desc_long": "soundKonverter is a frontend to various audio converters.\n\nThe key features are:\n- Audio file conversion\n- Replay Gain calculation\n- CD ripping\n\nsoundKonverter supports reading and writing tags and covers for many formats, so they are preserved when converting files.\n\nIt is extendable by plugins and supports many backends including:\n\n- Audio file conversion\n  Backends: faac, faad, ffmpeg, flac, lame, mplayer, neroaac, timidity, fluidsynth, vorbistools, opustools, sox, twolame,\n  flake, mac, shorten, wavpack and speex\n  Formats: ogg vorbis, mp3, flac, wma, aac, ac3, opus, alac, mp2, als, amr nb, amr wb, ape, speex, m4a, mp1, musepack shorten,\n  tta, wavpack, ra, midi, mod, 3gp, rm, avi, mkv, ogv, mpeg, mov, mp4, flv, wmv and rv\n\n- Replay Gain calculation\n  Backends: aacgain, metaflac, mp3gain, vorbisgain, wvgain, mpcgain\n  Formats: aac, mp3, flac, ogg vorbis, wavpack, musepack\n\n- CD ripping\n  Backends: cdparanoia\n",
+    "home": null,
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "t.schmittlauch+nixos@orlives.de",
+        "github": "schmittlauch",
+        "githubId": 1479555,
+        "name": "Trolli Schmittlauch"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "006ae1dd45cbb3d7b53517fb976fb59056ea2ea7",

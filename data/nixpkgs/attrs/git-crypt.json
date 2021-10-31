@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Transparent file encryption in git",
+    "desc_long": "git-crypt enables transparent encryption and decryption of files in a git\nrepository. Files which you choose to protect are encrypted when\ncommitted, and decrypted when checked out. git-crypt lets you freely\nshare a repository containing a mix of public and private\ncontent. git-crypt gracefully degrades, so developers without the secret\nkey can still clone and commit to a repository with encrypted files. This\nlets you store your secret material (such as keys or passwords) in the\nsame repository as your code, without requiring you to lock down your\nentire repository.\n",
+    "home": "https://www.agwa.name/projects/git-crypt",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "dochang@gmail.com",
+        "github": "dochang",
+        "githubId": 129093,
+        "name": "Desmond O. Chang"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

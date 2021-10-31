@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Efficient, large scale, parallel remote execution of commands",
+    "desc_long": "TakTuk allows one to execute commands in parallel on a potentially large set\nof remote nodes (using ssh to connect to each node). It is typically used\ninside high performance computing clusters and grids. It uses an adaptive\nalgorithm to efficiently distribute the work and sets up an interconnection\nnetwork to transport commands and perform I/Os multiplexing. It doesn't\nrequire any specific software on the nodes thanks to a self-propagation\nalgorithm.",
+    "home": "http://taktuk.gforge.inria.fr/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "Bruno@bzizou.net",
+        "github": "bzizou",
+        "githubId": 2647566,
+        "name": "Bruno Bzeznik"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02dfbab3bed6c1a2acf594c3245baada7e4ed6d1",

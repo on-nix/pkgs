@@ -1,4 +1,61 @@
 {
+  "meta": {
+    "desc": "Lightweight library of frog DNA",
+    "desc_long": "Libite is a lightweight library of frog DNA. It can be used to fill\nthe gaps in any dinosaur project. It holds useful functions and macros\ndeveloped by both Finit and the OpenBSD project. Most notably the\nstring functions: strlcpy(3), strlcat(3) and the highly useful *BSD\nsys/queue.h and sys/tree.h API's.\n\nLibite is the frog DNA missing in GNU libc. However, -lite does not\naim to become another GLIB! One noticeable gap in GLIBC is the missing\n_SAFE macros in the BSD sys/queue.h API \u2014 highly recommended when\ntraversing lists to delete/free nodes.\n",
+    "home": "https://github.com/troglobit/libite",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "ISC License",
+        "redistributable": true,
+        "shortName": "isc",
+        "spdxId": "ISC",
+        "url": "https://spdx.org/licenses/ISC.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 2-clause \"Simplified\" License",
+        "redistributable": true,
+        "shortName": "bsd2",
+        "spdxId": "BSD-2-Clause",
+        "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+        "redistributable": true,
+        "shortName": "bsd3",
+        "spdxId": "BSD-3-Clause",
+        "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00910f768ad6475fff10699a710656529f1738c5",

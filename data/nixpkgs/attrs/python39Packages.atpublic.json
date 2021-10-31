@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A decorator and function which populates a module's __all__ and globals",
+    "desc_long": "This is a very simple decorator and function which populates a module's\n__all__ and optionally the module globals.\n\nThis provides both a pure-Python implementation and a C implementation. It is\nproposed that the C implementation be added to builtins_ for Python 3.6.\n\nThis proposal seems to have been rejected, for more information see\nhttps://bugs.python.org/issue26632.\n",
+    "home": "https://public.readthedocs.io/en/latest/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "edmund.wu@protonmail.com",
+        "github": "eadwu",
+        "githubId": 22758444,
+        "name": "Edmund Wu"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0319f3a97b3ec32fe91ffc8c134814ce8b069545",

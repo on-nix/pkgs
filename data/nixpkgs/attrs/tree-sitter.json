@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A parser generator tool and an incremental parsing library",
+    "desc_long": "Tree-sitter is a parser generator tool and an incremental parsing library.\nIt can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited.\n\nTree-sitter aims to be:\n\n* General enough to parse any programming language\n* Fast enough to parse on every keystroke in a text editor\n* Robust enough to provide useful results even in the presence of syntax errors\n* Dependency-free so that the runtime library (which is written in pure C) can be embedded in any application\n",
+    "home": "https://github.com/tree-sitter/tree-sitter",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@profpatsch.de",
+        "github": "Profpatsch",
+        "githubId": 3153638,
+        "name": "Profpatsch"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "020db0535b2ad9fb9b9a37fb62639bf34f6d0492",

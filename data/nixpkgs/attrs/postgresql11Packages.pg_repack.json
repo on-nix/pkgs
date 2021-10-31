@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Reorganize tables in PostgreSQL databases with minimal locks",
+    "desc_long": "pg_repack is a PostgreSQL extension which lets you remove bloat from tables and indexes, and optionally restore\nthe physical order of clustered indexes. Unlike CLUSTER and VACUUM FULL it works online, without holding an\nexclusive lock on the processed tables during processing. pg_repack is efficient to boot,\nwith performance comparable to using CLUSTER directly.\n",
+    "home": "https://github.com/reorg/pg_repack",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "abcz2.uprola@gmail.com",
+        "github": "danbst",
+        "githubId": 743057,
+        "name": "Danylo Hlynskyi"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "001bd7c466817951efc58cda9929614b3bf41e27",

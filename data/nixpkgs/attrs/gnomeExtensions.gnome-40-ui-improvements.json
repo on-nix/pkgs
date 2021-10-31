@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Tunes gnome 40/41's Overview UI to make it more usable.",
+    "desc_long": "Tunes gnome 40/41's Overview UI to make it more usable.\n\nChanges:\n- Search textbox is hidden by default and shown only when user begins to type-to-search\n- Scale of workspaces' thumbnails increased 2x\n- Restores wallpaper on workspaces' thumbnails. No more gray background\n- Show workspaces' thumbnails even when there is only one workspace\n- Firefox's PIP (picture in picture) window is now displayed on the overview screen\n\nAll modifications can be disabled in the extension's settings.\n\nATTENTION!\nAfter extension update, gnome-shell restart is required:\nX11: Alt+F2 => r\nWayland: logout => login",
+    "home": "https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@piegames.de",
+        "github": "piegamesde",
+        "githubId": 14054505,
+        "matrix": "@piegames:matrix.org",
+        "name": "piegames"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00c5aa27ba8643fc8cecf937a78085ed1f4a9a7f",

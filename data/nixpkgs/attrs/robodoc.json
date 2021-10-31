@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Documentation Extraction Tool",
+    "desc_long": "ROBODoc is program documentation tool. The idea is to include for every\nfunction or procedure a standard header containing all sorts of\ninformation about the procedure or function. ROBODoc extracts these\nheaders from the source file and puts them in a separate\nautodocs-file. ROBODoc thus allows you to include the program\ndocumentation in the source code and avoid having to maintain two separate\ndocuments. Or as Petteri puts it: \"robodoc is very useful - especially for\nprogrammers who don't like writing documents with Word or some other\nstrange tool.\"\n\nROBODoc can format the headers in a number of different formats: HTML,\nRTF, LaTeX, or XML DocBook. In HTML mode it can generate cross links\nbetween headers. You can even include parts of your source code.\n\nROBODoc works with many programming languages: For instance C, Pascal,\nShell Scripts, Assembler, COBOL, Occam, Postscript, Forth, Tcl/Tk, C++,\nJava -- basically any program in which you can use remarks/comments.\n",
+    "home": "https://github.com/gumpu/ROBODoc",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012a6ea064e90996fc74e8c69d6d5f77e2dfd93e",

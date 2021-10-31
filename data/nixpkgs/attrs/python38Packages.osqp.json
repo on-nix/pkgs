@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "The Operator Splitting QP Solver",
+    "desc_long": "Numerical optimization package for solving problems in the form\n  minimize        0.5 x' P x + q' x\n  subject to      l <= A x <= u\n\nwhere x in R^n is the optimization variable\n",
+    "home": "https://osqp.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "drisinger+nixpkgs@gmail.com",
+        "github": "drewrisinger",
+        "githubId": 10198051,
+        "name": "Drew Risinger"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01a1d76fb1e44f66bb33bbd60b11de72ac0b34ae",

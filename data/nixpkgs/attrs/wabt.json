@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "The WebAssembly Binary Toolkit",
+    "desc_long": "WABT (pronounced \"wabbit\") is a suite of tools for WebAssembly, including:\n * wat2wasm: translate from WebAssembly text format to the WebAssembly\n   binary format\n * wasm2wat: the inverse of wat2wasm, translate from the binary format\n   back to the text format (also known as a .wat)\n * wasm-objdump: print information about a wasm binary. Similiar to\n   objdump.\n * wasm-interp: decode and run a WebAssembly binary file using a\n   stack-based interpreter\n * wat-desugar: parse .wat text form as supported by the spec interpreter\n   (s-expressions, flat syntax, or mixed) and print \"canonical\" flat\n   format\n * wasm2c: convert a WebAssembly binary file to a C source and header\n",
+    "home": "https://github.com/WebAssembly/wabt",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "leo@gaspard.io",
+        "github": "ekleog",
+        "githubId": 411447,
+        "name": "Leo Gaspard"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "027c28b18a2a3a7fc2f92a2a7a6b0eb1e226f17c",

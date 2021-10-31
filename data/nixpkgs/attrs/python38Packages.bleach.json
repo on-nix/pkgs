@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "An easy, HTML5, whitelisting HTML sanitizer",
+    "desc_long": "Bleach is an HTML sanitizing library that escapes or strips markup and\nattributes based on a white list. Bleach can also linkify text safely,\napplying filters that Django's urlize filter cannot, and optionally\nsetting rel attributes, even on links already in the text.\n\nBleach is intended for sanitizing text from untrusted sources. If you\nfind yourself jumping through hoops to allow your site administrators\nto do lots of things, you're probably outside the use cases. Either\ntrust those users, or don't.\n",
+    "home": "https://github.com/mozilla/bleach",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "pavan.rikhi@gmail.com",
+        "github": "prikhi",
+        "githubId": 1304102,
+        "name": "Pavan Rikhi"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00e380f1be5f393b7ea8ec9848d89284dd5254ce",

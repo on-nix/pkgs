@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Text searching utility",
+    "desc_long": "An \"ID database\" is a binary file containing a list of file\nnames, a list of tokens, and a sparse matrix indicating which\ntokens appear in which files.\n\nWith this database and some tools to query it, many\ntext-searching tasks become simpler and faster.  For example,\nyou can list all files that reference a particular `\\#include'\nfile throughout a huge source hierarchy, search for all the\nmemos containing references to a project, or automatically\ninvoke an editor on all files containing references to some\nfunction or variable.  Anyone with a large software project to\nmaintain, or a large set of text files to organize, can benefit\nfrom the ID utilities.\n\nAlthough the name `ID' is short for `identifier', the ID\nutilities handle more than just identifiers; they also treat\nother kinds of tokens, most notably numeric constants, and the\ncontents of certain character strings.\n",
+    "home": "https://www.gnu.org/software/idutils/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "gfrascadorio@tutanota.com",
+        "github": "gfrascadorio",
+        "githubId": 37602871,
+        "name": "Galois"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02ff38f7b114ccf3a60dc25f0f0620890add1518",

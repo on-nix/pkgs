@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "An icon beside the date in the topbar to show if there are unread emails when running your default email client.",
+    "desc_long": "An icon beside the date in the topbar to show if there are unread emails when running your default email client.\n\n It checks the notifications in the message tray related to a new mail, no extra configuration needed, very light extension. Click on the icon does toggle your email client window.*** Do not disable the notifications of your default email client! *** It is not a standalone mail checker, you need your email client to be running. *** Please check that the xdg-utils package is installed.\n\n Email clients verified at the moment are: Thunderbird, Evolution, Geary, Mailspring. Please ask to add the client, including special packaging (snap/flatpak), that you need. If you report an error, please provide at least the distribution and the email client you use through the GitHub link.\n\n For persistent notifications only, see: https://extensions.gnome.org/extension/3951/persistent-email-notifications .",
+    "home": "https://extensions.gnome.org/extension/1505/new-mail-indicator/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@piegames.de",
+        "github": "piegamesde",
+        "githubId": 14054505,
+        "matrix": "@piegames:matrix.org",
+        "name": "piegames"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03a623970fea3385b8918188165b8eb93988280b",

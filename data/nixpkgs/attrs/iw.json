@@ -1,4 +1,43 @@
 {
+  "meta": {
+    "desc": "Tool to use nl80211",
+    "desc_long": "iw is a new nl80211 based CLI configuration utility for wireless devices.\nIt supports all new drivers that have been added to the kernel recently.\nThe old tool iwconfig, which uses Wireless Extensions interface, is\ndeprecated and it's strongly recommended to switch to iw and nl80211.\n",
+    "home": "https://wireless.wiki.kernel.org/en/users/Documentation/iw",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "ISC License",
+      "redistributable": true,
+      "shortName": "isc",
+      "spdxId": "ISC",
+      "url": "https://spdx.org/licenses/ISC.html"
+    },
+    "maintainers": [
+      {
+        "email": "viric@viric.name",
+        "github": "viric",
+        "githubId": 66664,
+        "name": "Llu\u00eds Batlle i Rossell"
+      },
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0229bebd37caf01cad975090895a5ba2c5973226",

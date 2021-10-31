@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "Locale information for the GNU C Library",
+    "desc_long": "Any Unix-like operating system needs a C library: the library which\n        defines the \"system calls\" and other basic facilities such as\n        open, malloc, printf, exit...\n\n        The GNU C library is used as the C library in the GNU system and\n        most systems with the Linux kernel.\n",
+    "home": "https://www.gnu.org/software/libc/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Library General Public License v2 or later",
+      "redistributable": true,
+      "shortName": "lgpl2Plus",
+      "spdxId": "LGPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "edolstra+nixpkgs@gmail.com",
+        "github": "edolstra",
+        "githubId": 1148549,
+        "name": "Eelco Dolstra"
+      },
+      {
+        "email": "maximilian@mbosch.me",
+        "github": "ma27",
+        "githubId": 6025220,
+        "matrix": "@ma27:nicht-so.sexy",
+        "name": "Maximilian Bosch"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03ad3e810cbcd33d4095d5f4af88383fb87f9995",

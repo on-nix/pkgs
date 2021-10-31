@@ -1,4 +1,75 @@
 {
+  "meta": {
+    "desc": "The GL Vendor-Neutral Dispatch library",
+    "desc_long": "libglvnd is a vendor-neutral dispatch layer for arbitrating OpenGL API\ncalls between multiple vendors. It allows multiple drivers from different\nvendors to coexist on the same filesystem, and determines which vendor to\ndispatch each API call to at runtime.\nBoth GLX and EGL are supported, in any combination with OpenGL and OpenGL ES.\n",
+    "home": "https://gitlab.freedesktop.org/glvnd/libglvnd/",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 1-Clause License",
+        "redistributable": true,
+        "shortName": "bsd1",
+        "spdxId": "BSD-1-Clause",
+        "url": "https://spdx.org/licenses/BSD-1-Clause.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+        "redistributable": true,
+        "shortName": "bsd3",
+        "spdxId": "BSD-3-Clause",
+        "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v3.0 only",
+        "redistributable": true,
+        "shortName": "gpl3Only",
+        "spdxId": "GPL-3.0-only",
+        "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Apache License 2.0",
+        "redistributable": true,
+        "shortName": "asl20",
+        "spdxId": "Apache-2.0",
+        "url": "https://spdx.org/licenses/Apache-2.0.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03ad3e810cbcd33d4095d5f4af88383fb87f9995",

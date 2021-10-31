@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "POSIX time for OCaml",
+    "desc_long": "Ptime has platform independent POSIX time support in pure OCaml.\nIt provides a type to represent a well-defined range of POSIX timestamps\nwith picosecond precision, conversion with date-time values, conversion\nwith RFC 3339 timestamps and pretty printing to a human-readable,\nlocale-independent representation.\n\nThe additional Ptime_clock library provides access to a system POSIX clock\nand to the system's current time zone offset.\n\nPtime is not a calendar library.\n",
+    "home": "https://erratique.ch/software/ptime",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "ISC License",
+      "redistributable": true,
+      "shortName": "isc",
+      "spdxId": "ISC",
+      "url": "https://spdx.org/licenses/ISC.html"
+    },
+    "maintainers": [
+      {
+        "email": "sternenseemann@systemli.org",
+        "github": "sternenseemann",
+        "githubId": 3154475,
+        "name": "Lukas Epple"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "024a383d64036dab02157927369ca680427aa61d",

@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Network performance measurement tool",
+    "desc_long": "nuttcp is a network performance measurement tool intended for use by\nnetwork and system managers. Its most basic usage is to determine the raw\nTCP (or UDP) network layer throughput by transferring memory buffers from\na source system across an interconnecting network to a destination\nsystem, either transferring data for a specified time interval, or\nalternatively transferring a specified number of bytes. In addition to\nreporting the achieved network throughput in Mbps, nuttcp also provides\nadditional useful information related to the data transfer such as user,\nsystem, and wall-clock time, transmitter and receiver CPU utilization,\nand loss percentage (for UDP transfers).\n",
+    "home": "http://nuttcp.net/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "008a6a571bc61891f629b427b4ea3ef1af94b153",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "File format designed for highly efficient deltas while maintaining good compression",
+    "desc_long": "zchunk is a compressed file format that splits the file into independent\nchunks. This allows you to only download changed chunks when downloading a\nnew version of the file, and also makes zchunk files efficient over rsync.\n\nzchunk files are protected with strong checksums to verify that the file\nyou downloaded is, in fact, the file you wanted.\n",
+    "home": "https://github.com/zchunk/zchunk",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "039764362bd23fee07ddce1a6b284e4348a08f41",

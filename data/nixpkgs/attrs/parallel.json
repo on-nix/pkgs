@@ -1,4 +1,39 @@
 {
+  "meta": {
+    "desc": "Shell tool for executing jobs in parallel",
+    "desc_long": "GNU Parallel is a shell tool for executing jobs in parallel.  A job\n        is typically a single command or a small script that has to be run\n        for each of the lines in the input.  The typical input is a list of\n        files, a list of hosts, a list of users, or a list of tables.\n\n        If you use xargs today you will find GNU Parallel very easy to use.\n        If you write loops in shell, you will find GNU Parallel may be able\n        to replace most of the loops and make them run faster by running\n        jobs in parallel.  If you use ppss or pexec you will find GNU\n        Parallel will often make the command easier to read.\n\n        GNU Parallel makes sure output from the commands is the same output\n        as you would get had you run the commands sequentially.  This makes\n        it possible to use output from GNU Parallel as input for other\n        programs.\n",
+    "home": "https://www.gnu.org/software/parallel/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@pascal-wittmann.de",
+        "github": "pSub",
+        "githubId": 83842,
+        "name": "Pascal Wittmann"
+      },
+      {
+        "email": "rahul@gopinath.org",
+        "github": "vrthra",
+        "githubId": 70410,
+        "name": "Rahul Gopinath"
+      },
+      {
+        "email": "tomberek@gmail.com",
+        "github": "tomberek",
+        "githubId": 178444,
+        "matrix": "@tomberek:matrix.org",
+        "name": "Thomas Bereknyei"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "039764362bd23fee07ddce1a6b284e4348a08f41",

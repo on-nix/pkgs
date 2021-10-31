@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "Cryptographic library",
+    "desc_long": "Nettle is a cryptographic library that is designed to fit\neasily in more or less any context: In crypto toolkits for\nobject-oriented languages (C++, Python, Pike, ...), in\napplications like LSH or GNUPG, or even in kernel space.  In\nmost contexts, you need more than the basic cryptographic\nalgorithms, you also need some way to keep track of available\nalgorithms, their properties and variants.  You often have\nsome algorithm selection process, often dictated by a protocol\nyou want to implement.\n\nAnd as the requirements of applications differ in subtle and\nnot so subtle ways, an API that fits one application well can\nbe a pain to use in a different context.  And that is why\nthere are so many different cryptographic libraries around.\n\nNettle tries to avoid this problem by doing one thing, the\nlow-level crypto stuff, and providing a simple but general\ninterface to it.  In particular, Nettle doesn't do algorithm\nselection.  It doesn't do memory allocation. It doesn't do any\nI/O.\n",
+    "home": "https://www.lysator.liu.se/~nisse/nettle/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "v@cunat.cz",
+        "github": "vcunat",
+        "githubId": 1785925,
+        "keys": [
+          {
+            "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA",
+            "longkeyid": "rsa4096/0xE747DF1F9575A3AA"
+          }
+        ],
+        "matrix": "@vcunat:matrix.org",
+        "name": "Vladim\u00edr \u010cun\u00e1t"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0319f3a97b3ec32fe91ffc8c134814ce8b069545",

@@ -1,4 +1,40 @@
 {
+  "meta": {
+    "desc": "An autocompletion daemon for the Go programming language",
+    "desc_long": "Gocode is a helper tool which is intended to be integrated with your\nsource code editor, like vim, neovim and emacs. It provides several\nadvanced capabilities, which currently includes:\n\n  - Context-sensitive autocompletion\n\nIt is called daemon, because it uses client/server architecture for\ncaching purposes. In particular, it makes autocompletions very fast.\nTypical autocompletion time with warm cache is 30ms, which is barely\nnoticeable.\n",
+    "home": "https://github.com/stamblerre/gocode",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      },
+      {
+        "email": "rvolosatovs@riseup.net",
+        "github": "rvolosatovs",
+        "githubId": 12877905,
+        "name": "Roman Volosatovs"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "015c5a2be650acf9db46c3c25012e5023319625b",

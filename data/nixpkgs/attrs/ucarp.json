@@ -1,4 +1,61 @@
 {
+  "meta": {
+    "desc": "Userspace implementation of CARP",
+    "desc_long": "UCARP allows a couple of hosts to share common virtual IP addresses in\norder to provide automatic failover. It is a portable userland\nimplementation of the secure and patent-free Common Address Redundancy\nProtocol (CARP, OpenBSD's alternative to the patents-bloated VRRP).\n\nWarning: This package has not received any upstream updates for a long\ntime and can be considered as unmaintained.\n",
+    "home": null,
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "ISC License",
+        "redistributable": true,
+        "shortName": "isc",
+        "spdxId": "ISC",
+        "url": "https://spdx.org/licenses/ISC.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 4-clause \"Original\" or \"Old\" License",
+        "redistributable": true,
+        "shortName": "bsdOriginal",
+        "spdxId": "BSD-4-Clause",
+        "url": "https://spdx.org/licenses/BSD-4-Clause.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 2-clause \"Simplified\" License",
+        "redistributable": true,
+        "shortName": "bsd2",
+        "spdxId": "BSD-2-Clause",
+        "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v2.0 or later",
+        "redistributable": true,
+        "shortName": "gpl2Plus",
+        "spdxId": "GPL-2.0-or-later",
+        "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "post@0x21.biz",
+        "github": "oxzi",
+        "githubId": 8402811,
+        "keys": [
+          {
+            "fingerprint": "EB14 4E67 E57D 27E2 B5A4  CD8C F32A 4563 7FA2 5E31",
+            "longkeyid": "rsa4096/0xF32A45637FA25E31"
+          }
+        ],
+        "name": "Alvar Penning"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "030c21580b04ba2eeca44cadfe314797f0fe962d",

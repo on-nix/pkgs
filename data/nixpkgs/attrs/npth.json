@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "The New GNU Portable Threads Library",
+    "desc_long": "This is a library to provide the GNU Pth API and thus a non-preemptive\nthreads implementation.\n\nIn contrast to GNU Pth is is based on the system's standard threads\nimplementation.  This allows the use of libraries which are not\ncompatible to GNU Pth.  Experience with a Windows Pth emulation showed\nthat this is a solid way to provide a co-routine based framework.\n",
+    "home": "http://www.gnupg.org",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v3.0",
+      "redistributable": true,
+      "shortName": "lgpl3",
+      "spdxId": "LGPL-3.0",
+      "url": "https://spdx.org/licenses/LGPL-3.0.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

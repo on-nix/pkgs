@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "GNU multiple precision arithmetic library",
+    "desc_long": "GMP is a free library for arbitrary precision arithmetic, operating\n        on signed integers, rational numbers, and floating point numbers.\n        There is no practical limit to the precision except the ones implied\n        by the available memory in the machine GMP runs on.  GMP has a rich\n        set of functions, and the functions have a regular interface.\n\n        The main target applications for GMP are cryptography applications\n        and research, Internet security applications, algebra systems,\n        computational algebra research, etc.\n\n        GMP is carefully designed to be as fast as possible, both for small\n        operands and for huge operands.  The speed is achieved by using\n        fullwords as the basic arithmetic type, by using fast algorithms,\n        with highly optimised assembly code for the most common inner loops\n        for a lot of CPUs, and by a general emphasis on speed.\n\n        GMP is faster than any other bignum library.  The advantage for GMP\n        increases with the operand sizes for many operations, since GMP uses\n        asymptotically faster algorithms.\n",
+    "home": "https://gmplib.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "rahul@gopinath.org",
+        "github": "vrthra",
+        "githubId": 70410,
+        "name": "Rahul Gopinath"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02589710ba47160d4cb801ffe5d9270bec071da4",

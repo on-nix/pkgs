@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Replacement of Alt+Tab Window Switcher that offers direct activation, type to search, various filtering and sorting settings (switchable on the fly), workspace switching and hotkeys for window control. You can also adjust size of the window previews and app icons.",
+    "desc_long": "Replacement of Alt+Tab Window Switcher that offers direct activation, type to search, various filtering and sorting settings (switchable on the fly), workspace switching and hotkeys for window control. You can also adjust size of the window previews and app icons.\n\nNote that it's replacement of the \"window switcher\", not the \"app switcher\" - set your keyboard shortcut in Gnome Settings.\n\nHotkeys (in Type to Search mode with the Shift key):\n\n    H/L, Left/Right         - window selection\n    J/K, Up/Down, PgUp/Down - workspace selection\n    Space, KP_0/KP_Ins      - Show selected window - switch to window workspace and bring it to the front\n    Q                       - Switch window filter mode - ALL / WS / MONITOR\n    ;/~/` (key above Tab)   - Sort windows by applications, each subsequent key press jumps to the first window of the next app\n    G                       - Toggle sort by workspaces, when base filter is set to ALL\n    1/+/!                   - Filter out all windows that don't belong to the application of selected window\n    E/Insert                - Activates the \"Type to Search\" mode, the `Insert` key can turn it off, `Delete` deletes whole typed pattern\n    W                       - Close selected window\n    Shift+Del               - Force close - kill -9 to process of selected window\n    C                       - Close all windows from window list that belong to the same application as selected window\n    A                       - Toggle window 'Always on Top'. Also switch to window workspace and rise the window. Indicated by the front icon on top instead of bottom. When you press the 'A' key twice, it's actually equivalent to one press of hotkey for 'Show selected window'\n    S                       - Toggle window 'Always on Visible Workspace', indicated by the 'pin' icon. You can move selected window to the current workspace by pressing this key twice.\n    X/click outside switcher- Move selected window to the current workspace and to the monitor with mouse pointer\n    N                       - Create New Window of selected application, if the app soupports it.\n    V                       - Move window to selected workspace and maximize it.\n    F                       - Move window to empty workspace next to its current workspace and switch it to fullscreen mode. Next use of this action on the same window moves the window back to its original workspace and turn off the fullscreen mode.\n    O                       - Show application grid, if you need to launch new application.\n    T                       - Creates an thumbnail preview of selected window and place it to the bottom right of the current monitor. You can move the thumbnail anywhere on the screen and you can make as many thumbnails you want\n    P                       - Open preferences window for this extension\n\nFor more information and bug reports follow the link below.\nRestart your Gnome Shell after every update, before you post a bug report.",
+    "home": "https://extensions.gnome.org/extension/4412/advanced-alttab-window-switcher/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@piegames.de",
+        "github": "piegamesde",
+        "githubId": 14054505,
+        "matrix": "@piegames:matrix.org",
+        "name": "piegames"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "019200160c257bf5cd4880d2501e03c9868ed89b",

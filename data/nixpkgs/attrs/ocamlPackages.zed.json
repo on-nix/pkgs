@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Abstract engine for text edition in OCaml",
+    "desc_long": "Zed is an abstract engine for text edition. It can be used to write text editors, edition widgets, readlines, ...\n\nZed uses Camomile to fully support the Unicode specification, and implements an UTF-8 encoded string type with validation, and a rope datastructure to achieve efficient operations on large Unicode buffers. Zed also features a regular expression search on ropes.\n\nTo support efficient text edition capabilities, Zed provides macro recording and cursor management facilities.\n",
+    "home": "https://github.com/ocaml-community/zed",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "florent.becker@ens-lyon.org",
+        "github": "FlorentBecker",
+        "githubId": 7047019,
+        "name": "Florent Becker"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0229bebd37caf01cad975090895a5ba2c5973226",

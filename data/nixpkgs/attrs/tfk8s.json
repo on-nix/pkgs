@@ -1,4 +1,34 @@
 {
+  "meta": {
+    "desc": "An utility to convert Kubernetes YAML manifests to Terraform's HCL format",
+    "desc_long": "tfk8s is a tool that makes it easier to work with the Terraform Kubernetes Provider.\nIf you want to copy examples from the Kubernetes documentation or migrate existing YAML manifests and use them with Terraform without having to convert YAML to HCL by hand, this tool is for you.\nFeatures:\n* Convert a YAML file containing multiple manifests.\n* Strip out server side fields when piping kubectl get $R -o yaml | tfk8s --strip\n",
+    "home": "https://github.com/jrhouston/tfk8s/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "5861043+superherointj@users.noreply.github.com",
+        "github": "superherointj",
+        "githubId": 5861043,
+        "matrix": "@superherointj:matrix.org",
+        "name": "S\u00e9rgio G."
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "006c32f161d23af58a730643c7bd1d6b09348045",

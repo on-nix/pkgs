@@ -47,6 +47,12 @@ def main() -> None:
                             dict(name=version, last=commit, first=commit)
                         )
 
+    # Append metadata
+    meta = load("data/nixpkgs/meta.json")
+    for attr, attr_data in attrs.items():
+        if attr in meta:
+            attr_data["meta"] = meta[attr]
+
     # Write attrs index
     attrs_path: str = "data/nixpkgs/attrs.json"
     with open(attrs_path, encoding="utf-8", mode="w") as file:

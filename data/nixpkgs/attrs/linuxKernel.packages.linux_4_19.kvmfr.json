@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Optional kernel module for LookingGlass",
+    "desc_long": "This kernel module implements a basic interface to the IVSHMEM device for LookingGlass when using LookingGlass in VM->VM mode\nAdditionally, in VM->host mode, it can be used to generate a shared memory device on the host machine that supports dmabuf\n",
+    "home": "https://github.com/gnif/LookingGlass",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "me@bricker.io",
+        "github": "j-brn",
+        "githubId": 40566146,
+        "name": "Jonas Braun"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01909ece3040674367f68f6b67d67321f61d6274",

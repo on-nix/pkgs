@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "A PC/SC driver for Linux/Mac OS X and it supports ACS CCID smart card readers",
+    "desc_long": "acsccid is a PC/SC driver for Linux/Mac OS X and it supports ACS CCID smart card\nreaders. This library provides a PC/SC IFD handler implementation and\ncommunicates with the readers through the PC/SC Lite resource manager (pcscd).\n\nacsccid is based on ccid. See CCID free software driver for more\ninformation:\nhttps://ccid.apdu.fr/\n\nIt can be enabled in /etc/nixos/configuration.nix by adding:\n  services.pcscd.enable = true;\n  services.pcscd.plugins = [ pkgs.acsccid ];\n",
+    "home": "https://github.com/acshk/acsccid",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Library General Public License v2 or later",
+      "redistributable": true,
+      "shortName": "lgpl2Plus",
+      "spdxId": "LGPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "nixpkgs@roberthensing.nl",
+        "github": "roberth",
+        "githubId": 496447,
+        "matrix": "@roberthensing:matrix.org",
+        "name": "Robert Hensing"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "035a65d074074a6f30514093b4dde6ed6ce08aed",

@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "Terminal multiplexer",
+    "desc_long": "tmux is intended to be a modern, BSD-licensed alternative to programs such as GNU screen. Major features include:\n\n         * A powerful, consistent, well-documented and easily scriptable command interface.\n         * A window may be split horizontally and vertically into panes.\n         * Panes can be freely moved and resized, or arranged into preset layouts.\n         * Support for UTF-8 and 256-colour terminals.\n         * Copy and paste with multiple buffers.\n         * Interactive menus to select windows, sessions or clients.\n         * Change the current window by searching for text in the target.\n         * Terminal locking, manually or after a timeout.\n         * A clean, easily extended, BSD-licensed codebase, under active development.\n",
+    "home": "https://tmux.github.io/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "jawr@gmx.de",
+        "github": "tobias-hammerschmidt",
+        "githubId": 2543259,
+        "name": "Tobias Hammerschmidt"
+      },
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "017b2d7176fff18f7a45ecc751ca33de5016c700",

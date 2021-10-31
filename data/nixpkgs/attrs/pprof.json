@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "A tool for visualization and analysis of profiling data",
+    "desc_long": "pprof reads a collection of profiling samples in profile.proto format and\ngenerates reports to visualize and help analyze the data. It can generate\nboth text and graphical reports (through the use of the dot visualization\npackage).\n\nprofile.proto is a protocol buffer that describes a set of callstacks and\nsymbolization information. A common usage is to represent a set of sampled\ncallstacks from statistical profiling. The format is described on the\nproto/profile.proto file. For details on protocol buffers, see\nhttps://developers.google.com/protocol-buffers\n\nProfiles can be read from a local file, or over http. Multiple profiles of\nthe same type can be aggregated or compared.\n\nIf the profile samples contain machine addresses, pprof can symbolize them\nthrough the use of the native binutils tools (addr2line and nm).\n\nThis is not an official Google product.\n",
+    "home": "https://github.com/google/pprof",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "038152e4ee26bb81d1ffff59260e1183a1b735da",

@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "A functional programming language for realtime audio signal processing",
+    "desc_long": "FAUST (Functional Audio Stream) is a functional programming\nlanguage specifically designed for real-time signal processing\nand synthesis. FAUST targets high-performance signal processing\napplications and audio plug-ins for a variety of platforms and\nstandards.\nThe Faust compiler translates DSP specifications into very\nefficient C++ code. Thanks to the notion of architecture,\nFAUST programs can be easily deployed on a large variety of\naudio platforms and plugin formats (jack, alsa, ladspa, maxmsp,\npuredata, csound, supercollider, pure, vst, coreaudio) without\nany change to the FAUST code.\n\nThis package has just the compiler, libraries, and headers.\nInstall faust2* for specific faust2appl scripts.\n",
+    "home": "https://faust.grame.fr/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "bart@magnetophon.nl",
+        "github": "magnetophon",
+        "githubId": 7645711,
+        "name": "Bart Brouns"
+      },
+      {
+        "email": "pat@polycrystal.org",
+        "github": "pmahoney",
+        "githubId": 103822,
+        "name": "Patrick Mahoney"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02e9c88d778b06909d4ef5a2e7e417aaeecb89a7",

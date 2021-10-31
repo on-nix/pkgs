@@ -1,4 +1,44 @@
 {
+  "meta": {
+    "desc": "Tool that generates a compilation database for clang tooling",
+    "desc_long": "Note: the bear command is very useful to generate compilation commands\ne.g. for YouCompleteMe.  You just enter your development nix-shell\nand run `bear make`.  It's not perfect, but it gets a long way.\n",
+    "home": "https://github.com/rizsotto/Bear",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "babathriviere@gmail.com",
+        "github": "babariviere",
+        "githubId": 12128029,
+        "keys": [
+          {
+            "fingerprint": "2F85 B362 B274 0012 37E2  81EE F202 AD3B 6EDF 4BD1",
+            "longkeyid": "rsa4096/0xF202AD3B6EDF4BD1"
+          }
+        ],
+        "name": "Bastien Rivi\u00e8re"
+      },
+      {
+        "email": "hi@alyssa.is",
+        "github": "alyssais",
+        "githubId": 2768870,
+        "keys": [
+          {
+            "fingerprint": "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97",
+            "longkeyid": "rsa4096/736CCDF9EF51BD97"
+          }
+        ],
+        "name": "Alyssa Ross"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "019200160c257bf5cd4880d2501e03c9868ed89b",

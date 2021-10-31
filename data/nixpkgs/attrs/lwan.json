@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Lightweight high-performance multi-threaded web server",
+    "desc_long": "A lightweight and speedy web server with a low memory\n      footprint (~500KiB for 10k idle connections), with minimal system calls and\n      memory allocation.  Lwan contains a hand-crafted HTTP request parser. Files are\n      served using the most efficient way according to their size: no copies between\n      kernel and userland for files larger than 16KiB.  Smaller files are sent using\n      vectored I/O of memory-mapped buffers. Header overhead is considered before\n      compressing small files.  Features include: mustache templating engine and IPv6\n      support.\n    ",
+    "home": "https://lwan.ws/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "ml.software@leenaa.rs",
+        "github": "leenaars",
+        "githubId": 4158274,
+        "name": "Michiel Leenaars"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00c5aa27ba8643fc8cecf937a78085ed1f4a9a7f",

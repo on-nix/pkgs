@@ -1,4 +1,30 @@
 {
+  "meta": {
+    "desc": "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles",
+    "desc_long": "OCaml is a general purpose programming language with an emphasis on expressiveness and safety. Developed for more than 20 years at Inria by a group of leading researchers, it has an advanced type system that helps catch your mistakes without getting in your way. It's used in environments where a single mistake can cost millions and speed matters, is supported by an active community, and has a rich set of libraries and development tools. It's widely used in teaching for its power and simplicity.\n\nStrengths:\n* A powerful type system, equipped with parametric polymorphism and type inference. For instance, the type of a collection can be parameterized by the type of its elements. This allows defining some operations over a collection independently of the type of its elements: sorting an array is one example. Furthermore, type inference allows defining such operations without having to explicitly provide the type of their parameters and result.\n* User-definable algebraic data types and pattern-matching. New algebraic data types can be defined as combinations of records and sums. Functions that operate over such data structures can then be defined by pattern matching, a generalized form of the well-known switch statement, which offers a clean and elegant way of simultaneously examining and naming data.\n* Automatic memory management, thanks to a fast, unobtrusive, incremental garbage collector.\n* Separate compilation of standalone applications. Portable bytecode compilers allow creating stand-alone applications out of Caml Light or OCaml programs. A foreign function interface allows OCaml code to interoperate with C code when necessary. Interactive use of OCaml is also supported via a \u201cread-evaluate-print\u201d loop.\n\nIn addition, OCaml features:\n* A sophisticated module system, which allows organizing modules hierarchically and parameterizing a module over a number of other modules.\n* An expressive object-oriented layer, featuring multiple inheritance, parametric and virtual classes.\n* Efficient native code compilers. In addition to its bytecode compiler, OCaml offers a compiler that produces efficient machine code for many architectures.\n\nLearn more at: https://ocaml.org/learn/description.html\n",
+    "home": "https://ocaml.org/",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Q Public License 1.0",
+        "redistributable": true,
+        "shortName": "qpl",
+        "spdxId": "QPL-1.0",
+        "url": "https://spdx.org/licenses/QPL-1.0.html"
+      },
+      {
+        "deprecated": true,
+        "free": true,
+        "fullName": "GNU Library General Public License v2",
+        "redistributable": true,
+        "shortName": "lgpl2",
+        "spdxId": "LGPL-2.0",
+        "url": "https://spdx.org/licenses/LGPL-2.0.html"
+      }
+    ],
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

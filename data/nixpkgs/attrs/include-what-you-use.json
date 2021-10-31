@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Analyze #includes in C/C++ source files with clang",
+    "desc_long": "For every symbol (type, function variable, or macro) that you use in\nfoo.cc, either foo.cc or foo.h should #include a .h file that exports the\ndeclaration of that symbol.  The main goal of include-what-you-use is to\nremove superfluous #includes, both by figuring out what #includes are not\nactually needed for this file (for both .cc and .h files), and by\nreplacing #includes with forward-declares when possible.\n",
+    "home": "https://include-what-you-use.org",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

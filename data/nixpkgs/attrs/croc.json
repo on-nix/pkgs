@@ -1,4 +1,52 @@
 {
+  "meta": {
+    "desc": "Easily and securely send things from one computer to another",
+    "desc_long": "Croc is a command line tool written in Go that allows any two computers to\nsimply and securely transfer files and folders.\n\nCroc does all of the following:\n- Allows any two computers to transfer data (using a relay)\n- Provides end-to-end encryption (using PAKE)\n- Enables easy cross-platform transfers (Windows, Linux, Mac)\n- Allows multiple file transfers\n- Allows resuming transfers that are interrupted\n- Does not require a server or port-forwarding\n",
+    "home": "https://github.com/schollz/croc",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "hugo@hugoreeves.com",
+        "github": "hugoreeves",
+        "githubId": 20039091,
+        "keys": [
+          {
+            "fingerprint": "78C2 E81C 828A 420B 269A  EBC1 49FA 39F8 A7F7 35F9",
+            "longkeyid": "rsa4096/0x49FA39F8A7F735F9"
+          }
+        ],
+        "name": "Hugo Reeves"
+      },
+      {
+        "email": "eduardo@eduardoquiros.com",
+        "github": "equirosa",
+        "githubId": 39096810,
+        "name": "Eduardo Quiros"
+      },
+      {
+        "email": "sandro.jaeckel@gmail.com",
+        "github": "SuperSandro2000",
+        "githubId": 7258858,
+        "matrix": "@sandro:supersandro.de",
+        "name": "Sandro J\u00e4ckel"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00c5aa27ba8643fc8cecf937a78085ed1f4a9a7f",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Syncs browser profile dirs to RAM",
+    "desc_long": "Profile-sync-daemon (psd) is a tiny pseudo-daemon designed to manage your\nbrowser's profile in tmpfs and to periodically sync it back to your\nphysical disc (HDD/SSD). This is accomplished via a symlinking step and\nan innovative use of rsync to maintain back-up and synchronization\nbetween the two. One of the major design goals of psd is a completely\ntransparent user experience.\n",
+    "home": "https://github.com/graysky2/profile-sync-daemon",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "pavan.rikhi@gmail.com",
+        "github": "prikhi",
+        "githubId": 1304102,
+        "name": "Pavan Rikhi"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0319f3a97b3ec32fe91ffc8c134814ce8b069545",

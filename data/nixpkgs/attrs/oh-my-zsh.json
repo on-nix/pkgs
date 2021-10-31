@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A framework for managing your zsh configuration",
+    "desc_long": "Oh My Zsh is a framework for managing your zsh configuration.\n\nTo copy the Oh My Zsh configuration file to your home directory, run\nthe following command:\n\n  $ cp -v $(nix-env -q --out-path oh-my-zsh | cut -d' ' -f3)/share/oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc\n",
+    "home": "https://ohmyz.sh/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "tim@nequissimus.com",
+        "github": "nequissimus",
+        "githubId": 628342,
+        "name": "Tim Steinbach"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00334d352f2948ab5bcb28ba674d9c55e1b5f2ec",

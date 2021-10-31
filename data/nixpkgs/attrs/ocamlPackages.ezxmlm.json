@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Combinators to use with xmlm for parsing and selection",
+    "desc_long": "An \"easy\" interface on top of the xmlm library. This version provides\nmore convenient (but far less flexible) input and output functions\nthat go to and from [string] values. This avoids the need to write signal\ncode, which is useful for quick scripts that manipulate XML.\n\nMore advanced users should go straight to the Xmlm library and use it\ndirectly, rather than be saddled with the Ezxmlm interface. Since the\ntypes in this library are more specific than Xmlm, it should interoperate\njust fine with it if you decide to switch over.\n",
+    "home": "https://github.com/mirage/ezxmlm/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "ISC License",
+      "redistributable": true,
+      "shortName": "isc",
+      "spdxId": "ISC",
+      "url": "https://spdx.org/licenses/ISC.html"
+    },
+    "maintainers": [
+      {
+        "email": "m@cdagostino.io",
+        "github": "carlosdagos",
+        "githubId": 686190,
+        "name": "Carlos D'Agostino"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

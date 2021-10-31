@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "The Ignominous Profiler",
+    "desc_long": "IgProf is a fast and light weight profiler. It correctly handles\ndynamically loaded shared libraries, threads and sub-processes started by\nthe application.  We have used it routinely with large C++ applications\nconsisting of many hundreds of shared libraries and thousands of symbols\nfrom millions of source lines of code. It requires no special privileges\nto run. The performance reports provide full navigable call stacks and\ncan be customised by applying filters. Results from any number of\nprofiling runs can be included. This means you can both dig into the\ndetails and see the big picture from combined workloads.\n",
+    "home": "https://igprof.org/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "giulio.eulisse@cern.ch",
+        "github": "ktf",
+        "githubId": 10544,
+        "name": "Giuluo Eulisse"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01d06dc35f836cce945f522913f2a00a61b29c2d",

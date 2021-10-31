@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Generate state machine code from text input (state diagram)",
+    "desc_long": "SMC (State Machine Compiler) takes a text input file describing states,\nevents and actions of a state machine and generates source code that\nimplements the state machine.\n\nSMC supports many target languages:\nC, C++, DotNet, Groovy, java, Java, JavaScript, Lua, ObjC, Perl, Php,\nPython, Ruby, Scala, Tcl.\n\nSMC can also generate GraphViz state diagrams from the input file.\n",
+    "home": "http://smc.sourceforge.net/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Mozilla Public License 1.1",
+      "redistributable": true,
+      "shortName": "mpl11",
+      "spdxId": "MPL-1.1",
+      "url": "https://spdx.org/licenses/MPL-1.1.html"
+    },
+    "maintainers": [
+      {
+        "email": "bjorn.forsman@gmail.com",
+        "github": "bjornfor",
+        "githubId": 133602,
+        "name": "Bj\u00f8rn Forsman"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

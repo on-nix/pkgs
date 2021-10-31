@@ -1,4 +1,36 @@
 {
+  "meta": {
+    "desc": "Epson AcuLaser C1100 Driver",
+    "desc_long": "This package provides a print filter for printing to EPSON AL-C1100\nprinters on Linux systems.\n\nTo use the driver adjust your configuration.nix file:\n  services.printing = {\n    enable = true;\n    drivers = [ pkgs.epson-alc1100 ];\n  };\n",
+    "home": "http://download.ebz.epson.net/dsc/search/01/search/",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      },
+      {
+        "deprecated": false,
+        "free": false,
+        "fullName": "EPSON AVASYS PUBLIC LICENSE",
+        "redistributable": false,
+        "shortName": "eapl",
+        "url": "https://avasys.jp/hp/menu000000700/hpg000000603.htm"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "info@emanueleperuffo.com",
+        "github": "emanueleperuffo",
+        "githubId": 5085029,
+        "name": "Emanuele Peruffo"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00cdff318a317565b8289fa807dfb3b9bbbaaa91",

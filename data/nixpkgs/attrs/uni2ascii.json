@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Converts between UTF-8 and many 7-bit ASCII equivalents and back",
+    "desc_long": "This package provides conversion in both directions between UTF-8\nUnicode and more than thirty 7-bit ASCII equivalents, including\nRFC 2396 URI format and RFC 2045 Quoted Printable format, the\nrepresentations used in HTML, SGML, XML, OOXML, the Unicode\nstandard, Rich Text Format, POSIX portable charmaps, POSIX locale\nspecifications, and Apache log files, and the escapes used for\nincluding Unicode in Ada, C, Common Lisp, Java, Pascal, Perl,\nPostscript, Python, Scheme, and Tcl.\n\nSuch ASCII equivalents are useful when including Unicode text in\nprogram source, when debugging, and when entering text into web\nprograms that can handle the Unicode character set but are not\n8-bit safe. For example, MovableType, the blog software, truncates\nposts as soon as it encounters a byte with the high bit\nset. However, if Unicode is entered in the form of HTML numeric\ncharacter entities, Movable Type will not garble the post.\n\nIt also provides ways of converting non-ASCII characters to\nsimilar ASCII characters, e.g. by stripping diacritics.\n",
+    "home": "http://billposer.org/Software/uni2ascii.html",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "cillian.deroiste@gmail.com",
+        "github": "cillianderoiste",
+        "githubId": 643494,
+        "name": "Cillian de R\u00f3iste"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012a7209e58e73a754e4f86927c0280da23530bf",

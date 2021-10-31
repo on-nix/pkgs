@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Accelerated BLAST compatible local sequence aligner",
+    "desc_long": "A sequence aligner for protein and translated DNA\nsearches and functions as a drop-in replacement for the NCBI BLAST\nsoftware tools. It is suitable for protein-protein search as well as\nDNA-protein search on short reads and longer sequences including contigs\nand assemblies, providing a speedup of BLAST ranging up to x20,000.\n\nDIAMOND is developed by Benjamin Buchfink. Feel free to contact him for support (Email Twitter).\n\nIf you use DIAMOND in published research, please cite\nB. Buchfink, Xie C., D. Huson,\n\"Fast and sensitive protein alignment using DIAMOND\",\nNature Methods 12, 59-60 (2015).\n",
+    "home": "https://github.com/bbuchfink/diamond",
+    "license": {
+      "fullName": "University of Tuebingen, Benjamin Buchfink",
+      "url": "https://raw.githubusercontent.com/bbuchfink/diamond/master/src/COPYING"
+    },
+    "maintainers": [
+      {
+        "email": "softs@metabarcoding.org",
+        "name": "Celine Mercier"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "034ea00b98101922fd70507692f87b97fbccf836",

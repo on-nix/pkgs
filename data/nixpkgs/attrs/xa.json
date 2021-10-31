@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Andre Fachat's open-source 6502 cross assembler",
+    "desc_long": "xa is a high-speed, two-pass portable cross-assembler. It understands\nmnemonics and generates code for NMOS 6502s (such as 6502A, 6504, 6507,\n6510, 7501, 8500, 8501, 8502 ...), CMOS 6502s (65C02 and Rockwell R65C02)\nand the 65816.\n\nKey amongst its features:\n\n- C-like preprocessor (and understands cpp for additional feature support)\n- rich expression syntax and pseudo-op vocabulary\n- multiple character sets\n- binary linking\n- supports o65 relocatable objects with a full linker and relocation\n  suite, as well as \"bare\" plain binary object files\n- block structure for label scoping\n",
+    "home": "https://www.floodgap.com/retrotech/xa/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0338730140aa44f1f7c2cce354ebe89f25af0b46",

@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "A trivial implementation of libpulse PulseAudio library API",
+    "desc_long": "libcardiacarrest is a trivial implementation of libpulse\nPulseAudio library API that unconditionally (but gracefully)\nfails to connect to the PulseAudio daemon and does nothing else.\n\napulse and pressureaudio (which uses apulse internally) are an\ninspiration for this but unlike those two projects\nlibcardiacarrest is not an emulation layer, all it does is it\ngracefully fails to provide the requested PulseAudio service\nhoping the application would try something else (e.g. ALSA or\nJACK).\n",
+    "home": "https://github.com/oxij/libcardiacarrest",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Library General Public License v2 or later",
+      "redistributable": true,
+      "shortName": "lgpl2Plus",
+      "spdxId": "LGPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "oxij@oxij.org",
+        "github": "oxij",
+        "githubId": 391919,
+        "keys": [
+          {
+            "fingerprint": "514B B966 B46E 3565 0508  86E8 0E6C A66E 5C55 7AA8",
+            "longkeyid": "rsa2048/0x0E6CA66E5C557AA8"
+          }
+        ],
+        "name": "Jan Malakhovski"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012b43dfbb63ce3f453a726cfbd6226a25ed283a",

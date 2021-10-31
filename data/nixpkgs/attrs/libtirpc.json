@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "The transport-independent Sun RPC implementation (TI-RPC)",
+    "desc_long": "Currently, NFS commands use the SunRPC routines provided by the\nglibc.  These routines do not support IPv6 addresses.  Ulrich\nDrepper, who is the maintainer of the glibc, refuses any change in\nthe glibc concerning the RPC.  He wants the RPC to become a separate\nlibrary.  Other OS (NetBSD, FreeBSD, Solarix, HP-UX, AIX) have\nmigrated their SunRPC library to a TI-RPC (Transport Independent\nRPC) implementation.  This implementation allows the support of\nother transports than UDP and TCP over IPv4.  FreeBSD provides a\nTI-RPC library ported from NetBSD with improvements.  This library\nalready supports IPv6.  So, the FreeBSD release 5.2.1 TI-RPC has\nbeen ported to replace the SunRPC of the glibc.\n",
+    "home": "https://sourceforge.net/projects/libtirpc/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "ab@fmap.me",
+        "github": "abbradar",
+        "githubId": 1174810,
+        "name": "Nikolay Amiantov"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0229bebd37caf01cad975090895a5ba2c5973226",

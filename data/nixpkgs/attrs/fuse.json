@@ -1,4 +1,48 @@
 {
+  "meta": {
+    "desc": "Library that allows filesystems to be implemented in user space",
+    "desc_long": "FUSE (Filesystem in Userspace) is an interface for userspace programs to\nexport a filesystem to the Linux kernel. The FUSE project consists of two\ncomponents: The fuse kernel module (maintained in the regular kernel\nrepositories) and the libfuse userspace library (this package). libfuse\nprovides the reference implementation for communicating with the FUSE\nkernel module.\n",
+    "home": "https://github.com/libfuse/libfuse",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v2.0 only",
+        "redistributable": true,
+        "shortName": "gpl2Only",
+        "spdxId": "GPL-2.0-only",
+        "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU Lesser General Public License v2.1 only",
+        "redistributable": true,
+        "shortName": "lgpl21Only",
+        "spdxId": "LGPL-2.1-only",
+        "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0008aa73eb0dec898c4e2e6913af645abd253c35",

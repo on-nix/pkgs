@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "GUI for molecular phylogeny",
+    "desc_long": "SeaView is a multiplatform, graphical user interface for multiple sequence alignment and molecular phylogeny.\n  - SeaView reads and writes various file formats (NEXUS, MSF, CLUSTAL, FASTA, PHYLIP, MASE, Newick) of DNA and protein sequences and of phylogenetic trees.\n  - SeaView drives programs muscle or Clustal Omega for multiple sequence alignment, and also allows to use any external alignment algorithm able to read and write FASTA-formatted files.\n  - Seaview drives the Gblocks program to select blocks of evolutionarily conserved sites.\n  - SeaView computes phylogenetic trees by\n    + parsimony, using PHYLIP's dnapars/protpars algorithm,\n    + distance, with NJ or BioNJ algorithms on a variety of evolutionary distances,\n    + maximum likelihood, driving program PhyML 3.1.\n  - Seaview can use the Transfer Bootstrap Expectation method to compute the bootstrap support of PhyML and distance trees.\n  - SeaView prints and draws phylogenetic trees on screen, SVG, PDF or PostScript files.\n  - SeaView allows to download sequences from EMBL/GenBank/UniProt using the Internet.\n\nSeaview is published in:\n\n    Gouy M., Guindon S. & Gascuel O. (2010) SeaView version 4 : a multiplatform graphical user interface for sequence alignment and phylogenetic tree building. Molecular Biology and Evolution 27(2):221-224.\n",
+    "home": "http://doua.prabi.fr/software/seaview",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "iimog@iimog.org",
+        "github": "iimog",
+        "githubId": 7403236,
+        "name": "Markus J. Ankenbrand"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "017c7a4940a3c62002d725ae848b16793922eac9",

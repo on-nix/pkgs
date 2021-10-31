@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Bash shell-script implementation of SuperGenPass password generation",
+    "desc_long": "Bash shell-script implementation of SuperGenPass password generation\nUsage: ./supergenpass.sh <domain> [ <length> ]\n\nDefault <length> is 10, which is also the original SuperGenPass default length.\n\nThe <domain> parameter is also optional, but it does not make much sense to omit it.\n\nsupergenpass will ask for your master password interactively, and it will not be displayed on your terminal.\n",
+    "home": "https://github.com/lanzz/bash-supergenpass",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "fgaz@fgaz.me",
+        "github": "fgaz",
+        "githubId": 8182846,
+        "matrix": "@fgaz:matrix.org",
+        "name": "Francesco Gazzetta"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03831816d88c7c6dbe25b762493765f5ee77a148",

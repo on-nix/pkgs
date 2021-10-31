@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "GnuPG\u2019s interface to passphrase input",
+    "desc_long": "Pinentry provides a console and (optional) GTK and Qt GUIs allowing users\nto enter a passphrase when `gpg' or `gpg2' is run and needs it.\n",
+    "home": "http://gnupg.org/aegypten2/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "ttuegel@mailbox.org",
+        "github": "ttuegel",
+        "githubId": 563054,
+        "name": "Thomas Tuegel"
+      },
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0004682e366356f9072d7e45447611e67b65e20c",

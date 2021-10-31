@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "A graphical {,U}EFI boot manager",
+    "desc_long": "rEFInd is a graphical boot manager for EFI- and UEFI-based\ncomputers, such as all Intel-based Macs and recent (most 2011\nand later) PCs. rEFInd presents a boot menu showing all the EFI\nboot loaders on the EFI-accessible partitions, and optionally\nBIOS-bootable partitions on Macs. EFI-compatbile OSes, including\nLinux, provide boot loaders that rEFInd can detect and\nlaunch. rEFInd can launch Linux EFI boot loaders such as ELILO,\nGRUB Legacy, GRUB 2, and 3.3.0 and later kernels with EFI stub\nsupport. EFI filesystem drivers for ext2/3/4fs, ReiserFS, HFS+,\nand ISO-9660 enable rEFInd to read boot loaders from these\nfilesystems, too. rEFInd's ability to detect boot loaders at\nruntime makes it very easy to use, particularly when paired with\nLinux kernels that provide EFI stub support.\n",
+    "home": "http://refind.sourceforge.net/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      },
+      {
+        "email": "samuel@dionne-riel.com",
+        "github": "samueldr",
+        "githubId": 132835,
+        "matrix": "@samueldr:matrix.org",
+        "name": "Samuel Dionne-Riel"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03ad3e810cbcd33d4095d5f4af88383fb87f9995",

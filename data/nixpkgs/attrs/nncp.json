@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Secure UUCP-like store-and-forward exchanging",
+    "desc_long": "This utilities are intended to help build up small size (dozens of\nnodes) ad-hoc friend-to-friend (F2F) statically routed darknet\ndelay-tolerant networks for fire-and-forget secure reliable files,\nfile requests, Internet mail and commands transmission. All\npackets are integrity checked, end-to-end encrypted, explicitly\nauthenticated by known participants public keys. Onion encryption\nis applied to relayed packets. Each node acts both as a client and\nserver, can use push and poll behaviour model.\n\nOut-of-box offline sneakernet/floppynet, dead drops, sequential\nand append-only CD-ROM/tape storages, air-gapped computers\nsupport. But online TCP daemon with full-duplex resumable data\ntransmission exists.\n",
+    "home": "http://www.nncpgo.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 only",
+      "redistributable": true,
+      "shortName": "gpl3Only",
+      "spdxId": "GPL-3.0-only",
+      "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+    },
+    "maintainers": [
+      {
+        "email": "github@woffs.de",
+        "github": "woffs",
+        "githubId": 895853,
+        "name": "Frank Doepper"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0045d3e4f92c61d2d442f63df992fd9cd6e06fe6",

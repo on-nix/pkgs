@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "An easily deployable & decentralized OpenPGP keyserver",
+    "desc_long": "SKS is an OpenPGP keyserver whose goal is to provide easy to deploy,\ndecentralized, and highly reliable synchronization. That means that a key\nsubmitted to one SKS server will quickly be distributed to all key\nservers, and even wildly out-of-date servers, or servers that experience\nspotty connectivity, can fully synchronize with rest of the system.\n",
+    "home": "https://github.com/SKS-Keyserver/sks-keyserver",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      },
+      {
+        "email": "mail@glob.in",
+        "github": "globin",
+        "githubId": 1447245,
+        "name": "Robin Gloster"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03ad3e810cbcd33d4095d5f4af88383fb87f9995",

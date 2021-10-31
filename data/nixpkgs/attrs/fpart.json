@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Split file trees into bags (called \"partitions\")",
+    "desc_long": "Fpart is a tool that helps you sort file trees and pack them into bags\n(called \"partitions\").\n\nIt splits a list of directories and file trees into a certain number of\npartitions, trying to produce partitions with the same size and number of\nfiles. It can also produce partitions with a given number of files or a\nlimited size.\n\nOnce generated, partitions are either printed as file lists to stdout\n(default) or to files. Those lists can then be used by third party programs.\n\nFpart also includes a live mode, which allows it to crawl very large\nfilesystems and produce partitions in live. Hooks are available to act on\nthose partitions (e.g. immediatly start a transfer using rsync(1))\nwithout having to wait for the filesystem traversal job to be finished.\nUsed this way, fpart can be seen as a powerful data migration tool.\n",
+    "home": "http://contribs.martymac.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "bjorn.forsman@gmail.com",
+        "github": "bjornfor",
+        "githubId": 133602,
+        "name": "Bj\u00f8rn Forsman"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0218f30af58b9081f477504edd2b3ae19d3da9b5",

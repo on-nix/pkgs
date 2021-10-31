@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "A cross-platform build system",
+    "desc_long": "BSDBuild is a cross-platform build system. Derived from the\ntraditional 4.4BSD make libraries, BSDBuild allows BSD-style\nMakefiles (without BSD make extensions), and works natively\nunder most operating systems and make flavors. Since BSDBuild\nis implemented as a library (as opposed to a macro package),\nMakefiles are edited directly, as opposed to being compiled\n(however, if the build directory is separate from the source\ndirectory, BSDBuild will produce the required Makefiles in place).\n",
+    "home": "http://bsdbuild.hypertriton.com",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "015c984537990d0f8d89b8f5a2e53f516caa5b94",

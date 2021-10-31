@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "NAT gateway traversal utility",
+    "desc_long": "nat-traverse establishes direct connections between nodes which are\nbehind NAT gateways, i.e. hosts which do not have public IP addresses.\nThis is done using an UDP NAT traversal technique. Additionally, it's\npossible to setup a small VPN by using pppd on top of nat-traverse.\n\nnat-traverse does not need an external server on the Internet, and it\nisn't necessary to reconfigure the involved NAT gateways, either.\nnat-traverse works out-of-the-box.\n",
+    "home": "https://www.speicherleck.de/iblech/nat-traverse/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "iblech@speicherleck.de",
+        "github": "iblech",
+        "githubId": 3661115,
+        "name": "Ingo Blechschmidt"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "030223237ab88229246d7fbb5dd62602849eb3e7",

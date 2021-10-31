@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "lightweight python clipboard manager",
+    "desc_long": "Clipster was designed to try to add a good selection of useful features, while avoiding bad design decisions or becoming excessively large.\nIts feature list includes:\n- Event driven, rather than polling. More efficient, helps with power management.\n- Control over when it write to disk, for similar reasons.\n- Command-line options/config for everything.\n- No global keybindings - that's the job of a Window Manager\n- Sensible handling of unusual clipboard events. Some apps (Chrome, Emacs) trigger a clipboard 'update event' for every character you select, rather than just one event when you stop selecting.\n- Preserves the last item in clipboard after an application closes. (Many apps clear the clipboard on exit).\n- Minimal dependencies, no complicated build/install requirements.\n- utf-8 support\n- Proper handling of embedded newlines and control codes.\n- Smart matching of urls, emails, regexes. (extract_*)\n- Option to synchronise the SELECTION and CLIPBOARD clipboards. (sync_selections)\n- Option to track one or both clipboards. (active_selections)\n- Option to ignore clipboard updates form certain applications. (filter_classes)\n- Ability to delete items in clipboard history.\n",
+    "home": "https://github.com/mrichar1/clipster",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU Affero General Public License v3.0",
+      "redistributable": true,
+      "shortName": "agpl3",
+      "spdxId": "AGPL-3.0",
+      "url": "https://spdx.org/licenses/AGPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "bart@magnetophon.nl",
+        "github": "magnetophon",
+        "githubId": 7645711,
+        "name": "Bart Brouns"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00263c9306107f3ff79ecd185d7e0712fb0560d8",

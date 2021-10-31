@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A simple launcher panel for Wayland desktops",
+    "desc_long": "LavaLauncher is a simple launcher panel for Wayland desktops.\n\nIt displays a dynamically sized bar with user defined buttons. Buttons\nconsist of an image, which is displayed as the button icon on the bar, and\nat least one shell command, which is executed when the user activates the\nbutton.\n\nButtons can be activated with pointer and touch events.\n\nA single LavaLauncher instance can provide multiple such bars, across\nmultiple outputs.\n\nThe Wayland compositor must implement the Layer-Shell and XDG-Output for\nLavaLauncher to work.\n",
+    "home": "https://git.sr.ht/~leon_plickat/lavalauncher",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "003db7f3ffbfbe2b47ab9dfcb7aaa0da94d01622",

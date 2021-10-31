@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A full featured terminal-based screen editor",
+    "desc_long": "JOE (Joe's Own Editor) is a full featured terminal-based screen editor\nwhich is distributed under the GNU General Public License (GPL). JOE has\nbeen around since 1988 and comes standard with many Linux distributions.\n\nJOE is being maintained by its original author Joseph Allen, plus all of\nthe people who send bug reports, feature suggestions and patches to the\nproject web site. JOE is hosted by SourceForge.net and its source code is\ncontrolled under Mercurial.\n\nJOE is a blending of MicroPro's venerable microcomputer word processor\nWordStar and Richard Stallman's famous LISP based text editor GNU-EMACS\n(but it does not use code from either program): most of the basic editing\nkeys are the same as in WordStar as is the overall feel of the editor. JOE\nalso has some of the key bindings and many of the powerful features of\nEMACS.\n\nJOE is written in C and its only dependency is libc. This makes JOE very\neasy to build (just \"configure\" and \"make install\"), making it feasible to\ninclude on small systems and recovery disks. The compiled binary is about\n300K in x86. Note that JOE can use either the termcap or terminfo terminal\ncapabilities databases (or a built-in termcap entry for ANSI\nterminals). The choice is controlled by a \"configure\" option. If terminfo\nis used, a library is required to access the database (on some systems\nthis library is ncurses, but JOE does not use curses to control the\nterminal - it has its own code for this).\n",
+    "home": "https://joe-editor.sourceforge.io",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "022cbdd7e75db244f6182efe362f95cdcb4250f3",

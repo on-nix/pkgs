@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "libpulse without any sound daemons over pure ALSA",
+    "desc_long": "apulse (https://github.com/i-rinat/apulse) implements most of libpulse\nAPI over pure ALSA in 5% LOC of the original PulseAudio.\n\nBut apulse is made to be used as a wrapper that substitutes its\nreplacement libs into LD_LIBRARY_PATH. The problem with that is\nthat you still have to link against the original libpulse.\n\npressureaudio (http://git.r-36.net/pressureaudio/) wraps apulse\nwith everything you need to replace libpulse completely.\n\nThis derivation is a reimplementation of pressureaudio in pure\nnix.\n\nYou can simply override libpulse with this and most\npackages would just work.\n",
+    "home": "https://github.com/i-rinat/apulse",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "ars.seroka@gmail.com",
+        "github": "jagajaga",
+        "githubId": 2179419,
+        "name": "Arseniy Seroka"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "005b5770f482700cf0d787106b39c5efba030ae6",

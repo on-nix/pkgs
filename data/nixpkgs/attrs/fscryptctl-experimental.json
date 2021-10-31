@@ -1,4 +1,37 @@
 {
+  "meta": {
+    "desc": "Small C tool for Linux filesystem encryption",
+    "desc_long": "fscryptctl is a low-level tool written in C that handles raw keys and\nmanages policies for Linux filesystem encryption, specifically the\n\"fscrypt\" kernel interface which is supported by the ext4, f2fs, and\nUBIFS filesystems.\nfscryptctl is mainly intended for embedded systems which can't use the\nfull-featured fscrypt tool, or for testing or experimenting with the\nkernel interface to Linux filesystem encryption. fscryptctl does not\nhandle key generation, key stretching, key wrapping, or PAM integration.\nMost users should use the fscrypt tool instead, which supports these\nfeatures and generally is much easier to use.\nAs fscryptctl is intended for advanced users, you should read the kernel\ndocumentation for filesystem encryption before using fscryptctl.\n",
+    "home": "https://github.com/google/fscryptctl",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03831816d88c7c6dbe25b762493765f5ee77a148",

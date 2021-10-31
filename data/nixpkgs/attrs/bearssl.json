@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "An implementation of the SSL/TLS protocol written in C",
+    "desc_long": "BearSSL is an implementation of the SSL/TLS protocol (RFC 5246)\nwritten in C. It aims at offering the following features:\n\n* Be correct and secure. In particular, insecure protocol versions and\n  choices of algorithms are not supported, by design; cryptographic\n  algorithm implementations are constant-time by default.\n\n* Be small, both in RAM and code footprint. For instance, a minimal\n  server implementation may fit in about 20 kilobytes of compiled code\n  and 25 kilobytes of RAM.\n\n* Be highly portable. BearSSL targets not only \u201cbig\u201d operating systems\n  like Linux and Windows, but also small embedded systems and even\n  special contexts like bootstrap code.\n\n* Be feature-rich and extensible. SSL/TLS has many defined cipher\n  suites and extensions; BearSSL should implement most of them, and\n  allow extra algorithm implementations to be added afterwards,\n  possibly from third parties.\n",
+    "home": "https://www.bearssl.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@profpatsch.de",
+        "github": "Profpatsch",
+        "githubId": 3153638,
+        "name": "Profpatsch"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012b3a659eaec450b5372a09aea6d32e1805c1a9",

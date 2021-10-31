@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A portable DjVu viewer (Qt5) and browser (nsdejavu) plugin",
+    "desc_long": "The portable DjVu viewer (Qt5) and browser (nsdejavu) plugin.\n\nDjview highlights:\n  - entirely based on the public DjVulibre api.\n  - entirely written in portable Qt5.\n  - works natively under Unix/X11, MS Windows, and macOS X.\n  - continuous scrolling of pages\n  - side-by-side display of pages\n  - ability to specify a url to the djview command\n  - all plugin and cgi options available from the command line\n  - all silly annotations implemented\n  - display thumbnails as a grid\n  - display outlines\n  - page names supported (see djvused command set-page-title)\n  - metadata dialog (see djvused command set-meta)\n  - implemented as reusable Qt widgets\n\nnsdejavu: browser plugin for DjVu. It internally uses djview.\nHas CGI-style arguments to configure the view of document (see man).\n",
+    "home": "http://djvu.sourceforge.net/djview4.html",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "anton.latuka+nixpkgs@gmail.com",
+        "github": "Anton-Latukha",
+        "githubId": 20933385,
+        "name": "Anton Latukha"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02126b69e5f5744cc677a0a025ccabb3b3ca865a",

@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Sketching embedded digital audio algorithms.\n\nTo fix permissions of the Axoloti USB device node, add a similar udev rule to <literal>services.udev.extraRules</literal>:\n<literal>SUBSYSTEM==\"usb\", ATTR{idVendor}==\"16c0\", ATTR{idProduct}==\"0442\", OWNER=\"someuser\", GROUP=\"somegroup\"</literal>\n",
+    "desc_long": null,
+    "home": "http://www.axoloti.com",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

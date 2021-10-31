@@ -1,4 +1,36 @@
 {
+  "meta": {
+    "desc": "Epson printer driver (BX535WD, BX630FW, BX635FWD, ME940FW, NX530, NX635, NX635, SX535WD, WorkForce 545, WorkForce 645",
+    "desc_long": "This software is a filter program used with the Common UNIX Printing\nSystem (CUPS) under Linux. It supplies high quality printing with\nSeiko Epson Color Ink Jet Printers.\nList of printers supported by this package:\n  Epson BX535WD Series\n  Epson BX630FW Series\n  Epson BX635FWD Series\n  Epson ME940FW Series\n  Epson NX530 Series\n  Epson SX535WD Series\n  Epson WorkForce 545 Series\n  Epson WorkForce 645 Series\nTo use the driver adjust your configuration.nix file:\n  services.printing = {\n    enable = true;\n    drivers = [ pkgs.epson-201106w ];\n  };\n",
+    "home": "https://www.openprinting.org/driver/epson-201106w",
+    "license": [
+      {
+        "deprecated": true,
+        "free": true,
+        "fullName": "GNU Lesser General Public License v2.1",
+        "redistributable": true,
+        "shortName": "lgpl21",
+        "spdxId": "LGPL-2.1",
+        "url": "https://spdx.org/licenses/LGPL-2.1.html"
+      },
+      {
+        "deprecated": false,
+        "free": false,
+        "fullName": "Seiko Epson Corporation Software License Agreement for Linux",
+        "redistributable": false,
+        "shortName": "epson",
+        "url": "https://download.ebz.epson.net/dsc/du/02/eula/global/LINUX_EN.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "nphilou@gmail.com",
+        "github": "nphilou",
+        "githubId": 9939720,
+        "name": "Philippe Nguyen"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00d6b4cbc7daf19c44e81387f5d345b8ffdc461e",

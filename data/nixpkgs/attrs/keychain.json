@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Keychain management tool",
+    "desc_long": "Keychain helps you to manage SSH and GPG keys in a convenient and secure\nmanner. It acts as a frontend to ssh-agent and ssh-add, but allows you\nto easily have one long running ssh-agent process per system, rather\nthan the norm of one ssh-agent per login session.\n\nThis dramatically reduces the number of times you need to enter your\npassphrase. With keychain, you only need to enter a passphrase once\nevery time your local machine is rebooted. Keychain also makes it easy\nfor remote cron jobs to securely \"hook in\" to a long-running ssh-agent\nprocess, allowing your scripts to take advantage of key-based logins.\n",
+    "home": "https://www.funtoo.org/Keychain",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v2.0",
+      "redistributable": true,
+      "shortName": "gpl2",
+      "spdxId": "GPL-2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "yann.hodique@gmail.com",
+        "github": "sigma",
+        "githubId": 16090,
+        "name": "Yann Hodique"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01dd922ca01312b240aca08ecd3b4cd51cfb3d82",

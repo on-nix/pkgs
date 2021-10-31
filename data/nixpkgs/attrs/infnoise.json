@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Driver for the Infinite Noise TRNG",
+    "desc_long": "The Infinite Noise TRNG is a USB key hardware true random number generator.\nIt can either provide rng for userland applications, or provide rng for the OS entropy.\nAdd the following to your system configuration for plug and play support, adding to the OS entropy:\nsystemd.packages = [ pkgs.infnoise ];\nservices.udev.packages = [ pkgs.infnoise ];\n",
+    "home": "https://github.com/13-37-org/infnoise",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Creative Commons Zero v1.0 Universal",
+      "redistributable": true,
+      "shortName": "cc0",
+      "spdxId": "CC0-1.0",
+      "url": "https://spdx.org/licenses/CC0-1.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "nixdev@rinsa.eu",
+        "github": "Stekke",
+        "githubId": 1751956,
+        "name": "Stijn DW"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02c2a942d9c0cd6e2b992168d15a1dae5806d24c",

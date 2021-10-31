@@ -1,4 +1,18 @@
 {
+  "meta": {
+    "desc": "Command line tools for interacting with the Amazon Mechanical Turk",
+    "desc_long": "The Amazon Mechanical Turk is a crowdsourcing marketplace that\nallows users (\u201crequesters\u201d) to submit tasks to be performed by\nother humans (\u201cworkers\u201d) for a small fee.  This package\ncontains command-line tools for submitting tasks, querying\nresults, and so on.\n\nThe command-line tools expect a file\n<filename>mturk.properties<filename> in the current directory,\nwhich should contain the following:\n\n<screen>\naccess_key=[insert your access key here]\nsecret_key=[insert your secret key here]\nservice_url=http://mechanicalturk.amazonaws.com/?Service=AWSMechanicalTurkRequester\n</screen>\n",
+    "home": "https://requester.mturk.com/developer",
+    "license": {
+      "deprecated": false,
+      "free": false,
+      "fullName": "Amazon Software License",
+      "redistributable": false,
+      "shortName": "amazonsl",
+      "url": "https://aws.amazon.com/asl/"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "0069e583cd6c53ca840cfeb39157739cb43a920d",

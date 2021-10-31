@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A build tool for OCaml",
+    "desc_long": "ocp-build is a build system for OCaml application, based on simple\ndescriptions of packages. ocp-build combines the descriptions of\npackages, and optimize the parallel compilation of files depending on\nthe number of cores and the automatically-inferred dependencies\nbetween source files.\n",
+    "home": "https://www.typerex.org/ocp-build.html",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "jiri.marsik89@gmail.com",
+        "github": "jirkamarsik",
+        "githubId": 184898,
+        "name": "Jirka Marsik"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0017d42f1edeb6b58ea4d0448664156300bc7ebd",

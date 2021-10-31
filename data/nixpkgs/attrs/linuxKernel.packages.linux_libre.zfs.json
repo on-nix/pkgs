@@ -1,4 +1,83 @@
 {
+  "meta": {
+    "desc": "ZFS Filesystem Linux Kernel module",
+    "desc_long": "ZFS is a filesystem that combines a logical volume manager with a\nCopy-On-Write filesystem with data integrity detection and repair,\nsnapshotting, cloning, block devices, deduplication, and more.\n",
+    "home": "https://github.com/openzfs/zfs",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Common Development and Distribution License 1.0",
+      "redistributable": true,
+      "shortName": "cddl",
+      "spdxId": "CDDL-1.0",
+      "url": "https://spdx.org/licenses/CDDL-1.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "henri@henrimenke.de",
+        "github": "hmenke",
+        "githubId": 1903556,
+        "keys": [
+          {
+            "fingerprint": "F1C5 760E 45B9 9A44 72E9  6BFB D65C 9AFB 4C22 4DA3",
+            "longkeyid": "rsa4096/0xD65C9AFB4C224DA3"
+          }
+        ],
+        "matrix": "@hmenke:matrix.org",
+        "name": "Henri Menke"
+      },
+      {
+        "email": "jack@mudshark.org",
+        "github": "jcumming",
+        "githubId": 1982341,
+        "name": "Jack Cummings"
+      },
+      {
+        "email": "jonringer117@gmail.com",
+        "github": "jonringer",
+        "githubId": 7673602,
+        "matrix": "@jonringer:matrix.org",
+        "name": "Jonathan Ringer"
+      },
+      {
+        "email": "rcorreia@wizy.org",
+        "github": "wizeman",
+        "githubId": 168610,
+        "name": "Ricardo M. Correia"
+      },
+      {
+        "email": "fpletz@fnordicwalking.de",
+        "github": "fpletz",
+        "githubId": 114159,
+        "keys": [
+          {
+            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+            "longkeyid": "rsa4096/0x846FDED7792617B4"
+          }
+        ],
+        "name": "Franz Pletz"
+      },
+      {
+        "email": "mail@glob.in",
+        "github": "globin",
+        "githubId": 1447245,
+        "name": "Robin Gloster"
+      },
+      {
+        "email": "joerg@thalheim.io",
+        "github": "mic92",
+        "githubId": 96200,
+        "keys": [
+          {
+            "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+            "longkeyid": "rsa4096/0x003F2096411B5F92"
+          }
+        ],
+        "matrix": "@mic92:nixos.dev",
+        "name": "J\u00f6rg Thalheim"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00334d352f2948ab5bcb28ba674d9c55e1b5f2ec",

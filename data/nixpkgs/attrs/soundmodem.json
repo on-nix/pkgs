@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Audio based modem for ham radio supporting ax.25",
+    "desc_long": "This software allows a standard PC soundcard to be used as a packet radio \"modem\". The whole processing is done on the main processor CPU.\nUnlike previous packet radio modem software, this new release offers several new benefits:\n  - Now uses standard operating system sound drivers (OSS/Free under Linux, /dev/audio under Solaris and DirectSound under Windows), thus runs on all soundcards for which drivers for the desired operating system are available.\n  - No fixed relationship between bitrate, sampling rate, and modem parameters. Modems may be parametrized, and multiple modems may even run on the same audio channel!\n  - Usermode solution allows the use of MMX, VIS, Floating point and other media instruction sets to speed up computation.\n  - Cross platform builds from a single source code provides ubiquitous availability.\n",
+    "home": "http://soundmodem.vk4msl.id.au/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 only",
+      "redistributable": true,
+      "shortName": "gpl2Only",
+      "spdxId": "GPL-2.0-only",
+      "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+    },
+    "maintainers": [
+      {
+        "email": "nixpkgs@ymarkus.dev",
+        "github": "ymarkus",
+        "githubId": 62380378,
+        "name": "Yannick Markus"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0083c785fe2ca67000e4a48243e09db5aa9cde74",

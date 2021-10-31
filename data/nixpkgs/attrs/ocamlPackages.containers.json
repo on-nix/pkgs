@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "A modular standard library focused on data structures",
+    "desc_long": "Containers is a standard library (BSD license) focused on data structures,\ncombinators and iterators, without dependencies on unix. Every module is\nindependent and is prefixed with 'CC' in the global namespace. Some modules\nextend the stdlib (e.g. CCList provides safe map/fold_right/append, and\nadditional functions on lists).\n\nIt also features optional libraries for dealing with strings, and\nhelpers for unix and threads.\n",
+    "home": "https://github.com/c-cube/ocaml-containers",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

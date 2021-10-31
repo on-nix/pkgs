@@ -1,4 +1,47 @@
 {
+  "meta": {
+    "desc": "Tool for testing if Kubernetes is deployed securely",
+    "desc_long": "Kubescape is the first open-source tool for testing if Kubernetes is\ndeployed securely according to multiple frameworks: regulatory, customized\ncompany policies and DevSecOps best practices, such as the NSA-CISA and\nthe MITRE ATT&CK\u00ae.\nKubescape scans K8s clusters, YAML files, and HELM charts, and detect\nmisconfigurations and software vulnerabilities at early stages of the\nCI/CD pipeline and provides a risk score instantly and risk trends over\ntime. Kubescape integrates natively with other DevOps tools, including\nJenkins, CircleCI and Github workflows.\n",
+    "home": "https://github.com/armosec/kubescape",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@fabian-affolter.ch",
+        "github": "fabaff",
+        "githubId": 116184,
+        "keys": [
+          {
+            "fingerprint": "2F6C 930F D3C4 7E38 6AFA  4EB4 E23C D2DD 36A4 397F",
+            "longkeyid": "dsa1024/0xE23CD2DD36A4397F"
+          }
+        ],
+        "matrix": "@fabaff:matrix.org",
+        "name": "Fabian Affolter"
+      },
+      {
+        "email": "hello+nixpkgs@j-k.io",
+        "github": "06kellyjac",
+        "githubId": 9866621,
+        "matrix": "@j-k:matrix.org",
+        "name": "Jack"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00334d352f2948ab5bcb28ba674d9c55e1b5f2ec",

@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "Restore/upgrade firmware of iOS devices",
+    "desc_long": "The idevicerestore tool allows to restore firmware files to iOS devices.\n\nIt is a full reimplementation of all granular steps which are performed during\nrestore of a firmware to a device.\n\nIn general, upgrades and downgrades are possible, however subject to\navailability of SHSH blobs from Apple for signing the firmare files.\n\nTo restore a device to some firmware, simply run the following:\n$ sudo idevicerestore -l\n\nThis will download and restore a device to the latest firmware available.\n",
+    "home": "https://github.com/libimobiledevice/idevicerestore",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v2.1 or later",
+      "redistributable": true,
+      "shortName": "lgpl21Plus",
+      "spdxId": "LGPL-2.1-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@nh2.me",
+        "github": "nh2",
+        "githubId": 399535,
+        "matrix": "@nh2:matrix.org",
+        "name": "Niklas Hamb\u00fcchen"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0263f626a060fe42dd1ba1b9110760bf8a353564",

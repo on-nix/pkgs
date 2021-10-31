@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "GNU dbm key/value database library",
+    "desc_long": "GNU dbm (or GDBM, for short) is a library of database functions that\nuse extensible hashing and work similar to the standard UNIX dbm.\nThese routines are provided to a programmer needing to create and\nmanipulate a hashed database.\n\nThe basic use of GDBM is to store key/data pairs in a data file.\nEach key must be unique and each key is paired with only one data\nitem.\n\nThe library provides primitives for storing key/data pairs,\nsearching and retrieving the data by its key and deleting a key\nalong with its data.  It also support sequential iteration over all\nkey/data pairs in a database.\n\nFor compatibility with programs using old UNIX dbm function, the\npackage also provides traditional dbm and ndbm interfaces.\n",
+    "home": "https://www.gnu.org/software/gdbm/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "rahul@gopinath.org",
+        "github": "vrthra",
+        "githubId": 70410,
+        "name": "Rahul Gopinath"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00ab017fec960b30abb90c4dfcd53815d38fc72a",

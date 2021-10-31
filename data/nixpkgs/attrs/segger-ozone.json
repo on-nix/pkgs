@@ -1,4 +1,24 @@
 {
+  "meta": {
+    "desc": "J-Link Debugger and Performance Analyzer",
+    "desc_long": "Ozone is a cross-platform debugger and performance analyzer for J-Link\nand J-Trace.\n\n  - Stand-alone graphical debugger\n  - Debug output of any tool chain and IDE 1\n  - C/C++ source level debugging and assembly instruction debugging\n  - Debug information windows for any purpose: disassembly, memory,\n    globals and locals, (live) watches, CPU and peripheral registers\n  - Source editor to fix bugs immediately\n  - High-speed programming of the application into the target\n  - Direct use of J-Link built-in features (Unlimited Flash\n    Breakpoints, Flash Download, Real Time Terminal, Instruction Trace)\n  - Scriptable project files to set up everything automatically\n    - New project wizard to ease the basic configuration of new projects\n\n1 Ozone has been tested with the output of the following compilers:\nGCC, Clang, ARM, IAR. Output of other compilers may be supported but is\nnot guaranteed to be.\n",
+    "home": "https://www.segger.com/products/development-tools/ozone-j-link-debugger",
+    "license": {
+      "deprecated": false,
+      "free": false,
+      "fullName": "Unfree",
+      "redistributable": false,
+      "shortName": "unfree"
+    },
+    "maintainers": [
+      {
+        "email": "bmilanov11+nixpkgs@gmail.com",
+        "github": "bmilanov",
+        "githubId": 30090366,
+        "name": "Biser Milanov"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "003db7f3ffbfbe2b47ab9dfcb7aaa0da94d01622",

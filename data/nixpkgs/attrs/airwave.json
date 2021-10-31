@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "WINE-based VST bridge for Linux VST hosts",
+    "desc_long": "Airwave is a wine based VST bridge, that allows for the use of\nWindows 32- and 64-bit VST 2.4 audio plugins with Linux VST\nhosts. Due to the use of shared memory, only one extra copying\nis made for each data transfer. Airwave also uses the XEMBED\nprotocol to correctly embed the plugin editor into the host\nwindow.\n",
+    "home": "https://github.com/phantom-code/airwave",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "m@michalrus.com",
+        "github": "michalrus",
+        "githubId": 4366292,
+        "name": "Michal Rus"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02e9c88d778b06909d4ef5a2e7e417aaeecb89a7",

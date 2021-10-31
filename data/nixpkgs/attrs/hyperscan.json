@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "High-performance multiple regex matching library",
+    "desc_long": "Hyperscan is a high-performance multiple regex matching library.\nIt follows the regular expression syntax of the commonly-used\nlibpcre library, but is a standalone library with its own C API.\n\nHyperscan uses hybrid automata techniques to allow simultaneous\nmatching of large numbers (up to tens of thousands) of regular\nexpressions and for the matching of regular expressions across\nstreams of data.\n\nHyperscan is typically used in a DPI library stack.\n",
+    "home": "https://www.hyperscan.io/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "avn@avnik.info",
+        "github": "avnik",
+        "githubId": 153538,
+        "name": "Alexander V. Nikolaev"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

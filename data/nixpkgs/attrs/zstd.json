@@ -1,4 +1,28 @@
 {
+  "meta": {
+    "desc": "Zstandard real-time compression algorithm",
+    "desc_long": "Zstd, short for Zstandard, is a fast lossless compression algorithm,\ntargeting real-time compression scenarios at zlib-level compression\nratio. Zstd can also offer stronger compression ratio at the cost of\ncompression speed. Speed/ratio trade-off is configurable by small\nincrement, to fit different situations. Note however that decompression\nspeed is preserved and remain roughly the same at all settings, a\nproperty shared by most LZ compression algorithms, such as zlib.\n",
+    "home": "https://facebook.github.io/zstd/",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+        "redistributable": true,
+        "shortName": "bsd3",
+        "spdxId": "BSD-3-Clause",
+        "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "orivej@gmx.fr",
+        "github": "orivej",
+        "githubId": 101514,
+        "name": "Orivej Desh"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0319f3a97b3ec32fe91ffc8c134814ce8b069545",

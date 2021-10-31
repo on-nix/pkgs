@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Flexible dictionary server and client implementing RFC 2229",
+    "desc_long": "GNU Dico is a flexible modular implementation of DICT server\n(RFC 2229).  In contrast to another existing servers, it does\nnot depend on particular database format, instead it handles\ndatabase accesses using loadable modules.\n\nThe package includes several loadable modules for interfacing\nwith various database formats, among them a module for dict.org\ndatabases and a module for transparently accessing Wikipedia or\nWiktionary sites as a dictionary database.\n\nNew modules can easily be written in C, Guile or Python.  The\nmodule API is mature and well documented.\n\nA web interface serving several databases is available.\n\nThe package also includes a console client program for querying\nremote dictionary servers.\n",
+    "home": "https://www.gnu.org/software/dico/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "jason@oconal.id.au",
+        "github": "lovek323",
+        "githubId": 265084,
+        "name": "Jason O'Conal"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012f2315c51d1258bcdda4d5bd62b1963aaab51b",

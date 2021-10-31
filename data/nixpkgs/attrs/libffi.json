@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A foreign function call interface library",
+    "desc_long": "The libffi library provides a portable, high level programming\ninterface to various calling conventions.  This allows a\nprogrammer to call any function specified by a call interface\ndescription at run-time.\n\nFFI stands for Foreign Function Interface.  A foreign function\ninterface is the popular name for the interface that allows code\nwritten in one language to call code written in another\nlanguage.  The libffi library really only provides the lowest,\nmachine dependent layer of a fully featured foreign function\ninterface.  A layer must exist above libffi that handles type\nconversions for values passed between the two languages.\n",
+    "home": "http://sourceware.org/libffi/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "mjbauer95@gmail.com",
+        "github": "matthewbauer",
+        "githubId": 19036,
+        "name": "Matthew Bauer"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00910f768ad6475fff10699a710656529f1738c5",

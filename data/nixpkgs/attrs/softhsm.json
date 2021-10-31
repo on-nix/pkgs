@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Cryptographic store accessible through a PKCS #11 interface",
+    "desc_long": "\n      SoftHSM provides a software implementation of a generic\n      cryptographic device with a PKCS#11 interface, which is of\n      course especially useful in environments where a dedicated hardware\n      implementation of such a device - for instance a Hardware\n      Security Module (HSM) or smartcard - is not available.\n\n      SoftHSM follows the OASIS PKCS#11 standard, meaning it should be\n      able to work with many cryptographic products. SoftHSM is a\n      programme of The Commons Conservancy.\n    ",
+    "home": "https://www.opendnssec.org/softhsm",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 2-clause \"Simplified\" License",
+      "redistributable": true,
+      "shortName": "bsd2",
+      "spdxId": "BSD-2-Clause",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "ml.software@leenaa.rs",
+        "github": "leenaars",
+        "githubId": 4158274,
+        "name": "Michiel Leenaars"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "015c5a2be650acf9db46c3c25012e5023319625b",

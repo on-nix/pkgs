@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A complete suite of dozenal (base twelve) programs",
+    "desc_long": "Programs\n\ndoz --- a converter; converts decimal numbers into dozenal. Accepts\n   input in standard or exponential notation (i.e., \"1492.2\" or \"1.4922e3\").\ndec --- a converter; converts dozenal numbers into decimal. Accepts input\n   in standard or exponential notation (i.e., \"X44;4\" or \"X;444e2\").\ndozword --- converts a dozenal number (integers only) into words,\n   according to the Pendlebury system.\ndozdc --- a full-featured scientific calculator which works in the\n   dozenal base. RPN command line.\ntgmconv --- a converter for all standard measurements; converts to and\n   from TGM, Imperial, customary, and SI metric.\ndozpret --- a pretty-printer for dozenal numbers; inserts spacing (or\n   other characters) as desired, and can also transform transdecimal digits\n   from 'X' to 'E' into any character or sequence of characters desired.\ndozdate --- a more-or-less drop-in replacement for GNU and BSD date, it\n   outputs the date and time in dozenal, as well as containing some TGM\n   extensions.\ndozstring --- a simple byte converter; absorbs a string either from\n   standard input or a command line argument, leaving it identical but\n   for the numbers, which it converts into dozenal. Options for padding\n   and for not converting specific numbers.\ndoman --- a converter which takes a dozenal integer and\n   emits its equivalent in a non-place-value system, such as\n   Roman numerals.  Arbitrary ranks and symbols may be used.\n   Defaults to dozenal Roman numerals.\n",
+    "home": "https://github.com/dgoodmaniii/dozenal/",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU General Public License v3.0",
+      "redistributable": true,
+      "shortName": "gpl3",
+      "spdxId": "GPL-3.0",
+      "url": "https://spdx.org/licenses/GPL-3.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "charleshdespointes@gmail.com",
+        "github": "CharlesHD",
+        "githubId": 6608071,
+        "name": "Charles Huyghues-Despointes"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00aee56f3d6ce95b8c179b14654edb931bc91340",

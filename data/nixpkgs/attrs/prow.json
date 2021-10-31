@@ -1,4 +1,34 @@
 {
+  "meta": {
+    "desc": "A Kubernetes based CI/CD system",
+    "desc_long": "Prow is a Kubernetes based CI/CD system. Jobs can be triggered by various\ntypes of events and report their status to many different services. In\naddition to job execution, Prow provides GitHub automation in the form of\npolicy enforcement, chat-ops via /foo style commands, and automatic PR\nmerging.\n",
+    "home": "https://github.com/kubernetes/test-infra/tree/master/prow",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      },
+      {
+        "email": "wael.nasreddine@gmail.com",
+        "github": "kalbasit",
+        "githubId": 87115,
+        "matrix": "@kalbasit:matrix.org",
+        "name": "Wael Nasreddine"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "022ebea84c46aa3a0c04aa933fc8a3013d638d06",

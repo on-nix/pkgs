@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "A program to help users work with QMK Firmware",
+    "desc_long": "qmk_cli is a companion tool to QMK firmware. With it, you can:\n\n- Interact with your qmk_firmware tree from any location\n- Use qmk clone to pull down anyone's qmk_firmware fork\n- Setup and work with your build environment:\n  - qmk setup\n  - qmk doctor\n  - qmk compile\n  - qmk console\n  - qmk flash\n  - qmk lint\n- ... and many more!\n",
+    "home": "https://github.com/qmk/qmk_cli",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "bhipple@protonmail.com",
+        "github": "bhipple",
+        "githubId": 2071583,
+        "name": "Benjamin Hipple"
+      },
+      {
+        "email": "babathriviere@gmail.com",
+        "github": "babariviere",
+        "githubId": 12128029,
+        "keys": [
+          {
+            "fingerprint": "2F85 B362 B274 0012 37E2  81EE F202 AD3B 6EDF 4BD1",
+            "longkeyid": "rsa4096/0xF202AD3B6EDF4BD1"
+          }
+        ],
+        "name": "Bastien Rivi\u00e8re"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01ab36d8752c2efe901136f19c18ea309b995ac0",

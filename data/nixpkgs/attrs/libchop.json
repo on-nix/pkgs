@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Tools & library for data backup and distributed storage",
+    "desc_long": "Libchop is a set of utilities and library for data backup and\n        distributed storage.  Its main application is chop-backup, an\n        encrypted backup program that supports data integrity checks,\n        versioning at little cost, distribution among several sites,\n        selective sharing of stored data, adaptive compression, and more.\n        The library itself, which chop-backup builds upon, implements\n        storage techniques such as content-based addressing, content hash\n        keys, Merkle trees, similarity detection, and lossless compression.\n        It makes it easy to combine them in different ways.  The\n        \u2018chop-archiver\u2019 and \u2018chop-block-server\u2019 tools, illustrated in the\n        manual, provide direct access to these facilities from the command\n        line.  It is written in C and has Guile (Scheme) bindings.\n",
+    "home": "https://www.nongnu.org/libchop/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "000051b196b82d30d1008c8999502c484ea5bd7d",

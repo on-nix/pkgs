@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Website traffic visualization tool",
+    "desc_long": "Logstalgia is a website traffic visualization that replays or\nstreams web-server access logs as a pong-like battle between the\nweb server and an never ending torrent of requests.\n\nRequests appear as colored balls (the same color as the host)\nwhich travel across the screen to arrive at the requested\nlocation. Successful requests are hit by the paddle while\nunsuccessful ones (eg 404 - File Not Found) are missed and pass\nthrough.\n\nThe paths of requests are summarized within the available space by\nidentifying common path prefixes. Related paths are grouped\ntogether under headings. For instance, by default paths ending in\npng, gif or jpg are grouped under the heading Images. Paths that\ndon\u2019t match any of the specified groups are lumped together under\na Miscellaneous section.\n",
+    "home": "https://logstalgia.io/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@pascal-wittmann.de",
+        "github": "pSub",
+        "githubId": 83842,
+        "name": "Pascal Wittmann"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

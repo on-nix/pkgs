@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "A fork of XCompMgr, a sample compositing manager for X servers",
+    "desc_long": "A fork of XCompMgr, which is a sample compositing manager for X\nservers supporting the XFIXES, DAMAGE, RENDER, and COMPOSITE\nextensions. It enables basic eye-candy effects. This fork adds\nadditional features, such as additional effects, and a fork at a\nwell-defined and proper place.\n\nThe package can be installed in debug mode as:\n\n  picom.override { withDebug = true; }\n\nFor gdb to find the source files, you need to run gdb in the bin directory\nof picom package in the nix store.\n",
+    "home": "https://github.com/yshui/picom",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "esz@posteo.de",
+        "github": "ertes",
+        "githubId": 1855930,
+        "name": "Ertugrul S\u00f6ylemez"
+      },
+      {
+        "email": "twey@twey.co.uk",
+        "github": "Twey",
+        "githubId": 101639,
+        "name": "James \u2018Twey\u2019 Kay"
+      },
+      {
+        "email": "thiagokokada@gmail.com",
+        "github": "thiagokokada",
+        "githubId": 844343,
+        "name": "Thiago K. Okada"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0229bebd37caf01cad975090895a5ba2c5973226",

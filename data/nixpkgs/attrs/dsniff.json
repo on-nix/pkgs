@@ -1,4 +1,27 @@
 {
+  "meta": {
+    "desc": "collection of tools for network auditing and penetration testing",
+    "desc_long": "dsniff, filesnarf, mailsnarf, msgsnarf, urlsnarf, and webspy passively monitor a network for interesting data (passwords, e-mail, files, etc.). arpspoof, dnsspoof, and macof facilitate the interception of network traffic normally unavailable to an attacker (e.g, due to layer-2 switching). sshmitm and webmitm implement active monkey-in-the-middle attacks against redirected SSH and HTTPS sessions by exploiting weak bindings in ad-hoc PKI.\n",
+    "home": "https://www.monkey.org/~dugsong/dsniff/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "symphorien_nixpkgs@xlumurb.eu",
+        "github": "symphorien",
+        "githubId": 12595971,
+        "matrix": "@symphorien:xlumurb.eu",
+        "name": "Guillaume Girol"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01a7fa88139b5da9d6ad8920486f756176d2b34a",

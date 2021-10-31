@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A graphics library that outputs text instead of pixels",
+    "desc_long": "libcaca is a graphics library that outputs text instead of pixels, so that\nit can work on older video cards or text terminals. It is not unlike the\nfamous \u200bAAlib library, with the following improvements:\n\n- Unicode support\n- 2048 available colours (some devices can only handle 16)\n- dithering of colour images\n- advanced text canvas operations (blitting, rotations)\n\nLibcaca works in a text terminal (and should thus work on all Unix systems\nincluding Mac OS X) using the S-Lang or ncurses libraries. It also works\nnatively on DOS and Windows.\n\nLibcaca was written by Sam Hocevar and Jean-Yves Lamoureux.\n",
+    "home": "http://caca.zoy.org/wiki/libcaca",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Do What The F*ck You Want To Public License",
+      "redistributable": true,
+      "shortName": "wtfpl",
+      "spdxId": "WTFPL",
+      "url": "https://spdx.org/licenses/WTFPL.html"
+    },
+    "maintainers": [
+      {
+        "email": "torres.anderson.85@protonmail.com",
+        "github": "AndersonTorres",
+        "githubId": 5954806,
+        "name": "Anderson Torres"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "007f80c1d0440b89970000b92f78ce76186d99a5",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Set Linux as router / Wifi hotspot / proxy in one command",
+    "desc_long": "Features:\n\n- Create a NATed sub-network\n- Provide Internet\n- DHCP server and RA\n- DNS server\n- IPv6 (behind NATed LAN, like IPv4)\n- Creating Wifi hotspot:\n  - Channel selecting\n  - Choose encryptions: WPA2/WPA, WPA2, WPA, No encryption\n  - Create AP on the same interface you are getting Internet (require same channel)\n- Transparent proxy (redsocks)\n- DNS proxy\n- Compatible with NetworkManager (automatically set interface as unmanaged)\n",
+    "home": "https://github.com/garywill/linux-router",
+    "license": {
+      "deprecated": true,
+      "free": true,
+      "fullName": "GNU Lesser General Public License v2.1",
+      "redistributable": true,
+      "shortName": "lgpl21",
+      "spdxId": "LGPL-2.1",
+      "url": "https://spdx.org/licenses/LGPL-2.1.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@x3ro.dev",
+        "github": "x3rAx",
+        "githubId": 2268851,
+        "name": "^x3ro"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "00727874f77a2ef2baad4179cd66de5ae64a72e0",

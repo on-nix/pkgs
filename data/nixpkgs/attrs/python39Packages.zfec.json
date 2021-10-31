@@ -1,4 +1,32 @@
 {
+  "meta": {
+    "desc": "Zfec, a fast erasure codec which can be used with the command-line, C, Python, or Haskell",
+    "desc_long": "Fast, portable, programmable erasure coding a.k.a. \"forward\nerror correction\": the generation of redundant blocks of\ninformation such that if some blocks are lost then the\noriginal data can be recovered from the remaining blocks. The\nzfec package includes command-line tools, C API, Python API,\nand Haskell API.\n",
+    "home": "https://github.com/tahoe-lafs/zfec",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "pavol@rusnak.io",
+        "github": "prusnak",
+        "githubId": 42201,
+        "keys": [
+          {
+            "fingerprint": "86E6 792F C27B FD47 8860  C110 91F3 B339 B9A0 2A3D",
+            "longkeyid": "rsa4096/0x91F3B339B9A02A3D"
+          }
+        ],
+        "name": "Pavol Rusnak"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0263f626a060fe42dd1ba1b9110760bf8a353564",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A project that allows anyone to have trust over arbitrary collections of data",
+    "desc_long": "The Notary project comprises a server and a client for running and\ninteracting with trusted collections. See the service architecture\ndocumentation for more information.\n\nNotary aims to make the internet more secure by making it easy for people\nto publish and verify content. We often rely on TLS to secure our\ncommunications with a web server which is inherently flawed, as any\ncompromise of the server enables malicious content to be substituted for\nthe legitimate content.\n\nWith Notary, publishers can sign their content offline using keys kept\nhighly secure. Once the publisher is ready to make the content available,\nthey can push their signed trusted collection to a Notary Server.\n\nConsumers, having acquired the publisher's public key through a secure\nchannel, can then communicate with any notary server or (insecure) mirror,\nrelying only on the publisher's key to determine the validity and\nintegrity of the received content.\n",
+    "home": "https://github.com/theupdateframework/notary",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "vincent@sbr.pm",
+        "github": "vdemeester",
+        "githubId": 6508,
+        "name": "Vincent Demeester"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "02b2f62d659165cfdce4ba214e1a97088744c4bc",

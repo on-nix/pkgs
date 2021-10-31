@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A git command for managing vendored dependencies",
+    "desc_long": "git-vendor is a wrapper around git-subtree commands for checking out and updating vendored dependencies.\n\nBy default git-vendor conforms to the pattern used for vendoring golang dependencies:\n  * Dependencies are stored under vendor/ directory in the repo.\n  * Dependencies are stored under the fully qualified project path.\n      e.g. https://github.com/brettlangdon/forge will be stored under vendor/github.com/brettlangdon/forge.\n",
+    "home": "https://github.com/brettlangdon/git-vendor",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "mail@profpatsch.de",
+        "github": "Profpatsch",
+        "githubId": 3153638,
+        "name": "Profpatsch"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "039764362bd23fee07ddce1a6b284e4348a08f41",

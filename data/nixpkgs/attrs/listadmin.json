@@ -1,4 +1,24 @@
 {
+  "meta": {
+    "desc": "Command line mailman moderator queue manipulation",
+    "desc_long": "listadmin is a command line tool to manipulate the queues of messages\nheld for moderator approval by mailman. It is designed to keep user\ninteraction to a minimum, in theory you could run it from cron to prune\nthe queue. It can use the score from a header added by SpamAssassin to\nfilter, or it can match specific senders, subjects, or reasons.\n",
+    "home": "https://sourceforge.net/projects/listadmin/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Public Domain",
+      "redistributable": true,
+      "shortName": "publicDomain"
+    },
+    "maintainers": [
+      {
+        "email": "mail@joachim-breitner.de",
+        "github": "nomeata",
+        "githubId": 148037,
+        "name": "Joachim Breitner"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0278c7c4a47589284276a0566c37f01027249829",

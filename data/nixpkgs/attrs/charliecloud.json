@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "User-defined software stacks (UDSS) for high-performance computing (HPC) centers",
+    "desc_long": "Charliecloud uses Linux user namespaces to run containers with no\nprivileged operations or daemons and minimal configuration changes on\ncenter resources. This simple approach avoids most security risks\nwhile maintaining access to the performance and functionality already\non offer.\n",
+    "home": "https://hpc.github.io/charliecloud",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "Apache License 2.0",
+      "redistributable": true,
+      "shortName": "asl20",
+      "spdxId": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "maintainers": [
+      {
+        "email": "Bruno@bzizou.net",
+        "github": "bzizou",
+        "githubId": 2647566,
+        "name": "Bruno Bzeznik"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "008615ed74e19f9fd1db97686dc5f9fa090b5c72",

@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "A tool to perform sample comparison testing on the command line",
+    "desc_long": "squishyball is a simple command-line utility for performing\ndouble-blind A/B, A/B/X or X/X/Y testing on the command line.\nThe user specifies two input files to be compared and uses the\nkeyboard during playback to flip between the randomized samples\nto perform on-the-fly compar\u2010 isons.  After a predetermined\nnumber of trials, squishyball prints the trial results to\nstdout and exits.  Results (stdout) may be redirected to a file\nwithout affecting interactive use of the terminal.\n\nsquishyball can also be used to perform casual, non-randomized\ncomparisons of groups of up to ten samples; this is the default\nmode of operation.\n",
+    "home": "https://svn.xiph.org/trunk/squishyball",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "m@michalrus.com",
+        "github": "michalrus",
+        "githubId": 4366292,
+        "name": "Michal Rus"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "01895ff5eabfc95e17c3ff6b650194cbe44ef9d3",

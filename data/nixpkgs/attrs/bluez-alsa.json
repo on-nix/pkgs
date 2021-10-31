@@ -1,4 +1,38 @@
 {
+  "meta": {
+    "desc": "Bluez 5 Bluetooth Audio ALSA Backend",
+    "desc_long": "Bluez-ALSA (BlueALSA) is an ALSA backend for Bluez 5 audio interface.\nBluez-ALSA registers all Bluetooth devices with audio profiles in Bluez\nunder a virtual ALSA PCM device called `bluealsa` that supports both\nplayback and capture.\n\nSome backstory: Bluez 5 removed built-in support for ALSA in favor of a\ngeneric interface for 3rd party appliations. Thereafter, PulseAudio\nimplemented a backend for that interface and became the only way to get\nBluetooth audio with Bluez 5. Users prefering ALSA stayed on Bluez 4.\nHowever, Bluez 4 eventually became deprecated.\n\nThis package is a rebirth of a direct interface between ALSA and Bluez 5,\nthat, unlike PulseAudio, provides KISS near-metal-like experience. It is\nnot possible to run BluezALSA and PulseAudio Bluetooth at the same time\ndue to limitations in Bluez, but it is possible to run PulseAudio over\nBluezALSA if you disable `bluetooth-discover` and `bluez5-discover`\nmodules in PA and configure it to play/capture sound over `bluealsa` PCM.\n",
+    "home": "https://github.com/Arkq/bluez-alsa",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "oxij@oxij.org",
+        "github": "oxij",
+        "githubId": 391919,
+        "keys": [
+          {
+            "fingerprint": "514B B966 B46E 3565 0508  86E8 0E6C A66E 5C55 7AA8",
+            "longkeyid": "rsa2048/0x0E6CA66E5C557AA8"
+          }
+        ],
+        "name": "Jan Malakhovski"
+      },
+      {
+        "email": "git@sphalerite.org",
+        "github": "lheckemann",
+        "githubId": 341954,
+        "name": "Linus Heckemann"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0187e72b571e3afc3e761d101deadf15b6c5b760",

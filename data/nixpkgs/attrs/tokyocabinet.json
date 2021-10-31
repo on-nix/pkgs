@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Tokyo Cabinet: a modern implementation of DBM",
+    "desc_long": "Tokyo Cabinet is a library of routines for managing a database. The\n        database is a simple data file containing records, each is a pair of\n        a key and a value.  Every key and value is serial bytes with\n        variable length.  Both binary data and character string can be used\n        as a key and a value.  There is neither concept of data tables nor\n        data types.  Records are organized in hash table, B+ tree, or\n        fixed-length array.\n\n        Tokyo Cabinet is developed as the successor of GDBM and QDBM on the\n        following purposes.  They are achieved and Tokyo Cabinet replaces\n        conventional DBM products: improves space efficiency, improves time\n        efficiency, improves parallelism, improves usability, improves\n        robustness, supports 64-bit architecture.\n",
+    "home": null,
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU Library General Public License v2 or later",
+      "redistributable": true,
+      "shortName": "lgpl2Plus",
+      "spdxId": "LGPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+    },
+    "maintainers": []
+  },
   "versions": [
     {
       "first": "00f1f9357d19d1089532c5c3ef68da70468a3e75",

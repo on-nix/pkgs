@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "gevent-cooperative child processes and IPC",
+    "desc_long": "Usage of Python's multiprocessing package in a gevent-powered\napplication may raise problems and most likely breaks the application\nin various subtle ways. gipc (pronunciation \"gipsy\") is developed with\nthe motivation to solve many of these issues transparently. With gipc,\nmultiprocessing. Process-based child processes can safely be created\nanywhere within your gevent-powered application.\n",
+    "home": "http://gehrcke.de/gipc",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "00910f768ad6475fff10699a710656529f1738c5",

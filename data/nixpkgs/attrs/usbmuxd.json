@@ -1,4 +1,33 @@
 {
+  "meta": {
+    "desc": "A socket daemon to multiplex connections from and to iOS devices",
+    "desc_long": "usbmuxd stands for \"USB multiplexing daemon\". This daemon is in charge of\nmultiplexing connections over USB to an iOS device. To users, it means\nyou can sync your music, contacts, photos, etc. over USB. To developers, it\nmeans you can connect to any listening localhost socket on the device. usbmuxd\nis not used for tethering data transfer which uses a dedicated USB interface as\na virtual network device. Multiple connections to different TCP ports can happen\nin parallel. The higher-level layers are handled by libimobiledevice.\n",
+    "home": "https://github.com/libimobiledevice/usbmuxd",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "contact@infinisil.com",
+        "github": "infinisil",
+        "githubId": 20525370,
+        "keys": [
+          {
+            "fingerprint": "6C2B 55D4 4E04 8266 6B7D  DA1A 422E 9EDA E015 7170",
+            "longkeyid": "rsa4096/0x422E9EDAE0157170"
+          }
+        ],
+        "matrix": "@infinisil:matrix.org",
+        "name": "Silvan Mosberger"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0187e72b571e3afc3e761d101deadf15b6c5b760",

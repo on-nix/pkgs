@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Perfect hash function generator",
+    "desc_long": "GNU gperf is a perfect hash function generator.  For a given\nlist of strings, it produces a hash function and hash table, in\nform of C or C++ code, for looking up a value depending on the\ninput string.  The hash function is perfect, which means that\nthe hash table has no collisions, and the hash table lookup\nneeds a single string comparison only.\n\nGNU gperf is highly customizable.  There are options for\ngenerating C or C++ code, for emitting switch statements or\nnested ifs instead of a hash table, and for tuning the algorithm\nemployed by gperf.\n",
+    "home": "https://www.gnu.org/software/gperf/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v3.0 or later",
+      "redistributable": true,
+      "shortName": "gpl3Plus",
+      "spdxId": "GPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "00ab8e84c672fbf4b9a97ddc3ff94863ac7f14b8",

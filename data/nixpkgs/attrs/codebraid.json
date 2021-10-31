@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Live code in Pandoc Markdown.\n\nCodebraid is a Python program that enables executable code in Pandoc\nMarkdown documents. Using Codebraid can be as simple as adding a class to\nyour code blocks' attributes, and then running codebraid rather than\npandoc to convert your document from Markdown to another format.\ncodebraid supports almost all of pandoc's options and passes them to\npandoc internally.\n\nCodebraid provides two options for executing code. It includes a built-in\ncode execution system that currently supports Python 3.5+, Julia, Rust,\nR, Bash, and JavaScript. Code can also be executed using Jupyter kernels,\nwith support for rich output like plots.\n",
+    "desc_long": null,
+    "home": "https://github.com/gpoore/codebraid",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+      "redistributable": true,
+      "shortName": "bsd3",
+      "spdxId": "BSD-3-Clause",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+    },
+    "maintainers": [
+      {
+        "email": "nix@hilhorst.be",
+        "github": "Synthetica9",
+        "githubId": 7075751,
+        "name": "Patrick Hilhorst"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "0197ed239b26d844b75fa201c562630945af759d",

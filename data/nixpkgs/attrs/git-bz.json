@@ -1,4 +1,19 @@
 {
+  "meta": {
+    "desc": "Bugzilla integration for git",
+    "desc_long": "git-bz is a tool for integrating the Git command line with the\nBugzilla bug-tracking system. Operations such as attaching patches to\nbugs, applying patches in bugs to your current tree, and closing bugs\nonce you've pushed the fixes publicly can be done completely from\nthe command line without having to go to your web browser.\n\nAuthentication for git-bz is done by reading the cookies for the\nBugzilla host from your web browser. In order to do this, git-bz needs\nto know how to access the cookies for your web browser; git-bz\ncurrently is able to do this for Firefox, Epiphany, Galeon and\nChromium on Linux.\n",
+    "home": "http://git.fishsoup.net/cgit/git-bz/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": null
+  },
   "versions": [
     {
       "first": "03a818a6f8b86f66bf0264b5cf25eb08c852e1e2",

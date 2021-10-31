@@ -1,4 +1,37 @@
 {
+  "meta": {
+    "desc": "Cargo subcommands to invoke the LLVM tools shipped with the Rust toolchain",
+    "desc_long": "In order for this to work, you either need to run `rustup component add llvm-tools-preview` or install the `llvm-tools-preview` component using your Nix library (e.g. nixpkgs-mozilla, or rust-overlay)\n",
+    "home": "https://github.com/rust-embedded/cargo-binutils",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Apache License 2.0",
+        "redistributable": true,
+        "shortName": "asl20",
+        "spdxId": "Apache-2.0",
+        "url": "https://spdx.org/licenses/Apache-2.0.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "jutus.k@protonmail.com",
+        "github": "Stupremee",
+        "githubId": 39732259,
+        "name": "Justus K"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "033208fd46e03178655f3c4a59add1d9dbf57731",

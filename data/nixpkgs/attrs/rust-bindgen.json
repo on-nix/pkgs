@@ -1,4 +1,35 @@
 {
+  "meta": {
+    "desc": "Automatically generates Rust FFI bindings to C (and some C++) libraries",
+    "desc_long": "Bindgen takes a c or c++ header file and turns them into\nrust ffi declarations.\nAs with most compiler related software, this will only work\ninside a nix-shell with the required libraries as buildInputs.\n",
+    "home": "https://github.com/rust-lang/rust-bindgen",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+        "redistributable": true,
+        "shortName": "bsd3",
+        "spdxId": "BSD-3-Clause",
+        "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "huyuumi.dev@gmail.com",
+        "github": "JohnTitor",
+        "githubId": 25030997,
+        "name": "Yuki Okushi"
+      },
+      {
+        "email": "ben.e.saunders@gmail.com",
+        "github": "ralith",
+        "githubId": 104558,
+        "matrix": "@ralith:ralith.com",
+        "name": "Benjamin Saunders"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "018896912ac2f7eba0863067345920948922ca53",

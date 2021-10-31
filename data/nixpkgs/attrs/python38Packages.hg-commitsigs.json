@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Automatic signing of changeset hashes",
+    "desc_long": "This packages provides a Mercurial extension that lets you sign\nthe changeset hash when you commit.  The signature is embedded\ndirectly in the changeset itself; there wont be any extra\ncommits.  Either GnuPG or OpenSSL can be used to sign the hashes.\n",
+    "home": "https://foss.heptapod.net/mercurial/commitsigs",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "public@yoctocell.xyz",
+        "github": "yoctocell",
+        "githubId": 40352765,
+        "name": "Yoctocell"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03637fe5869c1f854ad05c6d301812eda3ac1761",

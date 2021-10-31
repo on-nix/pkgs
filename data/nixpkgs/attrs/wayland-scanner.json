@@ -1,4 +1,55 @@
 {
+  "meta": {
+    "desc": "Core Wayland window system code and protocol",
+    "desc_long": "Wayland is a project to define a protocol for a compositor to talk to its\nclients as well as a library implementation of the protocol.\nThe wayland protocol is essentially only about input handling and buffer\nmanagement, but also handles drag and drop, selections, window management\nand other interactions that must go through the compositor (but not\nrendering).\n",
+    "home": "https://wayland.freedesktop.org/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "dev.primeos@gmail.com",
+        "github": "primeos",
+        "githubId": 7537109,
+        "keys": [
+          {
+            "fingerprint": "86A7 4A55 07D0 58D1 322E  37FD 1308 26A6 C2A3 89FD",
+            "longkeyid": "ed25519/0x130826A6C2A389FD"
+          },
+          {
+            "fingerprint": "AF85 991C C950 49A2 4205  1933 BCA9 943D D1DF 4C04",
+            "longkeyid": "rsa3072/0xBCA9943DD1DF4C04"
+          }
+        ],
+        "matrix": "@primeos:matrix.org",
+        "name": "Michael Weiss"
+      },
+      {
+        "email": "codyopel@gmail.com",
+        "github": "codyopel",
+        "githubId": 5561189,
+        "name": "Cody Opel"
+      },
+      {
+        "email": "hi@alyssa.is",
+        "github": "alyssais",
+        "githubId": 2768870,
+        "keys": [
+          {
+            "fingerprint": "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97",
+            "longkeyid": "rsa4096/736CCDF9EF51BD97"
+          }
+        ],
+        "name": "Alyssa Ross"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "03b2156d269ed9d50b359b4362a094725b275f2d",

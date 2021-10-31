@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "desc": "Library and command line tool to detect SHA-1 collision",
+    "desc_long": "This library and command line tool were designed as near drop-in\nreplacements for common SHA-1 libraries and sha1sum. They will\ncompute the SHA-1 hash of any given file and additionally will\ndetect cryptanalytic collision attacks against SHA-1 present in\neach file. It is very fast and takes less than twice the amount\nof time as regular SHA-1.\n",
+    "home": null,
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "MIT License",
+      "redistributable": true,
+      "shortName": "mit",
+      "spdxId": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "maintainers": [
+      {
+        "email": "ml.software@leenaa.rs",
+        "github": "leenaars",
+        "githubId": 4158274,
+        "name": "Michiel Leenaars"
+      }
+    ]
+  },
   "versions": [
     {
       "first": "012b6bcbc1281141fe215b3d87a8395208a4f1b0",
