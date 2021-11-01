@@ -1,0 +1,14 @@
+{
+  "bin": [
+    "/bin/lsvmbus"
+  ],
+  "lib": [
+    "/lib/systemd/system/hv-fcopy.service",
+    "/lib/systemd/system/hv-kvp.service",
+    "/lib/systemd/system/hv-vss.service",
+    "/lib/systemd/system/hyperv-daemons.target"
+  ],
+  "out": [
+    "/bin/lsvmbus"
+  ]
+}
