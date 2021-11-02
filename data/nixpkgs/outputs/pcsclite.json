@@ -1,0 +1,38 @@
+{
+  "bin": [
+    "/bin/pcscd",
+    "/lib/systemd/system/pcscd.service",
+    "/lib/systemd/system/pcscd.socket",
+    "/sbin",
+    "/share/polkit-1/actions/org.debian.pcsc-lite.policy"
+  ],
+  "dev": [
+    "/bin/pcsc-spy",
+    "/include/PCSC/debuglog.h",
+    "/include/PCSC/ifdhandler.h",
+    "/include/PCSC/pcsclite.h",
+    "/include/PCSC/reader.h",
+    "/include/PCSC/winscard.h",
+    "/include/PCSC/wintypes.h",
+    "/lib/pkgconfig/libpcsclite.pc",
+    "/nix-support/propagated-build-inputs"
+  ],
+  "doc": [
+    "/share/doc/pcsc-lite/README.polkit"
+  ],
+  "man": [
+    "/share/man/man1/pcsc-spy.1.gz",
+    "/share/man/man5/reader.conf.5.gz",
+    "/share/man/man8/pcscd.8.gz"
+  ],
+  "out": [
+    "/lib/libpcsclite.la",
+    "/lib/libpcsclite.so",
+    "/lib/libpcsclite.so.1",
+    "/lib/libpcsclite.so.1.0.0",
+    "/lib/libpcscspy.la",
+    "/lib/libpcscspy.so",
+    "/lib/libpcscspy.so.0",
+    "/lib/libpcscspy.so.0.0.0"
+  ]
+}
