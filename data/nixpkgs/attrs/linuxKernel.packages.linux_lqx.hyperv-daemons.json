@@ -14,6 +14,20 @@
       }
     ]
   },
+  "outputs": {
+    "bin": [
+      "/bin/lsvmbus"
+    ],
+    "lib": [
+      "/lib/systemd/system/hv-fcopy.service",
+      "/lib/systemd/system/hv-kvp.service",
+      "/lib/systemd/system/hv-vss.service",
+      "/lib/systemd/system/hyperv-daemons.target"
+    ],
+    "out": [
+      "/bin/lsvmbus"
+    ]
+  },
   "versions": [
     {
       "first": "04fdff2517e398cfad4b951dfb8b7ffb02c81b78",
