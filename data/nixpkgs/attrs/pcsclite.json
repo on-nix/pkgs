@@ -14,6 +14,44 @@
     },
     "maintainers": null
   },
+  "outputs": {
+    "bin": [
+      "/bin/pcscd",
+      "/lib/systemd/system/pcscd.service",
+      "/lib/systemd/system/pcscd.socket",
+      "/sbin",
+      "/share/polkit-1/actions/org.debian.pcsc-lite.policy"
+    ],
+    "dev": [
+      "/bin/pcsc-spy",
+      "/include/PCSC/debuglog.h",
+      "/include/PCSC/ifdhandler.h",
+      "/include/PCSC/pcsclite.h",
+      "/include/PCSC/reader.h",
+      "/include/PCSC/winscard.h",
+      "/include/PCSC/wintypes.h",
+      "/lib/pkgconfig/libpcsclite.pc",
+      "/nix-support/propagated-build-inputs"
+    ],
+    "doc": [
+      "/share/doc/pcsc-lite/README.polkit"
+    ],
+    "man": [
+      "/share/man/man1/pcsc-spy.1.gz",
+      "/share/man/man5/reader.conf.5.gz",
+      "/share/man/man8/pcscd.8.gz"
+    ],
+    "out": [
+      "/lib/libpcsclite.la",
+      "/lib/libpcsclite.so",
+      "/lib/libpcsclite.so.1",
+      "/lib/libpcsclite.so.1.0.0",
+      "/lib/libpcscspy.la",
+      "/lib/libpcscspy.so",
+      "/lib/libpcscspy.so.0",
+      "/lib/libpcscspy.so.0.0.0"
+    ]
+  },
   "versions": [
     {
       "first": "03f9e1979d82a0ce3a73810eed385d2bb84c811c",
@@ -252,7 +290,7 @@
     },
     {
       "first": "00846e6dbf4fdd9e710296b4c23f1f7193847522",
-      "last": "0325373b56b0fea9df4cddd427cc35196b78dde8",
+      "last": "0560caa57893a3c8dd11aeece110672c720c9496",
       "name": "1.8.23"
     },
     {
@@ -336,7 +374,7 @@
       "name": "1.8.17"
     },
     {
-      "first": "03b115f8e08ea9375d3e1b77f3d84bd135b81fb1",
+      "first": "0561e14c3b91893fcd55e78cde9fbd216c0f3d18",
       "last": "0229693354803ecb0b0f9dbec055211c4dc25bd4",
       "name": "1.8.16"
     },
