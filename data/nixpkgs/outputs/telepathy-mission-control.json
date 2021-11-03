@@ -1,0 +1,36 @@
+{
+  "dev": [
+    "/include/mission-control-5.5/mission-control-plugins/account-storage.h",
+    "/include/mission-control-5.5/mission-control-plugins/account.h",
+    "/include/mission-control-5.5/mission-control-plugins/dbus-acl.h",
+    "/include/mission-control-5.5/mission-control-plugins/debug.h",
+    "/include/mission-control-5.5/mission-control-plugins/dispatch-operation-policy.h",
+    "/include/mission-control-5.5/mission-control-plugins/dispatch-operation.h",
+    "/include/mission-control-5.5/mission-control-plugins/loader.h",
+    "/include/mission-control-5.5/mission-control-plugins/mcp-signals-marshal.h",
+    "/include/mission-control-5.5/mission-control-plugins/mission-control-plugins.h",
+    "/include/mission-control-5.5/mission-control-plugins/request-policy.h",
+    "/include/mission-control-5.5/mission-control-plugins/request.h",
+    "/lib/pkgconfig/mission-control-plugins.pc",
+    "/nix-support/propagated-build-inputs"
+  ],
+  "lib": [
+    "/lib/libmission-control-plugins.la",
+    "/lib/libmission-control-plugins.so",
+    "/lib/libmission-control-plugins.so.0",
+    "/lib/libmission-control-plugins.so.0.5.1",
+    "/libexec/.mission-control-5-wrapped",
+    "/libexec/mission-control-5",
+    "/share/gsettings-schemas/telepathy-mission-control-5.16.6/glib-2.0/schemas/gschemas.compiled",
+    "/share/gsettings-schemas/telepathy-mission-control-5.16.6/glib-2.0/schemas/im.telepathy.MissionControl.FromEmpathy.gschema.xml"
+  ],
+  "out": [
+    "/bin/mc-tool",
+    "/bin/mc-wait-for-name",
+    "/share/dbus-1/services/org.freedesktop.Telepathy.AccountManager.service",
+    "/share/dbus-1/services/org.freedesktop.Telepathy.MissionControl5.service",
+    "/share/man/man1/mc-tool.1.gz",
+    "/share/man/man1/mc-wait-for-name.1.gz",
+    "/share/man/man8/mission-control-5.8.gz"
+  ]
+}
