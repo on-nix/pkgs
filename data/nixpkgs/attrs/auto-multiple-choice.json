@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "desc": "Create and manage multiple choice questionnaires with automated marking.",
+    "desc_long": "Create, manage and mark multiple-choice questionnaires.\nauto-multiple-choice features automated or manual formatting with\nLaTeX, shuffling of questions and answers and automated marking using\nOptical Mark Recognition.\n\nQuestionnaires can be created using either a very simple text syntax,\nAMC-TXT, or LaTeX. In the latter case, your TeXLive installation must\nbe combined with this package.  This can be done in configuration.nix\nas follows:\n\n<screen>\n\u2026\nenvironment.systemPackages = with pkgs; [\n  auto-multiple-choice\n  (texlive.combine {\n    inherit (pkgs.texlive) scheme-full;\n    extra =\n      {\n        pkgs = [ auto-multiple-choice ];\n      };\n  })\n];\n</screen>\n\nFor usage instructions, see documentation at the project's homepage.\n",
+    "home": "https://www.auto-multiple-choice.net/",
+    "license": {
+      "deprecated": false,
+      "free": true,
+      "fullName": "GNU General Public License v2.0 or later",
+      "redistributable": true,
+      "shortName": "gpl2Plus",
+      "spdxId": "GPL-2.0-or-later",
+      "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+    },
+    "maintainers": [
+      {
+        "email": "thibault@thb.lt",
+        "github": "thblt",
+        "githubId": 2453136,
+        "keys": [
+          {
+            "fingerprint": "D2A2 F0A1 E7A8 5E6F B711  DEE5 63A4 4817 A52E AB7B",
+            "longkeyid": "rsa4096/0x63A44817A52EAB7B"
+          }
+        ],
+        "matrix": "@thbltp:matrix.org",
+        "name": "Thibault Polge"
+      }
+    ]
+  },
+  "versions": [
+    {
+      "first": "0535a5b7acf63780716a4442eea2875f4ee2b94f",
+      "last": "0535a5b7acf63780716a4442eea2875f4ee2b94f",
+      "name": "1.5.1"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "desc": "Intel SGX Linux Driver",
+    "desc_long": "The linux-sgx-driver project (isgx) hosts an out-of-tree driver\nfor the Linux* Intel(R) SGX software stack, which would be used\nuntil the driver upstreaming process is complete (before 5.11.0).\n\nIt is used to support Enhanced Privacy Identification (EPID)\nbased attestation on the platforms without Flexible Launch Control.\n",
+    "home": "https://github.com/intel/linux-sgx-driver",
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+        "redistributable": true,
+        "shortName": "bsd3",
+        "spdxId": "BSD-3-Clause",
+        "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "GNU General Public License v2.0 only",
+        "redistributable": true,
+        "shortName": "gpl2Only",
+        "spdxId": "GPL-2.0-only",
+        "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+      }
+    ],
+    "maintainers": [
+      {
+        "email": "oxalicc@pm.me",
+        "github": "oxalica",
+        "githubId": 14816024,
+        "keys": [
+          {
+            "fingerprint": "5CB0 E9E5 D5D5 71F5 7F54  0FEA CED3 92DE 0C48 3D00",
+            "longkeyid": "rsa4096/0xCED392DE0C483D00"
+          }
+        ],
+        "name": "oxalica"
+      }
+    ]
+  },
+  "versions": [
+    {
+      "first": "0535a5b7acf63780716a4442eea2875f4ee2b94f",
+      "last": "0535a5b7acf63780716a4442eea2875f4ee2b94f",
+      "name": "2.14-5.15"
+    }
+  ]
+}
