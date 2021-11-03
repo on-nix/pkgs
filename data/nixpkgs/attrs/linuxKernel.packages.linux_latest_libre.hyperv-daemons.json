@@ -14,6 +14,20 @@
       }
     ]
   },
+  "outputs": {
+    "bin": [
+      "/bin/lsvmbus"
+    ],
+    "lib": [
+      "/lib/systemd/system/hv-fcopy.service",
+      "/lib/systemd/system/hv-kvp.service",
+      "/lib/systemd/system/hv-vss.service",
+      "/lib/systemd/system/hyperv-daemons.target"
+    ],
+    "out": [
+      "/bin/lsvmbus"
+    ]
+  },
   "versions": [
     {
       "first": "00334d352f2948ab5bcb28ba674d9c55e1b5f2ec",
@@ -161,7 +175,7 @@
       "name": "5.14.7"
     },
     {
-      "first": "01eb8ec98a52c1e7317fd62f5bc58db30951e716",
+      "first": "05bdbc55ffb15fbbf92a487664f1d4421542cb90",
       "last": "04e470ae05c1444456fdbda2857e96a158c3cf5c",
       "name": "5.14.8"
     },
