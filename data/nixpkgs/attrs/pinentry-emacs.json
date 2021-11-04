@@ -33,6 +33,38 @@
       }
     ]
   },
+  "outputs": {
+    "curses": [
+      "/bin/pinentry",
+      "/bin/pinentry-curses"
+    ],
+    "emacs": [
+      "/bin/pinentry",
+      "/bin/pinentry-emacs"
+    ],
+    "gnome3": [
+      "/bin/.pinentry-gnome3-wrapped",
+      "/bin/pinentry",
+      "/bin/pinentry-gnome3"
+    ],
+    "gtk2": [
+      "/bin/pinentry",
+      "/bin/pinentry-gtk-2"
+    ],
+    "out": [
+      "/bin/pinentry",
+      "/share/info/pinentry.info"
+    ],
+    "qt": [
+      "/bin/.pinentry-qt-wrapped",
+      "/bin/pinentry",
+      "/bin/pinentry-qt"
+    ],
+    "tty": [
+      "/bin/pinentry",
+      "/bin/pinentry-tty"
+    ]
+  },
   "versions": [
     {
       "first": "02119e9cf48134de2310a8d16b851a2c88391e71",
@@ -40,7 +72,7 @@
       "name": "1.2.0"
     },
     {
-      "first": "034da53bd8f78c420c9b17fe37ebda1cef2f3ae7",
+      "first": "065b5608bfa121a6c3a6adac7f23d8d41153824b",
       "last": "020738a1fb53c0123a9a4ebd578106aa04d3ac21",
       "name": "1.1.0"
     }
