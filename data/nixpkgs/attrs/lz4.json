@@ -25,6 +25,30 @@
     ],
     "maintainers": null
   },
+  "outputs": {
+    "bin": [
+      "/bin/lz4",
+      "/bin/lz4c",
+      "/bin/lz4cat",
+      "/bin/unlz4",
+      "/share/man/man1/lz4.1.gz",
+      "/share/man/man1/lz4c.1.gz",
+      "/share/man/man1/lz4cat.1.gz",
+      "/share/man/man1/unlz4.1.gz"
+    ],
+    "dev": [
+      "/include/lz4.h",
+      "/include/lz4frame.h",
+      "/include/lz4hc.h",
+      "/lib/pkgconfig/liblz4.pc",
+      "/nix-support/propagated-build-inputs"
+    ],
+    "out": [
+      "/lib/liblz4.so",
+      "/lib/liblz4.so.1",
+      "/lib/liblz4.so.1.9.3"
+    ]
+  },
   "versions": [
     {
       "first": "06749ba321ee3f284df74ab848985106eea52c13",
