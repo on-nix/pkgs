@@ -14,6 +14,86 @@
     },
     "maintainers": null
   },
+  "outputs": {
+    "bin": [
+      "/bin/chacl",
+      "/bin/getfacl",
+      "/bin/setfacl"
+    ],
+    "dev": [
+      "/include/acl/libacl.h",
+      "/include/sys/acl.h",
+      "/lib/pkgconfig/libacl.pc",
+      "/nix-support/propagated-build-inputs"
+    ],
+    "doc": [
+      "/share/doc/acl/CHANGES",
+      "/share/doc/acl/COPYING",
+      "/share/doc/acl/COPYING.LGPL",
+      "/share/doc/acl/PORTING",
+      "/share/doc/acl/extensions.txt",
+      "/share/doc/acl/libacl.txt"
+    ],
+    "man": [
+      "/share/man/man1/chacl.1.gz",
+      "/share/man/man1/getfacl.1.gz",
+      "/share/man/man1/setfacl.1.gz",
+      "/share/man/man3/acl_add_perm.3.gz",
+      "/share/man/man3/acl_calc_mask.3.gz",
+      "/share/man/man3/acl_check.3.gz",
+      "/share/man/man3/acl_clear_perms.3.gz",
+      "/share/man/man3/acl_cmp.3.gz",
+      "/share/man/man3/acl_copy_entry.3.gz",
+      "/share/man/man3/acl_copy_ext.3.gz",
+      "/share/man/man3/acl_copy_int.3.gz",
+      "/share/man/man3/acl_create_entry.3.gz",
+      "/share/man/man3/acl_delete_def_file.3.gz",
+      "/share/man/man3/acl_delete_entry.3.gz",
+      "/share/man/man3/acl_delete_perm.3.gz",
+      "/share/man/man3/acl_dup.3.gz",
+      "/share/man/man3/acl_entries.3.gz",
+      "/share/man/man3/acl_equiv_mode.3.gz",
+      "/share/man/man3/acl_error.3.gz",
+      "/share/man/man3/acl_extended_fd.3.gz",
+      "/share/man/man3/acl_extended_file.3.gz",
+      "/share/man/man3/acl_extended_file_nofollow.3.gz",
+      "/share/man/man3/acl_free.3.gz",
+      "/share/man/man3/acl_from_mode.3.gz",
+      "/share/man/man3/acl_from_text.3.gz",
+      "/share/man/man3/acl_get_entry.3.gz",
+      "/share/man/man3/acl_get_fd.3.gz",
+      "/share/man/man3/acl_get_file.3.gz",
+      "/share/man/man3/acl_get_perm.3.gz",
+      "/share/man/man3/acl_get_permset.3.gz",
+      "/share/man/man3/acl_get_qualifier.3.gz",
+      "/share/man/man3/acl_get_tag_type.3.gz",
+      "/share/man/man3/acl_init.3.gz",
+      "/share/man/man3/acl_set_fd.3.gz",
+      "/share/man/man3/acl_set_file.3.gz",
+      "/share/man/man3/acl_set_permset.3.gz",
+      "/share/man/man3/acl_set_qualifier.3.gz",
+      "/share/man/man3/acl_set_tag_type.3.gz",
+      "/share/man/man3/acl_size.3.gz",
+      "/share/man/man3/acl_to_any_text.3.gz",
+      "/share/man/man3/acl_to_text.3.gz",
+      "/share/man/man3/acl_valid.3.gz",
+      "/share/man/man5/acl.5.gz"
+    ],
+    "out": [
+      "/lib/libacl.la",
+      "/lib/libacl.so",
+      "/lib/libacl.so.1",
+      "/lib/libacl.so.1.1.2301",
+      "/share/locale/de/LC_MESSAGES/acl.mo",
+      "/share/locale/en@boldquot/LC_MESSAGES/acl.mo",
+      "/share/locale/en@quot/LC_MESSAGES/acl.mo",
+      "/share/locale/es/LC_MESSAGES/acl.mo",
+      "/share/locale/fr/LC_MESSAGES/acl.mo",
+      "/share/locale/gl/LC_MESSAGES/acl.mo",
+      "/share/locale/pl/LC_MESSAGES/acl.mo",
+      "/share/locale/sv/LC_MESSAGES/acl.mo"
+    ]
+  },
   "versions": [
     {
       "first": "04855119e9a334cdae57e9c7708d566cf4f0f6b9",
@@ -111,7 +191,7 @@
       "name": "2.2.53"
     },
     {
-      "first": "02085112e1e47b429714d24d0f58ce0a001a5bf7",
+      "first": "06dee38345cbad53ddfa7616a962be49777b1a72",
       "last": "0139874db9bca4be6f54c52f2da40e8ac7c5237b",
       "name": "2.3.0"
     },
@@ -161,8 +241,18 @@
       "name": "2.2.53"
     },
     {
-      "first": "0063acf4dff8a53cb889b788d594d1acd09f602d",
+      "first": "00754cd6898fc276fc8aa21ccfd2b283dac80479",
       "last": "0173194e4f28dcce269a39eb216877eba77f834c",
+      "name": "2.2.52"
+    },
+    {
+      "first": "06dc418292f692c0ebbad390021a55a8bc86e506",
+      "last": "06dc418292f692c0ebbad390021a55a8bc86e506",
+      "name": "2.2.53"
+    },
+    {
+      "first": "0063acf4dff8a53cb889b788d594d1acd09f602d",
+      "last": "0063acf4dff8a53cb889b788d594d1acd09f602d",
       "name": "2.2.52"
     },
     {

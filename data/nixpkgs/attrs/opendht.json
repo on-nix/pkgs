@@ -33,6 +33,59 @@
       }
     ]
   },
+  "outputs": {
+    "dev": [
+      "/include/opendht/callbacks.h",
+      "/include/opendht/crypto.h",
+      "/include/opendht/def.h",
+      "/include/opendht/default_types.h",
+      "/include/opendht/dht.h",
+      "/include/opendht/dht_interface.h",
+      "/include/opendht/dht_proxy_client.h",
+      "/include/opendht/dht_proxy_server.h",
+      "/include/opendht/dhtrunner.h",
+      "/include/opendht/http.h",
+      "/include/opendht/indexation/pht.h",
+      "/include/opendht/infohash.h",
+      "/include/opendht/log.h",
+      "/include/opendht/log_enable.h",
+      "/include/opendht/network_engine.h",
+      "/include/opendht/network_utils.h",
+      "/include/opendht/node.h",
+      "/include/opendht/node_cache.h",
+      "/include/opendht/peer_discovery.h",
+      "/include/opendht/proxy.h",
+      "/include/opendht/rate_limiter.h",
+      "/include/opendht/rng.h",
+      "/include/opendht/routing_table.h",
+      "/include/opendht/scheduler.h",
+      "/include/opendht/securedht.h",
+      "/include/opendht/sockaddr.h",
+      "/include/opendht/thread_pool.h",
+      "/include/opendht/utils.h",
+      "/include/opendht/value.h",
+      "/include/opendht.h",
+      "/lib/cmake/opendht/opendhtConfig-release.cmake",
+      "/lib/cmake/opendht/opendhtConfig.cmake",
+      "/lib/cmake/opendht/opendhtConfigVersion.cmake",
+      "/lib/pkgconfig/opendht.pc",
+      "/nix-support/propagated-build-inputs"
+    ],
+    "lib": [
+      "/lib/libopendht.a",
+      "/lib/libopendht.so",
+      "/lib/libopendht.so.2",
+      "/lib/libopendht.so.2.3.0"
+    ],
+    "man": [
+      "/share/man/man1/dhtnode.1.gz"
+    ],
+    "out": [
+      "/bin/dhtchat",
+      "/bin/dhtnode",
+      "/bin/dhtscanner"
+    ]
+  },
   "versions": [
     {
       "first": "04b176df0093e4764cfddb87ff0e6c1de89312ec",
@@ -220,7 +273,7 @@
       "name": "2.0.0"
     },
     {
-      "first": "01ede8c61571b580f6f6ab08dd6513638c8f2a1e",
+      "first": "06db3319226b061d385521cdab74cd676254e9e9",
       "last": "008e7e3244ebc374d8f8df9632de0e821619319d",
       "name": "2.1.4"
     },
