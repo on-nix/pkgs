@@ -1,0 +1,27 @@
+{
+  "bin": [
+    "/bin/aomdec",
+    "/bin/aomenc"
+  ],
+  "dev": [
+    "/include/aom/aom.h",
+    "/include/aom/aom_codec.h",
+    "/include/aom/aom_decoder.h",
+    "/include/aom/aom_encoder.h",
+    "/include/aom/aom_frame_buffer.h",
+    "/include/aom/aom_image.h",
+    "/include/aom/aom_integer.h",
+    "/include/aom/aomcx.h",
+    "/include/aom/aomdx.h",
+    "/lib/pkgconfig/aom.pc",
+    "/nix-support/propagated-build-inputs"
+  ],
+  "out": [
+    "/lib/libaom.so",
+    "/lib/libaom.so.3",
+    "/lib/libaom.so.3.1.3"
+  ],
+  "static": [
+    "/lib/libaom.a"
+  ]
+}
