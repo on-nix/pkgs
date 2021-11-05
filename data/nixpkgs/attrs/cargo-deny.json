@@ -3,16 +3,34 @@
     "desc": "Cargo plugin to generate list of all licenses for a crate",
     "desc_long": null,
     "home": "https://github.com/EmbarkStudios/cargo-deny",
-    "license": {
-      "deprecated": false,
-      "free": true,
-      "fullName": "Apache License 2.0",
-      "redistributable": true,
-      "shortName": "asl20",
-      "spdxId": "Apache-2.0",
-      "url": "https://spdx.org/licenses/Apache-2.0.html"
-    },
+    "license": [
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Apache License 2.0",
+        "redistributable": true,
+        "shortName": "asl20",
+        "spdxId": "Apache-2.0",
+        "url": "https://spdx.org/licenses/Apache-2.0.html"
+      },
+      {
+        "deprecated": false,
+        "free": true,
+        "fullName": "MIT License",
+        "redistributable": true,
+        "shortName": "mit",
+        "spdxId": "MIT",
+        "url": "https://spdx.org/licenses/MIT.html"
+      }
+    ],
     "maintainers": [
+      {
+        "email": "figsoda@pm.me",
+        "github": "figsoda",
+        "githubId": 40620903,
+        "matrix": "@figsoda:matrix.org",
+        "name": "figsoda"
+      },
       {
         "email": "mail@beyermatthias.de",
         "github": "matthiasbeyer",
