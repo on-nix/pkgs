@@ -27,6 +27,40 @@
       }
     ]
   },
+  "outputs": {
+    "dev": [
+      "/include/lldp-const.h",
+      "/include/lldpctl.h",
+      "/lib/pkgconfig/lldpctl.pc",
+      "/nix-support/propagated-build-inputs"
+    ],
+    "doc": [
+      "/share/doc/lldpd/CONTRIBUTE.md",
+      "/share/doc/lldpd/ChangeLog",
+      "/share/doc/lldpd/LICENSE",
+      "/share/doc/lldpd/NEWS",
+      "/share/doc/lldpd/README.md"
+    ],
+    "man": [
+      "/share/man/man8/lldpcli.8.gz",
+      "/share/man/man8/lldpctl.8.gz",
+      "/share/man/man8/lldpd.8.gz"
+    ],
+    "out": [
+      "/bin/lldpcli",
+      "/bin/lldpctl",
+      "/bin/lldpd",
+      "/etc/lldpd.d/README.conf",
+      "/lib/liblldpctl.la",
+      "/lib/liblldpctl.so",
+      "/lib/liblldpctl.so.4",
+      "/lib/liblldpctl.so.4.9.0",
+      "/lib/systemd/system/lldpd.service",
+      "/sbin",
+      "/share/bash-completion/completions/lldpcli",
+      "/share/zsh/site-functions/_lldpcli"
+    ]
+  },
   "versions": [
     {
       "first": "02c142a2dd6925fdaaccb11e64f0ff60fe436b70",
@@ -399,8 +433,18 @@
       "name": "1.0.1"
     },
     {
-      "first": "043dece5b7de97930d9f010c880d1bf3eae6a61d",
+      "first": "04769e898f5f453e4a59cda3a908b3fc334705fd",
       "last": "07900ec4aa94e5cc17e6a6edae7b25f9403e8da8",
+      "name": "0.9.9"
+    },
+    {
+      "first": "07edef3dd30cd1d055bea5c8cd7c2f0c91997de3",
+      "last": "07edef3dd30cd1d055bea5c8cd7c2f0c91997de3",
+      "name": "0.9.8"
+    },
+    {
+      "first": "043dece5b7de97930d9f010c880d1bf3eae6a61d",
+      "last": "0380728ddc419d9950765317da056dd9f12fc0ae",
       "name": "0.9.9"
     },
     {
