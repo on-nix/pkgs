@@ -1,0 +1,34 @@
+{
+  "dev": [
+    "/include/lldp-const.h",
+    "/include/lldpctl.h",
+    "/lib/pkgconfig/lldpctl.pc",
+    "/nix-support/propagated-build-inputs"
+  ],
+  "doc": [
+    "/share/doc/lldpd/CONTRIBUTE.md",
+    "/share/doc/lldpd/ChangeLog",
+    "/share/doc/lldpd/LICENSE",
+    "/share/doc/lldpd/NEWS",
+    "/share/doc/lldpd/README.md"
+  ],
+  "man": [
+    "/share/man/man8/lldpcli.8.gz",
+    "/share/man/man8/lldpctl.8.gz",
+    "/share/man/man8/lldpd.8.gz"
+  ],
+  "out": [
+    "/bin/lldpcli",
+    "/bin/lldpctl",
+    "/bin/lldpd",
+    "/etc/lldpd.d/README.conf",
+    "/lib/liblldpctl.la",
+    "/lib/liblldpctl.so",
+    "/lib/liblldpctl.so.4",
+    "/lib/liblldpctl.so.4.9.0",
+    "/lib/systemd/system/lldpd.service",
+    "/sbin",
+    "/share/bash-completion/completions/lldpcli",
+    "/share/zsh/site-functions/_lldpcli"
+  ]
+}
