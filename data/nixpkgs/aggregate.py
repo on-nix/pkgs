@@ -1,6 +1,3 @@
-from glob import (
-    iglob,
-)
 import json
 import os
 from typing import (
@@ -46,6 +43,37 @@ def main() -> None:
                         versions.append(
                             dict(name=version, last=commit, first=commit)
                         )
+
+    # Group versions
+    for attr, attr_data in attrs.items():
+        version_names = set()
+        versions = []
+        for version in attr_data["versions"]:
+            for version_b in attr_data["versions"]:
+                if version["name"] != version_b["name"]:
+                    continue
+
+                if version_b["name"] in version_names:
+                    versions[-1]["commits"].append(
+                        dict(
+                            first=version_b["first"],
+                            last=version_b["last"],
+                        )
+                    )
+                else:
+                    version_names.add(version["name"])
+                    versions.append(
+                        dict(
+                            name=version["name"],
+                            commits=[
+                                dict(
+                                    first=version_b["first"],
+                                    last=version_b["last"],
+                                )
+                            ],
+                        )
+                    )
+        attr_data["versions"] = versions
 
     # Append metadata
     meta = load("data/nixpkgs/meta.json")
