@@ -97,5 +97,16 @@ def main() -> None:
             json.dump(data, file, indent=2, sort_keys=True)
 
 
+def clear() -> None:
+    with open("data/nixpkgs/attrs.json") as file:
+        attrs = set(json.load(file))
+
+    for commit in os.listdir("data/nixpkgs/attrs"):
+        if commit[0:-5] not in attrs:
+            print(commit)
+            os.unlink(f"data/nixpkgs/attrs/{commit}")
+
+
 if __name__ == "__main__":
+    clear()
     main()
