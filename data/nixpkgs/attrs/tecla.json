@@ -6,106 +6,12 @@
     "license": "as-is",
     "maintainers": null
   },
-  "outputs": {
-    "out": [
-      "/bin/enhance",
-      "/include/libtecla.h",
-      "/lib/libtecla.a",
-      "/lib/libtecla.so",
-      "/lib/libtecla.so.1",
-      "/lib/libtecla.so.1.6.3",
-      "/lib/libtecla_r.a",
-      "/lib/libtecla_r.so",
-      "/lib/libtecla_r.so.1",
-      "/lib/libtecla_r.so.1.6.3",
-      "/share/man/man1/enhance.1.gz",
-      "/share/man/man3/cfc_file_start.3.gz",
-      "/share/man/man3/cfc_literal_escapes.3.gz",
-      "/share/man/man3/cfc_set_check_fn.3.gz",
-      "/share/man/man3/cpl_add_completion.3.gz",
-      "/share/man/man3/cpl_complete_word.3.gz",
-      "/share/man/man3/cpl_file_completions.3.gz",
-      "/share/man/man3/cpl_last_error.3.gz",
-      "/share/man/man3/cpl_list_completions.3.gz",
-      "/share/man/man3/cpl_recall_matches.3.gz",
-      "/share/man/man3/cpl_record_error.3.gz",
-      "/share/man/man3/del_CplFileConf.3.gz",
-      "/share/man/man3/del_ExpandFile.3.gz",
-      "/share/man/man3/del_GetLine.3.gz",
-      "/share/man/man3/del_PathCache.3.gz",
-      "/share/man/man3/del_PcaPathConf.3.gz",
-      "/share/man/man3/del_WordCompletion.3.gz",
-      "/share/man/man3/ef_expand_file.3.gz",
-      "/share/man/man3/ef_last_error.3.gz",
-      "/share/man/man3/ef_list_expansions.3.gz",
-      "/share/man/man3/gl_abandon_line.3.gz",
-      "/share/man/man3/gl_bind_keyseq.3.gz",
-      "/share/man/man3/gl_catch_blocked.3.gz",
-      "/share/man/man3/gl_change_terminal.3.gz",
-      "/share/man/man3/gl_clear_history.3.gz",
-      "/share/man/man3/gl_completion_action.3.gz",
-      "/share/man/man3/gl_configure_getline.3.gz",
-      "/share/man/man3/gl_customize_completion.3.gz",
-      "/share/man/man3/gl_display_text.3.gz",
-      "/share/man/man3/gl_echo_mode.3.gz",
-      "/share/man/man3/gl_erase_terminal.3.gz",
-      "/share/man/man3/gl_error_message.3.gz",
-      "/share/man/man3/gl_get_line.3.gz",
-      "/share/man/man3/gl_group_history.3.gz",
-      "/share/man/man3/gl_handle_signal.3.gz",
-      "/share/man/man3/gl_ignore_signal.3.gz",
-      "/share/man/man3/gl_inactivity_timeout.3.gz",
-      "/share/man/man3/gl_io_mode.3.gz",
-      "/share/man/man3/gl_last_signal.3.gz",
-      "/share/man/man3/gl_limit_history.3.gz",
-      "/share/man/man3/gl_list_signals.3.gz",
-      "/share/man/man3/gl_load_history.3.gz",
-      "/share/man/man3/gl_lookup_history.3.gz",
-      "/share/man/man3/gl_normal_io.3.gz",
-      "/share/man/man3/gl_pending_io.3.gz",
-      "/share/man/man3/gl_prompt_style.3.gz",
-      "/share/man/man3/gl_query_char.3.gz",
-      "/share/man/man3/gl_range_of_history.3.gz",
-      "/share/man/man3/gl_raw_io.3.gz",
-      "/share/man/man3/gl_read_char.3.gz",
-      "/share/man/man3/gl_register_action.3.gz",
-      "/share/man/man3/gl_resize_history.3.gz",
-      "/share/man/man3/gl_return_status.3.gz",
-      "/share/man/man3/gl_save_history.3.gz",
-      "/share/man/man3/gl_set_term_size.3.gz",
-      "/share/man/man3/gl_show_history.3.gz",
-      "/share/man/man3/gl_size_of_history.3.gz",
-      "/share/man/man3/gl_state_of_history.3.gz",
-      "/share/man/man3/gl_terminal_size.3.gz",
-      "/share/man/man3/gl_toggle_history.3.gz",
-      "/share/man/man3/gl_trap_signal.3.gz",
-      "/share/man/man3/gl_tty_signals.3.gz",
-      "/share/man/man3/gl_watch_fd.3.gz",
-      "/share/man/man3/libtecla.3.gz",
-      "/share/man/man3/libtecla_version.3.gz",
-      "/share/man/man3/new_CplFileConf.3.gz",
-      "/share/man/man3/new_ExpandFile.3.gz",
-      "/share/man/man3/new_GetLine.3.gz",
-      "/share/man/man3/new_PathCache.3.gz",
-      "/share/man/man3/new_PcaPathConf.3.gz",
-      "/share/man/man3/new_WordCompletion.3.gz",
-      "/share/man/man3/pca_last_error.3.gz",
-      "/share/man/man3/pca_lookup_file.3.gz",
-      "/share/man/man3/pca_path_completions.3.gz",
-      "/share/man/man3/pca_scan_path.3.gz",
-      "/share/man/man3/pca_set_check_fn.3.gz",
-      "/share/man/man3/ppc_file_start.3.gz",
-      "/share/man/man3/ppc_literal_escapes.3.gz",
-      "/share/man/man5/teclarc.5.gz",
-      "/share/man/man7/tecla.7.gz"
-    ]
-  },
   "versions": [
     {
       "commits": [
         {
           "first": "075e4883e0abea400aecb886e6244a6c2acf7bd8",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "064dd204b716d22c645b696914efc3da8de8bd9d",
@@ -117,7 +23,7 @@
         },
         {
           "first": "0761b0bc5b8d8c579fa929a698c584a2e67431f3",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06b372f24f20dd36cc2b120dbaf0347041fefed3",
@@ -125,7 +31,7 @@
         },
         {
           "first": "0163f0c4276bccae683cf076903c8c304f1a0802",
-          "last": "0465b1407bc0b69c2b35e281fbafb615715ef280"
+          "last": "087c244c067a1bc881874bda8fd7b4dac2331fb3"
         },
         {
           "first": "02c65bdac919fcb0cecc1a157744156ed39b9fc6",
@@ -161,7 +67,7 @@
           "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a"
         },
         {
-          "first": "003b4a099746077305e5281735b95a3781a84460",
+          "first": "084ff142add143e8b622ab1f6d3910cb8a086880",
           "last": "076b90d5eea5a77e9039359bccc659b9836aae47"
         },
         {
@@ -174,7 +80,7 @@
         },
         {
           "first": "075e4883e0abea400aecb886e6244a6c2acf7bd8",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "064dd204b716d22c645b696914efc3da8de8bd9d",
@@ -186,7 +92,7 @@
         },
         {
           "first": "0761b0bc5b8d8c579fa929a698c584a2e67431f3",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06b372f24f20dd36cc2b120dbaf0347041fefed3",
@@ -194,7 +100,7 @@
         },
         {
           "first": "0163f0c4276bccae683cf076903c8c304f1a0802",
-          "last": "0465b1407bc0b69c2b35e281fbafb615715ef280"
+          "last": "087c244c067a1bc881874bda8fd7b4dac2331fb3"
         },
         {
           "first": "02c65bdac919fcb0cecc1a157744156ed39b9fc6",
@@ -225,7 +131,7 @@
           "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a"
         },
         {
-          "first": "003b4a099746077305e5281735b95a3781a84460",
+          "first": "084ff142add143e8b622ab1f6d3910cb8a086880",
           "last": "076b90d5eea5a77e9039359bccc659b9836aae47"
         },
         {
@@ -238,7 +144,7 @@
         },
         {
           "first": "075e4883e0abea400aecb886e6244a6c2acf7bd8",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "064dd204b716d22c645b696914efc3da8de8bd9d",
@@ -250,7 +156,7 @@
         },
         {
           "first": "0761b0bc5b8d8c579fa929a698c584a2e67431f3",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06b372f24f20dd36cc2b120dbaf0347041fefed3",
@@ -258,7 +164,7 @@
         },
         {
           "first": "0163f0c4276bccae683cf076903c8c304f1a0802",
-          "last": "0465b1407bc0b69c2b35e281fbafb615715ef280"
+          "last": "087c244c067a1bc881874bda8fd7b4dac2331fb3"
         },
         {
           "first": "02c65bdac919fcb0cecc1a157744156ed39b9fc6",
@@ -289,7 +195,7 @@
           "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a"
         },
         {
-          "first": "003b4a099746077305e5281735b95a3781a84460",
+          "first": "084ff142add143e8b622ab1f6d3910cb8a086880",
           "last": "076b90d5eea5a77e9039359bccc659b9836aae47"
         },
         {
@@ -302,7 +208,7 @@
         },
         {
           "first": "075e4883e0abea400aecb886e6244a6c2acf7bd8",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "064dd204b716d22c645b696914efc3da8de8bd9d",
@@ -314,7 +220,7 @@
         },
         {
           "first": "0761b0bc5b8d8c579fa929a698c584a2e67431f3",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06b372f24f20dd36cc2b120dbaf0347041fefed3",
@@ -322,7 +228,7 @@
         },
         {
           "first": "0163f0c4276bccae683cf076903c8c304f1a0802",
-          "last": "0465b1407bc0b69c2b35e281fbafb615715ef280"
+          "last": "087c244c067a1bc881874bda8fd7b4dac2331fb3"
         },
         {
           "first": "02c65bdac919fcb0cecc1a157744156ed39b9fc6",
@@ -353,7 +259,7 @@
           "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a"
         },
         {
-          "first": "003b4a099746077305e5281735b95a3781a84460",
+          "first": "084ff142add143e8b622ab1f6d3910cb8a086880",
           "last": "076b90d5eea5a77e9039359bccc659b9836aae47"
         },
         {
@@ -366,7 +272,7 @@
         },
         {
           "first": "075e4883e0abea400aecb886e6244a6c2acf7bd8",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "064dd204b716d22c645b696914efc3da8de8bd9d",
@@ -378,7 +284,7 @@
         },
         {
           "first": "0761b0bc5b8d8c579fa929a698c584a2e67431f3",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06b372f24f20dd36cc2b120dbaf0347041fefed3",
@@ -386,7 +292,7 @@
         },
         {
           "first": "0163f0c4276bccae683cf076903c8c304f1a0802",
-          "last": "0465b1407bc0b69c2b35e281fbafb615715ef280"
+          "last": "087c244c067a1bc881874bda8fd7b4dac2331fb3"
         },
         {
           "first": "02c65bdac919fcb0cecc1a157744156ed39b9fc6",
@@ -417,7 +323,7 @@
           "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a"
         },
         {
-          "first": "003b4a099746077305e5281735b95a3781a84460",
+          "first": "084ff142add143e8b622ab1f6d3910cb8a086880",
           "last": "076b90d5eea5a77e9039359bccc659b9836aae47"
         },
         {
@@ -430,7 +336,7 @@
         },
         {
           "first": "075e4883e0abea400aecb886e6244a6c2acf7bd8",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "064dd204b716d22c645b696914efc3da8de8bd9d",
@@ -442,7 +348,7 @@
         },
         {
           "first": "0761b0bc5b8d8c579fa929a698c584a2e67431f3",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06b372f24f20dd36cc2b120dbaf0347041fefed3",
@@ -450,7 +356,7 @@
         },
         {
           "first": "0163f0c4276bccae683cf076903c8c304f1a0802",
-          "last": "0465b1407bc0b69c2b35e281fbafb615715ef280"
+          "last": "087c244c067a1bc881874bda8fd7b4dac2331fb3"
         },
         {
           "first": "02c65bdac919fcb0cecc1a157744156ed39b9fc6",
@@ -481,7 +387,7 @@
           "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a"
         },
         {
-          "first": "003b4a099746077305e5281735b95a3781a84460",
+          "first": "084ff142add143e8b622ab1f6d3910cb8a086880",
           "last": "076b90d5eea5a77e9039359bccc659b9836aae47"
         },
         {
@@ -494,7 +400,7 @@
         },
         {
           "first": "075e4883e0abea400aecb886e6244a6c2acf7bd8",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "064dd204b716d22c645b696914efc3da8de8bd9d",
@@ -506,7 +412,7 @@
         },
         {
           "first": "0761b0bc5b8d8c579fa929a698c584a2e67431f3",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06b372f24f20dd36cc2b120dbaf0347041fefed3",
@@ -514,7 +420,7 @@
         },
         {
           "first": "0163f0c4276bccae683cf076903c8c304f1a0802",
-          "last": "0465b1407bc0b69c2b35e281fbafb615715ef280"
+          "last": "087c244c067a1bc881874bda8fd7b4dac2331fb3"
         },
         {
           "first": "02c65bdac919fcb0cecc1a157744156ed39b9fc6",
@@ -545,7 +451,7 @@
           "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a"
         },
         {
-          "first": "003b4a099746077305e5281735b95a3781a84460",
+          "first": "084ff142add143e8b622ab1f6d3910cb8a086880",
           "last": "076b90d5eea5a77e9039359bccc659b9836aae47"
         },
         {
@@ -571,7 +477,7 @@
         },
         {
           "first": "0686eecf4f27f578b510374833625db6a0a51ef5",
-          "last": "0583cb37e6a9d4f5791c7acbff7351caeaf5235c"
+          "last": "088b35edfbdd664567a6041e5c18ef336f842439"
         },
         {
           "first": "044ceae2806480555a44c91c386546cffb46ba74",
@@ -598,7 +504,7 @@
           "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a"
         },
         {
-          "first": "003b4a099746077305e5281735b95a3781a84460",
+          "first": "084ff142add143e8b622ab1f6d3910cb8a086880",
           "last": "076b90d5eea5a77e9039359bccc659b9836aae47"
         },
         {
@@ -619,7 +525,7 @@
         },
         {
           "first": "0686eecf4f27f578b510374833625db6a0a51ef5",
-          "last": "0583cb37e6a9d4f5791c7acbff7351caeaf5235c"
+          "last": "088b35edfbdd664567a6041e5c18ef336f842439"
         },
         {
           "first": "044ceae2806480555a44c91c386546cffb46ba74",
@@ -646,7 +552,7 @@
           "last": "00c46ecd74ee8c85c30191652e3bb25f9c91867a"
         },
         {
-          "first": "003b4a099746077305e5281735b95a3781a84460",
+          "first": "084ff142add143e8b622ab1f6d3910cb8a086880",
           "last": "076b90d5eea5a77e9039359bccc659b9836aae47"
         },
         {
@@ -667,7 +573,7 @@
         },
         {
           "first": "0686eecf4f27f578b510374833625db6a0a51ef5",
-          "last": "0583cb37e6a9d4f5791c7acbff7351caeaf5235c"
+          "last": "088b35edfbdd664567a6041e5c18ef336f842439"
         }
       ],
       "name": "1.6.1"

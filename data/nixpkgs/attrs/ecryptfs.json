@@ -21,87 +21,12 @@
       }
     ]
   },
-  "outputs": {
-    "out": [
-      "/bin/.ecryptfs-find-wrapped",
-      "/bin/.ecryptfs-migrate-home-wrapped",
-      "/bin/.ecryptfs-mount-private-wrapped",
-      "/bin/.ecryptfs-recover-private-wrapped",
-      "/bin/.ecryptfs-rewrite-file-wrapped",
-      "/bin/.ecryptfs-setup-private-wrapped",
-      "/bin/.ecryptfs-setup-swap-wrapped",
-      "/bin/.ecryptfs-umount-private-wrapped",
-      "/bin/.ecryptfs-verify-wrapped",
-      "/bin/ecryptfs-add-passphrase",
-      "/bin/ecryptfs-find",
-      "/bin/ecryptfs-insert-wrapped-passphrase-into-keyring",
-      "/bin/ecryptfs-manager",
-      "/bin/ecryptfs-migrate-home",
-      "/bin/ecryptfs-mount-private",
-      "/bin/ecryptfs-recover-private",
-      "/bin/ecryptfs-rewrap-passphrase",
-      "/bin/ecryptfs-rewrite-file",
-      "/bin/ecryptfs-setup-private",
-      "/bin/ecryptfs-setup-swap",
-      "/bin/ecryptfs-stat",
-      "/bin/ecryptfs-umount-private",
-      "/bin/ecryptfs-unwrap-passphrase",
-      "/bin/ecryptfs-verify",
-      "/bin/ecryptfs-wrap-passphrase",
-      "/bin/ecryptfsd",
-      "/bin/mount.ecryptfs",
-      "/bin/mount.ecryptfs_private",
-      "/bin/umount.ecryptfs",
-      "/bin/umount.ecryptfs_private",
-      "/include/ecryptfs.h",
-      "/lib/ecryptfs/libecryptfs_key_mod_passphrase.so",
-      "/lib/libecryptfs.la",
-      "/lib/libecryptfs.so",
-      "/lib/libecryptfs.so.1",
-      "/lib/libecryptfs.so.1.0.0",
-      "/lib/pkgconfig/libecryptfs.pc",
-      "/lib/security/pam_ecryptfs.so",
-      "/nix-support/propagated-build-inputs",
-      "/sbin",
-      "/share/doc/ecryptfs-utils/README",
-      "/share/doc/ecryptfs-utils/ecryptfs-faq.html",
-      "/share/ecryptfs-utils/ecryptfs-mount-private.desktop",
-      "/share/ecryptfs-utils/ecryptfs-mount-private.txt",
-      "/share/ecryptfs-utils/ecryptfs-record-passphrase",
-      "/share/ecryptfs-utils/ecryptfs-setup-private.desktop",
-      "/share/locale/ca/LC_MESSAGES/ecryptfs-utils.mo",
-      "/share/man/man1/ecryptfs-add-passphrase.1.gz",
-      "/share/man/man1/ecryptfs-find.1.gz",
-      "/share/man/man1/ecryptfs-generate-tpm-key.1.gz",
-      "/share/man/man1/ecryptfs-insert-wrapped-passphrase-into-keyring.1.gz",
-      "/share/man/man1/ecryptfs-mount-private.1.gz",
-      "/share/man/man1/ecryptfs-recover-private.1.gz",
-      "/share/man/man1/ecryptfs-rewrap-passphrase.1.gz",
-      "/share/man/man1/ecryptfs-rewrite-file.1.gz",
-      "/share/man/man1/ecryptfs-setup-private.1.gz",
-      "/share/man/man1/ecryptfs-setup-swap.1.gz",
-      "/share/man/man1/ecryptfs-stat.1.gz",
-      "/share/man/man1/ecryptfs-umount-private.1.gz",
-      "/share/man/man1/ecryptfs-unwrap-passphrase.1.gz",
-      "/share/man/man1/ecryptfs-verify.1.gz",
-      "/share/man/man1/ecryptfs-wrap-passphrase.1.gz",
-      "/share/man/man1/mount.ecryptfs_private.1.gz",
-      "/share/man/man1/umount.ecryptfs_private.1.gz",
-      "/share/man/man7/ecryptfs.7.gz",
-      "/share/man/man8/ecryptfs-manager.8.gz",
-      "/share/man/man8/ecryptfs-migrate-home.8.gz",
-      "/share/man/man8/ecryptfsd.8.gz",
-      "/share/man/man8/mount.ecryptfs.8.gz",
-      "/share/man/man8/pam_ecryptfs.8.gz",
-      "/share/man/man8/umount.ecryptfs.8.gz"
-    ]
-  },
   "versions": [
     {
       "commits": [
         {
           "first": "06ed2353479098d6ecd4ef49f4aeb6315aee3109",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "024cb9eecd1f25dad64622ce1e59299059d5019c",
@@ -194,8 +119,12 @@
           "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
         },
         {
-          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
           "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
         },
         {
           "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
@@ -203,7 +132,7 @@
         },
         {
           "first": "06ed2353479098d6ecd4ef49f4aeb6315aee3109",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "024cb9eecd1f25dad64622ce1e59299059d5019c",
@@ -259,7 +188,7 @@
         },
         {
           "first": "06ed2353479098d6ecd4ef49f4aeb6315aee3109",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "024cb9eecd1f25dad64622ce1e59299059d5019c",
@@ -315,7 +244,7 @@
         },
         {
           "first": "06ed2353479098d6ecd4ef49f4aeb6315aee3109",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "024cb9eecd1f25dad64622ce1e59299059d5019c",
@@ -371,7 +300,7 @@
         },
         {
           "first": "06ed2353479098d6ecd4ef49f4aeb6315aee3109",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "024cb9eecd1f25dad64622ce1e59299059d5019c",
@@ -454,8 +383,12 @@
           "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
         },
         {
-          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
           "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
         },
         {
           "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
@@ -526,8 +459,12 @@
           "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
         },
         {
-          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
           "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
         },
         {
           "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
@@ -598,8 +535,12 @@
           "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
         },
         {
-          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
           "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
         },
         {
           "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
@@ -670,8 +611,12 @@
           "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
         },
         {
-          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
           "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
         },
         {
           "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
@@ -742,8 +687,12 @@
           "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
         },
         {
-          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
           "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
         },
         {
           "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
@@ -763,56 +712,8 @@
           "last": "024b0414abc66e44603d16b269ca258d013a17d0"
         },
         {
-          "first": "06510fab8c8bf0b597908b5fb800ba91f2480868",
-          "last": "0799ebf5b793c89f65cec89ecfd8c0e234fe4cbd"
-        },
-        {
-          "first": "033472c136ee39d17a5b0bf0688b512134c4e266",
-          "last": "00137438459949bfbd2c0311e8664a9da8bb1e53"
-        },
-        {
-          "first": "0782c5e810b5aa36eaefbae8c3e88e6857bc95db",
-          "last": "05a02c53a06043f6138a910adf073723a3f066d3"
-        },
-        {
-          "first": "05fc143451639d5949bf493497febfddd29d1fa9",
-          "last": "05fc143451639d5949bf493497febfddd29d1fa9"
-        },
-        {
-          "first": "0338199544a7df4ce8dde1b6dc987f17760863f3",
-          "last": "02c3ae154d8fcb4c43b69adabce7acb47338f88e"
-        },
-        {
-          "first": "015c7afffa9bf7c3ee92a852e16ce3a7d57363b7",
-          "last": "04bcb883323b6d5d9368fadab64d9e77d3295108"
-        },
-        {
-          "first": "00963c3dfdab7fbcc3e2a9db6df47cea25d46688",
-          "last": "01693ac154138e95324959d260056312021e0dae"
-        },
-        {
-          "first": "023c12bc9ad9f78b4b6e395aa9740bfd4c10dfc0",
-          "last": "0547fd247f9960eeffd01973c55ed99112a57205"
-        },
-        {
-          "first": "00163a09d37c6c9e07837ebb8aa75ebb3e347244",
-          "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
-        },
-        {
-          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
-          "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
-        },
-        {
-          "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
-          "last": "06717667cc9e4c3c2025e101e6cf68cde0b25fcd"
-        },
-        {
-          "first": "01dc343c2c613c263a2180d1850847f33653f94f",
-          "last": "026c31dd9d6570fc6d7475c0102745cbfb0d6972"
-        },
-        {
-          "first": "024b0414abc66e44603d16b269ca258d013a17d0",
-          "last": "024b0414abc66e44603d16b269ca258d013a17d0"
+          "first": "0859d45a0949b95c80411fa76ff11c6e986e53cc",
+          "last": "0859d45a0949b95c80411fa76ff11c6e986e53cc"
         },
         {
           "first": "06510fab8c8bf0b597908b5fb800ba91f2480868",
@@ -851,8 +752,12 @@
           "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
         },
         {
-          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
           "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
         },
         {
           "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
@@ -865,6 +770,10 @@
         {
           "first": "024b0414abc66e44603d16b269ca258d013a17d0",
           "last": "024b0414abc66e44603d16b269ca258d013a17d0"
+        },
+        {
+          "first": "0859d45a0949b95c80411fa76ff11c6e986e53cc",
+          "last": "0859d45a0949b95c80411fa76ff11c6e986e53cc"
         },
         {
           "first": "06510fab8c8bf0b597908b5fb800ba91f2480868",
@@ -903,8 +812,12 @@
           "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
         },
         {
-          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
           "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
         },
         {
           "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
@@ -917,6 +830,130 @@
         {
           "first": "024b0414abc66e44603d16b269ca258d013a17d0",
           "last": "024b0414abc66e44603d16b269ca258d013a17d0"
+        },
+        {
+          "first": "0859d45a0949b95c80411fa76ff11c6e986e53cc",
+          "last": "0859d45a0949b95c80411fa76ff11c6e986e53cc"
+        },
+        {
+          "first": "06510fab8c8bf0b597908b5fb800ba91f2480868",
+          "last": "0799ebf5b793c89f65cec89ecfd8c0e234fe4cbd"
+        },
+        {
+          "first": "033472c136ee39d17a5b0bf0688b512134c4e266",
+          "last": "00137438459949bfbd2c0311e8664a9da8bb1e53"
+        },
+        {
+          "first": "0782c5e810b5aa36eaefbae8c3e88e6857bc95db",
+          "last": "05a02c53a06043f6138a910adf073723a3f066d3"
+        },
+        {
+          "first": "05fc143451639d5949bf493497febfddd29d1fa9",
+          "last": "05fc143451639d5949bf493497febfddd29d1fa9"
+        },
+        {
+          "first": "0338199544a7df4ce8dde1b6dc987f17760863f3",
+          "last": "02c3ae154d8fcb4c43b69adabce7acb47338f88e"
+        },
+        {
+          "first": "015c7afffa9bf7c3ee92a852e16ce3a7d57363b7",
+          "last": "04bcb883323b6d5d9368fadab64d9e77d3295108"
+        },
+        {
+          "first": "00963c3dfdab7fbcc3e2a9db6df47cea25d46688",
+          "last": "01693ac154138e95324959d260056312021e0dae"
+        },
+        {
+          "first": "023c12bc9ad9f78b4b6e395aa9740bfd4c10dfc0",
+          "last": "0547fd247f9960eeffd01973c55ed99112a57205"
+        },
+        {
+          "first": "00163a09d37c6c9e07837ebb8aa75ebb3e347244",
+          "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
+        },
+        {
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
+          "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
+        },
+        {
+          "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
+          "last": "06717667cc9e4c3c2025e101e6cf68cde0b25fcd"
+        },
+        {
+          "first": "01dc343c2c613c263a2180d1850847f33653f94f",
+          "last": "026c31dd9d6570fc6d7475c0102745cbfb0d6972"
+        },
+        {
+          "first": "024b0414abc66e44603d16b269ca258d013a17d0",
+          "last": "024b0414abc66e44603d16b269ca258d013a17d0"
+        },
+        {
+          "first": "0859d45a0949b95c80411fa76ff11c6e986e53cc",
+          "last": "0859d45a0949b95c80411fa76ff11c6e986e53cc"
+        },
+        {
+          "first": "06510fab8c8bf0b597908b5fb800ba91f2480868",
+          "last": "0799ebf5b793c89f65cec89ecfd8c0e234fe4cbd"
+        },
+        {
+          "first": "033472c136ee39d17a5b0bf0688b512134c4e266",
+          "last": "00137438459949bfbd2c0311e8664a9da8bb1e53"
+        },
+        {
+          "first": "0782c5e810b5aa36eaefbae8c3e88e6857bc95db",
+          "last": "05a02c53a06043f6138a910adf073723a3f066d3"
+        },
+        {
+          "first": "05fc143451639d5949bf493497febfddd29d1fa9",
+          "last": "05fc143451639d5949bf493497febfddd29d1fa9"
+        },
+        {
+          "first": "0338199544a7df4ce8dde1b6dc987f17760863f3",
+          "last": "02c3ae154d8fcb4c43b69adabce7acb47338f88e"
+        },
+        {
+          "first": "015c7afffa9bf7c3ee92a852e16ce3a7d57363b7",
+          "last": "04bcb883323b6d5d9368fadab64d9e77d3295108"
+        },
+        {
+          "first": "00963c3dfdab7fbcc3e2a9db6df47cea25d46688",
+          "last": "01693ac154138e95324959d260056312021e0dae"
+        },
+        {
+          "first": "023c12bc9ad9f78b4b6e395aa9740bfd4c10dfc0",
+          "last": "0547fd247f9960eeffd01973c55ed99112a57205"
+        },
+        {
+          "first": "00163a09d37c6c9e07837ebb8aa75ebb3e347244",
+          "last": "0688a56a49a548960e948a1ce54b80a7ea9c6fef"
+        },
+        {
+          "first": "01b1cea1a1d1cb66142e8d5ca9a48df88a9a9406",
+          "last": "03730319bd0f51b8fb5a19eccf0b92628923a2fc"
+        },
+        {
+          "first": "012515ef2fecbd7e3b4028aa21dfcbd073a68801",
+          "last": "0310a61e66fd469c04d4c30f24d63c2a0e4c6002"
+        },
+        {
+          "first": "019a23db3e242eceafb5b24f74c0af1be7a74eae",
+          "last": "06717667cc9e4c3c2025e101e6cf68cde0b25fcd"
+        },
+        {
+          "first": "01dc343c2c613c263a2180d1850847f33653f94f",
+          "last": "026c31dd9d6570fc6d7475c0102745cbfb0d6972"
+        },
+        {
+          "first": "024b0414abc66e44603d16b269ca258d013a17d0",
+          "last": "024b0414abc66e44603d16b269ca258d013a17d0"
+        },
+        {
+          "first": "0859d45a0949b95c80411fa76ff11c6e986e53cc",
+          "last": "0859d45a0949b95c80411fa76ff11c6e986e53cc"
         },
         {
           "first": "06510fab8c8bf0b597908b5fb800ba91f2480868",
@@ -949,7 +986,7 @@
         },
         {
           "first": "0733404aca216e91e26cd4e094808919cea140e4",
-          "last": "0031a036ca6a32bc380c7b52c5e4de8fc142373c"
+          "last": "0852d9e3643458ebd435b366bb3ecd79b0f47400"
         }
       ],
       "name": "104"
@@ -994,7 +1031,7 @@
         },
         {
           "first": "0733404aca216e91e26cd4e094808919cea140e4",
-          "last": "0031a036ca6a32bc380c7b52c5e4de8fc142373c"
+          "last": "0852d9e3643458ebd435b366bb3ecd79b0f47400"
         },
         {
           "first": "073369cdaa0bed835c15c645477ee8b1df4230cc",
@@ -1034,7 +1071,7 @@
         },
         {
           "first": "0733404aca216e91e26cd4e094808919cea140e4",
-          "last": "0031a036ca6a32bc380c7b52c5e4de8fc142373c"
+          "last": "0852d9e3643458ebd435b366bb3ecd79b0f47400"
         },
         {
           "first": "073369cdaa0bed835c15c645477ee8b1df4230cc",
@@ -1074,7 +1111,7 @@
         },
         {
           "first": "0733404aca216e91e26cd4e094808919cea140e4",
-          "last": "0031a036ca6a32bc380c7b52c5e4de8fc142373c"
+          "last": "0852d9e3643458ebd435b366bb3ecd79b0f47400"
         },
         {
           "first": "073369cdaa0bed835c15c645477ee8b1df4230cc",
@@ -1114,7 +1151,7 @@
         },
         {
           "first": "0733404aca216e91e26cd4e094808919cea140e4",
-          "last": "0031a036ca6a32bc380c7b52c5e4de8fc142373c"
+          "last": "0852d9e3643458ebd435b366bb3ecd79b0f47400"
         },
         {
           "first": "073369cdaa0bed835c15c645477ee8b1df4230cc",

@@ -6,106 +6,12 @@
     "license": null,
     "maintainers": null
   },
-  "outputs": {
-    "dev": [
-      "/include/X11/extensions/XInput.h",
-      "/include/X11/extensions/XInput2.h",
-      "/lib/pkgconfig/xi.pc",
-      "/nix-support/propagated-build-inputs"
-    ],
-    "doc": [
-      "/share/doc/libXi/encoding.xml",
-      "/share/doc/libXi/inputlib.xml",
-      "/share/doc/libXi/library.xml"
-    ],
-    "man": [
-      "/share/man/man3/XAllowDeviceEvents.3.gz",
-      "/share/man/man3/XChangeDeviceControl.3.gz",
-      "/share/man/man3/XChangeDeviceDontPropagateList.3.gz",
-      "/share/man/man3/XChangeDeviceKeyMapping.3.gz",
-      "/share/man/man3/XChangeDeviceProperty.3.gz",
-      "/share/man/man3/XChangeFeedbackControl.3.gz",
-      "/share/man/man3/XChangeKeyboardDevice.3.gz",
-      "/share/man/man3/XChangePointerDevice.3.gz",
-      "/share/man/man3/XCloseDevice.3.gz",
-      "/share/man/man3/XDeleteDeviceProperty.3.gz",
-      "/share/man/man3/XDeviceBell.3.gz",
-      "/share/man/man3/XDeviceTimeCoord.3.gz",
-      "/share/man/man3/XFreeDeviceList.3.gz",
-      "/share/man/man3/XGetDeviceButtonMapping.3.gz",
-      "/share/man/man3/XGetDeviceControl.3.gz",
-      "/share/man/man3/XGetDeviceDontPropagateList.3.gz",
-      "/share/man/man3/XGetDeviceFocus.3.gz",
-      "/share/man/man3/XGetDeviceKeyMapping.3.gz",
-      "/share/man/man3/XGetDeviceModifierMapping.3.gz",
-      "/share/man/man3/XGetDeviceMotionEvents.3.gz",
-      "/share/man/man3/XGetDeviceProperty.3.gz",
-      "/share/man/man3/XGetExtensionVersion.3.gz",
-      "/share/man/man3/XGetFeedbackControl.3.gz",
-      "/share/man/man3/XGetSelectedExtensionEvents.3.gz",
-      "/share/man/man3/XGrabDevice.3.gz",
-      "/share/man/man3/XGrabDeviceButton.3.gz",
-      "/share/man/man3/XGrabDeviceKey.3.gz",
-      "/share/man/man3/XIBarrierReleasePointer.3.gz",
-      "/share/man/man3/XIBarrierReleasePointers.3.gz",
-      "/share/man/man3/XIChangeHierarchy.3.gz",
-      "/share/man/man3/XIChangeProperty.3.gz",
-      "/share/man/man3/XIDefineCursor.3.gz",
-      "/share/man/man3/XIDeleteProperty.3.gz",
-      "/share/man/man3/XIFreeDeviceInfo.3.gz",
-      "/share/man/man3/XIGetClientPointer.3.gz",
-      "/share/man/man3/XIGetFocus.3.gz",
-      "/share/man/man3/XIGetProperty.3.gz",
-      "/share/man/man3/XIGetSelectedEvents.3.gz",
-      "/share/man/man3/XIGrabButton.3.gz",
-      "/share/man/man3/XIGrabDevice.3.gz",
-      "/share/man/man3/XIGrabEnter.3.gz",
-      "/share/man/man3/XIGrabFocusIn.3.gz",
-      "/share/man/man3/XIGrabKeycode.3.gz",
-      "/share/man/man3/XIGrabTouchBegin.3.gz",
-      "/share/man/man3/XIListProperties.3.gz",
-      "/share/man/man3/XIQueryDevice.3.gz",
-      "/share/man/man3/XIQueryPointer.3.gz",
-      "/share/man/man3/XIQueryVersion.3.gz",
-      "/share/man/man3/XISelectEvents.3.gz",
-      "/share/man/man3/XISetClientPointer.3.gz",
-      "/share/man/man3/XISetFocus.3.gz",
-      "/share/man/man3/XIUndefineCursor.3.gz",
-      "/share/man/man3/XIUngrabButton.3.gz",
-      "/share/man/man3/XIUngrabDevice.3.gz",
-      "/share/man/man3/XIUngrabEnter.3.gz",
-      "/share/man/man3/XIUngrabFocusIn.3.gz",
-      "/share/man/man3/XIUngrabKeycode.3.gz",
-      "/share/man/man3/XIUngrabTouchBegin.3.gz",
-      "/share/man/man3/XIWarpPointer.3.gz",
-      "/share/man/man3/XListDeviceProperties.3.gz",
-      "/share/man/man3/XListInputDevices.3.gz",
-      "/share/man/man3/XOpenDevice.3.gz",
-      "/share/man/man3/XQueryDeviceState.3.gz",
-      "/share/man/man3/XSelectExtensionEvent.3.gz",
-      "/share/man/man3/XSendExtensionEvent.3.gz",
-      "/share/man/man3/XSetDeviceButtonMapping.3.gz",
-      "/share/man/man3/XSetDeviceFocus.3.gz",
-      "/share/man/man3/XSetDeviceMode.3.gz",
-      "/share/man/man3/XSetDeviceModifierMapping.3.gz",
-      "/share/man/man3/XSetDeviceValuators.3.gz",
-      "/share/man/man3/XUngrabDevice.3.gz",
-      "/share/man/man3/XUngrabDeviceButton.3.gz",
-      "/share/man/man3/XUngrabDeviceKey.3.gz"
-    ],
-    "out": [
-      "/lib/libXi.la",
-      "/lib/libXi.so",
-      "/lib/libXi.so.6",
-      "/lib/libXi.so.6.1.0"
-    ]
-  },
   "versions": [
     {
       "commits": [
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -230,7 +136,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -238,7 +144,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -358,7 +264,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -366,7 +272,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -486,7 +392,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -494,7 +400,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -614,7 +520,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -622,7 +528,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -742,7 +648,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -750,7 +656,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -870,7 +776,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -878,7 +784,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -998,7 +904,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -1006,7 +912,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -1126,7 +1032,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -1134,7 +1040,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -1254,7 +1160,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -1262,7 +1168,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -1382,7 +1288,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -1390,7 +1296,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -1510,7 +1416,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -1518,7 +1424,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -1638,7 +1544,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -1646,7 +1552,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "0237993d5a97b569e636a28af50d6c571efbbc64",
@@ -1766,7 +1672,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -1875,7 +1781,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -2013,7 +1919,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -2121,7 +2027,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -2229,7 +2135,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -2365,7 +2271,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",
@@ -2473,7 +2379,7 @@
         },
         {
           "first": "0583ffb7c275d82eb447fab91c80c80a225240c8",
-          "last": "0583ffb7c275d82eb447fab91c80c80a225240c8"
+          "last": "08779a71e996a8d2a8a1f185d04e7d833b8c7884"
         },
         {
           "first": "06bacb10e5c0ae4af621648891da0aa979c8c8de",

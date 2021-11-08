@@ -21,164 +21,12 @@
       }
     ]
   },
-  "outputs": {
-    "out": [
-      "/bin/monosat",
-      "/include/monosat/Version.h",
-      "/include/monosat/amo/AMOParser.h",
-      "/include/monosat/amo/AMOTheory.h",
-      "/include/monosat/api/Circuit.h",
-      "/include/monosat/api/CircuitC.h",
-      "/include/monosat/api/Logic.h",
-      "/include/monosat/api/Monosat.h",
-      "/include/monosat/api/MonosatInternal.h",
-      "/include/monosat/bv/BVParser.h",
-      "/include/monosat/bv/BVTheory.h",
-      "/include/monosat/bv/BVTheorySolver.h",
-      "/include/monosat/core/AssumptionParser.h",
-      "/include/monosat/core/Config.h",
-      "/include/monosat/core/Dimacs.h",
-      "/include/monosat/core/Heuristic.h",
-      "/include/monosat/core/Optimize.h",
-      "/include/monosat/core/Remap.h",
-      "/include/monosat/core/Solver.h",
-      "/include/monosat/core/SolverTypes.h",
-      "/include/monosat/core/Theory.h",
-      "/include/monosat/core/TheorySolver.h",
-      "/include/monosat/dgl/AcyclicFlow.h",
-      "/include/monosat/dgl/AllPairs.h",
-      "/include/monosat/dgl/BFS.h",
-      "/include/monosat/dgl/CachedReach.h",
-      "/include/monosat/dgl/Chokepoint.h",
-      "/include/monosat/dgl/ConnectedComponents.h",
-      "/include/monosat/dgl/Cycle.h",
-      "/include/monosat/dgl/DFS.h",
-      "/include/monosat/dgl/DFSCycle.h",
-      "/include/monosat/dgl/Dijkstra.h",
-      "/include/monosat/dgl/DijkstraAllPairs.h",
-      "/include/monosat/dgl/Dinics.h",
-      "/include/monosat/dgl/DinicsLinkCut.h",
-      "/include/monosat/dgl/DisjointSetConnectedComponents.h",
-      "/include/monosat/dgl/Distance.h",
-      "/include/monosat/dgl/DynamicBackGraph.h",
-      "/include/monosat/dgl/DynamicConnectivity.h",
-      "/include/monosat/dgl/DynamicConnectivityImpl.h",
-      "/include/monosat/dgl/DynamicGraph.h",
-      "/include/monosat/dgl/DynamicNodes.h",
-      "/include/monosat/dgl/EdmondsKarp.h",
-      "/include/monosat/dgl/EdmondsKarpAdj.h",
-      "/include/monosat/dgl/EdmondsKarpDynamic.h",
-      "/include/monosat/dgl/FloydWarshall.h",
-      "/include/monosat/dgl/Graph.h",
-      "/include/monosat/dgl/KohliTorr.h",
-      "/include/monosat/dgl/Kruskal.h",
-      "/include/monosat/dgl/MaxFlow.h",
-      "/include/monosat/dgl/MinimumSpanningTree.h",
-      "/include/monosat/dgl/NaiveDynamicConnectivity.h",
-      "/include/monosat/dgl/PKTopologicalSort.h",
-      "/include/monosat/dgl/Prim.h",
-      "/include/monosat/dgl/RamalReps.h",
-      "/include/monosat/dgl/RamalRepsBatched.h",
-      "/include/monosat/dgl/RamalRepsBatchedUnified.h",
-      "/include/monosat/dgl/Reach.h",
-      "/include/monosat/dgl/SpiraPan.h",
-      "/include/monosat/dgl/SteinerApprox.h",
-      "/include/monosat/dgl/SteinerTree.h",
-      "/include/monosat/dgl/TarjansSCC.h",
-      "/include/monosat/dgl/ThorupDynamicConnectivity.h",
-      "/include/monosat/dgl/alg/AugmentedSplayTree.h",
-      "/include/monosat/dgl/alg/DisjointSets.h",
-      "/include/monosat/dgl/alg/EulerTree.h",
-      "/include/monosat/dgl/alg/Heap.h",
-      "/include/monosat/dgl/alg/IntMap.h",
-      "/include/monosat/dgl/alg/LinkCut.h",
-      "/include/monosat/dgl/alg/LinkCutCost.h",
-      "/include/monosat/dgl/alg/Rnd.h",
-      "/include/monosat/dgl/alg/SearchTree.h",
-      "/include/monosat/dgl/alg/SplayTree.h",
-      "/include/monosat/dgl/alg/Treap.h",
-      "/include/monosat/dgl/alg/TreapCustom.h",
-      "/include/monosat/dgl/alg/dyncut/block.h",
-      "/include/monosat/dgl/alg/dyncut/graph.h",
-      "/include/monosat/fsm/DynamicFSM.h",
-      "/include/monosat/fsm/FSMAcceptDetector.h",
-      "/include/monosat/fsm/FSMDetector.h",
-      "/include/monosat/fsm/FSMGeneratesDetector.h",
-      "/include/monosat/fsm/FSMGeneratorAcceptorDetector.h",
-      "/include/monosat/fsm/FSMParser.h",
-      "/include/monosat/fsm/FSMTheory.h",
-      "/include/monosat/fsm/FSMTransducesDetector.h",
-      "/include/monosat/fsm/alg/NFAAccept.h",
-      "/include/monosat/fsm/alg/NFAAcceptor.h",
-      "/include/monosat/fsm/alg/NFAGenerate.h",
-      "/include/monosat/fsm/alg/NFAGraphAccept.h",
-      "/include/monosat/fsm/alg/NFALinearGeneratorAcceptor.h",
-      "/include/monosat/fsm/alg/NFATransduce.h",
-      "/include/monosat/fsm/alg/NFATypes.h",
-      "/include/monosat/graph/AllPairsDetector.h",
-      "/include/monosat/graph/ConnectedComponentsDetector.h",
-      "/include/monosat/graph/CycleDetector.h",
-      "/include/monosat/graph/Detector.h",
-      "/include/monosat/graph/DistanceDetector.h",
-      "/include/monosat/graph/GraphHeuristic.h",
-      "/include/monosat/graph/GraphParser.h",
-      "/include/monosat/graph/GraphTheory.h",
-      "/include/monosat/graph/GraphTheoryTypes.h",
-      "/include/monosat/graph/MSTDetector.h",
-      "/include/monosat/graph/MaxflowDetector.h",
-      "/include/monosat/graph/ReachDetector.h",
-      "/include/monosat/graph/SteinerDetector.h",
-      "/include/monosat/graph/WeightedDijkstra.h",
-      "/include/monosat/graph/WeightedDistanceDetector.h",
-      "/include/monosat/mtl/Alg.h",
-      "/include/monosat/mtl/Alloc.h",
-      "/include/monosat/mtl/Bitset.h",
-      "/include/monosat/mtl/Deque.h",
-      "/include/monosat/mtl/Heap.h",
-      "/include/monosat/mtl/IntMap.h",
-      "/include/monosat/mtl/IntTypes.h",
-      "/include/monosat/mtl/Map.h",
-      "/include/monosat/mtl/Queue.h",
-      "/include/monosat/mtl/Rnd.h",
-      "/include/monosat/mtl/Sort.h",
-      "/include/monosat/mtl/Vec.h",
-      "/include/monosat/mtl/XAlloc.h",
-      "/include/monosat/pb/ADTs/FEnv.h",
-      "/include/monosat/pb/ADTs/File.h",
-      "/include/monosat/pb/ADTs/Global.h",
-      "/include/monosat/pb/ADTs/Hash_standard.h",
-      "/include/monosat/pb/ADTs/Heap.h",
-      "/include/monosat/pb/ADTs/Int.h",
-      "/include/monosat/pb/ADTs/Map.h",
-      "/include/monosat/pb/ADTs/Sort.h",
-      "/include/monosat/pb/ADTs/StackAlloc.h",
-      "/include/monosat/pb/ADTs/VecAlloc.h",
-      "/include/monosat/pb/ADTs/VecMaps.h",
-      "/include/monosat/pb/Clausify.h",
-      "/include/monosat/pb/Config_pb.h",
-      "/include/monosat/pb/Debug.h",
-      "/include/monosat/pb/Hardware.h",
-      "/include/monosat/pb/Pb.h",
-      "/include/monosat/pb/PbParser.h",
-      "/include/monosat/pb/PbSolver.h",
-      "/include/monosat/pb/PbTheory.h",
-      "/include/monosat/routing/FlowRouter.h",
-      "/include/monosat/routing/FlowRouterParser.h",
-      "/include/monosat/simp/SimpSolver.h",
-      "/include/monosat/utils/Options.h",
-      "/include/monosat/utils/ParseUtils.h",
-      "/include/monosat/utils/System.h",
-      "/lib/libmonosat.so",
-      "/lib/monosat.jar",
-      "/share/java/monosat.jar"
-    ]
-  },
   "versions": [
     {
       "commits": [
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -205,7 +53,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -307,7 +155,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -334,7 +182,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -431,7 +279,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -458,7 +306,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -555,7 +403,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -582,7 +430,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -679,7 +527,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -706,7 +554,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -803,7 +651,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -830,7 +678,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -927,7 +775,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -954,7 +802,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -1051,7 +899,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -1078,7 +926,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -1175,7 +1023,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -1202,7 +1050,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -1299,7 +1147,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -1326,7 +1174,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -1423,7 +1271,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -1450,7 +1298,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -1547,7 +1395,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -1574,7 +1422,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -1671,7 +1519,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -1698,7 +1546,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -1795,7 +1643,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -1822,7 +1670,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
@@ -1919,7 +1767,7 @@
         },
         {
           "first": "04bbc4e4819ab27c634eac05907db27701805b8a",
-          "last": "06708435d1c6527b5119daafe9c96df9968cf3a6"
+          "last": "024f518e65ffbe64f0f044b194ad15ec2e973788"
         },
         {
           "first": "05d52e28c64063d230a00409cd8fc13a194b3d25",
@@ -1946,7 +1794,7 @@
           "last": "07af1c4c7150b0a44afa53001bab3fe794a259c2"
         },
         {
-          "first": "0456dd3cd6a5655a4b232007828a339142e5ec13",
+          "first": "088824c5b8a6771ecd635e64326d24066773a6fd",
           "last": "0646b9f7c39776a3ec8e4f3f6c60bd6e735d5b88"
         },
         {
